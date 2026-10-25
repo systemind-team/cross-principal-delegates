@@ -7,7 +7,7 @@ This datasheet follows the questions of "Datasheets for Datasets" (Gebru et al.,
 - **Purpose.** To measure how an agent that answers for its owner (the delegate) treats requests from agents acting for other people. A good delegate gives each requester what that requester may have and withholds the rest. The benchmark scores leak and false refusal per requester and checks requested actions against the workspace state.
 - **Design.** The data pair one owner's workspace with requesters in several relationships. The same question can therefore be permitted for one requester and protected for another, and leak and false refusal can both be scored.
 - **Creators.** The authors of the paper.
-- **Funding.** `[AUTHORS: funding]`
+- **Funding.** SysteMind, Inc. funded the compute, the model API costs and the creation of the data.
 
 ## 2. Composition
 
