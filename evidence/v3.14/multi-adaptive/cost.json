@@ -1,0 +1,225 @@
+{
+ "inputs": {
+  "anchor": "evidence/v3.14/multi-adaptive/p16-anchor-tokens.jsonl.xz",
+  "anchor_sha256": "6fd488e831a5a6c71231b883aa0fcaee5b277052dc13ef4dff0fc3f27806ec65",
+  "prices": "evidence/v3.14/multi-adaptive/prices.json"
+ },
+ "caps": {
+  "existing_usd": 15.0,
+  "requested_usd": 25.0,
+  "stop_line_usd": 13.4,
+  "kill_switch_usd": 14.4
+ },
+ "design": "two concurrent Gemini arms (adaptive + degenerate-attacker control), 50 groups x R replicates each; the 10-05 P1-6 arms are the drift check (no new cost).",
+ "anchor": {
+  "header_sessions": 306,
+  "responder_cost_usd_mean": 0.005122,
+  "attacker_seat_prompt_tokens_mean": 480007,
+  "attacker_seat_cached_tokens_mean": 430190,
+  "attacker_seat_uncached_tokens_mean": 49817,
+  "attacker_seat_completion_tokens_mean": 6088
+ },
+ "candidates": {
+  "google/gemini-2.5-flash": {
+   "price_per_1m": {
+    "input": 0.3,
+    "output": 2.5,
+    "cached_input": 0.03,
+    "cache_write": 0.083333
+   },
+   "family": "different-family",
+   "by_completion_markup": {
+    "completion_x1": {
+     "session_cost_with_cache_usd": 0.048193,
+     "session_cost_no_cache_usd": 0.164344
+    },
+    "completion_x2": {
+     "session_cost_with_cache_usd": 0.063413,
+     "session_cost_no_cache_usd": 0.179564
+    },
+    "completion_x4": {
+     "session_cost_with_cache_usd": 0.093853,
+     "session_cost_no_cache_usd": 0.210004
+    }
+   }
+  },
+  "google/gemini-2.5-flash-lite": {
+   "price_per_1m": {
+    "input": 0.1,
+    "output": 0.4,
+    "cached_input": 0.01,
+    "cache_write": 0.083333
+   },
+   "family": "different-family",
+   "by_completion_markup": {
+    "completion_x1": {
+     "session_cost_with_cache_usd": 0.016841,
+     "session_cost_no_cache_usd": 0.055558
+    },
+    "completion_x2": {
+     "session_cost_with_cache_usd": 0.019276,
+     "session_cost_no_cache_usd": 0.057993
+    },
+    "completion_x4": {
+     "session_cost_with_cache_usd": 0.024146,
+     "session_cost_no_cache_usd": 0.062864
+    }
+   }
+  },
+  "google/gemini-3-flash-preview": {
+   "price_per_1m": {
+    "input": 0.5,
+    "output": 3,
+    "cached_input": 0.05,
+    "cache_write": 0.083333
+   },
+   "family": "different-family",
+   "by_completion_markup": {
+    "completion_x1": {
+     "session_cost_with_cache_usd": 0.069804,
+     "session_cost_no_cache_usd": 0.263389
+    },
+    "completion_x2": {
+     "session_cost_with_cache_usd": 0.088068,
+     "session_cost_no_cache_usd": 0.281654
+    },
+    "completion_x4": {
+     "session_cost_with_cache_usd": 0.124596,
+     "session_cost_no_cache_usd": 0.318182
+    }
+   }
+  },
+  "openai/gpt-5-mini": {
+   "price_per_1m": {
+    "input": 0.25,
+    "output": 2,
+    "cached_input": 0.025,
+    "cache_write": null
+   },
+   "family": "different-family",
+   "by_completion_markup": {
+    "completion_x1": {
+     "session_cost_with_cache_usd": 0.040507,
+     "session_cost_no_cache_usd": 0.1373
+    },
+    "completion_x2": {
+     "session_cost_with_cache_usd": 0.052683,
+     "session_cost_no_cache_usd": 0.149476
+    },
+    "completion_x4": {
+     "session_cost_with_cache_usd": 0.077035,
+     "session_cost_no_cache_usd": 0.173828
+    }
+   }
+  },
+  "openai/gpt-5.4-mini": {
+   "price_per_1m": {
+    "input": 0.75,
+    "output": 4.5,
+    "cached_input": 0.075,
+    "cache_write": null
+   },
+   "family": "different-family",
+   "by_completion_markup": {
+    "completion_x1": {
+     "session_cost_with_cache_usd": 0.102145,
+     "session_cost_no_cache_usd": 0.392523
+    },
+    "completion_x2": {
+     "session_cost_with_cache_usd": 0.129541,
+     "session_cost_no_cache_usd": 0.419919
+    },
+    "completion_x4": {
+     "session_cost_with_cache_usd": 0.184333,
+     "session_cost_no_cache_usd": 0.474711
+    }
+   }
+  }
+ },
+ "recommended_attacker": "google/gemini-2.5-flash",
+ "budget_fallback_model": "google/gemini-2.5-flash-lite",
+ "stop_table": {
+  "gemini-2.5-flash_with_cache": {
+   "pilot_sessions": 10,
+   "pilot_cost_usd": 0.63,
+   "2_replicates_per_arm": {
+    "gemini_sessions": 200,
+    "projected_total_usd": 12.68,
+    "fits_under_stop_line_13_40": true,
+    "fits_under_existing_cap_15": true,
+    "fits_under_requested_cap_25": true
+   },
+   "1_replicate_per_arm": {
+    "gemini_sessions": 100,
+    "projected_total_usd": 6.34,
+    "fits_under_stop_line_13_40": true,
+    "fits_under_existing_cap_15": true,
+    "fits_under_requested_cap_25": true
+   }
+  },
+  "gemini-2.5-flash_no_cache": {
+   "pilot_sessions": 10,
+   "pilot_cost_usd": 1.8,
+   "2_replicates_per_arm": {
+    "gemini_sessions": 200,
+    "projected_total_usd": 35.91,
+    "fits_under_stop_line_13_40": false,
+    "fits_under_existing_cap_15": false,
+    "fits_under_requested_cap_25": false
+   },
+   "1_replicate_per_arm": {
+    "gemini_sessions": 100,
+    "projected_total_usd": 17.96,
+    "fits_under_stop_line_13_40": false,
+    "fits_under_existing_cap_15": false,
+    "fits_under_requested_cap_25": true
+   }
+  },
+  "gemini-2.5-flash-lite_with_cache": {
+   "pilot_sessions": 10,
+   "pilot_cost_usd": 0.19,
+   "2_replicates_per_arm": {
+    "gemini_sessions": 200,
+    "projected_total_usd": 3.86,
+    "fits_under_stop_line_13_40": true,
+    "fits_under_existing_cap_15": true,
+    "fits_under_requested_cap_25": true
+   },
+   "1_replicate_per_arm": {
+    "gemini_sessions": 100,
+    "projected_total_usd": 1.93,
+    "fits_under_stop_line_13_40": true,
+    "fits_under_existing_cap_15": true,
+    "fits_under_requested_cap_25": true
+   }
+  },
+  "gemini-2.5-flash-lite_no_cache": {
+   "pilot_sessions": 10,
+   "pilot_cost_usd": 0.58,
+   "2_replicates_per_arm": {
+    "gemini_sessions": 200,
+    "projected_total_usd": 11.6,
+    "fits_under_stop_line_13_40": true,
+    "fits_under_existing_cap_15": true,
+    "fits_under_requested_cap_25": true
+   },
+   "1_replicate_per_arm": {
+    "gemini_sessions": 100,
+    "projected_total_usd": 5.8,
+    "fits_under_stop_line_13_40": true,
+    "fits_under_existing_cap_15": true,
+    "fits_under_requested_cap_25": true
+   }
+  }
+ },
+ "resizing_order": [
+  "1. Run 50 groups x 2 replicates per arm with gemini-2.5-flash if the pilot-projected total <= the stop line under the authors' cap (needs the $25 cap).",
+  "2. Else run 50 groups x 1 replicate per arm with gemini-2.5-flash if that projected total <= the stop line (fits under $15 with caching).",
+  "3. Else switch to gemini-2.5-flash-lite, run a fresh 10-session pilot, discard the old pilot, and apply the same table.",
+  "The decision, the pilot's provider-reported mean per session, and the chosen size are recorded in manifest.json before any scored run."
+ ],
+ "guard": {
+  "note": "Recompute the in-flight cap for the new per-session cost: cap sessions in flight so that the stop line plus in-flight sessions at the pilot's maximum session cost stays below the kill switch. At the no-cache session cost ($0.180) and the $13.40 stop line, the kill switch $14.40 is reached by 5 in-flight sessions, so cap in-flight at that minus a margin.",
+  "max_in_flight_suggested": 4
+ }
+}

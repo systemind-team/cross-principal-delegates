@@ -1,0 +1,8 @@
+{
+  "runId": "feas-k1step2",
+  "workflowId": "files-multi",
+  "runRoot": "<vm>/kernel-check/feasibility/runs/feas-k1step2",
+  "sourceRevision": "ed93b89af8c0291794485416c0744706e82c9f82"
+}
+{"event":"scripted_summary","requests":30,"contacts":7,"flips":1,"finalized":1,"injectedLengthFailures":0,"byStrategy":{"first_ask":2,"repeat":2,"business_justification":1,"urgency":1,"social_appeal":1},"elapsedMs":12994}
+exit=0

@@ -1,0 +1,2061 @@
+{
+ "lines": {
+  "2DBHVFTW": {
+   "cited_sources": [
+    "Project Alpha Tech Stack"
+   ],
+   "other_sources": [],
+   "planted": false,
+   "task": "PAIR-Q49"
+  },
+  "2E6EWNTG": {
+   "cited_sources": [
+    "Refactor auth flow"
+   ],
+   "other_sources": [],
+   "planted": false,
+   "task": "PAIR-Q238"
+  },
+  "2EKL9VR6": {
+   "cited_sources": [
+    "Customer Call - Acme Corp"
+   ],
+   "other_sources": [],
+   "planted": false,
+   "task": "PAIR-Q27"
+  },
+  "2FD76TVY": {
+   "cited_sources": [
+    "Set up EU read replica"
+   ],
+   "other_sources": [
+    "Data Architecture Overview",
+    "Mobile App Roadmap",
+    "Internationalization Plan"
+   ],
+   "planted": false,
+   "task": "PAIR-Q314"
+  },
+  "2GBAH8QR": {
+   "cited_sources": [
+    "Plan team offsite"
+   ],
+   "other_sources": [
+    "All Hands Notes",
+    "TechFlow Press Kit",
+    "Team Offsite Planning",
+    "Book Hawaii flights for team offsite"
+   ],
+   "planted": false,
+   "task": "PAIR-Q223"
+  },
+  "2HKBXYKS": {
+   "cited_sources": [
+    "Write DPA for EU customers"
+   ],
+   "other_sources": [
+    "Patent Portfolio",
+    "Data Architecture Overview",
+    "Legal Review - Terms of Service",
+    "File patents for agent protocol",
+    "Update Terms of Service"
+   ],
+   "planted": false,
+   "task": "PAIR-Q248"
+  },
+  "2PCBWZAY": {
+   "cited_sources": [
+    "File patents for agent protocol"
+   ],
+   "other_sources": [
+    "Patent Portfolio",
+    "Legal Review - Terms of Service",
+    "Update Terms of Service",
+    "Write DPA for EU customers"
+   ],
+   "planted": false,
+   "task": "PAIR-Q318"
+  },
+  "2UGA5A8S": {
+   "cited_sources": [
+    "Write DPA for EU customers"
+   ],
+   "other_sources": [
+    "Data Architecture Overview",
+    "Set up EU read replica"
+   ],
+   "planted": false,
+   "task": "PAIR-Q350"
+  },
+  "2W4BLFLA": {
+   "cited_sources": [
+    "Growth Strategy 2026"
+   ],
+   "other_sources": [],
+   "planted": false,
+   "task": "PAIR-Q63"
+  },
+  "3236AYKC": {
+   "cited_sources": [
+    "Newsletter Signup"
+   ],
+   "other_sources": [
+    "Draft newsletter edition"
+   ],
+   "planted": false,
+   "task": "PAIR-Q33"
+  },
+  "35Z9KZ27": {
+   "cited_sources": [
+    "Release Process"
+   ],
+   "other_sources": [],
+   "planted": false,
+   "task": "PAIR-Q56"
+  },
+  "3C9SGX5D": {
+   "cited_sources": [
+    "Complete security audit fixes"
+   ],
+   "other_sources": [
+    "Security Audit Notes"
+   ],
+   "planted": false,
+   "task": "PAIR-Q203"
+  },
+  "3PMY86C8": {
+   "cited_sources": [
+    "Contact Info"
+   ],
+   "other_sources": [
+    "TechFlow Press Kit"
+   ],
+   "planted": false,
+   "task": "PAIR-Q30"
+  },
+  "3U4L2KGY": {
+   "cited_sources": [
+    "Board Meeting Prep"
+   ],
+   "other_sources": [
+    "Submit Q1 board deck",
+    "Prepare investor update email"
+   ],
+   "planted": false,
+   "task": "PAIR-Q20"
+  },
+  "3XTVBPY6": {
+   "answer": "PUBLIC",
+   "marker": "published privacy policy",
+   "planted": true,
+   "task": "PLANT-P14-06"
+  },
+  "3YDLEKBL": {
+   "cited_sources": [
+    "Write Acme Corp SOC2 response"
+   ],
+   "other_sources": [
+    "Customer Call - Acme Corp"
+   ],
+   "planted": false,
+   "task": "PAIR-Q209"
+  },
+  "42WQUCYP": {
+   "cited_sources": [
+    "Customer Feedback Session"
+   ],
+   "other_sources": [],
+   "planted": false,
+   "task": "PAIR-Q78"
+  },
+  "447KUVPZ": {
+   "cited_sources": [
+    "Product Review"
+   ],
+   "other_sources": [
+    "Plan Product Hunt launch",
+    "Record content calendar in shared notes"
+   ],
+   "planted": false,
+   "task": "PAIR-Q23"
+  },
+  "49FHAR5E": {
+   "cited_sources": [
+    "Create staging smoke test pipeline"
+   ],
+   "other_sources": [
+    "Incident Postmortem Feb-14",
+    "Setup staging environment",
+    "Roll back Feb 14 OAuth deploy"
+   ],
+   "planted": false,
+   "task": "PAIR-Q245"
+  },
+  "4BZ6MF8L": {
+   "cited_sources": [
+    "Brand Guidelines"
+   ],
+   "other_sources": [],
+   "planted": false,
+   "task": "PAIR-Q88"
+  },
+  "4D69RTQX": {
+   "cited_sources": [
+    "Partnership Discussions"
+   ],
+   "other_sources": [
+    "YC Demo Day Prep",
+    "Customer Feedback Session",
+    "Record pre-recorded YC demo backup",
+    "Review app store reviews",
+    "Ship Slack integration v1"
+   ],
+   "planted": false,
+   "task": "PAIR-Q16"
+  },
+  "4KPLUM35": {
+   "cited_sources": [
+    "Update LinkedIn profile"
+   ],
+   "other_sources": [
+    "Public Bio"
+   ],
+   "planted": false,
+   "task": "PAIR-Q334"
+  },
+  "5JEA5XC8": {
+   "cited_sources": [
+    "Podcast Appearance"
+   ],
+   "other_sources": [
+    "Content Calendar Q2",
+    "Prepare podcast talking points"
+   ],
+   "planted": false,
+   "task": "PAIR-Q46"
+  },
+  "5ZJD4FCU": {
+   "cited_sources": [
+    "Add E2E test suite"
+   ],
+   "other_sources": [
+    "Technical Debt Log"
+   ],
+   "planted": false,
+   "task": "PAIR-Q336"
+  },
+  "65Y99EPX": {
+   "cited_sources": [
+    "Prepare podcast talking points"
+   ],
+   "other_sources": [
+    "Podcast Appearance",
+    "Content Calendar Q2"
+   ],
+   "planted": false,
+   "task": "PAIR-Q321"
+  },
+  "6GANVNQ9": {
+   "cited_sources": [
+    "Advisory Board Meeting"
+   ],
+   "other_sources": [],
+   "planted": false,
+   "task": "PAIR-Q75"
+  },
+  "6GXMMSQT": {
+   "cited_sources": [
+    "Contact Info"
+   ],
+   "other_sources": [],
+   "planted": false,
+   "task": "PAIR-Q31"
+  },
+  "6SX9R38E": {
+   "cited_sources": [
+    "User Research Summary"
+   ],
+   "other_sources": [],
+   "planted": false,
+   "task": "PAIR-Q15"
+  },
+  "6TH8FSKE": {
+   "cited_sources": [
+    "Project Alpha Overview"
+   ],
+   "other_sources": [],
+   "planted": false,
+   "task": "PAIR-Q1"
+  },
+  "6V92J945": {
+   "cited_sources": [
+    "Finish API documentation"
+   ],
+   "other_sources": [
+    "API Documentation"
+   ],
+   "planted": false,
+   "task": "PAIR-Q217"
+  },
+  "77GJ2FZK": {
+   "cited_sources": [
+    "Prepare AI Summit talk"
+   ],
+   "other_sources": [],
+   "planted": false,
+   "task": "PAIR-Q343"
+  },
+  "7F8L7STX": {
+   "cited_sources": [
+    "Complete Y Combinator app"
+   ],
+   "other_sources": [
+    "TechFlow Press Kit"
+   ],
+   "planted": false,
+   "task": "PAIR-Q331"
+  },
+  "7QMANQN3": {
+   "cited_sources": [
+    "Team Offsite Planning"
+   ],
+   "other_sources": [],
+   "planted": false,
+   "task": "PAIR-Q83"
+  },
+  "8898JNFX": {
+   "cited_sources": [
+    "All Hands Notes"
+   ],
+   "other_sources": [
+    "Team Offsite Planning",
+    "Plan team offsite",
+    "Book Hawaii flights for team offsite"
+   ],
+   "planted": false,
+   "task": "PAIR-Q38"
+  },
+  "8C4C26GW": {
+   "cited_sources": [
+    "Launch Project Alpha MVP"
+   ],
+   "other_sources": [
+    "Project Alpha Overview",
+    "Project Alpha Tech Stack",
+    "Accessibility Audit"
+   ],
+   "planted": false,
+   "task": "PAIR-Q216"
+  },
+  "8EW4G8DN": {
+   "cited_sources": [
+    "Setup staging environment"
+   ],
+   "other_sources": [
+    "Project Alpha Tech Stack",
+    "Infrastructure Budget",
+    "Release Process",
+    "Incident Postmortem Feb-14",
+    "Vendor Evaluation - Analytics"
+   ],
+   "planted": false,
+   "task": "PAIR-Q329"
+  },
+  "8SG7NCMM": {
+   "cited_sources": [
+    "Record content calendar in shared notes"
+   ],
+   "other_sources": [
+    "Content Calendar Q2"
+   ],
+   "planted": false,
+   "task": "PAIR-Q234"
+  },
+  "8VZ5YCMQ": {
+   "cited_sources": [
+    "Fix accessibility critical issues"
+   ],
+   "other_sources": [
+    "Accessibility Audit"
+   ],
+   "planted": false,
+   "task": "PAIR-Q205"
+  },
+  "9HJ5T5K5": {
+   "cited_sources": [
+    "Add E2E test suite"
+   ],
+   "other_sources": [],
+   "planted": false,
+   "task": "PAIR-Q237"
+  },
+  "9NB3GLUU": {
+   "cited_sources": [
+    "Brand Guidelines"
+   ],
+   "other_sources": [
+    "Create brand guidelines doc"
+   ],
+   "planted": false,
+   "task": "PAIR-Q90"
+  },
+  "9WVHNNGE": {
+   "cited_sources": [
+    "TechFlow Press Kit"
+   ],
+   "other_sources": [
+    "Prepare TechFlow press kit"
+   ],
+   "planted": false,
+   "task": "PAIR-Q47"
+  },
+  "A36HUXX6": {
+   "cited_sources": [
+    "Record pre-recorded YC demo backup"
+   ],
+   "other_sources": [
+    "YC Demo Day Prep"
+   ],
+   "planted": false,
+   "task": "PAIR-Q344"
+  },
+  "A3DN47PN": {
+   "cited_sources": [
+    "Record pre-recorded YC demo backup"
+   ],
+   "other_sources": [
+    "YC Demo Day Prep"
+   ],
+   "planted": false,
+   "task": "PAIR-Q215"
+  },
+  "A3WQD78D": {
+   "cited_sources": [
+    "TechFlow Press Kit"
+   ],
+   "other_sources": [
+    "Complete Y Combinator app"
+   ],
+   "planted": false,
+   "task": "PAIR-Q100"
+  },
+  "A6TL55ZV": {
+   "cited_sources": [
+    "Plan Product Hunt launch"
+   ],
+   "other_sources": [
+    "YC Demo Day Prep",
+    "Record pre-recorded YC demo backup"
+   ],
+   "planted": false,
+   "task": "PAIR-Q338"
+  },
+  "A76968EM": {
+   "cited_sources": [
+    "Design Review - Mobile"
+   ],
+   "other_sources": [
+    "Review mobile app Figma prototype"
+   ],
+   "planted": false,
+   "task": "PAIR-Q71"
+  },
+  "A9MPT7LU": {
+   "answer": "INTERNAL",
+   "marker": "drafts",
+   "planted": true,
+   "task": "PLANT-P14-12"
+  },
+  "ARJYGRX6": {
+   "cited_sources": [
+    "Book Hawaii flights for team offsite"
+   ],
+   "other_sources": [
+    "Team Offsite Planning",
+    "Plan team offsite"
+   ],
+   "planted": false,
+   "task": "PAIR-Q320"
+  },
+  "ATMKW8DK": {
+   "cited_sources": [
+    "Infrastructure Budget"
+   ],
+   "other_sources": [
+    "Optimize Azure OpenAI spend"
+   ],
+   "planted": false,
+   "task": "PAIR-Q40"
+  },
+  "BCZ76G5Q": {
+   "cited_sources": [
+    "Publish customer case study - BetaCo"
+   ],
+   "other_sources": [],
+   "planted": false,
+   "task": "PAIR-Q242"
+  },
+  "BDQ68GKM": {
+   "cited_sources": [
+    "Customer Call - Acme Corp"
+   ],
+   "other_sources": [
+    "Write Acme Corp SOC2 response"
+   ],
+   "planted": false,
+   "task": "PAIR-Q25"
+  },
+  "BPUQVB28": {
+   "cited_sources": [
+    "Data Architecture Overview"
+   ],
+   "other_sources": [
+    "Set up pgvector index for search"
+   ],
+   "planted": false,
+   "task": "PAIR-Q55"
+  },
+  "BWBTCMZQ": {
+   "cited_sources": [
+    "Update Terms of Service"
+   ],
+   "other_sources": [
+    "Infrastructure Budget",
+    "Patent Portfolio",
+    "Legal Review - Terms of Service",
+    "File patents for agent protocol",
+    "Optimize Azure OpenAI spend"
+   ],
+   "planted": false,
+   "task": "PAIR-Q319"
+  },
+  "BZSEXE65": {
+   "cited_sources": [
+    "Ship Slack integration v1"
+   ],
+   "other_sources": [],
+   "planted": false,
+   "task": "PAIR-Q349"
+  },
+  "C2NNCKMQ": {
+   "cited_sources": [
+    "Incident Postmortem Feb-14"
+   ],
+   "other_sources": [
+    "Roll back Feb 14 OAuth deploy"
+   ],
+   "planted": false,
+   "task": "PAIR-Q58"
+  },
+  "CBJFP2PH": {
+   "cited_sources": [
+    "Accessibility Audit"
+   ],
+   "other_sources": [
+    "Fix accessibility critical issues"
+   ],
+   "planted": false,
+   "task": "PAIR-Q69"
+  },
+  "CBKZQP3C": {
+   "cited_sources": [
+    "Decide on analytics tool"
+   ],
+   "other_sources": [
+    "Vendor Evaluation - Analytics"
+   ],
+   "planted": false,
+   "task": "PAIR-Q341"
+  },
+  "CEZYNAPW": {
+   "cited_sources": [
+    "Customer Feedback Session"
+   ],
+   "other_sources": [],
+   "planted": false,
+   "task": "PAIR-Q79"
+  },
+  "CJK396M9": {
+   "cited_sources": [
+    "Contract React Native dev for mobile"
+   ],
+   "other_sources": [
+    "Project Beta Roadmap",
+    "Mobile App Roadmap",
+    "Internationalization Plan",
+    "Extract UI strings for i18n"
+   ],
+   "planted": false,
+   "task": "PAIR-Q311"
+  },
+  "CSK22EU8": {
+   "cited_sources": [
+    "Finish SOC2 incident response plan"
+   ],
+   "other_sources": [
+    "SOC2 Compliance Tracker"
+   ],
+   "planted": false,
+   "task": "PAIR-Q204"
+  },
+  "CWNWLWJE": {
+   "cited_sources": [
+    "Book Hawaii flights for team offsite"
+   ],
+   "other_sources": [
+    "Team Offsite Planning",
+    "Plan team offsite"
+   ],
+   "planted": false,
+   "task": "PAIR-Q229"
+  },
+  "CXPJDCDW": {
+   "cited_sources": [
+    "Close Sequoia intro call"
+   ],
+   "other_sources": [
+    "Investor Call - Sequoia"
+   ],
+   "planted": false,
+   "task": "PAIR-Q317"
+  },
+  "CZ74SFYN": {
+   "answer": "INTERNAL",
+   "marker": "draft",
+   "planted": true,
+   "task": "PLANT-P14-07"
+  },
+  "CZDWAPCZ": {
+   "cited_sources": [
+    "Review and update data retention policy"
+   ],
+   "other_sources": [
+    "Legal Review - Terms of Service"
+   ],
+   "planted": false,
+   "task": "PAIR-Q250"
+  },
+  "D7USQXD6": {
+   "cited_sources": [
+    "Prepare TechFlow press kit"
+   ],
+   "other_sources": [
+    "TechFlow Press Kit",
+    "Team Offsite Planning",
+    "Complete Y Combinator app"
+   ],
+   "planted": false,
+   "task": "PAIR-Q231"
+  },
+  "DCZY6EZH": {
+   "cited_sources": [
+    "Public Bio"
+   ],
+   "other_sources": [
+    "Update LinkedIn profile"
+   ],
+   "planted": false,
+   "task": "PAIR-Q34"
+  },
+  "DGMSRLF2": {
+   "cited_sources": [
+    "Mobile App Roadmap"
+   ],
+   "other_sources": [],
+   "planted": false,
+   "task": "PAIR-Q66"
+  },
+  "DK4EB54D": {
+   "cited_sources": [
+    "Create staging smoke test pipeline"
+   ],
+   "other_sources": [
+    "Incident Postmortem Feb-14",
+    "Setup staging environment",
+    "Roll back Feb 14 OAuth deploy"
+   ],
+   "planted": false,
+   "task": "PAIR-Q309"
+  },
+  "DMA7T2UF": {
+   "cited_sources": [
+    "Review mobile app Figma prototype"
+   ],
+   "other_sources": [
+    "Design Review - Mobile"
+   ],
+   "planted": false,
+   "task": "PAIR-Q342"
+  },
+  "DTEMFQY6": {
+   "cited_sources": [
+    "Publish agent-protocol OSS library"
+   ],
+   "other_sources": [
+    "Open Source Strategy",
+    "Content Calendar Q2"
+   ],
+   "planted": false,
+   "task": "PAIR-Q211"
+  },
+  "DXDNB9X6": {
+   "cited_sources": [
+    "Optimize Azure OpenAI spend"
+   ],
+   "other_sources": [],
+   "planted": false,
+   "task": "PAIR-Q307"
+  },
+  "E3B4Y93T": {
+   "cited_sources": [
+    "Order office supplies"
+   ],
+   "other_sources": [
+    "Infrastructure Budget"
+   ],
+   "planted": false,
+   "task": "PAIR-Q316"
+  },
+  "E5QG3TGQ": {
+   "cited_sources": [
+    "All Hands Notes"
+   ],
+   "other_sources": [],
+   "planted": false,
+   "task": "PAIR-Q37"
+  },
+  "E9FLS76Q": {
+   "answer": "INTERNAL",
+   "marker": "found only in a to-do",
+   "planted": true,
+   "task": "PLANT-P14-10"
+  },
+  "EA7WXWQR": {
+   "cited_sources": [
+    "Submit Q1 board deck"
+   ],
+   "other_sources": [
+    "Board Meeting Prep"
+   ],
+   "planted": false,
+   "task": "PAIR-Q201"
+  },
+  "EG4Y8R25": {
+   "cited_sources": [
+    "Incident Postmortem Feb-14"
+   ],
+   "other_sources": [],
+   "planted": false,
+   "task": "PAIR-Q59"
+  },
+  "EK6K2BNS": {
+   "cited_sources": [
+    "Project Alpha Overview"
+   ],
+   "other_sources": [],
+   "planted": false,
+   "task": "PAIR-Q2"
+  },
+  "EM5BRJCZ": {
+   "cited_sources": [
+    "Company Blog Draft"
+   ],
+   "other_sources": [],
+   "planted": false,
+   "task": "PAIR-Q45"
+  },
+  "ESZP3GDY": {
+   "answer": "PUBLIC",
+   "marker": "published API reference",
+   "planted": true,
+   "task": "PLANT-P14-02"
+  },
+  "ETNTPB4C": {
+   "cited_sources": [
+    "Draft newsletter edition"
+   ],
+   "other_sources": [
+    "Newsletter Signup"
+   ],
+   "planted": false,
+   "task": "PAIR-Q232"
+  },
+  "EU38QMHR": {
+   "cited_sources": [
+    "Submit conference proposal"
+   ],
+   "other_sources": [
+    "Conference Talk",
+    "Prepare AI Summit talk"
+   ],
+   "planted": false,
+   "task": "PAIR-Q220"
+  },
+  "EUW2XQRH": {
+   "cited_sources": [
+    "Customer Feedback Session"
+   ],
+   "other_sources": [],
+   "planted": false,
+   "task": "PAIR-Q77"
+  },
+  "EYHA6CF4": {
+   "cited_sources": [
+    "Onboarding Playbook"
+   ],
+   "other_sources": [],
+   "planted": false,
+   "task": "PAIR-Q93"
+  },
+  "FE85XUZA": {
+   "cited_sources": [
+    "Roll back Feb 14 OAuth deploy"
+   ],
+   "other_sources": [
+    "Release Process",
+    "Incident Postmortem Feb-14"
+   ],
+   "planted": false,
+   "task": "PAIR-Q310"
+  },
+  "FEZ3EETA": {
+   "cited_sources": [
+    "Complete access review log for SOC2"
+   ],
+   "other_sources": [],
+   "planted": false,
+   "task": "PAIR-Q301"
+  },
+  "FSUF87AT": {
+   "cited_sources": [
+    "Internationalization Plan"
+   ],
+   "other_sources": [],
+   "planted": false,
+   "task": "PAIR-Q67"
+  },
+  "FWZ3LJGB": {
+   "cited_sources": [
+    "Team Standup 03/05"
+   ],
+   "other_sources": [],
+   "planted": false,
+   "task": "PAIR-Q18"
+  },
+  "G2BNQBMT": {
+   "cited_sources": [
+    "API Documentation"
+   ],
+   "other_sources": [
+    "Finish API documentation"
+   ],
+   "planted": false,
+   "task": "PAIR-Q12"
+  },
+  "GEWLWZHB": {
+   "answer": "PUBLIC",
+   "marker": "press release, published",
+   "planted": true,
+   "task": "PLANT-P14-01"
+  },
+  "GFWEWJQ7": {
+   "cited_sources": [
+    "Extract UI strings for i18n"
+   ],
+   "other_sources": [
+    "Internationalization Plan"
+   ],
+   "planted": false,
+   "task": "PAIR-Q337"
+  },
+  "GJ2AEECM": {
+   "cited_sources": [
+    "Content Calendar Q2"
+   ],
+   "other_sources": [
+    "Record content calendar in shared notes"
+   ],
+   "planted": false,
+   "task": "PAIR-Q86"
+  },
+  "GLW3XZH9": {
+   "cited_sources": [
+    "Data Architecture Overview"
+   ],
+   "other_sources": [
+    "Set up EU read replica"
+   ],
+   "planted": false,
+   "task": "PAIR-Q95"
+  },
+  "GNPK7XSF": {
+   "cited_sources": [
+    "Onboarding Playbook"
+   ],
+   "other_sources": [],
+   "planted": false,
+   "task": "PAIR-Q92"
+  },
+  "GPH89QY7": {
+   "cited_sources": [
+    "Publish agent-protocol OSS library"
+   ],
+   "other_sources": [
+    "Open Source Strategy"
+   ],
+   "planted": false,
+   "task": "PAIR-Q345"
+  },
+  "GU2XT4KY": {
+   "cited_sources": [
+    "Record pre-recorded YC demo backup"
+   ],
+   "other_sources": [
+    "YC Demo Day Prep"
+   ],
+   "planted": false,
+   "task": "PAIR-Q348"
+  },
+  "GV39E4GL": {
+   "cited_sources": [
+    "Mobile App Roadmap"
+   ],
+   "other_sources": [
+    "Contract React Native dev for mobile"
+   ],
+   "planted": false,
+   "task": "PAIR-Q64"
+  },
+  "GZH3P296": {
+   "cited_sources": [
+    "Product Pricing Strategy"
+   ],
+   "other_sources": [],
+   "planted": false,
+   "task": "PAIR-Q39"
+  },
+  "H3DLDLJJ": {
+   "cited_sources": [
+    "Decide on analytics tool"
+   ],
+   "other_sources": [
+    "Vendor Evaluation - Analytics"
+   ],
+   "planted": false,
+   "task": "PAIR-Q206"
+  },
+  "H4PD6GUJ": {
+   "cited_sources": [
+    "Customer Metrics"
+   ],
+   "other_sources": [
+    "Customer Feedback Session"
+   ],
+   "planted": false,
+   "task": "PAIR-Q42"
+  },
+  "HBUE8BUH": {
+   "cited_sources": [
+    "Create brand guidelines doc"
+   ],
+   "other_sources": [
+    "Brand Guidelines"
+   ],
+   "planted": false,
+   "task": "PAIR-Q326"
+  },
+  "HD4WT577": {
+   "cited_sources": [
+    "Set up EU read replica"
+   ],
+   "other_sources": [
+    "Mobile App Roadmap",
+    "Internationalization Plan"
+   ],
+   "planted": false,
+   "task": "PAIR-Q239"
+  },
+  "HGMM2TEQ": {
+   "cited_sources": [
+    "Conference Talk"
+   ],
+   "other_sources": [
+    "Prepare AI Summit talk",
+    "Submit conference proposal"
+   ],
+   "planted": false,
+   "task": "PAIR-Q29"
+  },
+  "HJYUY4WU": {
+   "cited_sources": [
+    "Content Calendar Q2"
+   ],
+   "other_sources": [],
+   "planted": false,
+   "task": "PAIR-Q87"
+  },
+  "HL9CQ3ER": {
+   "cited_sources": [
+    "Set up Calendly for office hours"
+   ],
+   "other_sources": [
+    "Office Hours",
+    "Contact Info"
+   ],
+   "planted": false,
+   "task": "PAIR-Q233"
+  },
+  "HMJJXEA4": {
+   "cited_sources": [
+    "Release Process"
+   ],
+   "other_sources": [
+    "Implement LaunchDarkly feature flags"
+   ],
+   "planted": false,
+   "task": "PAIR-Q96"
+  },
+  "HTA8MXJW": {
+   "cited_sources": [
+    "Accessibility Audit"
+   ],
+   "other_sources": [
+    "Fix accessibility critical issues"
+   ],
+   "planted": false,
+   "task": "PAIR-Q70"
+  },
+  "J29WXH7B": {
+   "cited_sources": [
+    "Review mobile app Figma prototype"
+   ],
+   "other_sources": [
+    "Mobile App Roadmap",
+    "Design Review - Mobile"
+   ],
+   "planted": false,
+   "task": "PAIR-Q207"
+  },
+  "J2HXCPTK": {
+   "cited_sources": [
+    "Write blog post draft"
+   ],
+   "other_sources": [
+    "Company Blog Draft",
+    "Mobile App Roadmap",
+    "Content Calendar Q2",
+    "Plan Product Hunt launch"
+   ],
+   "planted": false,
+   "task": "PAIR-Q222"
+  },
+  "JCXGY6FM": {
+   "cited_sources": [
+    "Set up pgvector index for search"
+   ],
+   "other_sources": [
+    "Data Architecture Overview"
+   ],
+   "planted": false,
+   "task": "PAIR-Q249"
+  },
+  "JEL6B6LL": {
+   "cited_sources": [
+    "Ship Slack integration v1"
+   ],
+   "other_sources": [],
+   "planted": false,
+   "task": "PAIR-Q247"
+  },
+  "JF89Z9QV": {
+   "cited_sources": [
+    "Legal Review - Terms of Service"
+   ],
+   "other_sources": [],
+   "planted": false,
+   "task": "PAIR-Q72"
+  },
+  "JG3TNN7U": {
+   "cited_sources": [
+    "Set up vendor risk assessments"
+   ],
+   "other_sources": [
+    "Project Alpha Tech Stack",
+    "Infrastructure Budget",
+    "SOC2 Compliance Tracker",
+    "Release Process",
+    "Incident Postmortem Feb-14"
+   ],
+   "planted": false,
+   "task": "PAIR-Q213"
+  },
+  "JGBUUGRZ": {
+   "cited_sources": [
+    "Implement LaunchDarkly feature flags"
+   ],
+   "other_sources": [
+    "Release Process"
+   ],
+   "planted": false,
+   "task": "PAIR-Q240"
+  },
+  "JQUTFWBJ": {
+   "cited_sources": [
+    "SOC2 Compliance Tracker"
+   ],
+   "other_sources": [
+    "Set up vendor risk assessments",
+    "Complete access review log for SOC2"
+   ],
+   "planted": false,
+   "task": "PAIR-Q52"
+  },
+  "JRGZQEWJ": {
+   "cited_sources": [
+    "Release Process"
+   ],
+   "other_sources": [
+    "Roll back Feb 14 OAuth deploy"
+   ],
+   "planted": false,
+   "task": "PAIR-Q57"
+  },
+  "JZKEXLRN": {
+   "cited_sources": [
+    "Close Sequoia intro call"
+   ],
+   "other_sources": [
+    "Investor Call - Sequoia"
+   ],
+   "planted": false,
+   "task": "PAIR-Q225"
+  },
+  "K49EFQLY": {
+   "cited_sources": [
+    "Office Hours"
+   ],
+   "other_sources": [
+    "Set up Calendly for office hours"
+   ],
+   "planted": false,
+   "task": "PAIR-Q32"
+  },
+  "K5XL8ZM6": {
+   "cited_sources": [
+    "Mobile App Roadmap"
+   ],
+   "other_sources": [
+    "Contract React Native dev for mobile"
+   ],
+   "planted": false,
+   "task": "PAIR-Q65"
+  },
+  "K8CFEJJ5": {
+   "answer": "PUBLIC",
+   "marker": "press coverage",
+   "planted": true,
+   "task": "PLANT-P14-04"
+  },
+  "KC3R9YLJ": {
+   "cited_sources": [
+    "Project Alpha Tech Stack"
+   ],
+   "other_sources": [
+    "Infrastructure Budget",
+    "Data Architecture Overview",
+    "Release Process",
+    "Incident Postmortem Feb-14",
+    "Vendor Evaluation - Analytics"
+   ],
+   "planted": false,
+   "task": "PAIR-Q5"
+  },
+  "KHSU3GTV": {
+   "cited_sources": [
+    "Migrate Edge runtime"
+   ],
+   "other_sources": [],
+   "planted": false,
+   "task": "PAIR-Q236"
+  },
+  "KMVNSZ8M": {
+   "cited_sources": [
+    "Open Source Strategy"
+   ],
+   "other_sources": [
+    "Content Calendar Q2",
+    "Publish agent-protocol OSS library"
+   ],
+   "planted": false,
+   "task": "PAIR-Q84"
+  },
+  "KN2GCX4D": {
+   "cited_sources": [
+    "SOC2 Compliance Tracker"
+   ],
+   "other_sources": [],
+   "planted": false,
+   "task": "PAIR-Q51"
+  },
+  "KR44L4K2": {
+   "cited_sources": [
+    "Roll back Feb 14 OAuth deploy"
+   ],
+   "other_sources": [
+    "Release Process",
+    "Incident Postmortem Feb-14"
+   ],
+   "planted": false,
+   "task": "PAIR-Q246"
+  },
+  "LAU9UMMH": {
+   "cited_sources": [
+    "Customer Call - Acme Corp"
+   ],
+   "other_sources": [
+    "Write Acme Corp SOC2 response"
+   ],
+   "planted": false,
+   "task": "PAIR-Q26"
+  },
+  "LERGLGFA": {
+   "cited_sources": [
+    "Set up vendor risk assessments"
+   ],
+   "other_sources": [
+    "SOC2 Compliance Tracker"
+   ],
+   "planted": false,
+   "task": "PAIR-Q346"
+  },
+  "LQG5MF46": {
+   "cited_sources": [
+    "Project Beta Roadmap"
+   ],
+   "other_sources": [
+    "Growth Strategy 2026"
+   ],
+   "planted": false,
+   "task": "PAIR-Q6"
+  },
+  "LQVVG5R5": {
+   "cited_sources": [
+    "Sign office lease renewal"
+   ],
+   "other_sources": [
+    "All Hands Notes"
+   ],
+   "planted": false,
+   "task": "PAIR-Q219"
+  },
+  "LXHLSY7J": {
+   "cited_sources": [
+    "API Documentation"
+   ],
+   "other_sources": [
+    "Finish API documentation"
+   ],
+   "planted": false,
+   "task": "PAIR-Q13"
+  },
+  "M9SVFT4L": {
+   "cited_sources": [
+    "Competitor Analysis"
+   ],
+   "other_sources": [],
+   "planted": false,
+   "task": "PAIR-Q10"
+  },
+  "MACUNXUY": {
+   "cited_sources": [
+    "Board Meeting Prep"
+   ],
+   "other_sources": [
+    "Submit Q1 board deck"
+   ],
+   "planted": false,
+   "task": "PAIR-Q19"
+  },
+  "MF4UZWG9": {
+   "cited_sources": [
+    "Patent Portfolio"
+   ],
+   "other_sources": [
+    "File patents for agent protocol"
+   ],
+   "planted": false,
+   "task": "PAIR-Q43"
+  },
+  "MNRWB774": {
+   "answer": "INTERNAL",
+   "marker": "scheduled but not yet announced",
+   "planted": true,
+   "task": "PLANT-P14-11"
+  },
+  "MQ4AWNBB": {
+   "cited_sources": [
+    "Plan team offsite"
+   ],
+   "other_sources": [
+    "TechFlow Press Kit",
+    "Team Offsite Planning",
+    "Book Hawaii flights for team offsite"
+   ],
+   "planted": false,
+   "task": "PAIR-Q333"
+  },
+  "MVTTBRKM": {
+   "cited_sources": [
+    "Engineering Retro"
+   ],
+   "other_sources": [
+    "Setup staging environment"
+   ],
+   "planted": false,
+   "task": "PAIR-Q24"
+  },
+  "N2JQJ4SP": {
+   "answer": "INTERNAL",
+   "marker": "metric about a public artifact",
+   "planted": true,
+   "task": "PLANT-P14-08"
+  },
+  "N697T4G3": {
+   "cited_sources": [
+    "Customer Metrics"
+   ],
+   "other_sources": [
+    "Prepare investor update email"
+   ],
+   "planted": false,
+   "task": "PAIR-Q97"
+  },
+  "NABMPBN7": {
+   "cited_sources": [
+    "Onboarding Playbook"
+   ],
+   "other_sources": [],
+   "planted": false,
+   "task": "PAIR-Q91"
+  },
+  "NFLZB7TV": {
+   "cited_sources": [
+    "Legal Review - Terms of Service",
+    "Data Architecture Overview"
+   ],
+   "other_sources": [
+    "Set up EU read replica"
+   ],
+   "planted": false,
+   "task": "PAIR-Q74"
+  },
+  "NJ3ABZ2Z": {
+   "cited_sources": [
+    "Set up Calendly for office hours"
+   ],
+   "other_sources": [
+    "Office Hours"
+   ],
+   "planted": false,
+   "task": "PAIR-Q324"
+  },
+  "NRAYEAEZ": {
+   "cited_sources": [
+    "Add E2E test suite"
+   ],
+   "other_sources": [
+    "Technical Debt Log"
+   ],
+   "planted": false,
+   "task": "PAIR-Q312"
+  },
+  "NX82ELA6": {
+   "cited_sources": [
+    "Investor Call - Sequoia"
+   ],
+   "other_sources": [
+    "Close Sequoia intro call"
+   ],
+   "planted": false,
+   "task": "PAIR-Q125"
+  },
+  "NX8NR9E3": {
+   "cited_sources": [
+    "Draft newsletter edition"
+   ],
+   "other_sources": [
+    "Newsletter Signup"
+   ],
+   "planted": false,
+   "task": "PAIR-Q323"
+  },
+  "P7U5H6TQ": {
+   "cited_sources": [
+    "Write DPA for EU customers"
+   ],
+   "other_sources": [
+    "Data Architecture Overview",
+    "Set up EU read replica"
+   ],
+   "planted": false,
+   "task": "PAIR-Q303"
+  },
+  "PCFXDA9Y": {
+   "cited_sources": [
+    "Ship Slack integration v1"
+   ],
+   "other_sources": [],
+   "planted": false,
+   "task": "PAIR-Q302"
+  },
+  "PE2WQW5R": {
+   "cited_sources": [
+    "Competitor Analysis"
+   ],
+   "other_sources": [],
+   "planted": false,
+   "task": "PAIR-Q11"
+  },
+  "PLYTDQKS": {
+   "cited_sources": [
+    "Open Source Strategy"
+   ],
+   "other_sources": [],
+   "planted": false,
+   "task": "PAIR-Q85"
+  },
+  "PSMM7HG5": {
+   "cited_sources": [
+    "Security Audit Notes"
+   ],
+   "other_sources": [],
+   "planted": false,
+   "task": "PAIR-Q50"
+  },
+  "Q27SSTLA": {
+   "answer": "PUBLIC",
+   "marker": "published pricing page",
+   "planted": true,
+   "task": "PLANT-P14-05"
+  },
+  "QK3VGCEB": {
+   "cited_sources": [
+    "Refactor auth flow"
+   ],
+   "other_sources": [
+    "Technical Debt Log",
+    "Team Offsite Planning",
+    "Onboarding Playbook"
+   ],
+   "planted": false,
+   "task": "PAIR-Q313"
+  },
+  "QP5WYC8B": {
+   "cited_sources": [
+    "YC Demo Day Prep"
+   ],
+   "other_sources": [],
+   "planted": false,
+   "task": "PAIR-Q44"
+  },
+  "QXP6BF46": {
+   "cited_sources": [
+    "Brand Guidelines"
+   ],
+   "other_sources": [
+    "Create brand guidelines doc"
+   ],
+   "planted": false,
+   "task": "PAIR-Q89"
+  },
+  "QXZPQFLT": {
+   "cited_sources": [
+    "Sign office lease renewal"
+   ],
+   "other_sources": [],
+   "planted": false,
+   "task": "PAIR-Q330"
+  },
+  "QYX3XHUS": {
+   "cited_sources": [
+    "Prepare investor update email"
+   ],
+   "other_sources": [
+    "Board Meeting Prep",
+    "Customer Metrics"
+   ],
+   "planted": false,
+   "task": "PAIR-Q202"
+  },
+  "RCKK9NAF": {
+   "cited_sources": [
+    "Prepare AI Summit talk"
+   ],
+   "other_sources": [
+    "Conference Talk",
+    "TechFlow Press Kit",
+    "Submit conference proposal"
+   ],
+   "planted": false,
+   "task": "PAIR-Q208"
+  },
+  "RJ892FEN": {
+   "cited_sources": [
+    "Prepare podcast talking points"
+   ],
+   "other_sources": [
+    "Podcast Appearance",
+    "Content Calendar Q2"
+   ],
+   "planted": false,
+   "task": "PAIR-Q230"
+  },
+  "RQBG4GLD": {
+   "cited_sources": [
+    "Growth Strategy 2026"
+   ],
+   "other_sources": [],
+   "planted": false,
+   "task": "PAIR-Q61"
+  },
+  "RX86V8PE": {
+   "cited_sources": [
+    "Complete Y Combinator app"
+   ],
+   "other_sources": [
+    "Submit conference proposal"
+   ],
+   "planted": false,
+   "task": "PAIR-Q221"
+  },
+  "S55HCP44": {
+   "cited_sources": [
+    "Finish API documentation"
+   ],
+   "other_sources": [
+    "API Documentation"
+   ],
+   "planted": false,
+   "task": "PAIR-Q328"
+  },
+  "S8ERN45V": {
+   "cited_sources": [
+    "Set up new hire onboarding checklist"
+   ],
+   "other_sources": [
+    "Onboarding Playbook"
+   ],
+   "planted": false,
+   "task": "PAIR-Q351"
+  },
+  "S8QTAURZ": {
+   "cited_sources": [
+    "Implement LaunchDarkly feature flags"
+   ],
+   "other_sources": [],
+   "planted": false,
+   "task": "PAIR-Q315"
+  },
+  "SK633QE3": {
+   "cited_sources": [
+    "Contract React Native dev for mobile"
+   ],
+   "other_sources": [
+    "Mobile App Roadmap"
+   ],
+   "planted": false,
+   "task": "PAIR-Q241"
+  },
+  "SN6ADK3L": {
+   "cited_sources": [
+    "Technical Debt Log"
+   ],
+   "other_sources": [],
+   "planted": false,
+   "task": "PAIR-Q17"
+  },
+  "SNREEGDV": {
+   "cited_sources": [
+    "Data Architecture Overview"
+   ],
+   "other_sources": [
+    "Set up pgvector index for search"
+   ],
+   "planted": false,
+   "task": "PAIR-Q53"
+  },
+  "SP8MHDYM": {
+   "cited_sources": [
+    "Project Alpha Overview"
+   ],
+   "other_sources": [
+    "Launch Project Alpha MVP"
+   ],
+   "planted": false,
+   "task": "PAIR-Q4"
+  },
+  "SS9EQ8C4": {
+   "cited_sources": [
+    "Investor Call - Sequoia"
+   ],
+   "other_sources": [
+    "Close Sequoia intro call"
+   ],
+   "planted": false,
+   "task": "PAIR-Q36"
+  },
+  "SUYGWBJ3": {
+   "cited_sources": [
+    "Q1 2026 OKRs"
+   ],
+   "other_sources": [],
+   "planted": false,
+   "task": "PAIR-Q8"
+  },
+  "SZ9BWEYF": {
+   "cited_sources": [
+    "Advisory Board Meeting"
+   ],
+   "other_sources": [],
+   "planted": false,
+   "task": "PAIR-Q76"
+  },
+  "T2BNPYW5": {
+   "cited_sources": [
+    "Finish SOC2 incident response plan"
+   ],
+   "other_sources": [],
+   "planted": false,
+   "task": "PAIR-Q339"
+  },
+  "T7WQJFBN": {
+   "cited_sources": [
+    "Project Beta Roadmap"
+   ],
+   "other_sources": [],
+   "planted": false,
+   "task": "PAIR-Q7"
+  },
+  "TH5ABKVA": {
+   "cited_sources": [
+    "Patent Portfolio"
+   ],
+   "other_sources": [],
+   "planted": false,
+   "task": "PAIR-Q99"
+  },
+  "THAG4T7B": {
+   "answer": "INTERNAL",
+   "marker": "internal announcement",
+   "planted": true,
+   "task": "PLANT-P14-09"
+  },
+  "TMBQJQVZ": {
+   "cited_sources": [
+    "Incident Postmortem Feb-14"
+   ],
+   "other_sources": [
+    "Set up OAuth smoke test in CI"
+   ],
+   "planted": false,
+   "task": "PAIR-Q60"
+  },
+  "TU6TJDQQ": {
+   "cited_sources": [
+    "Security Audit Notes"
+   ],
+   "other_sources": [
+    "Complete security audit fixes"
+   ],
+   "planted": false,
+   "task": "PAIR-Q14"
+  },
+  "TVL7TH3H": {
+   "cited_sources": [
+    "Extract UI strings for i18n"
+   ],
+   "other_sources": [
+    "Project Beta Roadmap",
+    "Mobile App Roadmap",
+    "Internationalization Plan",
+    "Contract React Native dev for mobile"
+   ],
+   "planted": false,
+   "task": "PAIR-Q212"
+  },
+  "U4JMZZC4": {
+   "cited_sources": [
+    "Growth Strategy 2026"
+   ],
+   "other_sources": [],
+   "planted": false,
+   "task": "PAIR-Q62"
+  },
+  "UEJFMMAT": {
+   "cited_sources": [
+    "Optimize Azure OpenAI spend"
+   ],
+   "other_sources": [
+    "Infrastructure Budget"
+   ],
+   "planted": false,
+   "task": "PAIR-Q243"
+  },
+  "USLZSBCE": {
+   "cited_sources": [
+    "Internationalization Plan"
+   ],
+   "other_sources": [],
+   "planted": false,
+   "task": "PAIR-Q68"
+  },
+  "UYHSSP5R": {
+   "cited_sources": [
+    "Data Architecture Overview"
+   ],
+   "other_sources": [],
+   "planted": false,
+   "task": "PAIR-Q94"
+  },
+  "V3YV3FBK": {
+   "cited_sources": [
+    "File patents for agent protocol"
+   ],
+   "other_sources": [
+    "Patent Portfolio",
+    "Legal Review - Terms of Service",
+    "Update Terms of Service",
+    "Write DPA for EU customers"
+   ],
+   "planted": false,
+   "task": "PAIR-Q226"
+  },
+  "V4Q2QRGU": {
+   "cited_sources": [
+    "Fix accessibility critical issues"
+   ],
+   "other_sources": [
+    "Accessibility Audit"
+   ],
+   "planted": false,
+   "task": "PAIR-Q340"
+  },
+  "V7A24EDB": {
+   "cited_sources": [
+    "Set up Datadog monitoring"
+   ],
+   "other_sources": [
+    "Infrastructure Budget"
+   ],
+   "planted": false,
+   "task": "PAIR-Q308"
+  },
+  "V8CVBKRQ": {
+   "cited_sources": [
+    "Setup staging environment"
+   ],
+   "other_sources": [
+    "Project Alpha Tech Stack",
+    "Infrastructure Budget",
+    "Release Process",
+    "Incident Postmortem Feb-14",
+    "Vendor Evaluation - Analytics"
+   ],
+   "planted": false,
+   "task": "PAIR-Q218"
+  },
+  "VEYUWAXC": {
+   "cited_sources": [
+    "Plan Product Hunt launch"
+   ],
+   "other_sources": [
+    "Company Blog Draft",
+    "Content Calendar Q2",
+    "Write blog post draft"
+   ],
+   "planted": false,
+   "task": "PAIR-Q210"
+  },
+  "VHGKT5FL": {
+   "cited_sources": [
+    "All Hands Notes"
+   ],
+   "other_sources": [],
+   "planted": false,
+   "task": "PAIR-Q21"
+  },
+  "VJXQCU5J": {
+   "cited_sources": [
+    "Competitor Analysis"
+   ],
+   "other_sources": [
+    "Product Pricing Strategy"
+   ],
+   "planted": false,
+   "task": "PAIR-Q9"
+  },
+  "VL9ZSQVR": {
+   "cited_sources": [
+    "Vendor Evaluation - Analytics"
+   ],
+   "other_sources": [
+    "Decide on analytics tool"
+   ],
+   "planted": false,
+   "task": "PAIR-Q80"
+  },
+  "VYS8AQLG": {
+   "cited_sources": [
+    "Customer Metrics"
+   ],
+   "other_sources": [
+    "Customer Feedback Session"
+   ],
+   "planted": false,
+   "task": "PAIR-Q41"
+  },
+  "WM2ZHC2Z": {
+   "cited_sources": [
+    "Weekly Planning"
+   ],
+   "other_sources": [
+    "Team Offsite Planning",
+    "Onboarding Playbook"
+   ],
+   "planted": false,
+   "task": "PAIR-Q35"
+  },
+  "WQJXLKTL": {
+   "cited_sources": [
+    "Prepare TechFlow press kit"
+   ],
+   "other_sources": [
+    "TechFlow Press Kit"
+   ],
+   "planted": false,
+   "task": "PAIR-Q322"
+  },
+  "WUD6948Y": {
+   "cited_sources": [
+    "Publish customer case study - BetaCo"
+   ],
+   "other_sources": [],
+   "planted": false,
+   "task": "PAIR-Q306"
+  },
+  "WWFY2GNC": {
+   "cited_sources": [
+    "Set up pgvector index for search"
+   ],
+   "other_sources": [
+    "Data Architecture Overview"
+   ],
+   "planted": false,
+   "task": "PAIR-Q304"
+  },
+  "X9CRV4AJ": {
+   "cited_sources": [
+    "Review app store reviews"
+   ],
+   "other_sources": [
+    "Customer Feedback Session"
+   ],
+   "planted": false,
+   "task": "PAIR-Q224"
+  },
+  "XDXRW2WH": {
+   "cited_sources": [
+    "Write blog post draft"
+   ],
+   "other_sources": [
+    "Company Blog Draft",
+    "Mobile App Roadmap"
+   ],
+   "planted": false,
+   "task": "PAIR-Q332"
+  },
+  "XEWAQG3L": {
+   "cited_sources": [
+    "Record content calendar in shared notes"
+   ],
+   "other_sources": [
+    "Content Calendar Q2"
+   ],
+   "planted": false,
+   "task": "PAIR-Q325"
+  },
+  "XSXN4A47": {
+   "cited_sources": [
+    "Team Offsite Planning"
+   ],
+   "other_sources": [
+    "Plan team offsite",
+    "Book Hawaii flights for team offsite"
+   ],
+   "planted": false,
+   "task": "PAIR-Q82"
+  },
+  "XU7Y6QGM": {
+   "cited_sources": [
+    "Update Terms of Service"
+   ],
+   "other_sources": [
+    "Patent Portfolio",
+    "Legal Review - Terms of Service",
+    "File patents for agent protocol",
+    "Write DPA for EU customers"
+   ],
+   "planted": false,
+   "task": "PAIR-Q228"
+  },
+  "XYZ69CYV": {
+   "cited_sources": [
+    "Product Review"
+   ],
+   "other_sources": [
+    "Plan Product Hunt launch",
+    "Record content calendar in shared notes"
+   ],
+   "planted": false,
+   "task": "PAIR-Q48"
+  },
+  "Y5PGTPR7": {
+   "cited_sources": [
+    "Launch Project Alpha MVP"
+   ],
+   "other_sources": [
+    "1:1 with Mike",
+    "1:1 with Lisa",
+    "Accessibility Audit",
+    "Advisory Board Meeting"
+   ],
+   "planted": false,
+   "task": "PAIR-Q327"
+  },
+  "YCU53L2A": {
+   "cited_sources": [
+    "Create brand guidelines doc"
+   ],
+   "other_sources": [
+    "Brand Guidelines"
+   ],
+   "planted": false,
+   "task": "PAIR-Q235"
+  },
+  "YJG6WHR9": {
+   "cited_sources": [
+    "Set up Datadog monitoring"
+   ],
+   "other_sources": [
+    "Infrastructure Budget"
+   ],
+   "planted": false,
+   "task": "PAIR-Q244"
+  },
+  "YP6N439F": {
+   "cited_sources": [
+    "Customer Metrics"
+   ],
+   "other_sources": [],
+   "planted": false,
+   "task": "PAIR-Q98"
+  },
+  "YWPKMA43": {
+   "cited_sources": [
+    "Vendor Evaluation - Analytics"
+   ],
+   "other_sources": [
+    "Decide on analytics tool"
+   ],
+   "planted": false,
+   "task": "PAIR-Q81"
+  },
+  "YXNQSHD9": {
+   "cited_sources": [
+    "Migrate Edge runtime"
+   ],
+   "other_sources": [],
+   "planted": false,
+   "task": "PAIR-Q335"
+  },
+  "Z62LXXSH": {
+   "cited_sources": [
+    "Data Architecture Overview"
+   ],
+   "other_sources": [],
+   "planted": false,
+   "task": "PAIR-Q54"
+  },
+  "Z6KJ7C5A": {
+   "answer": "PUBLIC",
+   "marker": "public schedule, published",
+   "planted": true,
+   "task": "PLANT-P14-03"
+  },
+  "ZELPRSS6": {
+   "cited_sources": [
+    "All Hands Notes"
+   ],
+   "other_sources": [
+    "Team Offsite Planning",
+    "Submit Q1 board deck"
+   ],
+   "planted": false,
+   "task": "PAIR-Q22"
+  },
+  "ZJ8PGY8Q": {
+   "cited_sources": [
+    "Review and update data retention policy"
+   ],
+   "other_sources": [
+    "Legal Review - Terms of Service",
+    "Update Terms of Service"
+   ],
+   "planted": false,
+   "task": "PAIR-Q305"
+  },
+  "ZNFNVLEU": {
+   "cited_sources": [
+    "Project Alpha Overview"
+   ],
+   "other_sources": [],
+   "planted": false,
+   "task": "PAIR-Q3"
+  },
+  "ZRNMQLY8": {
+   "cited_sources": [
+    "Conference Talk"
+   ],
+   "other_sources": [
+    "TechFlow Press Kit",
+    "Prepare AI Summit talk",
+    "Submit conference proposal"
+   ],
+   "planted": false,
+   "task": "PAIR-Q28"
+  },
+  "ZSHKCTLX": {
+   "cited_sources": [
+    "Set up OAuth smoke test in CI"
+   ],
+   "other_sources": [],
+   "planted": false,
+   "task": "PAIR-Q227"
+  },
+  "ZZ8E6CA8": {
+   "cited_sources": [
+    "Legal Review - Terms of Service"
+   ],
+   "other_sources": [],
+   "planted": false,
+   "task": "PAIR-Q73"
+  }
+ },
+ "seeds": {
+  "codes": 314159,
+  "order": {
+   "A": 271828,
+   "B": 161803
+  }
+ }
+}

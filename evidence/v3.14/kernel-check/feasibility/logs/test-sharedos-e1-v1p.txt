@@ -1,0 +1,90 @@
+✔ loader pins exactly the four production SharedOS packages (0.962632ms)
+✔ module parsing rejects every missing production export before execution (1.24655ms)
+✔ module parsing rejects the production testkit as a runtime dependency (0.16576ms)
+✖ the pinned real build has the expected package names, digest, and exports (78.457215ms)
+✖ real SharedOS mediates both actors, files, task tools, and request/reply (87.152294ms)
+✖ an accepted request without a selected task fails the heartbeat closed (35.465634ms)
+✖ durable router corruption remains fatal across the SharedOS tool boundary (29.16435ms)
+✖ a failed close never reopens the session to model work (22.825989ms)
+✖ session reconstruction reuses byte-identical startedAt authority (31.011446ms)
+✖ session reconstruction fails loud on malformed prior binding authority (21.925862ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 3
+ℹ fail 7
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 411.422184
+
+✖ failing tests:
+
+test at tests/execution/sharedos-loader.test.ts:1:2465
+✖ the pinned real build has the expected package names, digest, and exports (78.457215ms)
+  AssertionError [ERR_ASSERTION]: SharedOS runtime exports do not match the pinned production boundary (SharedOS runtime module is missing StandardRuntime).
+  
+  false !== true
+  
+      at TestContext.<anonymous> (<vm>/kernel-check/se/e1-v1p/tests/execution/sharedos-loader.test.ts:129:10)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/execution/sharedos-runtime-conformance.test.ts:1:1200
+✖ real SharedOS mediates both actors, files, task tools, and request/reply (87.152294ms)
+  Error: The pinned SharedOS runtime is unavailable
+      at createSharedOsFileSessionV1 (<vm>/kernel-check/se/e1-v1p/src/runner/v1/sharedos-file-session.ts:66:11)
+      at async TestContext.<anonymous> (<vm>/kernel-check/se/e1-v1p/tests/execution/sharedos-runtime-conformance.test.ts:101:19)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3)
+
+test at tests/execution/sharedos-runtime-conformance.test.ts:1:8170
+✖ an accepted request without a selected task fails the heartbeat closed (35.465634ms)
+  Error: The pinned SharedOS runtime is unavailable
+      at createSharedOsFileSessionV1 (<vm>/kernel-check/se/e1-v1p/src/runner/v1/sharedos-file-session.ts:66:11)
+      at async createSessionFixture (<vm>/kernel-check/se/e1-v1p/tests/execution/sharedos-runtime-conformance.test.ts:636:19)
+      at async TestContext.<anonymous> (<vm>/kernel-check/se/e1-v1p/tests/execution/sharedos-runtime-conformance.test.ts:279:19)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7)
+
+test at tests/execution/sharedos-runtime-conformance.test.ts:1:8526
+✖ durable router corruption remains fatal across the SharedOS tool boundary (29.16435ms)
+  Error: The pinned SharedOS runtime is unavailable
+      at createSharedOsFileSessionV1 (<vm>/kernel-check/se/e1-v1p/src/runner/v1/sharedos-file-session.ts:66:11)
+      at async createSessionFixture (<vm>/kernel-check/se/e1-v1p/tests/execution/sharedos-runtime-conformance.test.ts:636:19)
+      at async TestContext.<anonymous> (<vm>/kernel-check/se/e1-v1p/tests/execution/sharedos-runtime-conformance.test.ts:294:19)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7)
+
+test at tests/execution/sharedos-runtime-conformance.test.ts:1:9121
+✖ a failed close never reopens the session to model work (22.825989ms)
+  Error: The pinned SharedOS runtime is unavailable
+      at createSharedOsFileSessionV1 (<vm>/kernel-check/se/e1-v1p/src/runner/v1/sharedos-file-session.ts:66:11)
+      at async createSessionFixture (<vm>/kernel-check/se/e1-v1p/tests/execution/sharedos-runtime-conformance.test.ts:636:19)
+      at async TestContext.<anonymous> (<vm>/kernel-check/se/e1-v1p/tests/execution/sharedos-runtime-conformance.test.ts:317:19)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7)
+
+test at tests/execution/sharedos-runtime-conformance.test.ts:1:9758
+✖ session reconstruction reuses byte-identical startedAt authority (31.011446ms)
+  Error: The pinned SharedOS runtime is unavailable
+      at createSharedOsFileSessionV1 (<vm>/kernel-check/se/e1-v1p/src/runner/v1/sharedos-file-session.ts:66:11)
+      at async createSessionFixture (<vm>/kernel-check/se/e1-v1p/tests/execution/sharedos-runtime-conformance.test.ts:636:19)
+      at async TestContext.<anonymous> (<vm>/kernel-check/se/e1-v1p/tests/execution/sharedos-runtime-conformance.test.ts:341:19)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7)
+
+test at tests/execution/sharedos-runtime-conformance.test.ts:1:10848
+✖ session reconstruction fails loud on malformed prior binding authority (21.925862ms)
+  Error: The pinned SharedOS runtime is unavailable
+      at createSharedOsFileSessionV1 (<vm>/kernel-check/se/e1-v1p/src/runner/v1/sharedos-file-session.ts:66:11)
+      at async createSessionFixture (<vm>/kernel-check/se/e1-v1p/tests/execution/sharedos-runtime-conformance.test.ts:636:19)
+      at async TestContext.<anonymous> (<vm>/kernel-check/se/e1-v1p/tests/execution/sharedos-runtime-conformance.test.ts:369:19)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7)

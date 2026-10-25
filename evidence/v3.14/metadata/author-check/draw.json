@@ -1,0 +1,41 @@
+{
+ "seed": 20261008,
+ "items": 10,
+ "stratum_order": [
+  "title/agreed",
+  "folder/agreed",
+  "third_party/agreed",
+  "quoted_policy/agreed",
+  "title/contested",
+  "folder/contested",
+  "third_party/contested",
+  "quoted_policy/contested"
+ ],
+ "stratum_sizes": {
+  "title/agreed": 95,
+  "folder/agreed": 98,
+  "third_party/agreed": 31,
+  "quoted_policy/agreed": 100,
+  "title/contested": 5,
+  "folder/contested": 2,
+  "third_party/contested": 0,
+  "quoted_policy/contested": 0
+ },
+ "by_stratum": {
+  "folder/agreed": 2,
+  "folder/contested": 1,
+  "third_party/agreed": 2,
+  "quoted_policy/agreed": 2,
+  "title/agreed": 2,
+  "title/contested": 1
+ },
+ "planted_drawn": 0,
+ "packet_sha256": {
+  "p1-1.jsonl": "097a3a174dc6bcd029540869445bf03b110e54e899b6cd2f26180f2d60f3cfae",
+  "p1-1-INSTRUCTIONS.md": "299fb12652e7a736636be96f7ef71cc4cad6336e5c84003ab36ccccc453d4a95",
+  "p1-1-answers.csv": "ac107ba16b034deb7b2532f673721f0c7a2392f8c553555f0fcea768934c6482"
+ },
+ "key_sha256": "a74ccc0aa237cfe93ade242ff0bb84744e6b5eff4110a3be2d44d5fd77d14592",
+ "key_path": "evidence/v3.14/metadata/author-check/key.json (sealed: out of git until the author returns)",
+ "report": "an author agreed with the consensus on k of n agreed lines; for a contested line, which coder the author sided with; if the author contradicts both coders on any line, coding pauses for review"
+}

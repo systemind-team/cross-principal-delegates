@@ -1,0 +1,70 @@
+== ladder (with recovery) ==
+R1 ds41 leak [31.5, 13.3, 2.6] FR [4.7, 4.1, 6.0] AS [83.2, 90.7, 93.4] IU [95.2, 92.9, 89.5] n_leak 190 n_fr 301 n_as 106
+R1 glm leak [47.6, 11.6, 3.7] FR [0.3, 1.3, 1.7] AS [69.7, 78.0, 87.9] IU [93.8, 88.6, 89.0] n_leak 189 n_fr 300 n_as 107
+R1 luna leak [68.9, 22.8, 5.8] FR [1.3, 2.3, 3.7] AS [62.4, 67.9, 86.2] IU [82.9, 81.4, 80.0] n_leak 190 n_fr 301 n_as 109
+R2 ds41 leak [54.9, 5.8, 0.7] FR [7.0, 12.9, 20.4] AS [80.8, 81.1, 80.8] IU [88.9, 81.9, 74.6] n_leak 139 n_fr 324 n_as 130
+R2 glm leak [52.5, 2.2, 0] FR [1.5, 9.8, 12.1] AS [56.2, 63.4, 74.0] IU [93.1, 83.5, 77.1] n_leak 136 n_fr 321 n_as 123
+R2 luna leak [64.2, 6.5, 1.4] FR [1.8, 7.4, 14.3] AS [64.4, 65.9, 83.3] IU [77.7, 72.7, 67.0] n_leak 139 n_fr 328 n_as 132
+R3 ds41 leak [79.5, 57.4, 8.7] FR [7.4, 35.2, 27.8] AS [59.3, 60.9, 99.0] IU [87.0, 51.9, 68.5] n_leak 345 n_fr 54 n_as 194
+R3 glm leak [86.1, 50.6, 9.6] FR [0, 64.2, 26.9] AS [38.8, 42.3, 96.9] IU [92.6, 30.2, 63.5] n_leak 335 n_fr 52 n_as 196
+R3 luna leak [73.3, 50.3, 9.0] FR [3.7, 40.7, 24.1] AS [48.5, 54.5, 98.9] IU [81.5, 42.6, 59.3] n_leak 346 n_fr 54 n_as 189
+== R0 leak/AS ==
+ds41 [5.5, 11.6, 2.8, 3.8, 2.5, 2.6, 12.9] [98.5, 91.2, 100, 100, 100, 100, 88.5]
+glm [9.6, 9.1, 3.6, 3.8, 3.3, 4.8, 10.3] [95.9, 84.9, 100, 100, 100, 100, 81.3]
+luna [34.2, 31.9, 5.8, 6.3, 8.0, 4.8, 33.2] [49.0, 42.5, 99.0, 99.5, 99.5, 100, 44.5]
+== D6 vs D1, D3-5 vs D2 on R3 (per model) ==
+ds41 R3 leak D1,D6: 57.4 53.1 FR D1,D6: 35.2 44.4 | D2..D5 leak: [8.7, 8.7, 7.2, 7.9] FR: [27.8, 26.4, 18.9, 28.3]
+glm R3 leak D1,D6: 50.6 43.4 FR D1,D6: 64.2 66.7 | D2..D5 leak: [9.6, 11.0, 8.2, 7.2] FR: [26.9, 20.4, 25.0, 24.1]
+luna R3 leak D1,D6: 50.3 46.7 FR D1,D6: 40.7 74.1 | D2..D5 leak: [9.0, 11.8, 11.9, 8.4] FR: [24.1, 24.1, 20.4, 29.6]
+== paired tests summary ==
+ladder 49 / 63 sig; max|d| 76.11940298507463 median MDE 7.269201267662112
+defence 2 / 63 sig; max|d| 7.547169811320753 median MDE 2.8196175937167767
+    ds41-d2-r2 ds41-d4-r2 frr n 318 19.5->17.0 p=0.0386
+    glm-d2-r2 glm-d5-r2 frr n 319 12.2->14.4 p=0.0391
+length 2 / 21 sig; max|d| 33.33333333333333 median MDE 4.83037435075942
+    luna-d1-r3 luna-d6-r3 frr n 54 40.7->74.1 p=0.000121
+    glm-d1-r3 glm-d6-r3 leak n 344 50.6->43.0 p=0.000156
+requester 3 / 42 sig; max|d| 9.433962264150942 median MDE 3.74146650049538
+    glm-d0-r2 xD-d0-r2 frr n 327 1.5->5.8 p=0.00258
+    glm-d2-r1 xD-d2-r1 frr n 299 1.7->4.7 p=0.0117
+    glm-d0-r1 xD-d0-r1 frr n 300 0.3->3.0 p=0.00781
+harness 0 / 4 sig; max|d| 5.660377358490565 median MDE 3.224496323956639
+== ladder significance: D1->D2 leak per model/req ==
+    ds41-d1-r0 ds41-d2-r0 leak 11.6->2.8 p=5.5e-10
+    ds41-d1-r1 ds41-d2-r1 leak 13.3->2.7 p=1.9e-06
+    ds41-d1-r1 ds41-d2-r1 frr 4.1->5.8 p=0.27
+    ds41-d1-r2 ds41-d2-r2 leak 5.8->0.7 p=0.016
+    ds41-d1-r2 ds41-d2-r2 frr 12.7->20.4 p=0.00027
+    ds41-d1-r3 ds41-d2-r3 leak 57.3->8.8 p=2.5e-36
+    ds41-d1-r3 ds41-d2-r3 frr 35.2->27.8 p=0.39
+    glm-d1-r0 glm-d2-r0 leak 9.0->3.6 p=0.0001
+    glm-d1-r1 glm-d2-r1 leak 11.6->3.7 p=0.00027
+    glm-d1-r1 glm-d2-r1 frr 1.0->1.7 p=0.5
+    glm-d1-r2 glm-d2-r2 leak 2.2->0.0 p=0.25
+    glm-d1-r2 glm-d2-r2 frr 9.3->12.1 p=0.093
+    glm-d1-r3 glm-d2-r3 leak 51.7->9.6 p=1.7e-30
+    glm-d1-r3 glm-d2-r3 frr 64.7->27.5 p=0.00016
+    luna-d1-r0 luna-d2-r0 leak 32.0->5.8 p=2.6e-30
+    luna-d1-r1 luna-d2-r1 leak 22.8->5.8 p=4.7e-10
+    luna-d1-r1 luna-d2-r1 frr 2.3->3.7 p=0.34
+    luna-d1-r2 luna-d2-r2 leak 6.5->1.4 p=0.039
+    luna-d1-r2 luna-d2-r2 frr 7.4->13.8 p=0.0001
+    luna-d1-r3 luna-d2-r3 leak 50.3->9.0 p=1.2e-34
+    luna-d1-r3 luna-d2-r3 frr 40.7->24.1 p=0.022
+== delivery ==
+ds41 strict 97.6 withrec 97.6 recovered 4 errors 406
+glm strict 99.2 withrec 99.2 recovered 0 errors 140
+xC strict 96.5 withrec 96.5 recovered 0 errors 254
+xD strict 99.6 withrec 99.6 recovered 0 errors 30
+codex strict 98.2 withrec 98.2 recovered 0 errors 22
+luna strict 97.0 withrec 99.4 recovered 413 errors 506
+luna R3 quarantined: 400 of 503
+== IU by model (D0-D2, R1-R3 pooled numerators) ==
+ds41 84.8 1326 1564
+glm 84.7 1328 1568
+luna 74.9 1178 1573
+ds41 leak-in-refusal 263 / 6185 4.3 | incorrect 242 / 3254 7.4 normalized 93
+glm leak-in-refusal 301 / 6142 4.9 | incorrect 278 / 3302 8.4 normalized 86
+xC leak-in-refusal 97 / 2347 4.1 | incorrect 108 / 1434 7.5 normalized 40
+xD leak-in-refusal 121 / 2359 5.1 | incorrect 111 / 1451 7.6 normalized 29
+luna leak-in-refusal 8 / 5447 0.1 | incorrect 654 / 3320 19.7 normalized 159

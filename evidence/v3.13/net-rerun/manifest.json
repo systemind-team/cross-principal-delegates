@@ -1,0 +1,78 @@
+{
+  "what": "NET policy ladder rerun: 24 paired edges x 2 arms x 3 rungs, two responder models",
+  "files": {
+    "contacts.jsonl": "one row per run (model, rung, edge, arm, rep): contact status, terminal tick, judged and disclosing replies",
+    "replies.jsonl": "one row per judged holder message: majority verdict, three votes, reply sha256, judge prompt/rubric hashes",
+    "net_summary.json": "written by scripts/net_rerun/analyse.py from the two files above; read by scripts/overview/three_ladders.py"
+  },
+  "reproduce": "python3 scripts/net_rerun/analyse.py",
+  "date": "2026-10-01",
+  "responders": {
+    "deepseek-v4-flash": {
+      "route": "OpenRouter deepseek/deepseek-v4-flash",
+      "repetitions": 3,
+      "contacts": 432,
+      "results_utc": "2026-10-01 12:09 -> 13:38"
+    },
+    "glm-5.3": {
+      "route": "OpenRouter z-ai/glm-5.3",
+      "repetitions": 2,
+      "contacts": 288,
+      "results_utc": "2026-10-01 12:08 -> 13:27"
+    }
+  },
+  "upstream_provider_pinned": false,
+  "gateway": "<private-repository> on the experiment VM, one budget-capped virtual key, strict attribution",
+  "cost_usd_provider_reported": {
+    "glm-5.3": 40.56,
+    "deepseek-v4-flash": 6.15,
+    "total": 46.71
+  },
+  "runner": {
+    "sharedeval_source_revision": "d44e4788562c438a97180443ee8cc5170094ad07",
+    "dataset": "dataset/pact-net/tasks/pact_net_tasks_v2.json",
+    "profile": "simple (holder workspace injected into the prompt)",
+    "max_ticks": 22,
+    "stop_when": "all-terminal",
+    "request_text": "identical on the two arms of every edge (checked on all 24)"
+  },
+  "rungs": {
+    "D0": "empty POLICY.md",
+    "D1": "generic caution, 128 bytes, byte-identical to PAIR's",
+    "D2": "the holder's own policy document (topic lists + no-partial-answers clause)",
+    "launch_order": "D0, D1, D2; median completion 12:18-12:20, 12:26-12:31, 12:37-12:38 UTC"
+  },
+  "retries": "a run whose contact had not finished was relaunched, at most three attempts; d1_d10_w-r1 (DeepSeek) was skipped by the scheduler because its in-flight check matched the GLM lane's run of the same id, and was relaunched by hand once (finished); d0_ep01_p-r2 (DeepSeek, borderline edge) never finished",
+  "judge": {
+    "model": "DeepSeek-V4-Flash-0731 (Azure)",
+    "votes": 3,
+    "rule": "majority",
+    "rubric_hash": "0ad59198c09575afdb72fc2475a710c08475ed2569de7cb96f5366f3d53b7adb",
+    "same_rubric_and_model_as_earlier_run": true
+  },
+  "analysis": {
+    "primary_repetitions": [
+      1,
+      2
+    ],
+    "primary_edges": "per model: non-borderline edges with >=1 judged reply on both arms at every rung (18 each; 17 shared)",
+    "borderline_excluded": [
+      "B-02",
+      "EP-01",
+      "EP-04",
+      "I-13",
+      "N-08"
+    ],
+    "bootstrap": "holder-clustered, 10000 resamples, random.Random(0)",
+    "test": "exact sign-flip over holder-summed differences; exact McNemar on withheld edge-level leak"
+  },
+  "not_run": "Grok 4.6: every responder request was rejected (400: edit_todo tool parameter root is an anyOf union); the SharedEval revision used predates the fix (#94)",
+  "supersedes": "the earlier DeepSeek ladder on a content-filtered deployment (Appendix E.4, tables/net_earlier.tex)",
+  "differences_from_earlier_run": {
+    "model_route": "Azure deployment DeepSeek-V4-Flash -> OpenRouter via the VM gateway",
+    "maxOutputTokens": "4096 -> 8192",
+    "maxTicks": "10 -> 22",
+    "attemptTimeoutMs": "added (300000)",
+    "unchanged": "tasks, grants, policy documents, simple profile: all 144 earlier-run configs (48 per rung) differ from their rerun counterparts only in the five keys above plus the output directory; GLM configs differ from DeepSeek's only in the model"
+  }
+}

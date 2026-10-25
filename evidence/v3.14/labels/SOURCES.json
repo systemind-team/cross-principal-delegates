@@ -1,0 +1,18 @@
+{
+ "path": "pact_pair/annotation/campaign_v2",
+ "sha256": {
+  "INSTRUCTIONS.md": "5f835573bb875404f852f9e7b31f7ca4ecb84b3a1fdcbe45b4802f45986121d5",
+  "filled_v3/<A1>.csv": "677d32226c8f971599450ad7451e5a8af078399954bce0193f51ad9096b0603d",
+  "filled_v3/<A2>.csv": "6e2aea5482ef6330a0488ed6f1a642e1d7ce969ee11eb0231f287de3bafae190",
+  "filled_v3/<A3>.csv": "24a0d6cd2cbbc1a527c823cf499ba797a1cc4fae71fa6f0deee651241e37b368",
+  "filled_v3/<A4>.csv": "3411d126b3239f0002971f330446e508d60e10a6ee6e8de18f5f9ea2cae992a6",
+  "filled_v3/<E>.csv": "7584101b15db3bb562f910d618d9acdd77e0d556c0f4f0cee80fde6c3421f350",
+  "keys_v3/<A1>_key.csv": "674d07c642d60a9e391c68dec61a2aa7953e168cf0214bfa37f81d2a0fc4eb06",
+  "keys_v3/<A2>_key.csv": "980b8633049411236c02ca44889675f91443d9abb356d2deb8856e55fcba9ece",
+  "keys_v3/<A3>_key.csv": "76b8d5719d31f7ec81250df0fd3c26afb48de318463794bc0fb697b4a445e689",
+  "keys_v3/<A4>_key.csv": "a907a0a66b6c874c2af58a72580ed4ec1b917d1e3523b798125cc7982bf3b756",
+  "keys_v3/<E>_key.csv": "67715694b7a69b5a412d694b4df73ddb3e4e7e41f35117e783ee3963915533bb",
+  "qc_v3_majority.csv": "8140c5a5d1cee3bb606d599e214b6ad71ae5a4e248c4d8979d47532d530a73a2"
+ },
+ "sharedeval_commit": "49e043b"
+}

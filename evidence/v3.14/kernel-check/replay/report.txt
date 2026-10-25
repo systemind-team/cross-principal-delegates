@@ -1,0 +1,40 @@
+PAIR II ladder grid (E3, 8081e7e): folders 1389, replayed 1389, replay errors 0 
+  questions 47189 (recorded allowed 47023, denied 166: no_matching_grant 166)
+  usage reconstruction matches usage records in 1389 runs; runs with deferred grants 0
+  GATE K2 = recorded: 47189 of 47189 -> PASS
+  K1 = recorded 47189, K1 = K2 47189 of 47189; disagreements 0
+PAIR II header comparison (E3, 8081e7e): folders 413, replayed 413, replay errors 0 
+  questions 19530 (recorded allowed 19518, denied 12: no_matching_grant 12)
+  usage reconstruction matches usage records in 413 runs; runs with deferred grants 0
+  GATE K2 = recorded: 19530 of 19530 -> PASS
+  K1 = recorded 19530, K1 = K2 19530 of 19530; disagreements 0
+PAIR II header ladder (E3-header, 4565add): folders 619, replayed 619, replay errors 0 
+  questions 20881 (recorded allowed 20875, denied 6: no_matching_grant 6)
+  usage reconstruction matches usage records in 619 runs; runs with deferred grants 0
+  GATE K2 = recorded: 20881 of 20881 -> PASS
+  K1 = recorded 20881, K1 = K2 20881 of 20881; disagreements 0
+PAIR II probing grid (E2): folders 2400, replayed 2400, replay errors 0 
+  questions 213798 (recorded allowed 207425, denied 6373: no_matching_grant 6373)
+  usage reconstruction matches usage records in 2400 runs; runs with deferred grants 2400
+  GATE K2 = recorded: 213798 of 213798 -> PASS
+  K1 = recorded 213798, K1 = K2 213798 of 213798; disagreements 0
+PAIR II packing, 1 per session (E2): folders 180, replayed 180, replay errors 0 
+  questions 5608 (recorded allowed 5227, denied 381: no_matching_grant 381)
+  usage reconstruction matches usage records in 180 runs; runs with deferred grants 180
+  GATE K2 = recorded: 5608 of 5608 -> PASS
+  K1 = recorded 5608, K1 = K2 5608 of 5608; disagreements 0
+PAIR II packing, 10 per session (E2): folders 18, replayed 18, replay errors 0 
+  questions 5367 (recorded allowed 5302, denied 65: no_matching_grant 65)
+  usage reconstruction matches usage records in 18 runs; runs with deferred grants 18
+  GATE K2 = recorded: 5367 of 5367 -> PASS
+  K1 = recorded 5367, K1 = K2 5367 of 5367; disagreements 0
+sampled 80 ladder sessions: folders 80, replayed 80, replay errors 0 
+  questions 2617 (recorded allowed 2583, denied 34: no_matching_grant 34)
+  usage reconstruction matches usage records in 80 runs; runs with deferred grants 0
+  GATE K2 = recorded: 2617 of 2617 -> PASS
+  K1 = recorded 2617, K1 = K2 2617 of 2617; disagreements 0
+all studies: folders 5019, replayed 5019, replay errors 0 
+  questions 312373 (recorded allowed 305370, denied 7003: no_matching_grant 7003)
+  usage reconstruction matches usage records in 5019 runs; runs with deferred grants 2598
+  GATE K2 = recorded: 312373 of 312373 -> PASS
+  K1 = recorded 312373, K1 = K2 312373 of 312373; disagreements 0

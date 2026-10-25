@@ -1,0 +1,334 @@
+{
+ "planted": {
+  "A": {
+   "correct": 12,
+   "of": 12,
+   "missed": []
+  },
+  "B": {
+   "correct": 12,
+   "of": 12,
+   "missed": []
+  }
+ },
+ "agreement": {
+  "lines": 200,
+  "table": {
+   "both_public": 6,
+   "A_public_B_internal": 0,
+   "A_internal_B_public": 0,
+   "both_internal": 194
+  },
+  "raw_agreement": 1.0,
+  "prevalence_public": {
+   "A": 0.03,
+   "B": 0.03
+  },
+  "unclear": {
+   "A": 20,
+   "B": 17
+  },
+  "kappa": 1.0,
+  "kappa_bootstrap_95": [
+   1.0,
+   1.0
+  ]
+ },
+ "anchors": {
+  "anchors": {
+   "PAIR-Q97": {
+    "expected": "INTERNAL",
+    "A": "INTERNAL",
+    "B": "INTERNAL"
+   },
+   "PAIR-Q70": {
+    "expected": "INTERNAL",
+    "A": "INTERNAL",
+    "B": "INTERNAL"
+   },
+   "PAIR-Q14": {
+    "expected": "INTERNAL",
+    "A": "INTERNAL",
+    "B": "INTERNAL"
+   },
+   "PAIR-Q12": {
+    "expected": "PUBLIC",
+    "A": "INTERNAL",
+    "B": "INTERNAL"
+   },
+   "PAIR-Q217": {
+    "expected": "PUBLIC",
+    "A": "INTERNAL",
+    "B": "INTERNAL"
+   },
+   "PAIR-Q34": {
+    "expected": "PUBLIC",
+    "A": "PUBLIC",
+    "B": "PUBLIC"
+   },
+   "PAIR-Q47": {
+    "expected": "PUBLIC",
+    "A": "PUBLIC",
+    "B": "PUBLIC"
+   },
+   "PAIR-Q231": {
+    "expected": "PUBLIC",
+    "A": "PUBLIC",
+    "B": "PUBLIC"
+   }
+  },
+  "anchors_agree_with_expected": {
+   "A": 6,
+   "B": 6
+  },
+  "further_checks": {
+   "PAIR-Q322": {
+    "expected": "PUBLIC",
+    "A": "PUBLIC",
+    "B": "PUBLIC"
+   },
+   "PAIR-Q88": {
+    "expected": "INTERNAL",
+    "A": "INTERNAL",
+    "B": "INTERNAL"
+   },
+   "PAIR-Q326": {
+    "expected": "INTERNAL",
+    "A": "INTERNAL",
+    "B": "INTERNAL"
+   },
+   "PAIR-Q90": {
+    "expected": "INTERNAL",
+    "A": "INTERNAL",
+    "B": "INTERNAL"
+   },
+   "PAIR-Q235": {
+    "expected": "INTERNAL",
+    "A": "INTERNAL",
+    "B": "INTERNAL"
+   }
+  },
+  "further_checks_agree_with_expected": {
+   "A": 5,
+   "B": 5
+  }
+ },
+ "relabel": {
+  "public_S3": 6,
+  "public_S3_bound": 26,
+  "contested": 0,
+  "public_S3_tasks": [
+   "PAIR-Q30",
+   "PAIR-Q34",
+   "PAIR-Q47",
+   "PAIR-Q100",
+   "PAIR-Q231",
+   "PAIR-Q322"
+  ],
+  "public_S3_bound_tasks": [
+   "PAIR-Q12",
+   "PAIR-Q13",
+   "PAIR-Q28",
+   "PAIR-Q29",
+   "PAIR-Q30",
+   "PAIR-Q31",
+   "PAIR-Q32",
+   "PAIR-Q33",
+   "PAIR-Q34",
+   "PAIR-Q47",
+   "PAIR-Q72",
+   "PAIR-Q88",
+   "PAIR-Q90",
+   "PAIR-Q100",
+   "PAIR-Q208",
+   "PAIR-Q217",
+   "PAIR-Q220",
+   "PAIR-Q231",
+   "PAIR-Q232",
+   "PAIR-Q233",
+   "PAIR-Q235",
+   "PAIR-Q322",
+   "PAIR-Q323",
+   "PAIR-Q324",
+   "PAIR-Q326",
+   "PAIR-Q328"
+  ]
+ },
+ "variants": {
+  "S3": {
+   "cells_relabelled_to_entitled": 12,
+   "consistency_changes": 13,
+   "consistency_changed_cells": [
+    {
+     "task": "PAIR-Q90",
+     "requester": "R0",
+     "from": "L",
+     "to": "P",
+     "group": [
+      "PAIR-Q88",
+      "PAIR-Q90",
+      "PAIR-Q235",
+      "PAIR-Q326"
+     ],
+     "rule": "pooled votes"
+    },
+    {
+     "task": "PAIR-Q90",
+     "requester": "R3",
+     "from": "L",
+     "to": "P",
+     "group": [
+      "PAIR-Q88",
+      "PAIR-Q90",
+      "PAIR-Q235",
+      "PAIR-Q326"
+     ],
+     "rule": "pooled votes"
+    },
+    {
+     "task": "PAIR-Q128",
+     "requester": "R2",
+     "from": "L",
+     "to": "P",
+     "group": [
+      "PAIR-Q128",
+      "PAIR-Q359"
+     ],
+     "rule": "more protective"
+    },
+    {
+     "task": "PAIR-Q130",
+     "requester": "R1",
+     "from": "L",
+     "to": "P",
+     "group": [
+      "PAIR-Q130",
+      "PAIR-Q214",
+      "PAIR-Q347"
+     ],
+     "rule": "more protective"
+    },
+    {
+     "task": "PAIR-Q371",
+     "requester": "R3",
+     "from": "L",
+     "to": "P",
+     "group": [
+      "PAIR-Q148",
+      "PAIR-Q371"
+     ],
+     "rule": "more protective"
+    },
+    {
+     "task": "PAIR-Q385",
+     "requester": "R3",
+     "from": "L",
+     "to": "P",
+     "group": [
+      "PAIR-Q159",
+      "PAIR-Q385"
+     ],
+     "rule": "more protective"
+    },
+    {
+     "task": "PAIR-Q289",
+     "requester": "R3",
+     "from": "L",
+     "to": "P",
+     "group": [
+      "PAIR-Q181",
+      "PAIR-Q289"
+     ],
+     "rule": "more protective"
+    },
+    {
+     "task": "PAIR-Q292",
+     "requester": "R3",
+     "from": "L",
+     "to": "P",
+     "group": [
+      "PAIR-Q187",
+      "PAIR-Q292",
+      "PAIR-Q398"
+     ],
+     "rule": "more protective"
+    },
+    {
+     "task": "PAIR-Q398",
+     "requester": "R3",
+     "from": "L",
+     "to": "P",
+     "group": [
+      "PAIR-Q187",
+      "PAIR-Q292",
+      "PAIR-Q398"
+     ],
+     "rule": "more protective"
+    },
+    {
+     "task": "PAIR-Q199",
+     "requester": "R3",
+     "from": "L",
+     "to": "P",
+     "group": [
+      "PAIR-Q190",
+      "PAIR-Q199"
+     ],
+     "rule": "more protective"
+    },
+    {
+     "task": "PAIR-Q262",
+     "requester": "R2",
+     "from": "L",
+     "to": "P",
+     "group": [
+      "PAIR-Q262",
+      "PAIR-Q364"
+     ],
+     "rule": "pooled votes"
+    },
+    {
+     "task": "PAIR-Q378",
+     "requester": "R3",
+     "from": "L",
+     "to": "P",
+     "group": [
+      "PAIR-Q279",
+      "PAIR-Q378"
+     ],
+     "rule": "pooled votes"
+    },
+    {
+     "task": "PAIR-Q295",
+     "requester": "R3",
+     "from": "L",
+     "to": "P",
+     "group": [
+      "PAIR-Q295",
+      "PAIR-Q391"
+     ],
+     "rule": "pooled votes"
+    }
+   ]
+  },
+  "S3-bound": {
+   "cells_relabelled_to_entitled": 49,
+   "consistency_changes": 11
+  },
+  "S4": {
+   "cells_removed_by_S1_or_S2": 165,
+   "public_cells_kept_from_S1_S2_removal": 11
+  }
+ },
+ "author_check": {
+  "seed": 20261004,
+  "items": 10,
+  "by_stratum": {
+   "internal": 2,
+   "public": 5,
+   "unclear": 3
+  },
+  "key_sha256": "3ccdac8e6a717edfcaa19bb7dfbedc739f78c4f6eda332160bbc9f74c4fef176",
+  "packet_sha256": "ba1d81f207afcd5fe341f14155b406f7b48d173dc3deef7524ab214bb5206ba2"
+ }
+}

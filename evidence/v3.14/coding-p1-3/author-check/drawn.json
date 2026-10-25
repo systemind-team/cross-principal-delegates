@@ -1,0 +1,45 @@
+{
+ "seed": 20261004,
+ "drawn": [
+  {
+   "stratum": "D1-matched",
+   "code": "QG5WV279"
+  },
+  {
+   "stratum": "D1-mismatched",
+   "code": "UJ6R3L4K"
+  },
+  {
+   "stratum": "D2-matched",
+   "code": "5UHS6MWU"
+  },
+  {
+   "stratum": "D2-mismatched",
+   "code": "J3DCD6ZW"
+  },
+  {
+   "stratum": "contested",
+   "code": "2QM5R5R7"
+  },
+  {
+   "stratum": "D1-matched",
+   "code": "9N52UZLF"
+  },
+  {
+   "stratum": "D1-mismatched",
+   "code": "SREZXC2V"
+  },
+  {
+   "stratum": "D2-matched",
+   "code": "X3KTPBHN"
+  },
+  {
+   "stratum": "D2-mismatched",
+   "code": "BLX764QC"
+  },
+  {
+   "stratum": "contested",
+   "code": "WPTZN9KA"
+  }
+ ]
+}

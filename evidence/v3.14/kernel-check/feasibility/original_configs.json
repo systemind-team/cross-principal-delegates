@@ -1,0 +1,5846 @@
+{
+ "pair1": {
+  "ds41-d0-r1": {
+   "allowlistedEgress": [
+    "openrouter.ai:443"
+   ],
+   "cliExitCode": 0,
+   "configDigest": "b3bb6b22e2e29cf3d310c841822dbf8d373a5e40474e02a3544a3de5db245a1b",
+   "config_sha256": "d2fa438801d19043c86ee36943f0041a712cb092592c463d12b6ce6b099fd741",
+   "config_text": "apiVersion: sharedeval-run/v1\nkind: RunConfig\nmodel:\n  provider: openai-compatible\n  baseUrl: https://openrouter.ai/api/v1\n  apiKeyEnv: SHAREDEVAL_MODEL_API_KEY\n  model: deepseek/deepseek-v4.1-flash\n  temperature: 0\n  providerRouting:\n    requireParameters: true\n    allowFallbacks: true\n    only: [Fireworks, GMICloud, Wafer, DeepInfra]\n    order: [Fireworks, GMICloud, Wafer, DeepInfra]\n  maxOutputTokens: 4096\nbenchmark:\n  dataset: pact-pair\n  policy: D0_R1\n  requester: R1\n  gradingMode: category\n  tasks:\n    kind: all\nworkflow:\n  mode: single\n  protocol: files\n  maxTicks: 24\n  stopWhen: all-terminal\n  taskConcurrency: 12\nbudget:\n  maxToolCalls: 32\n  maxRuntimeMs: 600000\n",
+   "done_marker": true,
+   "finishedAt": "2026-09-13T14:55:14Z",
+   "imageDigest": "sha256:bc17ce54a4dfaece3ce0600058fbbdb65077ccb9d72dbb3b902ee61f48596dd6",
+   "imageRef": "sharedeval-experiment:58829feb1728",
+   "run_id": "v41.rep1.ds41-d0-r1",
+   "startedAt": "2026-09-13T12:27:32Z"
+  },
+  "ds41-d0-r3": {
+   "allowlistedEgress": [
+    "openrouter.ai:443"
+   ],
+   "cliExitCode": 0,
+   "configDigest": "8f84d2ee5ae4975f0ee538031f6c1fe8aa9ce434c820886c6739214543ed3dae",
+   "config_sha256": "a37fe2fd1b80956f1afc52d3369c9e7380ffa2fd6fbcc136a945386170093b0c",
+   "config_text": "apiVersion: sharedeval-run/v1\nkind: RunConfig\nmodel:\n  provider: openai-compatible\n  baseUrl: https://openrouter.ai/api/v1\n  apiKeyEnv: SHAREDEVAL_MODEL_API_KEY\n  model: deepseek/deepseek-v4.1-flash\n  temperature: 0\n  providerRouting:\n    requireParameters: true\n    allowFallbacks: true\n    only: [Fireworks, GMICloud, Wafer, DeepInfra]\n    order: [Fireworks, GMICloud, Wafer, DeepInfra]\n  maxOutputTokens: 4096\nbenchmark:\n  dataset: pact-pair\n  policy: D0_R3\n  requester: R3\n  gradingMode: category\n  tasks:\n    kind: all\nworkflow:\n  mode: single\n  protocol: files\n  maxTicks: 24\n  stopWhen: all-terminal\n  taskConcurrency: 12\nbudget:\n  maxToolCalls: 32\n  maxRuntimeMs: 600000\n",
+   "done_marker": true,
+   "finishedAt": "2026-09-13T19:02:06Z",
+   "imageDigest": "sha256:bc17ce54a4dfaece3ce0600058fbbdb65077ccb9d72dbb3b902ee61f48596dd6",
+   "imageRef": "sharedeval-experiment:58829feb1728",
+   "run_id": "v41.rep1.ds41-d0-r3",
+   "startedAt": "2026-09-13T17:15:06Z"
+  },
+  "ds41-d2-r1": {
+   "allowlistedEgress": [
+    "openrouter.ai:443"
+   ],
+   "cliExitCode": 0,
+   "configDigest": "f1443010b98953b7996b5e12c9b57935e407fa5c53521ecaa57b5163612ac60c",
+   "config_sha256": "43c935e5c8e2a4693d4e849fa4a3f70d50e63909b4d5dc9cb680b956cbea42f5",
+   "config_text": "apiVersion: sharedeval-run/v1\nkind: RunConfig\nmodel:\n  provider: openai-compatible\n  baseUrl: https://openrouter.ai/api/v1\n  apiKeyEnv: SHAREDEVAL_MODEL_API_KEY\n  model: deepseek/deepseek-v4.1-flash\n  temperature: 0\n  providerRouting:\n    requireParameters: true\n    allowFallbacks: true\n    only: [Fireworks, GMICloud, Wafer, DeepInfra]\n    order: [Fireworks, GMICloud, Wafer, DeepInfra]\n  maxOutputTokens: 4096\nbenchmark:\n  dataset: pact-pair\n  policy: D2_R1\n  requester: R1\n  gradingMode: category\n  tasks:\n    kind: all\nworkflow:\n  mode: single\n  protocol: files\n  maxTicks: 24\n  stopWhen: all-terminal\n  taskConcurrency: 12\nbudget:\n  maxToolCalls: 32\n  maxRuntimeMs: 600000\n",
+   "done_marker": true,
+   "finishedAt": "2026-09-13T08:23:23Z",
+   "imageDigest": "sha256:bc17ce54a4dfaece3ce0600058fbbdb65077ccb9d72dbb3b902ee61f48596dd6",
+   "imageRef": "sharedeval-experiment:58829feb1728",
+   "run_id": "v41.rep1.ds41-d2-r1",
+   "startedAt": "2026-09-13T07:05:04Z"
+  },
+  "ds41-d2-r3": {
+   "allowlistedEgress": [
+    "openrouter.ai:443"
+   ],
+   "cliExitCode": 0,
+   "configDigest": "c37f3b24070f0a4913ba9761f8a6a3dc6f8cb02be70c8923f50c17294af2af5e",
+   "config_sha256": "6d9b7447819a940f9e9ad8f0a1f322679b05a249debf56143b6556f52af402eb",
+   "config_text": "apiVersion: sharedeval-run/v1\nkind: RunConfig\nmodel:\n  provider: openai-compatible\n  baseUrl: https://openrouter.ai/api/v1\n  apiKeyEnv: SHAREDEVAL_MODEL_API_KEY\n  model: deepseek/deepseek-v4.1-flash\n  temperature: 0\n  providerRouting:\n    requireParameters: true\n    allowFallbacks: true\n    only: [Fireworks, GMICloud, Wafer, DeepInfra]\n    order: [Fireworks, GMICloud, Wafer, DeepInfra]\n  maxOutputTokens: 4096\nbenchmark:\n  dataset: pact-pair\n  policy: D2_R3\n  requester: R3\n  gradingMode: category\n  tasks:\n    kind: all\nworkflow:\n  mode: single\n  protocol: files\n  maxTicks: 24\n  stopWhen: all-terminal\n  taskConcurrency: 12\nbudget:\n  maxToolCalls: 32\n  maxRuntimeMs: 600000\n",
+   "done_marker": true,
+   "finishedAt": "2026-09-13T11:02:36Z",
+   "imageDigest": "sha256:bc17ce54a4dfaece3ce0600058fbbdb65077ccb9d72dbb3b902ee61f48596dd6",
+   "imageRef": "sharedeval-experiment:58829feb1728",
+   "run_id": "v41.rep1.ds41-d2-r3",
+   "startedAt": "2026-09-13T09:41:48Z"
+  },
+  "xC-d0-r1": {
+   "allowlistedEgress": [
+    "openrouter.ai:443"
+   ],
+   "cliExitCode": 0,
+   "configDigest": "119f4df6cb182b2fb522bca550d633702bf6cd0e9b63da9bd31f6e3c8bb19334",
+   "config_sha256": "b7fc49cfc072d2424c63b34821d4f091d207ac356983e84b37b5e14209823aba",
+   "config_text": "apiVersion: sharedeval-run/v1\nkind: RunConfig\nmodel:\n  provider: openai-compatible\n  baseUrl: https://openrouter.ai/api/v1\n  apiKeyEnv: SHAREDEVAL_MODEL_API_KEY\n  model: deepseek/deepseek-v4.1-flash\n  temperature: 0\n  providerRouting:\n    requireParameters: true\n    allowFallbacks: true\n    only: [Fireworks, GMICloud, Wafer, DeepInfra]\n    order: [Fireworks, GMICloud, Wafer, DeepInfra]\n  maxOutputTokens: 4096\nactors:\n  requester:\n    model:\n      provider: openai-compatible\n      baseUrl: https://openrouter.ai/api/v1\n      apiKeyEnv: SHAREDEVAL_MODEL_API_KEY\n      model: z-ai/glm-5.3-flash\n      temperature: 0\n      maxOutputTokens: 4096\nbenchmark:\n  dataset: pact-pair\n  policy: D0_R1\n  requester: R1\n  gradingMode: category\n  tasks:\n    kind: all\nworkflow:\n  mode: single\n  protocol: files\n  maxTicks: 24\n  stopWhen: all-terminal\n  taskConcurrency: 12\nbudget:\n  maxToolCalls: 32\n  maxRuntimeMs: 600000\n",
+   "done_marker": true,
+   "finishedAt": "2026-09-16T03:26:27Z",
+   "imageDigest": "sha256:5eab4c1d13c453ca29ce6779c49390a8c0d024a891e98ce9acfebfa20e2e6367",
+   "imageRef": "sharedeval-experiment:0735564b0c31",
+   "run_id": "v41x.rep1.xC-d0-r1",
+   "startedAt": "2026-09-16T02:43:10Z"
+  }
+ },
+ "pair2": {
+  "ladder_configs": {
+   "S4-DS-D0-R1-g004": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D0",
+     "requester": "R1",
+     "tasks": {
+      "ids": [
+       "PAIR-Q72",
+       "PAIR-Q258",
+       "PAIR-A100"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "35e0b03215c6a79431781d5baa4fa11fb6ed9f3e0f28f714f493b091f433bf02",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D0-R1-g008": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D0",
+     "requester": "R1",
+     "tasks": {
+      "ids": [
+       "PAIR-Q351",
+       "PAIR-Q384",
+       "PAIR-A50"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "67d10c78cb2bd8bea78ce5a06d4f67c931e68a4d3b5c26d897a8e379ac10c4c3",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D0-R1-g024": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D0",
+     "requester": "R1",
+     "tasks": {
+      "ids": [
+       "PAIR-Q12",
+       "PAIR-Q366",
+       "PAIR-A15"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "683ba56caacb814f629483196ab43dc2c119581e13fadeece75a73a69bbfb75e",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D0-R1-g028": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D0",
+     "requester": "R1",
+     "tasks": {
+      "ids": [
+       "PAIR-Q43",
+       "PAIR-Q105",
+       "PAIR-A25"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "b8abd5a4bbd88a4566e617edd0837e3b62689f31c7e5828035b399de05e0f9a6",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D0-R1-g032": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D0",
+     "requester": "R1",
+     "tasks": {
+      "ids": [
+       "PAIR-Q76",
+       "PAIR-Q252",
+       "PAIR-A28"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "5e8f6b6888e5f29450324b28894d506e9720ff3989e5d886fcc5278c7ea2d3c5",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D0-R1-g040": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D0",
+     "requester": "R1",
+     "tasks": {
+      "ids": [
+       "PAIR-Q209",
+       "PAIR-Q146",
+       "PAIR-A114"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "805157584de763ed2935aeff60fa7c62e541975814150862fd69177bc5e62a8c",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D0-R1-g060": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D0",
+     "requester": "R1",
+     "tasks": {
+      "ids": [
+       "PAIR-Q82",
+       "PAIR-Q254",
+       "PAIR-A8"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "22d4a6e831e9771231bff66f1e68f221db8377567c32acf795206e6a6f8fc8b1",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D0-R1-g072": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D0",
+     "requester": "R1",
+     "tasks": {
+      "ids": [
+       "PAIR-Q332",
+       "PAIR-Q158",
+       "PAIR-A105"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "513b9f7415e54a01b2016425229307d05a6b58b988e2c623768d044c626b8483",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D0-R1-g076": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D0",
+     "requester": "R1",
+     "tasks": {
+      "ids": [
+       "PAIR-Q219",
+       "PAIR-Q391",
+       "PAIR-A82"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "90e44b881cc588be7e03461d73a585f793a44d302ddf27e68e2579821ae6a968",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D0-R1-g100": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D0",
+     "requester": "R1",
+     "tasks": {
+      "ids": [
+       "PAIR-Q7",
+       "PAIR-Q135",
+       "PAIR-A164"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "f99c9b6c55a78ea7265bdd27519e0e45ce44bcf56ad2a951a900d187c8525411",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D0-R1-g104": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D0",
+     "requester": "R1",
+     "tasks": {
+      "ids": [
+       "PAIR-Q28",
+       "PAIR-Q156",
+       "PAIR-A1"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "96041f655876d7f3578ee2d371d0aaf4b58497c6b23e3f2b1c76250bfab2073f",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D0-R1-g108": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D0",
+     "requester": "R1",
+     "tasks": {
+      "ids": [
+       "PAIR-Q237",
+       "PAIR-Q388",
+       "PAIR-A159"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "2998c33ee799a628e7eae45e7c2b6f89612ebaaf99ba68bc827ce716b2842747",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D0-R1-g116": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D0",
+     "requester": "R1",
+     "tasks": {
+      "ids": [
+       "PAIR-Q248",
+       "PAIR-Q194",
+       "PAIR-A194"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "4aa0a148b88bebbef5ca88971c661b6ae7f50129fe8855fbe9c232034da8d00d",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D0-R1-g136": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D0",
+     "requester": "R1",
+     "tasks": {
+      "ids": [
+       "PAIR-Q348",
+       "PAIR-Q186",
+       "PAIR-A104"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "953190190dd543bf0769d477e661daaf6e5f5ce0223870f1d2d6adb006b16e4f",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D0-R1-g140": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D0",
+     "requester": "R1",
+     "tasks": {
+      "ids": [
+       "PAIR-Q37",
+       "PAIR-Q111",
+       "PAIR-A176"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "f4a66f7c6d18eb4790678a8cf45b4edb7d7422ef893a8bd63dcb401611af0c98",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D0-R1-g144": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D0",
+     "requester": "R1",
+     "tasks": {
+      "ids": [
+       "PAIR-Q84",
+       "PAIR-Q107",
+       "PAIR-A61"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "bdf827ebcff3800e7556e37eddf1c79ad84feaaf288284129ffb8aca0661bedc",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D0-R1-g156": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D0",
+     "requester": "R1",
+     "tasks": {
+      "ids": [
+       "PAIR-Q57",
+       "PAIR-Q116",
+       "PAIR-A90"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "d5986fdeb3a349f75d8fce0e2e88b426c6230f4d9f0fa41042609fe6ced4ff43",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D0-R1-g176": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D0",
+     "requester": "R1",
+     "tasks": {
+      "ids": [
+       "PAIR-Q26",
+       "PAIR-Q149",
+       "PAIR-A167"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "409ecb81ba05ce7884efb8edeef02a685d46f19f89f46a5e99310abb9af323fd",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D0-R1-g192": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D0",
+     "requester": "R1",
+     "tasks": {
+      "ids": [
+       "PAIR-Q24",
+       "PAIR-Q126",
+       "PAIR-A191"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "0f8fa437beb6cbf303c44975dac1ec9fd838ea30f96f942f396a35665a651456",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D0-R1-g196": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D0",
+     "requester": "R1",
+     "tasks": {
+      "ids": [
+       "PAIR-Q213",
+       "PAIR-Q294",
+       "PAIR-A122"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "15784891c87a53744125fee8df8b2c5a54e4379cb868bd8f1cf4c42197fd590c",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D0-R3-g004": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D0",
+     "requester": "R3",
+     "tasks": {
+      "ids": [
+       "PAIR-Q72",
+       "PAIR-Q258",
+       "PAIR-A100"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "298b3029f3850a4a1b1b8aa5f37045a14e89db146ee4907c7348d6a11986341e",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D0-R3-g008": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D0",
+     "requester": "R3",
+     "tasks": {
+      "ids": [
+       "PAIR-Q351",
+       "PAIR-Q384",
+       "PAIR-A50"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "a37edbe10f2d65a2c766bbce00d7334ee3814dac9ecb37e64023a44db2cd0624",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D0-R3-g024": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D0",
+     "requester": "R3",
+     "tasks": {
+      "ids": [
+       "PAIR-Q12",
+       "PAIR-Q366",
+       "PAIR-A15"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "8c65bb3f9980d6eee79b8d5a5878b1f1cd40e2e6987dafaa9739d11ac808667c",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D0-R3-g028": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D0",
+     "requester": "R3",
+     "tasks": {
+      "ids": [
+       "PAIR-Q43",
+       "PAIR-Q105",
+       "PAIR-A25"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "92dc8c38cd614e1e7dd5f052a13ffd4eb26a5ef824e5ae7c1c8a170be427d44b",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D0-R3-g032": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D0",
+     "requester": "R3",
+     "tasks": {
+      "ids": [
+       "PAIR-Q76",
+       "PAIR-Q252",
+       "PAIR-A28"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "53c7737d245cdba20d62117d1eff6afd16a389d5c5a2ac0c402a5c2068bf09ad",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D0-R3-g040": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D0",
+     "requester": "R3",
+     "tasks": {
+      "ids": [
+       "PAIR-Q209",
+       "PAIR-Q146",
+       "PAIR-A114"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "c6b46fcf5450d7021ea8db10194f29d59e37ccd47cc4c7495d7d26f4893d2636",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D0-R3-g060": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D0",
+     "requester": "R3",
+     "tasks": {
+      "ids": [
+       "PAIR-Q82",
+       "PAIR-Q254",
+       "PAIR-A8"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "e4492e49219a7e0ebc0b2fca0d6023b427b183ff7d2dd9029d014abc1f84b12b",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D0-R3-g072": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D0",
+     "requester": "R3",
+     "tasks": {
+      "ids": [
+       "PAIR-Q332",
+       "PAIR-Q158",
+       "PAIR-A105"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "80e2ef5eebcbf4f102cab199cd81edeb7a4b395a6901db373a451c5c6bfa6cb7",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D0-R3-g076": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D0",
+     "requester": "R3",
+     "tasks": {
+      "ids": [
+       "PAIR-Q219",
+       "PAIR-Q391",
+       "PAIR-A82"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "494b22ed5b1138c855aac29c182d2398a8d4c049699b78c668251a961d1141c3",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D0-R3-g100": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D0",
+     "requester": "R3",
+     "tasks": {
+      "ids": [
+       "PAIR-Q7",
+       "PAIR-Q135",
+       "PAIR-A164"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "933a2298ea47d452017021d27334048d898bb355b2735190277446d70d3f06a2",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D0-R3-g104": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D0",
+     "requester": "R3",
+     "tasks": {
+      "ids": [
+       "PAIR-Q28",
+       "PAIR-Q156",
+       "PAIR-A1"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "f3495f03e7fe47265612516fbbf6bce849977d1c0a61fd5766ce6530676b3f76",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D0-R3-g108": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D0",
+     "requester": "R3",
+     "tasks": {
+      "ids": [
+       "PAIR-Q237",
+       "PAIR-Q388",
+       "PAIR-A159"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "8bc9b312a50f99311f1f583133b953f98a383fd65182e5569453fcd17cb50914",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D0-R3-g116": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D0",
+     "requester": "R3",
+     "tasks": {
+      "ids": [
+       "PAIR-Q248",
+       "PAIR-Q194",
+       "PAIR-A194"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "3e18218d638ad43fdbe5e1c94ace1228ab4bc394d0a85d004a047f0cbde42daa",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D0-R3-g136": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D0",
+     "requester": "R3",
+     "tasks": {
+      "ids": [
+       "PAIR-Q348",
+       "PAIR-Q186",
+       "PAIR-A104"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "fd9d3f5a7167b267387d9152a7f82081448c6957f6757239e623de13a29ef253",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D0-R3-g140": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D0",
+     "requester": "R3",
+     "tasks": {
+      "ids": [
+       "PAIR-Q37",
+       "PAIR-Q111",
+       "PAIR-A176"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "9681adc12f842f1b334ec75e2f527e884bbb9d1f7c614ec4c92cbb662b3673c2",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D0-R3-g144": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D0",
+     "requester": "R3",
+     "tasks": {
+      "ids": [
+       "PAIR-Q84",
+       "PAIR-Q107",
+       "PAIR-A61"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "88ee8ece26f110f1e81db1c05bd2295e894b65369efc1c4c6bf4dd2584498dbe",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D0-R3-g156": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D0",
+     "requester": "R3",
+     "tasks": {
+      "ids": [
+       "PAIR-Q57",
+       "PAIR-Q116",
+       "PAIR-A90"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "d23447314ff922f0bd8047aeb64337bc9052f150e986f4b827dccf68af29dde2",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D0-R3-g176": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D0",
+     "requester": "R3",
+     "tasks": {
+      "ids": [
+       "PAIR-Q26",
+       "PAIR-Q149",
+       "PAIR-A167"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "8d614b76b63efe73b6e9730f9e03cb89a262c367788edf70864e0d33dda01415",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D0-R3-g192": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D0",
+     "requester": "R3",
+     "tasks": {
+      "ids": [
+       "PAIR-Q24",
+       "PAIR-Q126",
+       "PAIR-A191"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "64ee0041b2a807e968739536f71ca3bfb53a26531ff078fe3571d306a6fe23dc",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D0-R3-g196": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D0",
+     "requester": "R3",
+     "tasks": {
+      "ids": [
+       "PAIR-Q213",
+       "PAIR-Q294",
+       "PAIR-A122"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "5d628ba1e7e0f21e4ac4da3960c121fd1e865d465c44c41e2f414e9491a77d17",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D2-R1-g004": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R1",
+     "tasks": {
+      "ids": [
+       "PAIR-Q72",
+       "PAIR-Q258",
+       "PAIR-A100"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "55fa2c332c4454bf036b842e721048eb53425a087bb60b91dcb27afcbec1c4e6",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D2-R1-g008": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R1",
+     "tasks": {
+      "ids": [
+       "PAIR-Q351",
+       "PAIR-Q384",
+       "PAIR-A50"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "1a54c74b024aced71b3c10bd6ba9f829e7203beb45da41dddd5c650f25183488",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D2-R1-g024": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R1",
+     "tasks": {
+      "ids": [
+       "PAIR-Q12",
+       "PAIR-Q366",
+       "PAIR-A15"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "c1f30caa0d7b17d67e697c513a272d41887ef7bd35042d34eac27588200b5276",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D2-R1-g028": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R1",
+     "tasks": {
+      "ids": [
+       "PAIR-Q43",
+       "PAIR-Q105",
+       "PAIR-A25"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "4a9b9883e6ed1c0e0bcb9a44e8f3b2be502572d1f38d32f64904a4ff64c878b5",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D2-R1-g032": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R1",
+     "tasks": {
+      "ids": [
+       "PAIR-Q76",
+       "PAIR-Q252",
+       "PAIR-A28"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "e94e2574ec451ad8be10fa507ce2802d4aef5c4ac9457c0b02a31f7227b92a6f",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D2-R1-g040": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R1",
+     "tasks": {
+      "ids": [
+       "PAIR-Q209",
+       "PAIR-Q146",
+       "PAIR-A114"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "b51d9208a0c6097132d96346519e2b21bcde673d0e0834ca60aea3a4a7cce0ca",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D2-R1-g060": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R1",
+     "tasks": {
+      "ids": [
+       "PAIR-Q82",
+       "PAIR-Q254",
+       "PAIR-A8"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "555a983e71c4eb7a9b01919bee77cf8f992e4a8be43404518e43ec7e6ebe8425",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D2-R1-g072": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R1",
+     "tasks": {
+      "ids": [
+       "PAIR-Q332",
+       "PAIR-Q158",
+       "PAIR-A105"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "855b3e1052fb3ff619f3543d022a1be392d9542971a0cad976146b9ca5732eb0",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D2-R1-g076": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R1",
+     "tasks": {
+      "ids": [
+       "PAIR-Q219",
+       "PAIR-Q391",
+       "PAIR-A82"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "f504b4acad535480a2f5b93bebf6d174acc3a2fe2f6f9c26b2620750a4d1df7b",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D2-R1-g100": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R1",
+     "tasks": {
+      "ids": [
+       "PAIR-Q7",
+       "PAIR-Q135",
+       "PAIR-A164"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "32e59add8a9e8bc00d053f422854127b052ea00131fed1f2d84f05eb18fa63b5",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D2-R1-g104": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R1",
+     "tasks": {
+      "ids": [
+       "PAIR-Q28",
+       "PAIR-Q156",
+       "PAIR-A1"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "b7896d69c3399076652d5e969b6589021fd5b2e5b426b8373b3ae548bdf829f2",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D2-R1-g108": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R1",
+     "tasks": {
+      "ids": [
+       "PAIR-Q237",
+       "PAIR-Q388",
+       "PAIR-A159"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "162c665fd29da2da18e591bb34b96552ccaf7ed9e73fa0909ba65c93d663e0f2",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D2-R1-g116": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R1",
+     "tasks": {
+      "ids": [
+       "PAIR-Q248",
+       "PAIR-Q194",
+       "PAIR-A194"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "958a456c910aa5ec0ea0d1fce64ad347652a2c3e2d9252951eba69e13296bfa3",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D2-R1-g136": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R1",
+     "tasks": {
+      "ids": [
+       "PAIR-Q348",
+       "PAIR-Q186",
+       "PAIR-A104"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "a8b62d71593929d9486b94345c98f79c29e1c14346482a8c6c6575291ed910cb",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D2-R1-g140": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R1",
+     "tasks": {
+      "ids": [
+       "PAIR-Q37",
+       "PAIR-Q111",
+       "PAIR-A176"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "5ec9aa97bad01001d179357704e38103d7d96b65b6ca77888ce06ead843f1b16",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D2-R1-g144": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R1",
+     "tasks": {
+      "ids": [
+       "PAIR-Q84",
+       "PAIR-Q107",
+       "PAIR-A61"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "9db5d8d7e4dd487f8d6e258fe390d91afc28026bab4f886eb33a8236f78870bf",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D2-R1-g156": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R1",
+     "tasks": {
+      "ids": [
+       "PAIR-Q57",
+       "PAIR-Q116",
+       "PAIR-A90"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "5d70cda7dda8202a49fedc089c78b1401c4af3535e146e12636fbe2f26020332",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D2-R1-g176": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R1",
+     "tasks": {
+      "ids": [
+       "PAIR-Q26",
+       "PAIR-Q149",
+       "PAIR-A167"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "a823a6cef5500f1a40b79c54e428d93f67950067830fcbd1781b7aa1aa07cce2",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D2-R1-g192": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R1",
+     "tasks": {
+      "ids": [
+       "PAIR-Q24",
+       "PAIR-Q126",
+       "PAIR-A191"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "9b6d5d7f5a578f48b3593f663ff4b31afb13d82f67c21370866fb1333975738f",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D2-R1-g196": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R1",
+     "tasks": {
+      "ids": [
+       "PAIR-Q213",
+       "PAIR-Q294",
+       "PAIR-A122"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "e5d248ebf79a43f175f4d0b07d71a9dd2d02566a568e40c1ea414f2855caa7b8",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D2-R3-g004": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R3",
+     "tasks": {
+      "ids": [
+       "PAIR-Q72",
+       "PAIR-Q258",
+       "PAIR-A100"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "2f1d4002629ed7f79cdec78c53ab4c92b9a83c1f31ebf053822e74dfc4b3cfa8",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D2-R3-g008": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R3",
+     "tasks": {
+      "ids": [
+       "PAIR-Q351",
+       "PAIR-Q384",
+       "PAIR-A50"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "bbfa5251197c22824ac3599d13bdb78ff00c8912c83ee683fa1f68c9b4876352",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D2-R3-g024": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R3",
+     "tasks": {
+      "ids": [
+       "PAIR-Q12",
+       "PAIR-Q366",
+       "PAIR-A15"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "c5e80de734cf4b3a22ceb0dae3ac3c5c53092f9e819ce3f549597f3907ce2f56",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D2-R3-g028": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R3",
+     "tasks": {
+      "ids": [
+       "PAIR-Q43",
+       "PAIR-Q105",
+       "PAIR-A25"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "0a6ccbd5bba1c7e4bc31d948a244ff5425838f1c497f19c542c43d3ada3bf1ea",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D2-R3-g032": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R3",
+     "tasks": {
+      "ids": [
+       "PAIR-Q76",
+       "PAIR-Q252",
+       "PAIR-A28"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "65963e35bbdf059db38893f4fd7602ac65e41389126640272bb5009837dd8a4c",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D2-R3-g040": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R3",
+     "tasks": {
+      "ids": [
+       "PAIR-Q209",
+       "PAIR-Q146",
+       "PAIR-A114"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "372f015f1214c18ea769003e1a2081b0a000e109510ef43e8d1d2309b634f9d3",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D2-R3-g060": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R3",
+     "tasks": {
+      "ids": [
+       "PAIR-Q82",
+       "PAIR-Q254",
+       "PAIR-A8"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "bb584ce4b9cb2a241598ebc9d75aba92f7864ac519b8d32c054b0386e4ea65ee",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D2-R3-g072": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R3",
+     "tasks": {
+      "ids": [
+       "PAIR-Q332",
+       "PAIR-Q158",
+       "PAIR-A105"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "1d6742f7e06ea114e85fb02ecd00f6ed2fff09a2196ee3800d4111ab15e6c8b5",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D2-R3-g076": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R3",
+     "tasks": {
+      "ids": [
+       "PAIR-Q219",
+       "PAIR-Q391",
+       "PAIR-A82"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "64c2368d2fab38855936b46ba6f266547d3bea0e68062d42a4ce8fd60bdfdbe6",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D2-R3-g100": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R3",
+     "tasks": {
+      "ids": [
+       "PAIR-Q7",
+       "PAIR-Q135",
+       "PAIR-A164"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "4f194df7c96470d86ffd74390543ff0e2e38474b279df1a783299117d3bfa72a",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D2-R3-g104": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R3",
+     "tasks": {
+      "ids": [
+       "PAIR-Q28",
+       "PAIR-Q156",
+       "PAIR-A1"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "4bb243b3e03fb5319ed757d6aa5880c4727707a5736f02c08d343468aec9feb0",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D2-R3-g108": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R3",
+     "tasks": {
+      "ids": [
+       "PAIR-Q237",
+       "PAIR-Q388",
+       "PAIR-A159"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "89d1339be484cc3618c7de0609d2520976a286e32a294539cbef2c1aa59478b2",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D2-R3-g116": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R3",
+     "tasks": {
+      "ids": [
+       "PAIR-Q248",
+       "PAIR-Q194",
+       "PAIR-A194"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "81a82d4cd9296f93f46674cf825df72bf2851477b4beb9f604508250ba3498c7",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D2-R3-g136": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R3",
+     "tasks": {
+      "ids": [
+       "PAIR-Q348",
+       "PAIR-Q186",
+       "PAIR-A104"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "0661e799c516066249962c1b0738d771b855cf67894fe16f140fd177eb8a4263",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D2-R3-g140": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R3",
+     "tasks": {
+      "ids": [
+       "PAIR-Q37",
+       "PAIR-Q111",
+       "PAIR-A176"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "0d9d9a897d6d7eca4198a056a705aa8b3a324c7fdf03ce98de943955c5fc4dd3",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D2-R3-g144": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R3",
+     "tasks": {
+      "ids": [
+       "PAIR-Q84",
+       "PAIR-Q107",
+       "PAIR-A61"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "b642933c802a4f9a2e148b17678964f1fb5f5134a98f3f26477060ccf8a706bb",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D2-R3-g156": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R3",
+     "tasks": {
+      "ids": [
+       "PAIR-Q57",
+       "PAIR-Q116",
+       "PAIR-A90"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "c0eff88823034caec1130f7b9417924754f8a9a01cb3e368a7fb55843470641a",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D2-R3-g176": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R3",
+     "tasks": {
+      "ids": [
+       "PAIR-Q26",
+       "PAIR-Q149",
+       "PAIR-A167"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "34f0c7bf82ae922e9c91ff0c563bc0d14094c45880f2b1c72373962d22f9881b",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D2-R3-g192": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R3",
+     "tasks": {
+      "ids": [
+       "PAIR-Q24",
+       "PAIR-Q126",
+       "PAIR-A191"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "2eb349295fcf8ecfd58ae549a77fb7b3cafef778272d18b731fa4b54adb7144b",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "S4-DS-D2-R3-g196": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R3",
+     "tasks": {
+      "ids": [
+       "PAIR-Q213",
+       "PAIR-Q294",
+       "PAIR-A122"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    },
+    "sha256": "4b655a16220c4e1a7953a96c64170c7b85d970b246947fb3c0cceacafe6a981d",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   }
+  },
+  "ladder_distinct": {
+   "budget": [
+    {
+     "maxRuntimeMs": 600000
+    }
+   ],
+   "model": [
+    {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "deployment": "DeepSeek-V4-Flash-0731",
+     "endpoint": "https://<azure-endpoint>/openai/v1",
+     "maxOutputTokens": 4096,
+     "provider": "azure-openai",
+     "temperature": 0
+    }
+   ],
+   "workflow": [
+    {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   ]
+  },
+  "ladder_manifest_sha256": "87b3d2df0dab66538f520a70e0649994ae4cea6dd4dac3eadac65dd0d9b2e61a",
+  "told_ctrl_configs": {
+   "T3-CTRL-D2-R1-g004": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R1",
+     "tasks": {
+      "ids": [
+       "PAIR-Q72",
+       "PAIR-Q258",
+       "PAIR-A100"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "attemptTimeoutMs": 300000,
+     "baseUrl": "http://127.0.0.1:8787/v1",
+     "maxOutputTokens": 4096,
+     "model": "deepseek/deepseek-v4-flash-0731",
+     "provider": "openai-compatible",
+     "providerRouting": {
+      "allowFallbacks": false,
+      "only": [
+       "Relace"
+      ],
+      "order": [
+       "Relace"
+      ]
+     },
+     "temperature": 0
+    },
+    "sha256": "1976c44cf81884dfa91b83e712b36a9a02fad0b26620903f4c1512226a4792b6",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "T3-CTRL-D2-R1-g008": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R1",
+     "tasks": {
+      "ids": [
+       "PAIR-Q351",
+       "PAIR-Q384",
+       "PAIR-A50"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "attemptTimeoutMs": 300000,
+     "baseUrl": "http://127.0.0.1:8787/v1",
+     "maxOutputTokens": 4096,
+     "model": "deepseek/deepseek-v4-flash-0731",
+     "provider": "openai-compatible",
+     "providerRouting": {
+      "allowFallbacks": false,
+      "only": [
+       "Relace"
+      ],
+      "order": [
+       "Relace"
+      ]
+     },
+     "temperature": 0
+    },
+    "sha256": "9de9927eb5a754af2abfdb83a14748e35b9ca258e2c7955e43373682301a914e",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "T3-CTRL-D2-R1-g024": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R1",
+     "tasks": {
+      "ids": [
+       "PAIR-Q12",
+       "PAIR-Q366",
+       "PAIR-A15"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "attemptTimeoutMs": 300000,
+     "baseUrl": "http://127.0.0.1:8787/v1",
+     "maxOutputTokens": 4096,
+     "model": "deepseek/deepseek-v4-flash-0731",
+     "provider": "openai-compatible",
+     "providerRouting": {
+      "allowFallbacks": false,
+      "only": [
+       "Relace"
+      ],
+      "order": [
+       "Relace"
+      ]
+     },
+     "temperature": 0
+    },
+    "sha256": "24078b098b7ff472d33630a35dfab32cc5bb7dbbc4cb67640cf7c95999f0b8d6",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "T3-CTRL-D2-R1-g028": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R1",
+     "tasks": {
+      "ids": [
+       "PAIR-Q43",
+       "PAIR-Q105",
+       "PAIR-A25"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "attemptTimeoutMs": 300000,
+     "baseUrl": "http://127.0.0.1:8787/v1",
+     "maxOutputTokens": 4096,
+     "model": "deepseek/deepseek-v4-flash-0731",
+     "provider": "openai-compatible",
+     "providerRouting": {
+      "allowFallbacks": false,
+      "only": [
+       "Relace"
+      ],
+      "order": [
+       "Relace"
+      ]
+     },
+     "temperature": 0
+    },
+    "sha256": "78b340e30dafa5da1ef3c7cc6eecc1d6b63d77a053e329e2a4cf14708d7590e0",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "T3-CTRL-D2-R1-g032": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R1",
+     "tasks": {
+      "ids": [
+       "PAIR-Q76",
+       "PAIR-Q252",
+       "PAIR-A28"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "attemptTimeoutMs": 300000,
+     "baseUrl": "http://127.0.0.1:8787/v1",
+     "maxOutputTokens": 4096,
+     "model": "deepseek/deepseek-v4-flash-0731",
+     "provider": "openai-compatible",
+     "providerRouting": {
+      "allowFallbacks": false,
+      "only": [
+       "Relace"
+      ],
+      "order": [
+       "Relace"
+      ]
+     },
+     "temperature": 0
+    },
+    "sha256": "20d921f35be22d699652340f5e94bc432affdb3b0caa3ed82018bcfb340c2987",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "T3-CTRL-D2-R1-g040": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R1",
+     "tasks": {
+      "ids": [
+       "PAIR-Q209",
+       "PAIR-Q146",
+       "PAIR-A114"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "attemptTimeoutMs": 300000,
+     "baseUrl": "http://127.0.0.1:8787/v1",
+     "maxOutputTokens": 4096,
+     "model": "deepseek/deepseek-v4-flash-0731",
+     "provider": "openai-compatible",
+     "providerRouting": {
+      "allowFallbacks": false,
+      "only": [
+       "Relace"
+      ],
+      "order": [
+       "Relace"
+      ]
+     },
+     "temperature": 0
+    },
+    "sha256": "4885bccb054bb91ae650d5fece178366b18abe7f5bc916a51357b59fba63896f",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "T3-CTRL-D2-R1-g060": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R1",
+     "tasks": {
+      "ids": [
+       "PAIR-Q82",
+       "PAIR-Q254",
+       "PAIR-A8"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "attemptTimeoutMs": 300000,
+     "baseUrl": "http://127.0.0.1:8787/v1",
+     "maxOutputTokens": 4096,
+     "model": "deepseek/deepseek-v4-flash-0731",
+     "provider": "openai-compatible",
+     "providerRouting": {
+      "allowFallbacks": false,
+      "only": [
+       "Relace"
+      ],
+      "order": [
+       "Relace"
+      ]
+     },
+     "temperature": 0
+    },
+    "sha256": "d87b0540cc5f18e52d8628e4fb58651c09135366be4f4c7365332815d50879c0",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "T3-CTRL-D2-R1-g072": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R1",
+     "tasks": {
+      "ids": [
+       "PAIR-Q332",
+       "PAIR-Q158",
+       "PAIR-A105"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "attemptTimeoutMs": 300000,
+     "baseUrl": "http://127.0.0.1:8787/v1",
+     "maxOutputTokens": 4096,
+     "model": "deepseek/deepseek-v4-flash-0731",
+     "provider": "openai-compatible",
+     "providerRouting": {
+      "allowFallbacks": false,
+      "only": [
+       "Relace"
+      ],
+      "order": [
+       "Relace"
+      ]
+     },
+     "temperature": 0
+    },
+    "sha256": "82584c6d5ed1f0026dcd668ea430cb28c9e0c5f5b3de1409d78f5dddeb0e1118",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "T3-CTRL-D2-R1-g076": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R1",
+     "tasks": {
+      "ids": [
+       "PAIR-Q219",
+       "PAIR-Q391",
+       "PAIR-A82"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "attemptTimeoutMs": 300000,
+     "baseUrl": "http://127.0.0.1:8787/v1",
+     "maxOutputTokens": 4096,
+     "model": "deepseek/deepseek-v4-flash-0731",
+     "provider": "openai-compatible",
+     "providerRouting": {
+      "allowFallbacks": false,
+      "only": [
+       "Relace"
+      ],
+      "order": [
+       "Relace"
+      ]
+     },
+     "temperature": 0
+    },
+    "sha256": "cd11004ceaaf0b1b287a7d85f3925bc1c4caae896bffdb70adb4452c1d3d517a",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "T3-CTRL-D2-R1-g100": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R1",
+     "tasks": {
+      "ids": [
+       "PAIR-Q7",
+       "PAIR-Q135",
+       "PAIR-A164"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "attemptTimeoutMs": 300000,
+     "baseUrl": "http://127.0.0.1:8787/v1",
+     "maxOutputTokens": 4096,
+     "model": "deepseek/deepseek-v4-flash-0731",
+     "provider": "openai-compatible",
+     "providerRouting": {
+      "allowFallbacks": false,
+      "only": [
+       "Relace"
+      ],
+      "order": [
+       "Relace"
+      ]
+     },
+     "temperature": 0
+    },
+    "sha256": "fcc595fbf61c8ab438ca40df8cdd32146ed606744aa73ed9e9094e2c0dc2fc61",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "T3-CTRL-D2-R1-g104": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R1",
+     "tasks": {
+      "ids": [
+       "PAIR-Q28",
+       "PAIR-Q156",
+       "PAIR-A1"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "attemptTimeoutMs": 300000,
+     "baseUrl": "http://127.0.0.1:8787/v1",
+     "maxOutputTokens": 4096,
+     "model": "deepseek/deepseek-v4-flash-0731",
+     "provider": "openai-compatible",
+     "providerRouting": {
+      "allowFallbacks": false,
+      "only": [
+       "Relace"
+      ],
+      "order": [
+       "Relace"
+      ]
+     },
+     "temperature": 0
+    },
+    "sha256": "ba4c9d59c0430cd419b6aefc8fa70cf5b1499e2fbc6f9e5bccac460c69b4d7de",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "T3-CTRL-D2-R1-g108": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R1",
+     "tasks": {
+      "ids": [
+       "PAIR-Q237",
+       "PAIR-Q388",
+       "PAIR-A159"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "attemptTimeoutMs": 300000,
+     "baseUrl": "http://127.0.0.1:8787/v1",
+     "maxOutputTokens": 4096,
+     "model": "deepseek/deepseek-v4-flash-0731",
+     "provider": "openai-compatible",
+     "providerRouting": {
+      "allowFallbacks": false,
+      "only": [
+       "Relace"
+      ],
+      "order": [
+       "Relace"
+      ]
+     },
+     "temperature": 0
+    },
+    "sha256": "eef10729dee4a947bc99e768131c7371d5e99cbb468c0bc3933eb190b4a2dfdc",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "T3-CTRL-D2-R1-g116": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R1",
+     "tasks": {
+      "ids": [
+       "PAIR-Q248",
+       "PAIR-Q194",
+       "PAIR-A194"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "attemptTimeoutMs": 300000,
+     "baseUrl": "http://127.0.0.1:8787/v1",
+     "maxOutputTokens": 4096,
+     "model": "deepseek/deepseek-v4-flash-0731",
+     "provider": "openai-compatible",
+     "providerRouting": {
+      "allowFallbacks": false,
+      "only": [
+       "Relace"
+      ],
+      "order": [
+       "Relace"
+      ]
+     },
+     "temperature": 0
+    },
+    "sha256": "b2d2c21c50f5e29d03d2810aeeb8ba1a7004e5a9bcce74f2961fda050a20fcc2",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "T3-CTRL-D2-R1-g136": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R1",
+     "tasks": {
+      "ids": [
+       "PAIR-Q348",
+       "PAIR-Q186",
+       "PAIR-A104"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "attemptTimeoutMs": 300000,
+     "baseUrl": "http://127.0.0.1:8787/v1",
+     "maxOutputTokens": 4096,
+     "model": "deepseek/deepseek-v4-flash-0731",
+     "provider": "openai-compatible",
+     "providerRouting": {
+      "allowFallbacks": false,
+      "only": [
+       "Relace"
+      ],
+      "order": [
+       "Relace"
+      ]
+     },
+     "temperature": 0
+    },
+    "sha256": "28d1fe7feafad541c2673d7c8de8cee0da57db6debc64b7cf9bc743b98aeda76",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "T3-CTRL-D2-R1-g140": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R1",
+     "tasks": {
+      "ids": [
+       "PAIR-Q37",
+       "PAIR-Q111",
+       "PAIR-A176"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "attemptTimeoutMs": 300000,
+     "baseUrl": "http://127.0.0.1:8787/v1",
+     "maxOutputTokens": 4096,
+     "model": "deepseek/deepseek-v4-flash-0731",
+     "provider": "openai-compatible",
+     "providerRouting": {
+      "allowFallbacks": false,
+      "only": [
+       "Relace"
+      ],
+      "order": [
+       "Relace"
+      ]
+     },
+     "temperature": 0
+    },
+    "sha256": "33141a5ae109c13b1a6d644813c02b259d368f9d12c99332bdb652162a2baf90",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "T3-CTRL-D2-R1-g144": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R1",
+     "tasks": {
+      "ids": [
+       "PAIR-Q84",
+       "PAIR-Q107",
+       "PAIR-A61"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "attemptTimeoutMs": 300000,
+     "baseUrl": "http://127.0.0.1:8787/v1",
+     "maxOutputTokens": 4096,
+     "model": "deepseek/deepseek-v4-flash-0731",
+     "provider": "openai-compatible",
+     "providerRouting": {
+      "allowFallbacks": false,
+      "only": [
+       "Relace"
+      ],
+      "order": [
+       "Relace"
+      ]
+     },
+     "temperature": 0
+    },
+    "sha256": "a52dd3fe57e74b8b8ad5309b940254be213e7f7020d57fd73960b2f037f61c48",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "T3-CTRL-D2-R1-g156": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R1",
+     "tasks": {
+      "ids": [
+       "PAIR-Q57",
+       "PAIR-Q116",
+       "PAIR-A90"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "attemptTimeoutMs": 300000,
+     "baseUrl": "http://127.0.0.1:8787/v1",
+     "maxOutputTokens": 4096,
+     "model": "deepseek/deepseek-v4-flash-0731",
+     "provider": "openai-compatible",
+     "providerRouting": {
+      "allowFallbacks": false,
+      "only": [
+       "Relace"
+      ],
+      "order": [
+       "Relace"
+      ]
+     },
+     "temperature": 0
+    },
+    "sha256": "d52a68fb3aa1673f3e4019dc8e0c15248b1649313a8d0a8207724483325e7516",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "T3-CTRL-D2-R1-g176": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R1",
+     "tasks": {
+      "ids": [
+       "PAIR-Q26",
+       "PAIR-Q149",
+       "PAIR-A167"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "attemptTimeoutMs": 300000,
+     "baseUrl": "http://127.0.0.1:8787/v1",
+     "maxOutputTokens": 4096,
+     "model": "deepseek/deepseek-v4-flash-0731",
+     "provider": "openai-compatible",
+     "providerRouting": {
+      "allowFallbacks": false,
+      "only": [
+       "Relace"
+      ],
+      "order": [
+       "Relace"
+      ]
+     },
+     "temperature": 0
+    },
+    "sha256": "b2b20dceb07d6872d18a38d877f1dec3aff4821bc6eb99b595da521d6d67b56c",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "T3-CTRL-D2-R1-g192": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R1",
+     "tasks": {
+      "ids": [
+       "PAIR-Q24",
+       "PAIR-Q126",
+       "PAIR-A191"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "attemptTimeoutMs": 300000,
+     "baseUrl": "http://127.0.0.1:8787/v1",
+     "maxOutputTokens": 4096,
+     "model": "deepseek/deepseek-v4-flash-0731",
+     "provider": "openai-compatible",
+     "providerRouting": {
+      "allowFallbacks": false,
+      "only": [
+       "Relace"
+      ],
+      "order": [
+       "Relace"
+      ]
+     },
+     "temperature": 0
+    },
+    "sha256": "12164aa03888706853b7d1e192db1ee0287c9981b3b2234f97f9efda85d43f51",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "T3-CTRL-D2-R1-g196": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R1",
+     "tasks": {
+      "ids": [
+       "PAIR-Q213",
+       "PAIR-Q294",
+       "PAIR-A122"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "attemptTimeoutMs": 300000,
+     "baseUrl": "http://127.0.0.1:8787/v1",
+     "maxOutputTokens": 4096,
+     "model": "deepseek/deepseek-v4-flash-0731",
+     "provider": "openai-compatible",
+     "providerRouting": {
+      "allowFallbacks": false,
+      "only": [
+       "Relace"
+      ],
+      "order": [
+       "Relace"
+      ]
+     },
+     "temperature": 0
+    },
+    "sha256": "ec4ed4cbb4fe07ebd5e60444151fd335ed06388451aa7234d19c5aaa284de255",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "T3-CTRL-D2-R3-g004": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R3",
+     "tasks": {
+      "ids": [
+       "PAIR-Q72",
+       "PAIR-Q258",
+       "PAIR-A100"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "attemptTimeoutMs": 300000,
+     "baseUrl": "http://127.0.0.1:8787/v1",
+     "maxOutputTokens": 4096,
+     "model": "deepseek/deepseek-v4-flash-0731",
+     "provider": "openai-compatible",
+     "providerRouting": {
+      "allowFallbacks": false,
+      "only": [
+       "Relace"
+      ],
+      "order": [
+       "Relace"
+      ]
+     },
+     "temperature": 0
+    },
+    "sha256": "d457d99b8d5025064d715bb52ea99b734e5335554a136ba7284870a48f5e1a61",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "T3-CTRL-D2-R3-g008": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R3",
+     "tasks": {
+      "ids": [
+       "PAIR-Q351",
+       "PAIR-Q384",
+       "PAIR-A50"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "attemptTimeoutMs": 300000,
+     "baseUrl": "http://127.0.0.1:8787/v1",
+     "maxOutputTokens": 4096,
+     "model": "deepseek/deepseek-v4-flash-0731",
+     "provider": "openai-compatible",
+     "providerRouting": {
+      "allowFallbacks": false,
+      "only": [
+       "Relace"
+      ],
+      "order": [
+       "Relace"
+      ]
+     },
+     "temperature": 0
+    },
+    "sha256": "198ed1061002cc344857eeba0cfc11ba42df36d1351ee003904cafe44bc1620f",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "T3-CTRL-D2-R3-g024": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R3",
+     "tasks": {
+      "ids": [
+       "PAIR-Q12",
+       "PAIR-Q366",
+       "PAIR-A15"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "attemptTimeoutMs": 300000,
+     "baseUrl": "http://127.0.0.1:8787/v1",
+     "maxOutputTokens": 4096,
+     "model": "deepseek/deepseek-v4-flash-0731",
+     "provider": "openai-compatible",
+     "providerRouting": {
+      "allowFallbacks": false,
+      "only": [
+       "Relace"
+      ],
+      "order": [
+       "Relace"
+      ]
+     },
+     "temperature": 0
+    },
+    "sha256": "98d60b52a45245f63c99d9895966a43ec92569060500b8211f52bac3a697e8f5",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "T3-CTRL-D2-R3-g028": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R3",
+     "tasks": {
+      "ids": [
+       "PAIR-Q43",
+       "PAIR-Q105",
+       "PAIR-A25"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "attemptTimeoutMs": 300000,
+     "baseUrl": "http://127.0.0.1:8787/v1",
+     "maxOutputTokens": 4096,
+     "model": "deepseek/deepseek-v4-flash-0731",
+     "provider": "openai-compatible",
+     "providerRouting": {
+      "allowFallbacks": false,
+      "only": [
+       "Relace"
+      ],
+      "order": [
+       "Relace"
+      ]
+     },
+     "temperature": 0
+    },
+    "sha256": "eb0a785302df2c1144bf9650564b5f6c195c8eef56fde1ee7344b1d0c1a4b776",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "T3-CTRL-D2-R3-g032": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R3",
+     "tasks": {
+      "ids": [
+       "PAIR-Q76",
+       "PAIR-Q252",
+       "PAIR-A28"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "attemptTimeoutMs": 300000,
+     "baseUrl": "http://127.0.0.1:8787/v1",
+     "maxOutputTokens": 4096,
+     "model": "deepseek/deepseek-v4-flash-0731",
+     "provider": "openai-compatible",
+     "providerRouting": {
+      "allowFallbacks": false,
+      "only": [
+       "Relace"
+      ],
+      "order": [
+       "Relace"
+      ]
+     },
+     "temperature": 0
+    },
+    "sha256": "045471da726c04ffc24a542c197dcb5a39f0026a69dd61b2dd9fd1fdd9c77cbe",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "T3-CTRL-D2-R3-g040": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R3",
+     "tasks": {
+      "ids": [
+       "PAIR-Q209",
+       "PAIR-Q146",
+       "PAIR-A114"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "attemptTimeoutMs": 300000,
+     "baseUrl": "http://127.0.0.1:8787/v1",
+     "maxOutputTokens": 4096,
+     "model": "deepseek/deepseek-v4-flash-0731",
+     "provider": "openai-compatible",
+     "providerRouting": {
+      "allowFallbacks": false,
+      "only": [
+       "Relace"
+      ],
+      "order": [
+       "Relace"
+      ]
+     },
+     "temperature": 0
+    },
+    "sha256": "9cbaaa7050b83263bbcb8bde5fac3562c1cb53c66dcd7301c33455731c955f77",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "T3-CTRL-D2-R3-g060": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R3",
+     "tasks": {
+      "ids": [
+       "PAIR-Q82",
+       "PAIR-Q254",
+       "PAIR-A8"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "attemptTimeoutMs": 300000,
+     "baseUrl": "http://127.0.0.1:8787/v1",
+     "maxOutputTokens": 4096,
+     "model": "deepseek/deepseek-v4-flash-0731",
+     "provider": "openai-compatible",
+     "providerRouting": {
+      "allowFallbacks": false,
+      "only": [
+       "Relace"
+      ],
+      "order": [
+       "Relace"
+      ]
+     },
+     "temperature": 0
+    },
+    "sha256": "e174271040ce7bc30287877d536ce62ede014d4afd16fa0e862b5a255d986e98",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "T3-CTRL-D2-R3-g072": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R3",
+     "tasks": {
+      "ids": [
+       "PAIR-Q332",
+       "PAIR-Q158",
+       "PAIR-A105"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "attemptTimeoutMs": 300000,
+     "baseUrl": "http://127.0.0.1:8787/v1",
+     "maxOutputTokens": 4096,
+     "model": "deepseek/deepseek-v4-flash-0731",
+     "provider": "openai-compatible",
+     "providerRouting": {
+      "allowFallbacks": false,
+      "only": [
+       "Relace"
+      ],
+      "order": [
+       "Relace"
+      ]
+     },
+     "temperature": 0
+    },
+    "sha256": "6f52ccf1576839cc1e779845676122884817a2506d79cf1468c93434f703b88a",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "T3-CTRL-D2-R3-g076": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R3",
+     "tasks": {
+      "ids": [
+       "PAIR-Q219",
+       "PAIR-Q391",
+       "PAIR-A82"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "attemptTimeoutMs": 300000,
+     "baseUrl": "http://127.0.0.1:8787/v1",
+     "maxOutputTokens": 4096,
+     "model": "deepseek/deepseek-v4-flash-0731",
+     "provider": "openai-compatible",
+     "providerRouting": {
+      "allowFallbacks": false,
+      "only": [
+       "Relace"
+      ],
+      "order": [
+       "Relace"
+      ]
+     },
+     "temperature": 0
+    },
+    "sha256": "2832de0b2a492491dd4a5a4d919595e7d11a4d8389c86188eeb72fa803dba454",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "T3-CTRL-D2-R3-g100": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R3",
+     "tasks": {
+      "ids": [
+       "PAIR-Q7",
+       "PAIR-Q135",
+       "PAIR-A164"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "attemptTimeoutMs": 300000,
+     "baseUrl": "http://127.0.0.1:8787/v1",
+     "maxOutputTokens": 4096,
+     "model": "deepseek/deepseek-v4-flash-0731",
+     "provider": "openai-compatible",
+     "providerRouting": {
+      "allowFallbacks": false,
+      "only": [
+       "Relace"
+      ],
+      "order": [
+       "Relace"
+      ]
+     },
+     "temperature": 0
+    },
+    "sha256": "b07db13af97739a1a61825cfdfe575184dfd7134470d0f581608693f682882ea",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "T3-CTRL-D2-R3-g104": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R3",
+     "tasks": {
+      "ids": [
+       "PAIR-Q28",
+       "PAIR-Q156",
+       "PAIR-A1"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "attemptTimeoutMs": 300000,
+     "baseUrl": "http://127.0.0.1:8787/v1",
+     "maxOutputTokens": 4096,
+     "model": "deepseek/deepseek-v4-flash-0731",
+     "provider": "openai-compatible",
+     "providerRouting": {
+      "allowFallbacks": false,
+      "only": [
+       "Relace"
+      ],
+      "order": [
+       "Relace"
+      ]
+     },
+     "temperature": 0
+    },
+    "sha256": "280bfffd639bb3bf1dec5d1d5a83e412546d8125caf8d0b264747a773a1f8acc",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "T3-CTRL-D2-R3-g108": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R3",
+     "tasks": {
+      "ids": [
+       "PAIR-Q237",
+       "PAIR-Q388",
+       "PAIR-A159"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "attemptTimeoutMs": 300000,
+     "baseUrl": "http://127.0.0.1:8787/v1",
+     "maxOutputTokens": 4096,
+     "model": "deepseek/deepseek-v4-flash-0731",
+     "provider": "openai-compatible",
+     "providerRouting": {
+      "allowFallbacks": false,
+      "only": [
+       "Relace"
+      ],
+      "order": [
+       "Relace"
+      ]
+     },
+     "temperature": 0
+    },
+    "sha256": "e478d0440a85093f46a2103ff7a5474f19867c38c78ef37b5ec804841b6e0d78",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "T3-CTRL-D2-R3-g116": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R3",
+     "tasks": {
+      "ids": [
+       "PAIR-Q248",
+       "PAIR-Q194",
+       "PAIR-A194"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "attemptTimeoutMs": 300000,
+     "baseUrl": "http://127.0.0.1:8787/v1",
+     "maxOutputTokens": 4096,
+     "model": "deepseek/deepseek-v4-flash-0731",
+     "provider": "openai-compatible",
+     "providerRouting": {
+      "allowFallbacks": false,
+      "only": [
+       "Relace"
+      ],
+      "order": [
+       "Relace"
+      ]
+     },
+     "temperature": 0
+    },
+    "sha256": "40f579daed3982911f4a62b201bdccb0f7945e4fdd51778c487c95aed0fc4310",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "T3-CTRL-D2-R3-g136": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R3",
+     "tasks": {
+      "ids": [
+       "PAIR-Q348",
+       "PAIR-Q186",
+       "PAIR-A104"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "attemptTimeoutMs": 300000,
+     "baseUrl": "http://127.0.0.1:8787/v1",
+     "maxOutputTokens": 4096,
+     "model": "deepseek/deepseek-v4-flash-0731",
+     "provider": "openai-compatible",
+     "providerRouting": {
+      "allowFallbacks": false,
+      "only": [
+       "Relace"
+      ],
+      "order": [
+       "Relace"
+      ]
+     },
+     "temperature": 0
+    },
+    "sha256": "47de6a21d8aa655f9ff053c7febbaa895b345b98f4313f247a1950797d9bb3ac",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "T3-CTRL-D2-R3-g140": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R3",
+     "tasks": {
+      "ids": [
+       "PAIR-Q37",
+       "PAIR-Q111",
+       "PAIR-A176"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "attemptTimeoutMs": 300000,
+     "baseUrl": "http://127.0.0.1:8787/v1",
+     "maxOutputTokens": 4096,
+     "model": "deepseek/deepseek-v4-flash-0731",
+     "provider": "openai-compatible",
+     "providerRouting": {
+      "allowFallbacks": false,
+      "only": [
+       "Relace"
+      ],
+      "order": [
+       "Relace"
+      ]
+     },
+     "temperature": 0
+    },
+    "sha256": "60613ca09206a91868037ddcb3bb67f69003ad04c869a270aa129f969426efde",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "T3-CTRL-D2-R3-g144": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R3",
+     "tasks": {
+      "ids": [
+       "PAIR-Q84",
+       "PAIR-Q107",
+       "PAIR-A61"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "attemptTimeoutMs": 300000,
+     "baseUrl": "http://127.0.0.1:8787/v1",
+     "maxOutputTokens": 4096,
+     "model": "deepseek/deepseek-v4-flash-0731",
+     "provider": "openai-compatible",
+     "providerRouting": {
+      "allowFallbacks": false,
+      "only": [
+       "Relace"
+      ],
+      "order": [
+       "Relace"
+      ]
+     },
+     "temperature": 0
+    },
+    "sha256": "580dd74a2e2503e14b078568b667a72da2e69e40c6beee5154985c4791444800",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "T3-CTRL-D2-R3-g156": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R3",
+     "tasks": {
+      "ids": [
+       "PAIR-Q57",
+       "PAIR-Q116",
+       "PAIR-A90"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "attemptTimeoutMs": 300000,
+     "baseUrl": "http://127.0.0.1:8787/v1",
+     "maxOutputTokens": 4096,
+     "model": "deepseek/deepseek-v4-flash-0731",
+     "provider": "openai-compatible",
+     "providerRouting": {
+      "allowFallbacks": false,
+      "only": [
+       "Relace"
+      ],
+      "order": [
+       "Relace"
+      ]
+     },
+     "temperature": 0
+    },
+    "sha256": "c634a045a1c51c753af9b5d5b9b6434950b755f5d19c13595bda575fce4ba3b4",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "T3-CTRL-D2-R3-g176": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R3",
+     "tasks": {
+      "ids": [
+       "PAIR-Q26",
+       "PAIR-Q149",
+       "PAIR-A167"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "attemptTimeoutMs": 300000,
+     "baseUrl": "http://127.0.0.1:8787/v1",
+     "maxOutputTokens": 4096,
+     "model": "deepseek/deepseek-v4-flash-0731",
+     "provider": "openai-compatible",
+     "providerRouting": {
+      "allowFallbacks": false,
+      "only": [
+       "Relace"
+      ],
+      "order": [
+       "Relace"
+      ]
+     },
+     "temperature": 0
+    },
+    "sha256": "5a53af63e3d2f5807497140edb3d95fe3aa47888a13060a21f9055fd0b61fe5e",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "T3-CTRL-D2-R3-g192": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R3",
+     "tasks": {
+      "ids": [
+       "PAIR-Q24",
+       "PAIR-Q126",
+       "PAIR-A191"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "attemptTimeoutMs": 300000,
+     "baseUrl": "http://127.0.0.1:8787/v1",
+     "maxOutputTokens": 4096,
+     "model": "deepseek/deepseek-v4-flash-0731",
+     "provider": "openai-compatible",
+     "providerRouting": {
+      "allowFallbacks": false,
+      "only": [
+       "Relace"
+      ],
+      "order": [
+       "Relace"
+      ]
+     },
+     "temperature": 0
+    },
+    "sha256": "034b455f31f1a5ab89bc7d13a6727abba2377152a05bc6ef9f07d8daa29459a7",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   },
+   "T3-CTRL-D2-R3-g196": {
+    "benchmark": {
+     "dataset": "pact-pair",
+     "gradingMode": "category",
+     "policy": "D2",
+     "requester": "R3",
+     "tasks": {
+      "ids": [
+       "PAIR-Q213",
+       "PAIR-Q294",
+       "PAIR-A122"
+      ],
+      "kind": "all"
+     }
+    },
+    "budget": {
+     "maxRuntimeMs": 600000
+    },
+    "model": {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "attemptTimeoutMs": 300000,
+     "baseUrl": "http://127.0.0.1:8787/v1",
+     "maxOutputTokens": 4096,
+     "model": "deepseek/deepseek-v4-flash-0731",
+     "provider": "openai-compatible",
+     "providerRouting": {
+      "allowFallbacks": false,
+      "only": [
+       "Relace"
+      ],
+      "order": [
+       "Relace"
+      ]
+     },
+     "temperature": 0
+    },
+    "sha256": "08f7a6d43cdb02d30dcb8b449bab250c5b366e04ccb8061608ad838b6fd0a8e1",
+    "workflow": {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   }
+  },
+  "told_distinct": {
+   "budget": [
+    {
+     "maxRuntimeMs": 600000
+    }
+   ],
+   "model": [
+    {
+     "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+     "attemptTimeoutMs": 300000,
+     "baseUrl": "http://127.0.0.1:8787/v1",
+     "maxOutputTokens": 4096,
+     "model": "deepseek/deepseek-v4-flash-0731",
+     "provider": "openai-compatible",
+     "providerRouting": {
+      "allowFallbacks": false,
+      "only": [
+       "Relace"
+      ],
+      "order": [
+       "Relace"
+      ]
+     },
+     "temperature": 0
+    }
+   ],
+   "workflow": [
+    {
+     "elideUnchangedReads": true,
+     "maxTicks": 22,
+     "mode": "multi",
+     "multiTurn": {
+      "finalizeTick": 19,
+      "phase2StartTick": 4
+     },
+     "pairProfile": "simple",
+     "protocol": "files",
+     "stopWhen": "all-terminal",
+     "world": {
+      "maxContextBytes": 16777216,
+      "protocol": "actor-context/v1"
+     }
+    }
+   ]
+  }
+ }
+}

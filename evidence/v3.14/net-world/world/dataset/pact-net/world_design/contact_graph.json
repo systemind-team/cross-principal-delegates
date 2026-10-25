@@ -1,0 +1,595 @@
+{
+  "version": "1.0",
+  "description": "PACT-Net contact graph — bidirectional edges unless noted. An agent can only message agents in its contacts list.",
+  "agents": [
+    "aisha_rahman",
+    "alex_chen",
+    "alicia_morgan",
+    "anita_krishnan",
+    "bea_ferreira",
+    "bryce_holloway",
+    "carlos_reyes",
+    "clara_lindqvist",
+    "dana_reeves",
+    "daniel_cho",
+    "david_chen",
+    "derek_lam",
+    "dmitri_sokolov",
+    "dr_ivy_banerjee",
+    "dr_karen_walsh",
+    "dr_maya_patel",
+    "dr_paul_mensah",
+    "elena_park",
+    "elliot_price",
+    "farida_haddad",
+    "gordon_slater",
+    "grace_okonkwo",
+    "hannah_brix",
+    "helen_vasquez",
+    "jake_ellis",
+    "jamie_lin",
+    "jordan_park",
+    "kenji_matsuda",
+    "leah_brooks",
+    "linda_chen",
+    "lisa_nakamura",
+    "lorraine_pike",
+    "marcus_webb",
+    "margaret_ilunga",
+    "maria_garcia",
+    "meghan_osei",
+    "mike_torres",
+    "monica_alvarez",
+    "naomi_adeyemi",
+    "nina_volkov",
+    "nora_fields",
+    "omar_hassan",
+    "oskar_reinhardt",
+    "patrick_nwosu",
+    "priya_sharma",
+    "rachel_kim",
+    "raj_venkatesan",
+    "rosa_delgado",
+    "ryan_park",
+    "samira_cole",
+    "sarah_martinez",
+    "sophie_chen",
+    "stephen_kowalczyk",
+    "sunil_rao",
+    "terrence_boyd",
+    "tina_rodriguez",
+    "tom_bradford",
+    "tomas_adeyemi",
+    "victor_tan",
+    "wes_arnold"
+  ],
+  "contacts": {
+    "alex_chen": [
+      "carlos_reyes",
+      "dana_reeves",
+      "david_chen",
+      "dr_karen_walsh",
+      "dr_maya_patel",
+      "dr_paul_mensah",
+      "elena_park",
+      "jake_ellis",
+      "jamie_lin",
+      "jordan_park",
+      "linda_chen",
+      "lisa_nakamura",
+      "maria_garcia",
+      "mike_torres",
+      "naomi_adeyemi",
+      "priya_sharma",
+      "ryan_park",
+      "samira_cole",
+      "sarah_martinez",
+      "sophie_chen",
+      "tina_rodriguez",
+      "tom_bradford",
+      "victor_tan"
+    ],
+    "sarah_martinez": [
+      "alex_chen",
+      "carlos_reyes",
+      "dana_reeves",
+      "elena_park",
+      "hannah_brix",
+      "marcus_webb",
+      "margaret_ilunga",
+      "monica_alvarez",
+      "nina_volkov",
+      "rachel_kim",
+      "stephen_kowalczyk",
+      "tina_rodriguez",
+      "victor_tan"
+    ],
+    "marcus_webb": [
+      "alex_chen",
+      "carlos_reyes",
+      "rachel_kim",
+      "sarah_martinez",
+      "tina_rodriguez"
+    ],
+    "mike_torres": [
+      "alex_chen",
+      "jake_ellis",
+      "lisa_nakamura",
+      "priya_sharma",
+      "samira_cole",
+      "tina_rodriguez",
+      "tom_bradford"
+    ],
+    "lisa_nakamura": [
+      "alex_chen",
+      "derek_lam",
+      "jake_ellis",
+      "mike_torres",
+      "priya_sharma",
+      "tom_bradford"
+    ],
+    "tom_bradford": [
+      "alex_chen",
+      "jake_ellis",
+      "lisa_nakamura",
+      "mike_torres",
+      "priya_sharma"
+    ],
+    "jake_ellis": [
+      "alex_chen",
+      "lisa_nakamura",
+      "mike_torres",
+      "tom_bradford"
+    ],
+    "priya_sharma": [
+      "alex_chen",
+      "anita_krishnan",
+      "clara_lindqvist",
+      "dr_maya_patel",
+      "gordon_slater",
+      "lisa_nakamura",
+      "mike_torres",
+      "monica_alvarez",
+      "nora_fields",
+      "samira_cole",
+      "tom_bradford",
+      "wes_arnold"
+    ],
+    "tina_rodriguez": [
+      "alex_chen",
+      "derek_lam",
+      "dr_maya_patel",
+      "kenji_matsuda",
+      "marcus_webb",
+      "mike_torres",
+      "nina_volkov",
+      "omar_hassan",
+      "rachel_kim",
+      "samira_cole",
+      "sarah_martinez"
+    ],
+    "derek_lam": [
+      "lisa_nakamura",
+      "patrick_nwosu",
+      "tina_rodriguez"
+    ],
+    "rachel_kim": [
+      "dmitri_sokolov",
+      "marcus_webb",
+      "maria_garcia",
+      "nina_volkov",
+      "omar_hassan",
+      "samira_cole",
+      "sarah_martinez",
+      "tina_rodriguez"
+    ],
+    "omar_hassan": [
+      "bea_ferreira",
+      "dr_maya_patel",
+      "nora_fields",
+      "rachel_kim",
+      "samira_cole",
+      "tina_rodriguez"
+    ],
+    "nina_volkov": [
+      "rachel_kim",
+      "sarah_martinez",
+      "tina_rodriguez"
+    ],
+    "carlos_reyes": [
+      "alex_chen",
+      "anita_krishnan",
+      "dana_reeves",
+      "elena_park",
+      "hannah_brix",
+      "marcus_webb",
+      "monica_alvarez",
+      "sarah_martinez"
+    ],
+    "elena_park": [
+      "alex_chen",
+      "carlos_reyes",
+      "gordon_slater",
+      "hannah_brix",
+      "helen_vasquez",
+      "margaret_ilunga",
+      "monica_alvarez",
+      "nora_fields",
+      "sarah_martinez"
+    ],
+    "dana_reeves": [
+      "alex_chen",
+      "carlos_reyes",
+      "sarah_martinez"
+    ],
+    "victor_tan": [
+      "alex_chen",
+      "sarah_martinez"
+    ],
+    "maria_garcia": [
+      "alex_chen",
+      "bryce_holloway",
+      "rachel_kim"
+    ],
+    "jordan_park": [
+      "alex_chen",
+      "jamie_lin"
+    ],
+    "jamie_lin": [
+      "alex_chen",
+      "jordan_park",
+      "linda_chen",
+      "sophie_chen",
+      "tina_rodriguez"
+    ],
+    "david_chen": [
+      "alex_chen",
+      "linda_chen",
+      "sophie_chen"
+    ],
+    "linda_chen": [
+      "alex_chen",
+      "david_chen",
+      "jamie_lin",
+      "sophie_chen"
+    ],
+    "sophie_chen": [
+      "alex_chen",
+      "david_chen",
+      "jamie_lin",
+      "linda_chen"
+    ],
+    "dr_karen_walsh": [
+      "alex_chen"
+    ],
+    "ryan_park": [
+      "alex_chen"
+    ],
+    "stephen_kowalczyk": [
+      "bea_ferreira",
+      "daniel_cho",
+      "dmitri_sokolov",
+      "elliot_price",
+      "farida_haddad",
+      "grace_okonkwo",
+      "helen_vasquez",
+      "meghan_osei",
+      "naomi_adeyemi",
+      "oskar_reinhardt",
+      "sarah_martinez",
+      "sunil_rao",
+      "terrence_boyd",
+      "wes_arnold"
+    ],
+    "bea_ferreira": [
+      "clara_lindqvist",
+      "daniel_cho",
+      "dr_ivy_banerjee",
+      "elliot_price",
+      "grace_okonkwo",
+      "kenji_matsuda",
+      "nora_fields",
+      "omar_hassan",
+      "oskar_reinhardt",
+      "patrick_nwosu",
+      "samira_cole",
+      "stephen_kowalczyk",
+      "wes_arnold"
+    ],
+    "wes_arnold": [
+      "bea_ferreira",
+      "clara_lindqvist",
+      "elliot_price",
+      "farida_haddad",
+      "gordon_slater",
+      "grace_okonkwo",
+      "nora_fields",
+      "priya_sharma",
+      "stephen_kowalczyk"
+    ],
+    "farida_haddad": [
+      "elliot_price",
+      "grace_okonkwo",
+      "helen_vasquez",
+      "meghan_osei",
+      "naomi_adeyemi",
+      "nora_fields",
+      "stephen_kowalczyk",
+      "wes_arnold"
+    ],
+    "grace_okonkwo": [
+      "alicia_morgan",
+      "bea_ferreira",
+      "farida_haddad",
+      "helen_vasquez",
+      "leah_brooks",
+      "lorraine_pike",
+      "meghan_osei",
+      "naomi_adeyemi",
+      "nora_fields",
+      "stephen_kowalczyk",
+      "sunil_rao",
+      "terrence_boyd",
+      "wes_arnold"
+    ],
+    "helen_vasquez": [
+      "alicia_morgan",
+      "dmitri_sokolov",
+      "elena_park",
+      "farida_haddad",
+      "grace_okonkwo",
+      "meghan_osei",
+      "naomi_adeyemi",
+      "nora_fields",
+      "stephen_kowalczyk"
+    ],
+    "dmitri_sokolov": [
+      "grace_okonkwo",
+      "helen_vasquez",
+      "rachel_kim",
+      "stephen_kowalczyk"
+    ],
+    "naomi_adeyemi": [
+      "aisha_rahman",
+      "alex_chen",
+      "daniel_cho",
+      "dr_ivy_banerjee",
+      "dr_maya_patel",
+      "farida_haddad",
+      "grace_okonkwo",
+      "helen_vasquez",
+      "kenji_matsuda",
+      "leah_brooks",
+      "meghan_osei",
+      "patrick_nwosu",
+      "raj_venkatesan",
+      "rosa_delgado",
+      "stephen_kowalczyk",
+      "sunil_rao",
+      "tomas_adeyemi"
+    ],
+    "kenji_matsuda": [
+      "aisha_rahman",
+      "alicia_morgan",
+      "bea_ferreira",
+      "clara_lindqvist",
+      "dr_ivy_banerjee",
+      "dr_maya_patel",
+      "elliot_price",
+      "leah_brooks",
+      "naomi_adeyemi",
+      "patrick_nwosu",
+      "raj_venkatesan",
+      "rosa_delgado",
+      "sunil_rao",
+      "tina_rodriguez"
+    ],
+    "dr_ivy_banerjee": [
+      "aisha_rahman",
+      "alicia_morgan",
+      "bea_ferreira",
+      "kenji_matsuda",
+      "leah_brooks",
+      "naomi_adeyemi",
+      "patrick_nwosu",
+      "rosa_delgado"
+    ],
+    "sunil_rao": [
+      "aisha_rahman",
+      "grace_okonkwo",
+      "kenji_matsuda",
+      "naomi_adeyemi",
+      "stephen_kowalczyk",
+      "terrence_boyd"
+    ],
+    "patrick_nwosu": [
+      "aisha_rahman",
+      "bea_ferreira",
+      "daniel_cho",
+      "derek_lam",
+      "dr_ivy_banerjee",
+      "elliot_price",
+      "kenji_matsuda",
+      "meghan_osei",
+      "naomi_adeyemi",
+      "rosa_delgado"
+    ],
+    "margaret_ilunga": [
+      "elena_park",
+      "sarah_martinez"
+    ],
+    "anita_krishnan": [
+      "carlos_reyes",
+      "priya_sharma"
+    ],
+    "gordon_slater": [
+      "elena_park",
+      "priya_sharma",
+      "wes_arnold"
+    ],
+    "hannah_brix": [
+      "carlos_reyes",
+      "elena_park",
+      "monica_alvarez",
+      "sarah_martinez"
+    ],
+    "terrence_boyd": [
+      "grace_okonkwo",
+      "lorraine_pike",
+      "stephen_kowalczyk",
+      "sunil_rao"
+    ],
+    "rosa_delgado": [
+      "aisha_rahman",
+      "daniel_cho",
+      "dr_ivy_banerjee",
+      "kenji_matsuda",
+      "leah_brooks",
+      "naomi_adeyemi",
+      "patrick_nwosu"
+    ],
+    "clara_lindqvist": [
+      "alicia_morgan",
+      "bea_ferreira",
+      "elliot_price",
+      "kenji_matsuda",
+      "priya_sharma",
+      "raj_venkatesan",
+      "wes_arnold"
+    ],
+    "bryce_holloway": [
+      "lisa_nakamura",
+      "maria_garcia"
+    ],
+    "dr_paul_mensah": [
+      "alex_chen",
+      "jamie_lin"
+    ],
+    "oskar_reinhardt": [
+      "bea_ferreira",
+      "elliot_price",
+      "stephen_kowalczyk",
+      "wes_arnold"
+    ],
+    "raj_venkatesan": [
+      "clara_lindqvist",
+      "kenji_matsuda",
+      "naomi_adeyemi"
+    ],
+    "lorraine_pike": [
+      "grace_okonkwo",
+      "terrence_boyd"
+    ],
+    "tomas_adeyemi": [
+      "naomi_adeyemi"
+    ],
+    "dr_maya_patel": [
+      "aisha_rahman",
+      "alex_chen",
+      "kenji_matsuda",
+      "leah_brooks",
+      "naomi_adeyemi",
+      "omar_hassan",
+      "priya_sharma",
+      "samira_cole",
+      "tina_rodriguez"
+    ],
+    "leah_brooks": [
+      "aisha_rahman",
+      "dr_ivy_banerjee",
+      "dr_maya_patel",
+      "grace_okonkwo",
+      "kenji_matsuda",
+      "naomi_adeyemi",
+      "rosa_delgado"
+    ],
+    "nora_fields": [
+      "alicia_morgan",
+      "bea_ferreira",
+      "elena_park",
+      "elliot_price",
+      "farida_haddad",
+      "grace_okonkwo",
+      "helen_vasquez",
+      "meghan_osei",
+      "omar_hassan",
+      "priya_sharma",
+      "wes_arnold"
+    ],
+    "alicia_morgan": [
+      "aisha_rahman",
+      "clara_lindqvist",
+      "dr_ivy_banerjee",
+      "grace_okonkwo",
+      "helen_vasquez",
+      "kenji_matsuda",
+      "nora_fields"
+    ],
+    "aisha_rahman": [
+      "alicia_morgan",
+      "daniel_cho",
+      "dr_ivy_banerjee",
+      "dr_maya_patel",
+      "kenji_matsuda",
+      "leah_brooks",
+      "naomi_adeyemi",
+      "patrick_nwosu",
+      "rosa_delgado",
+      "sunil_rao"
+    ],
+    "daniel_cho": [
+      "aisha_rahman",
+      "bea_ferreira",
+      "meghan_osei",
+      "naomi_adeyemi",
+      "patrick_nwosu",
+      "rosa_delgado",
+      "samira_cole",
+      "stephen_kowalczyk"
+    ],
+    "meghan_osei": [
+      "daniel_cho",
+      "farida_haddad",
+      "grace_okonkwo",
+      "helen_vasquez",
+      "naomi_adeyemi",
+      "nora_fields",
+      "patrick_nwosu",
+      "stephen_kowalczyk"
+    ],
+    "samira_cole": [
+      "alex_chen",
+      "bea_ferreira",
+      "daniel_cho",
+      "dr_maya_patel",
+      "mike_torres",
+      "omar_hassan",
+      "priya_sharma",
+      "rachel_kim",
+      "tina_rodriguez"
+    ],
+    "elliot_price": [
+      "bea_ferreira",
+      "clara_lindqvist",
+      "farida_haddad",
+      "kenji_matsuda",
+      "nora_fields",
+      "oskar_reinhardt",
+      "patrick_nwosu",
+      "stephen_kowalczyk",
+      "wes_arnold"
+    ],
+    "monica_alvarez": [
+      "carlos_reyes",
+      "elena_park",
+      "hannah_brix",
+      "priya_sharma",
+      "sarah_martinez"
+    ]
+  },
+  "graph_stats": {
+    "total_agents": 60,
+    "total_edges": 402,
+    "avg_contacts": 6.7
+  }
+}

@@ -1,0 +1,36 @@
+{
+ "files": {
+  "A/INSTRUCTIONS.md": "ad2574782e3c7e90772688d7ca2a7700f080c0f5981e20c310514d00a305361b",
+  "A/answers/metadata-part1.csv": "71ac44ebfd31e3a94ad806c51a783d873ed5cbde1c82204d127af228229ce68e",
+  "A/answers/metadata-part2.csv": "ada056be4fdc3b10d62f42dbf80cc165e6838577d29cd290eda221c86afbe7ba",
+  "A/answers/metadata-part3.csv": "efdf26cf1141c9a96fbcb417ae3abbd647d36b076c00758fd5e6d9d907eba837",
+  "A/answers/metadata-part4.csv": "bd6061754505ed443b44e9206cc92efc6e95aa79f4d36c00b2c559900c20cd2e",
+  "A/answers/metadata-part5.csv": "50c5a649f7509a28e129cf9182c04ad5dd244f3e68965c2090949c0cb259b24c",
+  "A/answers/metadata-part6.csv": "cd6a04377c1a26f080fdfdb2c22d240390cf87b349858b8dc1a8738b6733e94b",
+  "A/metadata-part1.md": "006ff499eab9093d4e2458bd47c9275c5211b687dcac2799d173defb7abd19af",
+  "A/metadata-part2.md": "793ee5bf408e9b947319f141cdd29ecdb6c295e17e5b359f09a15b550a514066",
+  "A/metadata-part3.md": "a61a24c01219e0852f0768d9d82d4e5581092cb45aaee640bcc0d56cbf5c92e4",
+  "A/metadata-part4.md": "df45f75c787b528edff64b021fb421b72b2a96be3291093f03498cd3b06d3d3f",
+  "A/metadata-part5.md": "4d84828432d23a0b50ff60f84e59a5f686cbf80eda67167d889be352b2ec5396",
+  "A/metadata-part6.md": "f8fbb3cce01ae970f4ed0f5abfddb7bad211840b244fba68add7cd9859cd7348",
+  "B/INSTRUCTIONS.md": "ad2574782e3c7e90772688d7ca2a7700f080c0f5981e20c310514d00a305361b",
+  "B/answers/metadata-part1.csv": "51498db34881c4dc50eee8dd25bfa8978c65d4303d47c30204c02a73536dca59",
+  "B/answers/metadata-part2.csv": "3bf8904988d3fa6cea9e1537245da15f5f2cf0a9b73c182f08b7ba22df6063d9",
+  "B/answers/metadata-part3.csv": "33c26dbc964314708d3207ea1d0bd374819ee235e79cd38afa98a8f88dff7390",
+  "B/answers/metadata-part4.csv": "8b976c778c2055d085787c69e3e3e351a28ea3152fd21f490b9fb5eea0d2b565",
+  "B/answers/metadata-part5.csv": "9b7ad27a67b5f1f07846e30f139daf049a34d65d67784b052bc3a18d763219b6",
+  "B/answers/metadata-part6.csv": "4dbad3159acfab13a9bcc23ad815c9a9fd035ea8ad90c035f2844738368fbdf6",
+  "B/metadata-part1.md": "304daa4975a893b41aab3cee4b6679fa947144e2042ce131f3cd27fad2f7b7da",
+  "B/metadata-part2.md": "f6d37685aa4f1fabba86872ad262804d4cbcb60918d65ecb8dc99b3dc163130f",
+  "B/metadata-part3.md": "00255fd906ff11509a3dce7ce3440b633f7a378d4e9a08790378d172621e682a",
+  "B/metadata-part4.md": "7a9a9cf7167ae8db4eb668f4bee7e31f48a1cf7ec3bcfdd5c82d7e0e742e28c2",
+  "B/metadata-part5.md": "931dc83efef357e417ba6baa111dc4fddfeea32deb58d893e16e70c06689c944",
+  "B/metadata-part6.md": "e0cc7078678117659ff16647b2c362e3453ef6565dfdb307758c2fe83e0bcfdf"
+ },
+ "key": {
+  "lines": 351,
+  "path": "key/key-metadata.json",
+  "planted": 20,
+  "sha256": "a79b9dc6ba21fc24ec41bf187cf37f84fd825843a5f4d924bbbeb3c97de02f63"
+ }
+}

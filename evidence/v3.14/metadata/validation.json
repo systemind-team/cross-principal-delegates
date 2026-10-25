@@ -1,0 +1,207 @@
+{
+ "answers": {
+  "A": {
+   "metadata-part1.csv": {
+    "NO": 23,
+    "YES": 37,
+    "bom": false,
+    "decisions_normalized": 0,
+    "empty_reason": 0,
+    "rows": 60,
+    "same_order_as_packet": true,
+    "sha256": "82e8f0d4a43cbbdaa1f9f3ee322da14c364fc8ee951d8b6d82a82d99980cbc5e",
+    "unclear_NO": 3,
+    "unclear_YES": 0
+   },
+   "metadata-part2.csv": {
+    "NO": 21,
+    "YES": 39,
+    "bom": false,
+    "decisions_normalized": 0,
+    "empty_reason": 0,
+    "rows": 60,
+    "same_order_as_packet": true,
+    "sha256": "68dcc390509d03eed1d74f2d5aba66fd3da4ad7441652071073e47fc7f8879e2",
+    "unclear_NO": 1,
+    "unclear_YES": 0
+   },
+   "metadata-part3.csv": {
+    "NO": 15,
+    "YES": 45,
+    "bom": false,
+    "decisions_normalized": 0,
+    "empty_reason": 0,
+    "rows": 60,
+    "same_order_as_packet": true,
+    "sha256": "3aac6ca757f64a5a4d781a8209f96ce0c3eaec1085a43e95e583ee29bd10c427",
+    "unclear_NO": 0,
+    "unclear_YES": 0
+   },
+   "metadata-part4.csv": {
+    "NO": 21,
+    "YES": 39,
+    "bom": false,
+    "decisions_normalized": 0,
+    "empty_reason": 0,
+    "rows": 60,
+    "same_order_as_packet": true,
+    "sha256": "86d06745ba72cd468da9fbf0f1c7eaed33d7e3f0391a0938deaf8929524794cc",
+    "unclear_NO": 1,
+    "unclear_YES": 0
+   },
+   "metadata-part5.csv": {
+    "NO": 24,
+    "YES": 36,
+    "bom": false,
+    "decisions_normalized": 0,
+    "empty_reason": 0,
+    "rows": 60,
+    "same_order_as_packet": true,
+    "sha256": "a034a3f7f089fd97dec3c89271f9abe2efc59fc36ebc2c416e95bfbcf8551da2",
+    "unclear_NO": 2,
+    "unclear_YES": 0
+   },
+   "metadata-part6.csv": {
+    "NO": 16,
+    "YES": 35,
+    "bom": false,
+    "decisions_normalized": 0,
+    "empty_reason": 0,
+    "rows": 51,
+    "same_order_as_packet": true,
+    "sha256": "e66fd44c2a6c22ab7f99a3de3cb511c094fd58c75b1101952f17d0de29f25096",
+    "unclear_NO": 2,
+    "unclear_YES": 0
+   },
+   "total": {
+    "NO": 120,
+    "YES": 231,
+    "decisions_normalized": 0,
+    "empty_reason": 0,
+    "rows": 351,
+    "unclear_NO": 9,
+    "unclear_YES": 0
+   }
+  },
+  "B": {
+   "metadata-part1.csv": {
+    "NO": 19,
+    "YES": 41,
+    "bom": false,
+    "decisions_normalized": 0,
+    "empty_reason": 0,
+    "rows": 60,
+    "same_order_as_packet": true,
+    "sha256": "826eef1c8fd0234d709f8a8532e89bea51fcaaffa0b06aea383e62b5342a33f8",
+    "unclear_NO": 3,
+    "unclear_YES": 0
+   },
+   "metadata-part2.csv": {
+    "NO": 22,
+    "YES": 38,
+    "bom": false,
+    "decisions_normalized": 0,
+    "empty_reason": 0,
+    "rows": 60,
+    "same_order_as_packet": true,
+    "sha256": "80e85549cc0776b2397993e732e02bbd02da718cdf10bc98229e6d8c6d2271a5",
+    "unclear_NO": 1,
+    "unclear_YES": 0
+   },
+   "metadata-part3.csv": {
+    "NO": 17,
+    "YES": 43,
+    "bom": false,
+    "decisions_normalized": 0,
+    "empty_reason": 0,
+    "rows": 60,
+    "same_order_as_packet": true,
+    "sha256": "146446d18e8b9b9de1b1ea98ba697895450225596f2b9b1398c7c8761c93bc41",
+    "unclear_NO": 0,
+    "unclear_YES": 0
+   },
+   "metadata-part4.csv": {
+    "NO": 27,
+    "YES": 33,
+    "bom": false,
+    "decisions_normalized": 0,
+    "empty_reason": 0,
+    "rows": 60,
+    "same_order_as_packet": true,
+    "sha256": "ba12538efe457dd0633ffe88d6888337990a511a0f4912514cdf32f34c6327e9",
+    "unclear_NO": 2,
+    "unclear_YES": 0
+   },
+   "metadata-part5.csv": {
+    "NO": 21,
+    "YES": 39,
+    "bom": false,
+    "decisions_normalized": 0,
+    "empty_reason": 0,
+    "rows": 60,
+    "same_order_as_packet": true,
+    "sha256": "e429fdb10787f97b48197f790b57b2558a273be0c5d55f33831d83e179ea9710",
+    "unclear_NO": 3,
+    "unclear_YES": 0
+   },
+   "metadata-part6.csv": {
+    "NO": 19,
+    "YES": 32,
+    "bom": false,
+    "decisions_normalized": 0,
+    "empty_reason": 0,
+    "rows": 51,
+    "same_order_as_packet": true,
+    "sha256": "76c1d242e84b6c1ded0f164654d914d75c03931dc0f858ea63aa20a8557bd85c",
+    "unclear_NO": 2,
+    "unclear_YES": 0
+   },
+   "total": {
+    "NO": 125,
+    "YES": 226,
+    "decisions_normalized": 0,
+    "empty_reason": 0,
+    "rows": 351,
+    "unclear_NO": 11,
+    "unclear_YES": 0
+   }
+  }
+ },
+ "coders": {
+  "A": "claude-sonnet-5-5",
+  "B": "claude-fable-5-1"
+ },
+ "key_sha256": "a79b9dc6ba21fc24ec41bf187cf37f84fd825843a5f4d924bbbeb3c97de02f63",
+ "released_packets": {
+  "A/INSTRUCTIONS.md": "ad2574782e3c7e90772688d7ca2a7700f080c0f5981e20c310514d00a305361b",
+  "A/metadata-part1.md": "006ff499eab9093d4e2458bd47c9275c5211b687dcac2799d173defb7abd19af",
+  "A/metadata-part2.md": "793ee5bf408e9b947319f141cdd29ecdb6c295e17e5b359f09a15b550a514066",
+  "A/metadata-part3.md": "a61a24c01219e0852f0768d9d82d4e5581092cb45aaee640bcc0d56cbf5c92e4",
+  "A/metadata-part4.md": "df45f75c787b528edff64b021fb421b72b2a96be3291093f03498cd3b06d3d3f",
+  "A/metadata-part5.md": "4d84828432d23a0b50ff60f84e59a5f686cbf80eda67167d889be352b2ec5396",
+  "A/metadata-part6.md": "f8fbb3cce01ae970f4ed0f5abfddb7bad211840b244fba68add7cd9859cd7348",
+  "B/INSTRUCTIONS.md": "ad2574782e3c7e90772688d7ca2a7700f080c0f5981e20c310514d00a305361b",
+  "B/metadata-part1.md": "304daa4975a893b41aab3cee4b6679fa947144e2042ce131f3cd27fad2f7b7da",
+  "B/metadata-part2.md": "f6d37685aa4f1fabba86872ad262804d4cbcb60918d65ecb8dc99b3dc163130f",
+  "B/metadata-part3.md": "00255fd906ff11509a3dce7ce3440b633f7a378d4e9a08790378d172621e682a",
+  "B/metadata-part4.md": "7a9a9cf7167ae8db4eb668f4bee7e31f48a1cf7ec3bcfdd5c82d7e0e742e28c2",
+  "B/metadata-part5.md": "931dc83efef357e417ba6baa111dc4fddfeea32deb58d893e16e70c06689c944",
+  "B/metadata-part6.md": "e0cc7078678117659ff16647b2c362e3453ef6565dfdb307758c2fe83e0bcfdf"
+ },
+ "sessions": {
+  "A": [
+   "A1m",
+   "A2m"
+  ],
+  "B": [
+   "B1m",
+   "B2m"
+  ]
+ },
+ "transcripts": {
+  "coder-A-sonnet55-session1.jsonl": "65503a6c61a1dfa874158a225b507553177b6f5fd5752ff8fc9e50d410d9fee8",
+  "coder-A-sonnet55-session2.jsonl": "05a3be70c26e152fc8d105b42511472568fc9e58c494d2fcd22ce6773e0cb3f7",
+  "coder-B-fable51-session1.jsonl": "2c959197e8f8722a5183caa7d6c7bb9593a4e7e36828badb627137787d3dd557",
+  "coder-B-fable51-session2.jsonl": "acfc030a118eaf8e3b38face66dfbd3ccabcd0500dc50b534e86874c3b6b3389"
+ }
+}

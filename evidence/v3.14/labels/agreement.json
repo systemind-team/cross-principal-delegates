@@ -1,0 +1,554 @@
+{
+ "input": "evidence/v3.14/labels/annotation_passes.csv",
+ "passes": [
+  "A1",
+  "A2",
+  "A3",
+  "A4",
+  "E"
+ ],
+ "primary": {
+  "requesters": [
+   "R0",
+   "R1",
+   "R2",
+   "R3"
+  ],
+  "why": "the four requesters the experiments use; R4 enters no experiment",
+  "qa": {
+   "cells": 1204,
+   "raters": 5,
+   "kappa": 0.7079166139981945,
+   "ac1": 0.7352590308100303,
+   "raw": 0.8611295681063122,
+   "prevalence_protect": 0.610797342192691,
+   "ratings": 6020,
+   "ratings_protect": 3677,
+   "unanimous": 846
+  },
+  "action": {
+   "cells": 400,
+   "raters": 5,
+   "kappa": 0.7388310459816608,
+   "ac1": 0.767503622123448,
+   "raw": 0.877,
+   "prevalence_protect": 0.6205,
+   "ratings": 2000,
+   "ratings_protect": 1241,
+   "unanimous": 289
+  },
+  "combined": {
+   "cells": 1604,
+   "raters": 5,
+   "kappa": 0.7155923227323986,
+   "ac1": 0.7433344036557228,
+   "raw": 0.8650872817955112,
+   "prevalence_protect": 0.613216957605985,
+   "ratings": 8020,
+   "ratings_protect": 4918,
+   "unanimous": 1135
+  },
+  "combined-4cat": {
+   "cells": 1604,
+   "raters": 5,
+   "kappa": 0.7991020103134073,
+   "ac1": 0.8261771256059581,
+   "raw": 0.8650872817955112,
+   "prevalence_protect": 0.613216957605985,
+   "ratings": 8020,
+   "ratings_protect": 4918,
+   "unanimous": 1135
+  }
+ },
+ "secondary_all_personas": {
+  "requesters": [
+   "R0",
+   "R1",
+   "R2",
+   "R3",
+   "R4"
+  ],
+  "qa": {
+   "cells": 1505,
+   "raters": 5,
+   "kappa": 0.5871044563360523,
+   "ac1": 0.6363505774565672,
+   "raw": 0.8066445182724252,
+   "prevalence_protect": 0.6259136212624584,
+   "ratings": 7525,
+   "ratings_protect": 4710,
+   "unanimous": 936
+  },
+  "action": {
+   "cells": 500,
+   "raters": 5,
+   "kappa": 0.7638620531231038,
+   "ac1": 0.8265450946675246,
+   "raw": 0.9,
+   "prevalence_protect": 0.6956,
+   "ratings": 2500,
+   "ratings_protect": 1739,
+   "unanimous": 387
+  },
+  "combined": {
+   "cells": 2005,
+   "raters": 5,
+   "kappa": 0.6294141080437352,
+   "ac1": 0.6856666146290946,
+   "raw": 0.8299251870324189,
+   "prevalence_protect": 0.6432917705735661,
+   "ratings": 10025,
+   "ratings_protect": 6449,
+   "unanimous": 1323
+  },
+  "combined-4cat": {
+   "cells": 2005,
+   "raters": 5,
+   "kappa": 0.7440804600058889,
+   "ac1": 0.7815292933065516,
+   "raw": 0.8299251870324189,
+   "prevalence_protect": 0.6432917705735661,
+   "ratings": 10025,
+   "ratings_protect": 6449,
+   "unanimous": 1323
+  }
+ },
+ "by_requester": {
+  "R0": {
+   "qa": {
+    "cells": 301,
+    "raters": 5,
+    "kappa": 0.11796422627001445,
+    "ac1": 0.9281416083006231,
+    "raw": 0.9335548172757475,
+    "prevalence_protect": 0.9607973421926911,
+    "ratings": 1505,
+    "ratings_protect": 1446,
+    "unanimous": 259
+   },
+   "action": {
+    "cells": 100,
+    "raters": 5,
+    "kappa": null,
+    "ac1": 1.0,
+    "raw": 1.0,
+    "prevalence_protect": 1.0,
+    "ratings": 500,
+    "ratings_protect": 500,
+    "unanimous": 100
+   }
+  },
+  "R1": {
+   "qa": {
+    "cells": 301,
+    "raters": 5,
+    "kappa": 0.6407212323881547,
+    "ac1": 0.6933289251761694,
+    "raw": 0.8345514950166113,
+    "prevalence_protect": 0.359468438538206,
+    "ratings": 1505,
+    "ratings_protect": 541,
+    "unanimous": 188
+   },
+   "action": {
+    "cells": 100,
+    "raters": 5,
+    "kappa": 0.18235658092460003,
+    "ac1": 0.6952592218403049,
+    "raw": 0.778,
+    "prevalence_protect": 0.162,
+    "ratings": 500,
+    "ratings_protect": 81,
+    "unanimous": 49
+   }
+  },
+  "R2": {
+   "qa": {
+    "cells": 301,
+    "raters": 5,
+    "kappa": 0.6960888172779676,
+    "ac1": 0.7820945395334806,
+    "raw": 0.8730897009966778,
+    "prevalence_protect": 0.29700996677740865,
+    "ratings": 1505,
+    "ratings_protect": 447,
+    "unanimous": 215
+   },
+   "action": {
+    "cells": 100,
+    "raters": 5,
+    "kappa": 0.379595588235294,
+    "ac1": 0.5219546742209632,
+    "raw": 0.73,
+    "prevalence_protect": 0.32,
+    "ratings": 500,
+    "ratings_protect": 160,
+    "unanimous": 40
+   }
+  },
+  "R3": {
+   "qa": {
+    "cells": 301,
+    "raters": 5,
+    "kappa": 0.3160477298827636,
+    "ac1": 0.7239375767261803,
+    "raw": 0.8033222591362127,
+    "prevalence_protect": 0.8259136212624585,
+    "ratings": 1505,
+    "ratings_protect": 1243,
+    "unanimous": 184
+   },
+   "action": {
+    "cells": 100,
+    "raters": 5,
+    "kappa": null,
+    "ac1": 1.0,
+    "raw": 1.0,
+    "prevalence_protect": 1.0,
+    "ratings": 500,
+    "ratings_protect": 500,
+    "unanimous": 100
+   }
+  },
+  "R4": {
+   "qa": {
+    "cells": 301,
+    "raters": 5,
+    "kappa": 0.04466688270136361,
+    "ac1": 0.2777622293047456,
+    "raw": 0.5887043189368771,
+    "prevalence_protect": 0.6863787375415282,
+    "ratings": 1505,
+    "ratings_protect": 1033,
+    "unanimous": 90
+   },
+   "action": {
+    "cells": 100,
+    "raters": 5,
+    "kappa": -0.004016064257032142,
+    "ac1": 0.9919357440082578,
+    "raw": 0.992,
+    "prevalence_protect": 0.996,
+    "ratings": 500,
+    "ratings_protect": 498,
+    "unanimous": 98
+   }
+  }
+ },
+ "by_category": {
+  "R0-R3/qa/personal_finance": {
+   "cells": 96,
+   "raters": 5,
+   "kappa": 0.11175979983319442,
+   "ac1": 0.8225295784035993,
+   "raw": 0.8520833333333333,
+   "prevalence_protect": 0.9083333333333333,
+   "ratings": 480,
+   "ratings_protect": 436,
+   "unanimous": 68
+  },
+  "R0-R3/qa/personal_health": {
+   "cells": 80,
+   "raters": 5,
+   "kappa": 0.4512648809523814,
+   "ac1": 0.7982768052516411,
+   "raw": 0.8525,
+   "prevalence_protect": 0.84,
+   "ratings": 400,
+   "ratings_protect": 336,
+   "unanimous": 57
+  },
+  "R0-R3/qa/personal_relationships": {
+   "cells": 104,
+   "raters": 5,
+   "kappa": 0.5729815688625879,
+   "ac1": 0.8308567652130814,
+   "raw": 0.8788461538461539,
+   "prevalence_protect": 0.8288461538461539,
+   "ratings": 520,
+   "ratings_protect": 431,
+   "unanimous": 78
+  },
+  "R0-R3/qa/sensitive_work": {
+   "cells": 124,
+   "raters": 5,
+   "kappa": 0.3218048046374226,
+   "ac1": 0.5958849513434521,
+   "raw": 0.746774193548387,
+   "prevalence_protect": 0.7516129032258064,
+   "ratings": 620,
+   "ratings_protect": 466,
+   "unanimous": 62
+  },
+  "R0-R3/qa/work_public": {
+   "cells": 800,
+   "raters": 5,
+   "kappa": 0.7569961119377909,
+   "ac1": 0.7570038879377929,
+   "raw": 0.8785,
+   "prevalence_protect": 0.502,
+   "ratings": 4000,
+   "ratings_protect": 2008,
+   "unanimous": 581
+  },
+  "R0-R3/action/authorized_complete": {
+   "cells": 32,
+   "raters": 5,
+   "kappa": 0.6777982883034066,
+   "ac1": 0.7193392778833503,
+   "raw": 0.85,
+   "prevalence_protect": 0.63125,
+   "ratings": 160,
+   "ratings_protect": 101,
+   "unanimous": 22
+  },
+  "R0-R3/action/authorized_create": {
+   "cells": 188,
+   "raters": 5,
+   "kappa": 0.7771551724137931,
+   "ac1": 0.8003004291845494,
+   "raw": 0.8946808510638298,
+   "prevalence_protect": 0.6170212765957447,
+   "ratings": 940,
+   "ratings_protect": 580,
+   "unanimous": 142
+  },
+  "R0-R3/action/authorized_edit": {
+   "cells": 180,
+   "raters": 5,
+   "kappa": 0.7092962184873951,
+   "ac1": 0.7420782851817336,
+   "raw": 0.8633333333333334,
+   "prevalence_protect": 0.6222222222222222,
+   "ratings": 900,
+   "ratings_protect": 560,
+   "unanimous": 125
+  },
+  "R0-R4/qa/personal_finance": {
+   "cells": 120,
+   "raters": 5,
+   "kappa": 0.12933289731850822,
+   "ac1": 0.863054212529575,
+   "raw": 0.8816666666666666,
+   "prevalence_protect": 0.9266666666666666,
+   "ratings": 600,
+   "ratings_protect": 556,
+   "unanimous": 92
+  },
+  "R0-R4/qa/personal_health": {
+   "cells": 100,
+   "raters": 5,
+   "kappa": 0.46065428824049504,
+   "ac1": 0.8423365210648746,
+   "raw": 0.878,
+   "prevalence_protect": 0.87,
+   "ratings": 500,
+   "ratings_protect": 435,
+   "unanimous": 76
+  },
+  "R0-R4/qa/personal_relationships": {
+   "cells": 130,
+   "raters": 5,
+   "kappa": 0.5899176831100164,
+   "ac1": 0.873079140347506,
+   "raw": 0.9030769230769231,
+   "prevalence_protect": 0.8630769230769231,
+   "ratings": 650,
+   "ratings_protect": 561,
+   "unanimous": 104
+  },
+  "R0-R4/qa/sensitive_work": {
+   "cells": 155,
+   "raters": 5,
+   "kappa": 0.31221561936141845,
+   "ac1": 0.6463711923927266,
+   "raw": 0.7664516129032258,
+   "prevalence_protect": 0.7832258064516129,
+   "ratings": 775,
+   "ratings_protect": 607,
+   "unanimous": 83
+  },
+  "R0-R4/qa/work_public": {
+   "cells": 1000,
+   "raters": 5,
+   "kappa": 0.5682203105644444,
+   "ac1": 0.5685795399386592,
+   "raw": 0.7842,
+   "prevalence_protect": 0.5102,
+   "ratings": 5000,
+   "ratings_protect": 2551,
+   "unanimous": 581
+  },
+  "R0-R4/action/authorized_complete": {
+   "cells": 40,
+   "raters": 5,
+   "kappa": 0.7115037865128023,
+   "ac1": 0.7945381388579746,
+   "raw": 0.8800000000000001,
+   "prevalence_protect": 0.705,
+   "ratings": 200,
+   "ratings_protect": 141,
+   "unanimous": 30
+  },
+  "R0-R4/action/authorized_create": {
+   "cells": 235,
+   "raters": 5,
+   "kappa": 0.7943891731734999,
+   "ac1": 0.8471931647586595,
+   "raw": 0.912340425531915,
+   "prevalence_protect": 0.6919148936170213,
+   "ratings": 1175,
+   "ratings_protect": 813,
+   "unanimous": 187
+  },
+  "R0-R4/action/authorized_edit": {
+   "cells": 225,
+   "raters": 5,
+   "kappa": 0.7407736980142376,
+   "ac1": 0.8109179107026954,
+   "raw": 0.8906666666666667,
+   "prevalence_protect": 0.6977777777777778,
+   "ratings": 1125,
+   "ratings_protect": 785,
+   "unanimous": 170
+  }
+ },
+ "without_E": {
+  "R0-R3": {
+   "qa": {
+    "cells": 1204,
+    "raters": 4,
+    "kappa": 0.6742652518615896,
+    "ac1": 0.7096394462617764,
+    "raw": 0.8464839424141749,
+    "prevalence_protect": 0.6198089700996677,
+    "ratings": 4816,
+    "ratings_protect": 2985,
+    "unanimous": 858
+   },
+   "action": {
+    "cells": 400,
+    "raters": 4,
+    "kappa": 0.6925675207995904,
+    "ac1": 0.7270503791649767,
+    "raw": 0.8554166666666667,
+    "prevalence_protect": 0.621875,
+    "ratings": 1600,
+    "ratings_protect": 995,
+    "unanimous": 291
+   },
+   "combined": {
+    "cells": 1604,
+    "raters": 4,
+    "kappa": 0.6788232349486898,
+    "ac1": 0.7139866138195192,
+    "raw": 0.8487115544472152,
+    "prevalence_protect": 0.6203241895261845,
+    "ratings": 6416,
+    "ratings_protect": 3980,
+    "unanimous": 1149
+   },
+   "combined-4cat": {
+    "cells": 1604,
+    "raters": 4,
+    "kappa": 0.7739146302711103,
+    "ac1": 0.805277781680316,
+    "raw": 0.8487115544472152,
+    "prevalence_protect": 0.6203241895261845,
+    "ratings": 6416,
+    "ratings_protect": 3980,
+    "unanimous": 1149
+   }
+  },
+  "R0-R4": {
+   "qa": {
+    "cells": 1505,
+    "raters": 4,
+    "kappa": 0.5679624145059923,
+    "ac1": 0.6412017347741567,
+    "raw": 0.8039867109634552,
+    "prevalence_protect": 0.6521594684385382,
+    "ratings": 6020,
+    "ratings_protect": 3926,
+    "unanimous": 954
+   },
+   "action": {
+    "cells": 500,
+    "raters": 4,
+    "kappa": 0.7216804978844171,
+    "ac1": 0.7961509487787394,
+    "raw": 0.8823333333333334,
+    "prevalence_protect": 0.6965,
+    "ratings": 2000,
+    "ratings_protect": 1393,
+    "unanimous": 389
+   },
+   "combined": {
+    "cells": 2005,
+    "raters": 4,
+    "kappa": 0.6049532136498738,
+    "ac1": 0.6810374108131093,
+    "raw": 0.8235245220282628,
+    "prevalence_protect": 0.6632169576059851,
+    "ratings": 8020,
+    "ratings_protect": 5319,
+    "unanimous": 1343
+   },
+   "combined-4cat": {
+    "cells": 2005,
+    "raters": 4,
+    "kappa": 0.7311036353013518,
+    "ac1": 0.7741070014788256,
+    "raw": 0.8235245220282628,
+    "prevalence_protect": 0.663216957605985,
+    "ratings": 8020,
+    "ratings_protect": 5319,
+    "unanimous": 1343
+   }
+  }
+ },
+ "reference_figures_reproduced": {
+  "R0-R3 qa": {
+   "kappa": 0.708,
+   "ac1": 0.735,
+   "raw": 0.861
+  },
+  "R0-R3 action": {
+   "kappa": 0.739,
+   "ac1": 0.768,
+   "raw": 0.877
+  },
+  "R0-R3 combined-4cat": {
+   "kappa": 0.799,
+   "ac1": 0.826,
+   "raw": 0.865
+  },
+  "R0-R4 qa": {
+   "kappa": 0.587
+  },
+  "R0-R4 action": {
+   "kappa": 0.764
+  },
+  "R4 qa": {
+   "kappa": 0.045,
+   "raw": 0.589
+  },
+  "R0 qa": {
+   "kappa": 0.118,
+   "ac1": 0.928
+  },
+  "R1 qa": {
+   "kappa": 0.641,
+   "ac1": 0.693
+  },
+  "R2 qa": {
+   "kappa": 0.696,
+   "ac1": 0.782
+  },
+  "R3 qa": {
+   "kappa": 0.316,
+   "ac1": 0.724
+  }
+ },
+ "note_combined": "'combined' is the binary scale protect/permit. 'combined-4cat' keeps P, L, REFUSE and EXECUTE apart; it is the earlier figure (0.799 / 0.826 / 0.865) and counts the question/action split, agreed by construction, as agreement. Use 'combined' if a pooled figure is printed."
+}

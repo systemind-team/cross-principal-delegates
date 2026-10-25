@@ -1,0 +1,186 @@
+{
+ "source": "the answers as received in chat, copied byte for byte as answers-2026-10-23.md (withheld from the anonymized supplement, which keeps this digest)",
+ "source_sha256": "89f67ed0129d78023044b3795133555a2e0eae2ae150d1499f48243668a66c4a",
+ "checkers": {
+  "1": "checker 1 (an author)",
+  "2": "checker 2 (a second author)"
+ },
+ "parsing": "a line that says 'reviewer' is checker 2's, any other line checker 1's; numbered answers are read by number, unnumbered ones as the run of answer letters; P1-2's LABEL(n, ...) lists the facts conveyed (PARTIAL) or narrowed (NARROWED), and FULL conveys every protected fact",
+ "equals_reference_parsing": [
+  "P1-1 checker 1",
+  "P1-3 checker 1",
+  "P1-3 checker 2",
+  "P1-4 checker 1",
+  "P1-4 checker 2"
+ ],
+ "answers": {
+  "P1-1 checker 1": [
+   "YES",
+   "NO",
+   "YES",
+   "YES",
+   "YES",
+   "NO",
+   "NO",
+   "YES",
+   "YES",
+   "NO"
+  ],
+  "P1-2 checker 1": [
+   {
+    "label": "PARTIAL",
+    "facts": [
+     1
+    ]
+   },
+   {
+    "label": "FULL",
+    "facts": []
+   },
+   {
+    "label": "PARTIAL",
+    "facts": [
+     1,
+     2
+    ]
+   },
+   {
+    "label": "PARTIAL",
+    "facts": [
+     1
+    ]
+   },
+   {
+    "label": "PARTIAL",
+    "facts": [
+     1
+    ]
+   },
+   {
+    "label": "PARTIAL",
+    "facts": [
+     1,
+     2
+    ]
+   },
+   {
+    "label": "FULL",
+    "facts": []
+   },
+   {
+    "label": "NARROWED",
+    "facts": [
+     4
+    ]
+   },
+   {
+    "label": "FULL",
+    "facts": []
+   },
+   {
+    "label": "NONE",
+    "facts": []
+   },
+   {
+    "label": "FULL",
+    "facts": []
+   },
+   {
+    "label": "FULL",
+    "facts": []
+   },
+   {
+    "label": "PARTIAL",
+    "facts": [
+     3,
+     4
+    ]
+   },
+   {
+    "label": "PARTIAL",
+    "facts": [
+     1,
+     2
+    ]
+   },
+   {
+    "label": "FULL",
+    "facts": []
+   },
+   {
+    "label": "PARTIAL",
+    "facts": [
+     1
+    ]
+   },
+   {
+    "label": "FULL",
+    "facts": []
+   },
+   {
+    "label": "NONE",
+    "facts": []
+   },
+   {
+    "label": "PARTIAL",
+    "facts": [
+     2
+    ]
+   },
+   {
+    "label": "PARTIAL",
+    "facts": [
+     1
+    ]
+   }
+  ],
+  "P1-3 checker 1": [
+   "WITHHOLD",
+   "SHARE",
+   "DECLINE",
+   "PERFORM",
+   "SHARE",
+   "SHARE",
+   "SHARE",
+   "DECLINE",
+   "SHARE",
+   "WITHHOLD"
+  ],
+  "P1-3 checker 2": [
+   "WITHHOLD",
+   "WITHHOLD",
+   "PERFORM",
+   "PERFORM",
+   "SHARE",
+   "SHARE",
+   "SHARE",
+   "PERFORM",
+   "SHARE",
+   "WITHHOLD"
+  ],
+  "P1-4 checker 1": [
+   "INTERNAL",
+   "PUBLIC",
+   "PUBLIC",
+   "PUBLIC",
+   "PUBLIC",
+   "PUBLIC",
+   "PUBLIC",
+   "PUBLIC",
+   "PUBLIC",
+   "PUBLIC"
+  ],
+  "P1-4 checker 2": [
+   "INTERNAL",
+   "PUBLIC",
+   "INTERNAL",
+   "PUBLIC",
+   "INTERNAL",
+   "PUBLIC",
+   "PUBLIC",
+   "PUBLIC",
+   "INTERNAL",
+   "INTERNAL"
+  ]
+ }
+}

@@ -1,0 +1,1008 @@
+{
+ "controls": 200,
+ "controls_identical": 200,
+ "impersonation_configs": 600,
+ "impersonation_configs_differing_only_by_spoof": 600,
+ "rows": [
+  {
+   "config": "SP-A0h-r1-g004.json",
+   "reference": "I2-ID-R0-g004.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r1-g008.json",
+   "reference": "I2-ID-R0-g008.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r1-g012.json",
+   "reference": "I2-ID-R0-g012.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r1-g016.json",
+   "reference": "I2-ID-R0-g016.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r1-g020.json",
+   "reference": "I2-ID-R0-g020.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r1-g024.json",
+   "reference": "I2-ID-R0-g024.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r1-g028.json",
+   "reference": "I2-ID-R0-g028.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r1-g032.json",
+   "reference": "I2-ID-R0-g032.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r1-g036.json",
+   "reference": "I2-ID-R0-g036.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r1-g040.json",
+   "reference": "I2-ID-R0-g040.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r1-g044.json",
+   "reference": "I2-ID-R0-g044.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r1-g048.json",
+   "reference": "I2-ID-R0-g048.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r1-g052.json",
+   "reference": "I2-ID-R0-g052.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r1-g056.json",
+   "reference": "I2-ID-R0-g056.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r1-g060.json",
+   "reference": "I2-ID-R0-g060.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r1-g064.json",
+   "reference": "I2-ID-R0-g064.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r1-g068.json",
+   "reference": "I2-ID-R0-g068.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r1-g072.json",
+   "reference": "I2-ID-R0-g072.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r1-g076.json",
+   "reference": "I2-ID-R0-g076.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r1-g080.json",
+   "reference": "I2-ID-R0-g080.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r1-g084.json",
+   "reference": "I2-ID-R0-g084.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r1-g088.json",
+   "reference": "I2-ID-R0-g088.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r1-g092.json",
+   "reference": "I2-ID-R0-g092.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r1-g096.json",
+   "reference": "I2-ID-R0-g096.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r1-g100.json",
+   "reference": "I2-ID-R0-g100.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r1-g104.json",
+   "reference": "I2-ID-R0-g104.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r1-g108.json",
+   "reference": "I2-ID-R0-g108.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r1-g112.json",
+   "reference": "I2-ID-R0-g112.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r1-g116.json",
+   "reference": "I2-ID-R0-g116.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r1-g120.json",
+   "reference": "I2-ID-R0-g120.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r1-g124.json",
+   "reference": "I2-ID-R0-g124.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r1-g128.json",
+   "reference": "I2-ID-R0-g128.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r1-g132.json",
+   "reference": "I2-ID-R0-g132.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r1-g136.json",
+   "reference": "I2-ID-R0-g136.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r1-g140.json",
+   "reference": "I2-ID-R0-g140.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r1-g144.json",
+   "reference": "I2-ID-R0-g144.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r1-g148.json",
+   "reference": "I2-ID-R0-g148.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r1-g152.json",
+   "reference": "I2-ID-R0-g152.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r1-g156.json",
+   "reference": "I2-ID-R0-g156.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r1-g160.json",
+   "reference": "I2-ID-R0-g160.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r1-g164.json",
+   "reference": "I2-ID-R0-g164.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r1-g168.json",
+   "reference": "I2-ID-R0-g168.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r1-g172.json",
+   "reference": "I2-ID-R0-g172.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r1-g176.json",
+   "reference": "I2-ID-R0-g176.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r1-g180.json",
+   "reference": "I2-ID-R0-g180.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r1-g184.json",
+   "reference": "I2-ID-R0-g184.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r1-g188.json",
+   "reference": "I2-ID-R0-g188.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r1-g192.json",
+   "reference": "I2-ID-R0-g192.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r1-g196.json",
+   "reference": "I2-ID-R0-g196.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r1-g200.json",
+   "reference": "I2-ID-R0-g200.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r2-g004.json",
+   "reference": "I2-ID-R0-g004.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r2-g008.json",
+   "reference": "I2-ID-R0-g008.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r2-g012.json",
+   "reference": "I2-ID-R0-g012.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r2-g016.json",
+   "reference": "I2-ID-R0-g016.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r2-g020.json",
+   "reference": "I2-ID-R0-g020.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r2-g024.json",
+   "reference": "I2-ID-R0-g024.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r2-g028.json",
+   "reference": "I2-ID-R0-g028.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r2-g032.json",
+   "reference": "I2-ID-R0-g032.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r2-g036.json",
+   "reference": "I2-ID-R0-g036.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r2-g040.json",
+   "reference": "I2-ID-R0-g040.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r2-g044.json",
+   "reference": "I2-ID-R0-g044.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r2-g048.json",
+   "reference": "I2-ID-R0-g048.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r2-g052.json",
+   "reference": "I2-ID-R0-g052.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r2-g056.json",
+   "reference": "I2-ID-R0-g056.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r2-g060.json",
+   "reference": "I2-ID-R0-g060.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r2-g064.json",
+   "reference": "I2-ID-R0-g064.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r2-g068.json",
+   "reference": "I2-ID-R0-g068.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r2-g072.json",
+   "reference": "I2-ID-R0-g072.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r2-g076.json",
+   "reference": "I2-ID-R0-g076.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r2-g080.json",
+   "reference": "I2-ID-R0-g080.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r2-g084.json",
+   "reference": "I2-ID-R0-g084.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r2-g088.json",
+   "reference": "I2-ID-R0-g088.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r2-g092.json",
+   "reference": "I2-ID-R0-g092.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r2-g096.json",
+   "reference": "I2-ID-R0-g096.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r2-g100.json",
+   "reference": "I2-ID-R0-g100.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r2-g104.json",
+   "reference": "I2-ID-R0-g104.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r2-g108.json",
+   "reference": "I2-ID-R0-g108.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r2-g112.json",
+   "reference": "I2-ID-R0-g112.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r2-g116.json",
+   "reference": "I2-ID-R0-g116.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r2-g120.json",
+   "reference": "I2-ID-R0-g120.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r2-g124.json",
+   "reference": "I2-ID-R0-g124.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r2-g128.json",
+   "reference": "I2-ID-R0-g128.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r2-g132.json",
+   "reference": "I2-ID-R0-g132.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r2-g136.json",
+   "reference": "I2-ID-R0-g136.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r2-g140.json",
+   "reference": "I2-ID-R0-g140.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r2-g144.json",
+   "reference": "I2-ID-R0-g144.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r2-g148.json",
+   "reference": "I2-ID-R0-g148.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r2-g152.json",
+   "reference": "I2-ID-R0-g152.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r2-g156.json",
+   "reference": "I2-ID-R0-g156.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r2-g160.json",
+   "reference": "I2-ID-R0-g160.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r2-g164.json",
+   "reference": "I2-ID-R0-g164.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r2-g168.json",
+   "reference": "I2-ID-R0-g168.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r2-g172.json",
+   "reference": "I2-ID-R0-g172.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r2-g176.json",
+   "reference": "I2-ID-R0-g176.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r2-g180.json",
+   "reference": "I2-ID-R0-g180.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r2-g184.json",
+   "reference": "I2-ID-R0-g184.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r2-g188.json",
+   "reference": "I2-ID-R0-g188.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r2-g192.json",
+   "reference": "I2-ID-R0-g192.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r2-g196.json",
+   "reference": "I2-ID-R0-g196.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0h-r2-g200.json",
+   "reference": "I2-ID-R0-g200.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r1-g004.json",
+   "reference": "I2-PR-R0-g004.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r1-g008.json",
+   "reference": "I2-PR-R0-g008.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r1-g012.json",
+   "reference": "I2-PR-R0-g012.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r1-g016.json",
+   "reference": "I2-PR-R0-g016.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r1-g020.json",
+   "reference": "I2-PR-R0-g020.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r1-g024.json",
+   "reference": "I2-PR-R0-g024.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r1-g028.json",
+   "reference": "I2-PR-R0-g028.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r1-g032.json",
+   "reference": "I2-PR-R0-g032.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r1-g036.json",
+   "reference": "I2-PR-R0-g036.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r1-g040.json",
+   "reference": "I2-PR-R0-g040.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r1-g044.json",
+   "reference": "I2-PR-R0-g044.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r1-g048.json",
+   "reference": "I2-PR-R0-g048.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r1-g052.json",
+   "reference": "I2-PR-R0-g052.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r1-g056.json",
+   "reference": "I2-PR-R0-g056.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r1-g060.json",
+   "reference": "I2-PR-R0-g060.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r1-g064.json",
+   "reference": "I2-PR-R0-g064.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r1-g068.json",
+   "reference": "I2-PR-R0-g068.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r1-g072.json",
+   "reference": "I2-PR-R0-g072.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r1-g076.json",
+   "reference": "I2-PR-R0-g076.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r1-g080.json",
+   "reference": "I2-PR-R0-g080.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r1-g084.json",
+   "reference": "I2-PR-R0-g084.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r1-g088.json",
+   "reference": "I2-PR-R0-g088.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r1-g092.json",
+   "reference": "I2-PR-R0-g092.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r1-g096.json",
+   "reference": "I2-PR-R0-g096.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r1-g100.json",
+   "reference": "I2-PR-R0-g100.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r1-g104.json",
+   "reference": "I2-PR-R0-g104.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r1-g108.json",
+   "reference": "I2-PR-R0-g108.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r1-g112.json",
+   "reference": "I2-PR-R0-g112.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r1-g116.json",
+   "reference": "I2-PR-R0-g116.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r1-g120.json",
+   "reference": "I2-PR-R0-g120.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r1-g124.json",
+   "reference": "I2-PR-R0-g124.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r1-g128.json",
+   "reference": "I2-PR-R0-g128.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r1-g132.json",
+   "reference": "I2-PR-R0-g132.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r1-g136.json",
+   "reference": "I2-PR-R0-g136.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r1-g140.json",
+   "reference": "I2-PR-R0-g140.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r1-g144.json",
+   "reference": "I2-PR-R0-g144.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r1-g148.json",
+   "reference": "I2-PR-R0-g148.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r1-g152.json",
+   "reference": "I2-PR-R0-g152.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r1-g156.json",
+   "reference": "I2-PR-R0-g156.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r1-g160.json",
+   "reference": "I2-PR-R0-g160.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r1-g164.json",
+   "reference": "I2-PR-R0-g164.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r1-g168.json",
+   "reference": "I2-PR-R0-g168.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r1-g172.json",
+   "reference": "I2-PR-R0-g172.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r1-g176.json",
+   "reference": "I2-PR-R0-g176.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r1-g180.json",
+   "reference": "I2-PR-R0-g180.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r1-g184.json",
+   "reference": "I2-PR-R0-g184.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r1-g188.json",
+   "reference": "I2-PR-R0-g188.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r1-g192.json",
+   "reference": "I2-PR-R0-g192.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r1-g196.json",
+   "reference": "I2-PR-R0-g196.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r1-g200.json",
+   "reference": "I2-PR-R0-g200.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r2-g004.json",
+   "reference": "I2-PR-R0-g004.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r2-g008.json",
+   "reference": "I2-PR-R0-g008.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r2-g012.json",
+   "reference": "I2-PR-R0-g012.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r2-g016.json",
+   "reference": "I2-PR-R0-g016.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r2-g020.json",
+   "reference": "I2-PR-R0-g020.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r2-g024.json",
+   "reference": "I2-PR-R0-g024.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r2-g028.json",
+   "reference": "I2-PR-R0-g028.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r2-g032.json",
+   "reference": "I2-PR-R0-g032.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r2-g036.json",
+   "reference": "I2-PR-R0-g036.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r2-g040.json",
+   "reference": "I2-PR-R0-g040.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r2-g044.json",
+   "reference": "I2-PR-R0-g044.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r2-g048.json",
+   "reference": "I2-PR-R0-g048.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r2-g052.json",
+   "reference": "I2-PR-R0-g052.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r2-g056.json",
+   "reference": "I2-PR-R0-g056.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r2-g060.json",
+   "reference": "I2-PR-R0-g060.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r2-g064.json",
+   "reference": "I2-PR-R0-g064.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r2-g068.json",
+   "reference": "I2-PR-R0-g068.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r2-g072.json",
+   "reference": "I2-PR-R0-g072.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r2-g076.json",
+   "reference": "I2-PR-R0-g076.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r2-g080.json",
+   "reference": "I2-PR-R0-g080.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r2-g084.json",
+   "reference": "I2-PR-R0-g084.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r2-g088.json",
+   "reference": "I2-PR-R0-g088.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r2-g092.json",
+   "reference": "I2-PR-R0-g092.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r2-g096.json",
+   "reference": "I2-PR-R0-g096.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r2-g100.json",
+   "reference": "I2-PR-R0-g100.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r2-g104.json",
+   "reference": "I2-PR-R0-g104.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r2-g108.json",
+   "reference": "I2-PR-R0-g108.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r2-g112.json",
+   "reference": "I2-PR-R0-g112.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r2-g116.json",
+   "reference": "I2-PR-R0-g116.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r2-g120.json",
+   "reference": "I2-PR-R0-g120.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r2-g124.json",
+   "reference": "I2-PR-R0-g124.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r2-g128.json",
+   "reference": "I2-PR-R0-g128.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r2-g132.json",
+   "reference": "I2-PR-R0-g132.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r2-g136.json",
+   "reference": "I2-PR-R0-g136.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r2-g140.json",
+   "reference": "I2-PR-R0-g140.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r2-g144.json",
+   "reference": "I2-PR-R0-g144.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r2-g148.json",
+   "reference": "I2-PR-R0-g148.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r2-g152.json",
+   "reference": "I2-PR-R0-g152.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r2-g156.json",
+   "reference": "I2-PR-R0-g156.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r2-g160.json",
+   "reference": "I2-PR-R0-g160.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r2-g164.json",
+   "reference": "I2-PR-R0-g164.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r2-g168.json",
+   "reference": "I2-PR-R0-g168.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r2-g172.json",
+   "reference": "I2-PR-R0-g172.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r2-g176.json",
+   "reference": "I2-PR-R0-g176.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r2-g180.json",
+   "reference": "I2-PR-R0-g180.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r2-g184.json",
+   "reference": "I2-PR-R0-g184.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r2-g188.json",
+   "reference": "I2-PR-R0-g188.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r2-g192.json",
+   "reference": "I2-PR-R0-g192.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r2-g196.json",
+   "reference": "I2-PR-R0-g196.json",
+   "identical": true
+  },
+  {
+   "config": "SP-A0n-r2-g200.json",
+   "reference": "I2-PR-R0-g200.json",
+   "identical": true
+  }
+ ]
+}

@@ -1,0 +1,10 @@
+{
+ "gates": {
+  "planted_A": true,
+  "planted_B": true,
+  "kappa_S1": true,
+  "kappa_S2": true
+ },
+ "status": "gates passed and every disagreement adjudicated: the estimates may be used",
+ "first_reply_rate_pct": 11.878130217028382
+}

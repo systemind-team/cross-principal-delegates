@@ -1,0 +1,18 @@
+✔ loader pins exactly the four production SharedOS packages (1.368444ms)
+✔ module parsing rejects every missing production export before execution (1.660173ms)
+✔ module parsing rejects the production testkit as a runtime dependency (0.128333ms)
+✔ the pinned real build has the expected package names, digest, and exports (160.658337ms)
+✔ real SharedOS mediates both actors, files, task tools, and request/reply (3642.191279ms)
+✔ an accepted request without a selected task fails the heartbeat closed (1330.764088ms)
+✔ durable router corruption remains fatal across the SharedOS tool boundary (1321.223946ms)
+✔ a failed close never reopens the session to model work (146.835321ms)
+✔ session reconstruction reuses byte-identical startedAt authority (242.747811ms)
+✔ session reconstruction fails loud on malformed prior binding authority (143.675972ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 10
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 7057.113277

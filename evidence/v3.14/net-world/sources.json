@@ -1,0 +1,763 @@
+{
+ "agents_in_contact_graph": 60,
+ "d44e478": "d44e4788562c438a97180443ee8cc5170094ad07",
+ "d44e478_tree": "00eecd0bc16b37a170949afeb23f34bcedb8ad23",
+ "files": {
+  "paired_edges_24.json": {
+   "bytes": 5135,
+   "sha256": "3662c971a6f97e3763775c352127500929ff3f17d80519398275628ce7ab6cfa",
+   "source": "derived from evidence/v3.13/net-rerun/contacts.jsonl by freeze_world.py"
+  },
+  "registry/channel_registry.json": {
+   "bytes": 44605,
+   "git_blob": "af6d5fa3f3f461f964f9cc985c8eab6e7b814d98",
+   "in_d44e478": false,
+   "note": "Used only for each audience label's membership mode and resolver parameters; members are recomputed from the frozen world files by audience_edges.py.",
+   "sha256": "2554f0ea613a913a38af492cf48f2d45b3e485be2ad8fc94d75ddf7c1b3fc1ad",
+   "source": "SharedEval ab6bb5132f36e7d2d5b470938839a572b5ef598c (local clone <external>/SharedEval, branch net/differential-disclosure), path dataset/pact-net/world_design/channel_registry.json"
+  },
+  "world/dataset/pact-net/agent_configs/aisha_rahman/data.json": {
+   "bytes": 6757,
+   "git_blob": "5770ab7f79dd3ddcaf4342c6d687566043b56f58",
+   "sha256": "6bd51f3a712b25e90bb12d5428e5575f62c460a4e936980f5ef5b4966e1909e9",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/aisha_rahman/data.json",
+   "vm_sha256_of_git_show": "6bd51f3a712b25e90bb12d5428e5575f62c460a4e936980f5ef5b4966e1909e9"
+  },
+  "world/dataset/pact-net/agent_configs/aisha_rahman/systems.json": {
+   "bytes": 1277,
+   "git_blob": "519fc600238ef645e57c336991d9ab7eb3bff8e4",
+   "sha256": "35a46cf128420f579eec50fa12272e7702ba60a6a474e4ff376bea81fe1e7335",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/aisha_rahman/systems.json",
+   "vm_sha256_of_git_show": "35a46cf128420f579eec50fa12272e7702ba60a6a474e4ff376bea81fe1e7335"
+  },
+  "world/dataset/pact-net/agent_configs/alex_chen/systems.json": {
+   "bytes": 1404,
+   "git_blob": "344995752b17e7d7b0c0c1c582b15dce939d4438",
+   "sha256": "c213efd947d830bfff922538c368ddb36fe5afbd53a9733445676f879e4826dc",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/alex_chen/systems.json",
+   "vm_sha256_of_git_show": "c213efd947d830bfff922538c368ddb36fe5afbd53a9733445676f879e4826dc"
+  },
+  "world/dataset/pact-net/agent_configs/alicia_morgan/data.json": {
+   "bytes": 6223,
+   "git_blob": "8c79db4881127ccd02e9e561113bf1bd31349763",
+   "sha256": "2ee108de0db5b6305814af88f960f4799c0476d85f6fdd5ad41314a55f2e4474",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/alicia_morgan/data.json",
+   "vm_sha256_of_git_show": "2ee108de0db5b6305814af88f960f4799c0476d85f6fdd5ad41314a55f2e4474"
+  },
+  "world/dataset/pact-net/agent_configs/alicia_morgan/systems.json": {
+   "bytes": 1324,
+   "git_blob": "ac001af5c2a8426919e9da14f357b345e1ec7860",
+   "sha256": "c0853a5da3b75819f3be4c93591bc3a5954a8fab838f20e26f3a8e2225581d6c",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/alicia_morgan/systems.json",
+   "vm_sha256_of_git_show": "c0853a5da3b75819f3be4c93591bc3a5954a8fab838f20e26f3a8e2225581d6c"
+  },
+  "world/dataset/pact-net/agent_configs/anita_krishnan/data.json": {
+   "bytes": 12574,
+   "git_blob": "84dbb9cadbab603f48fa50fac09a434b16c71051",
+   "sha256": "9f43b84cd6b0d16b15ef2ebf3d2efd4732c8827ab4fabce589965a9a05fdd760",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/anita_krishnan/data.json",
+   "vm_sha256_of_git_show": "9f43b84cd6b0d16b15ef2ebf3d2efd4732c8827ab4fabce589965a9a05fdd760"
+  },
+  "world/dataset/pact-net/agent_configs/anita_krishnan/systems.json": {
+   "bytes": 1182,
+   "git_blob": "31e0e3c053ed1fba11ce96b4810b8d57a247bbeb",
+   "sha256": "bb2c6ac0bf75388981bcf984154a7a9d5ab27cf1a883f66d46750521c1d9862f",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/anita_krishnan/systems.json",
+   "vm_sha256_of_git_show": "bb2c6ac0bf75388981bcf984154a7a9d5ab27cf1a883f66d46750521c1d9862f"
+  },
+  "world/dataset/pact-net/agent_configs/bea_ferreira/data.json": {
+   "bytes": 18920,
+   "git_blob": "0885dfb13456834da73ae3329e55c6d05d414b6d",
+   "sha256": "5b9bc3c1b3f91e262ae965693432f26f74c0dd4717d8dfe25a5304da0870e315",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/bea_ferreira/data.json",
+   "vm_sha256_of_git_show": "5b9bc3c1b3f91e262ae965693432f26f74c0dd4717d8dfe25a5304da0870e315"
+  },
+  "world/dataset/pact-net/agent_configs/bea_ferreira/systems.json": {
+   "bytes": 1359,
+   "git_blob": "4fdecdff30773387d206d9d1487b9b9bdb62e114",
+   "sha256": "431039af1f2272d8653fe962bdd04a60c01e242191a3f1e9012297283714c3de",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/bea_ferreira/systems.json",
+   "vm_sha256_of_git_show": "431039af1f2272d8653fe962bdd04a60c01e242191a3f1e9012297283714c3de"
+  },
+  "world/dataset/pact-net/agent_configs/bryce_holloway/data.json": {
+   "bytes": 11311,
+   "git_blob": "4321606ed6e725aa34ae1d4c58f31114c40c19db",
+   "sha256": "07545315803c5a5f7e4bc591d60b819967140b0fe3ae375f060b1179ada71829",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/bryce_holloway/data.json",
+   "vm_sha256_of_git_show": "07545315803c5a5f7e4bc591d60b819967140b0fe3ae375f060b1179ada71829"
+  },
+  "world/dataset/pact-net/agent_configs/bryce_holloway/systems.json": {
+   "bytes": 1134,
+   "git_blob": "4f931d2f55655a3a3ac69a7ae259084d33d4e6e3",
+   "sha256": "a54e086ccdde6c6d4ca2236a5ae8c84212885b6f792231cb6772752166d3e9ea",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/bryce_holloway/systems.json",
+   "vm_sha256_of_git_show": "a54e086ccdde6c6d4ca2236a5ae8c84212885b6f792231cb6772752166d3e9ea"
+  },
+  "world/dataset/pact-net/agent_configs/carlos_reyes/data.json": {
+   "bytes": 70795,
+   "git_blob": "588ea69a798f10acf26fafe4c0da699ebf55d63a",
+   "sha256": "8767ff09bbfe4cf6b494e5773d0c5d9a3d962155cf9e58969b61e3743518032b",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/carlos_reyes/data.json",
+   "vm_sha256_of_git_show": "8767ff09bbfe4cf6b494e5773d0c5d9a3d962155cf9e58969b61e3743518032b"
+  },
+  "world/dataset/pact-net/agent_configs/carlos_reyes/systems.json": {
+   "bytes": 2319,
+   "git_blob": "e368391b6221f597f7d3a73848917bda63685b6e",
+   "sha256": "8399557f69975e308128101d4d8a32156cd212fee91464df32a24774a8c1c700",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/carlos_reyes/systems.json",
+   "vm_sha256_of_git_show": "8399557f69975e308128101d4d8a32156cd212fee91464df32a24774a8c1c700"
+  },
+  "world/dataset/pact-net/agent_configs/clara_lindqvist/systems.json": {
+   "bytes": 1047,
+   "git_blob": "cbb72092ebf2b6798d205d56d4d8935a78bbd676",
+   "sha256": "393386b7681a6d5aa49d0e447cd70703b932ac06cced917a38e2badeece437f2",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/clara_lindqvist/systems.json",
+   "vm_sha256_of_git_show": "393386b7681a6d5aa49d0e447cd70703b932ac06cced917a38e2badeece437f2"
+  },
+  "world/dataset/pact-net/agent_configs/dana_reeves/systems.json": {
+   "bytes": 1036,
+   "git_blob": "e5fdf0ec3c6058b365b356b341e38a2aa9acc8b8",
+   "sha256": "986df3c2e77c579f656759cad49e3884e4bf606e60e7e03e804c1d2f97c1dd11",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/dana_reeves/systems.json",
+   "vm_sha256_of_git_show": "986df3c2e77c579f656759cad49e3884e4bf606e60e7e03e804c1d2f97c1dd11"
+  },
+  "world/dataset/pact-net/agent_configs/daniel_cho/data.json": {
+   "bytes": 5849,
+   "git_blob": "534d993979a3bd2b27bf4f291e617d9db839cb36",
+   "sha256": "e84c85df8ad27b884872c5de36eb214bbefa4a1c7888ee771cea732ab435098e",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/daniel_cho/data.json",
+   "vm_sha256_of_git_show": "e84c85df8ad27b884872c5de36eb214bbefa4a1c7888ee771cea732ab435098e"
+  },
+  "world/dataset/pact-net/agent_configs/daniel_cho/systems.json": {
+   "bytes": 1343,
+   "git_blob": "58520d4de6f335c2942b7a72a1424e74950f45c7",
+   "sha256": "9715b9f80eaa15b10be82b94138319d8dfa54d1798979f961759500016dc3192",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/daniel_cho/systems.json",
+   "vm_sha256_of_git_show": "9715b9f80eaa15b10be82b94138319d8dfa54d1798979f961759500016dc3192"
+  },
+  "world/dataset/pact-net/agent_configs/david_chen/contact_book.json": {
+   "bytes": 1966,
+   "git_blob": "5de6fcffd71eefe45cddbf95b01583e815211152",
+   "sha256": "4cfba3bafb8a574cfcdd8c63f72d939d652569a583d70ded095336ccfa666063",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/david_chen/contact_book.json",
+   "vm_sha256_of_git_show": "4cfba3bafb8a574cfcdd8c63f72d939d652569a583d70ded095336ccfa666063"
+  },
+  "world/dataset/pact-net/agent_configs/david_chen/data.json": {
+   "bytes": 16920,
+   "git_blob": "f9b2eada088aabbb3b9537d1ac60fa8d3afea1e6",
+   "sha256": "3d4098242b15a9f7f78898ae8e9eaf370d134ed7e5990dbb1fe72421939523a1",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/david_chen/data.json",
+   "vm_sha256_of_git_show": "3d4098242b15a9f7f78898ae8e9eaf370d134ed7e5990dbb1fe72421939523a1"
+  },
+  "world/dataset/pact-net/agent_configs/david_chen/systems.json": {
+   "bytes": 740,
+   "git_blob": "94991bd72ed8fdb68fd7299e9a50f15a07bebb08",
+   "sha256": "c7ff6f2fd9a856565f0edbeeb7635fe0da5d1d35dc8e753800079876b920eaac",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/david_chen/systems.json",
+   "vm_sha256_of_git_show": "c7ff6f2fd9a856565f0edbeeb7635fe0da5d1d35dc8e753800079876b920eaac"
+  },
+  "world/dataset/pact-net/agent_configs/derek_lam/data.json": {
+   "bytes": 35038,
+   "git_blob": "6fb06f5e297f0b5ef030893d0b832fa8b84d953d",
+   "sha256": "40c77733676164f8a23d7881897f5a79252e082a192b7583cb2d08d6a9c69a90",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/derek_lam/data.json",
+   "vm_sha256_of_git_show": "40c77733676164f8a23d7881897f5a79252e082a192b7583cb2d08d6a9c69a90"
+  },
+  "world/dataset/pact-net/agent_configs/derek_lam/systems.json": {
+   "bytes": 982,
+   "git_blob": "00d0d004a43c570e60b01f9c1e36593849c36a9d",
+   "sha256": "cebc93b0e1fd95a7c1d850020dbdf0a1c1ecf02614732d5221454f65adf43174",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/derek_lam/systems.json",
+   "vm_sha256_of_git_show": "cebc93b0e1fd95a7c1d850020dbdf0a1c1ecf02614732d5221454f65adf43174"
+  },
+  "world/dataset/pact-net/agent_configs/dmitri_sokolov/data.json": {
+   "bytes": 16685,
+   "git_blob": "d203732e139e25cddedebb4af1572c05094b2fd1",
+   "sha256": "9b4607cede42e826600eff93d928afbb848c536608d0c5c0bfd069ee98e64497",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/dmitri_sokolov/data.json",
+   "vm_sha256_of_git_show": "9b4607cede42e826600eff93d928afbb848c536608d0c5c0bfd069ee98e64497"
+  },
+  "world/dataset/pact-net/agent_configs/dmitri_sokolov/systems.json": {
+   "bytes": 1251,
+   "git_blob": "e28006fd0b8474d3dd2dc11db9ce2ecf5c4492d0",
+   "sha256": "4d541fbd27f19f315d9ba331be8b8f6abb1be36205e2399b0f9397e8aa580054",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/dmitri_sokolov/systems.json",
+   "vm_sha256_of_git_show": "4d541fbd27f19f315d9ba331be8b8f6abb1be36205e2399b0f9397e8aa580054"
+  },
+  "world/dataset/pact-net/agent_configs/dr_ivy_banerjee/data.json": {
+   "bytes": 13459,
+   "git_blob": "72e4f42643c232a4699fab89e37fc6d8485459b2",
+   "sha256": "c196210afbe5d638fbd6b3086b1c6c91c1ae643e9550545ca3892841e9e4d48d",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/dr_ivy_banerjee/data.json",
+   "vm_sha256_of_git_show": "c196210afbe5d638fbd6b3086b1c6c91c1ae643e9550545ca3892841e9e4d48d"
+  },
+  "world/dataset/pact-net/agent_configs/dr_ivy_banerjee/systems.json": {
+   "bytes": 1166,
+   "git_blob": "ded1c7832021067c3b701b76394bd6e0be256f8a",
+   "sha256": "89c5fc34a5ce7cdab5ff2cb77b144622b8d7ccd0349161df48b8d3dac3e283c2",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/dr_ivy_banerjee/systems.json",
+   "vm_sha256_of_git_show": "89c5fc34a5ce7cdab5ff2cb77b144622b8d7ccd0349161df48b8d3dac3e283c2"
+  },
+  "world/dataset/pact-net/agent_configs/dr_karen_walsh/data.json": {
+   "bytes": 18029,
+   "git_blob": "e6f52176b4b16807868e0215f403c426d6b78aeb",
+   "sha256": "6cc1d68c43f11371180f76d212bef925841720b4e61a88583c686dec226bf4a6",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/dr_karen_walsh/data.json",
+   "vm_sha256_of_git_show": "6cc1d68c43f11371180f76d212bef925841720b4e61a88583c686dec226bf4a6"
+  },
+  "world/dataset/pact-net/agent_configs/dr_karen_walsh/systems.json": {
+   "bytes": 1206,
+   "git_blob": "a02e002f3935500b519d9a7b56e2f931cd2178a4",
+   "sha256": "0e598fa619404ac05009b2cc94a8de913a141bac40d2fbdaadb7f7249e185004",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/dr_karen_walsh/systems.json",
+   "vm_sha256_of_git_show": "0e598fa619404ac05009b2cc94a8de913a141bac40d2fbdaadb7f7249e185004"
+  },
+  "world/dataset/pact-net/agent_configs/dr_maya_patel/systems.json": {
+   "bytes": 1482,
+   "git_blob": "8ea1c45b3518d1e05a37a48d797479a7aabc0bcd",
+   "sha256": "bef391eb5b6830b6a6a503e46181e3d76fabbdcd2b52b9c54fac2ae1ea544f32",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/dr_maya_patel/systems.json",
+   "vm_sha256_of_git_show": "bef391eb5b6830b6a6a503e46181e3d76fabbdcd2b52b9c54fac2ae1ea544f32"
+  },
+  "world/dataset/pact-net/agent_configs/dr_paul_mensah/data.json": {
+   "bytes": 10649,
+   "git_blob": "5f47e58c5a2e70a7cc5837c335516baa970808cd",
+   "sha256": "6309e47d588f776e7640322b6f978d132f055ceb7a034f80ba1ba6ef40b2a119",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/dr_paul_mensah/data.json",
+   "vm_sha256_of_git_show": "6309e47d588f776e7640322b6f978d132f055ceb7a034f80ba1ba6ef40b2a119"
+  },
+  "world/dataset/pact-net/agent_configs/dr_paul_mensah/systems.json": {
+   "bytes": 1167,
+   "git_blob": "884ab3b2472085540e2a611202b89f6dfc51af28",
+   "sha256": "1b106d0a44ba5d6d62225ceeef8d3f8dee4b4f69b1fca65cad1cf4ba74b26089",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/dr_paul_mensah/systems.json",
+   "vm_sha256_of_git_show": "1b106d0a44ba5d6d62225ceeef8d3f8dee4b4f69b1fca65cad1cf4ba74b26089"
+  },
+  "world/dataset/pact-net/agent_configs/elena_park/data.json": {
+   "bytes": 61293,
+   "git_blob": "912b4fbcff3a62500934918f11679886fad2901a",
+   "sha256": "b163ad573c16bd9b77fb18d6fd7ded0814e675e1fb6ac9d1d54a04d2e5b605de",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/elena_park/data.json",
+   "vm_sha256_of_git_show": "b163ad573c16bd9b77fb18d6fd7ded0814e675e1fb6ac9d1d54a04d2e5b605de"
+  },
+  "world/dataset/pact-net/agent_configs/elena_park/systems.json": {
+   "bytes": 1142,
+   "git_blob": "41d152ddd53db4bdb407a5011ab364ae2345a49c",
+   "sha256": "8550426b4b17dac5bf9dd6933747400e1fc98bdf6b41a1f96811386feb93ed38",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/elena_park/systems.json",
+   "vm_sha256_of_git_show": "8550426b4b17dac5bf9dd6933747400e1fc98bdf6b41a1f96811386feb93ed38"
+  },
+  "world/dataset/pact-net/agent_configs/elliot_price/data.json": {
+   "bytes": 5575,
+   "git_blob": "fb139c569389b7097d7fceacccfa6eb395ae339e",
+   "sha256": "c924d1dafb81a657b9c611d4d356f72960e456bcc7ccdb4d7f81ec9028251f67",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/elliot_price/data.json",
+   "vm_sha256_of_git_show": "c924d1dafb81a657b9c611d4d356f72960e456bcc7ccdb4d7f81ec9028251f67"
+  },
+  "world/dataset/pact-net/agent_configs/elliot_price/systems.json": {
+   "bytes": 1301,
+   "git_blob": "bbfb3d16f51d96c54a01985060f1ee367b0ad482",
+   "sha256": "7b5391418fde45545e3939ca1d7fc7280f64ab5253bf525d6160b3af2ef9739a",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/elliot_price/systems.json",
+   "vm_sha256_of_git_show": "7b5391418fde45545e3939ca1d7fc7280f64ab5253bf525d6160b3af2ef9739a"
+  },
+  "world/dataset/pact-net/agent_configs/farida_haddad/data.json": {
+   "bytes": 17596,
+   "git_blob": "b2f249e5f8b2efe4e5252e2ec17b169d9a443e08",
+   "sha256": "579199df92ec8baf9fcf6c83ad3e17ea87dd200a76dcd871ebe33474ceb79113",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/farida_haddad/data.json",
+   "vm_sha256_of_git_show": "579199df92ec8baf9fcf6c83ad3e17ea87dd200a76dcd871ebe33474ceb79113"
+  },
+  "world/dataset/pact-net/agent_configs/farida_haddad/systems.json": {
+   "bytes": 1551,
+   "git_blob": "6c6448f6c29125b1a071ac3dc486f702b4c61d4f",
+   "sha256": "e376a003699584e576e16d60782542b8896bda583c2a27ae39218b5c162d6e14",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/farida_haddad/systems.json",
+   "vm_sha256_of_git_show": "e376a003699584e576e16d60782542b8896bda583c2a27ae39218b5c162d6e14"
+  },
+  "world/dataset/pact-net/agent_configs/gordon_slater/systems.json": {
+   "bytes": 1165,
+   "git_blob": "5b7140488979b8e7af2e9fb34f1ae85a12e067f8",
+   "sha256": "8be0cf0a1f73ad3bdda6d20fff2413549117b155bf5b0df25eaf5d7259995bc7",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/gordon_slater/systems.json",
+   "vm_sha256_of_git_show": "8be0cf0a1f73ad3bdda6d20fff2413549117b155bf5b0df25eaf5d7259995bc7"
+  },
+  "world/dataset/pact-net/agent_configs/grace_okonkwo/data.json": {
+   "bytes": 18787,
+   "git_blob": "04a32387ad570980cb5a79976ed7d4d2eaf66529",
+   "sha256": "cdd15fc69670c01f9db26ad6816a420fe979cea412dc1ab0f8cd130dbd162d2b",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/grace_okonkwo/data.json",
+   "vm_sha256_of_git_show": "cdd15fc69670c01f9db26ad6816a420fe979cea412dc1ab0f8cd130dbd162d2b"
+  },
+  "world/dataset/pact-net/agent_configs/grace_okonkwo/systems.json": {
+   "bytes": 1699,
+   "git_blob": "12378523e61fc5b28bd8398728536473109bce88",
+   "sha256": "84838a7d79309a51c5f318ed90740d1bdb6d301e2f526a9601557cbb6684491b",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/grace_okonkwo/systems.json",
+   "vm_sha256_of_git_show": "84838a7d79309a51c5f318ed90740d1bdb6d301e2f526a9601557cbb6684491b"
+  },
+  "world/dataset/pact-net/agent_configs/hannah_brix/systems.json": {
+   "bytes": 1058,
+   "git_blob": "44bdf41ead403a827320ffe9ba20e8d0688ec0ed",
+   "sha256": "ad53f9480c9468914ccb7a66f109a400050cabfa85ba83d2f0f7908bf1977234",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/hannah_brix/systems.json",
+   "vm_sha256_of_git_show": "ad53f9480c9468914ccb7a66f109a400050cabfa85ba83d2f0f7908bf1977234"
+  },
+  "world/dataset/pact-net/agent_configs/helen_vasquez/data.json": {
+   "bytes": 17055,
+   "git_blob": "d092ca63cdb75e08c5231ad426f040e33d7a5222",
+   "sha256": "cdc0a23e37413522dc7d64804a09cf18d5203d65d712c4bc73846c21baf34a2b",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/helen_vasquez/data.json",
+   "vm_sha256_of_git_show": "cdc0a23e37413522dc7d64804a09cf18d5203d65d712c4bc73846c21baf34a2b"
+  },
+  "world/dataset/pact-net/agent_configs/helen_vasquez/systems.json": {
+   "bytes": 1497,
+   "git_blob": "54ffc87ee1156392bc1d9c29894b862c065500ca",
+   "sha256": "905f912b122d6995c6569ec8cecfeec9a443eef0e6d6c3b7ed4dfd44f67a38ac",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/helen_vasquez/systems.json",
+   "vm_sha256_of_git_show": "905f912b122d6995c6569ec8cecfeec9a443eef0e6d6c3b7ed4dfd44f67a38ac"
+  },
+  "world/dataset/pact-net/agent_configs/jake_ellis/systems.json": {
+   "bytes": 1028,
+   "git_blob": "9513f598b347d8f056b5172c5933e6a50d01466a",
+   "sha256": "7ed3dfcbd77fde8dd0ddb2d7af362bb1769429018330e380c38073be99168ea2",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/jake_ellis/systems.json",
+   "vm_sha256_of_git_show": "7ed3dfcbd77fde8dd0ddb2d7af362bb1769429018330e380c38073be99168ea2"
+  },
+  "world/dataset/pact-net/agent_configs/jamie_lin/systems.json": {
+   "bytes": 1090,
+   "git_blob": "090f500f33f53383344120f1ba28c29b9e1c964e",
+   "sha256": "90d78b03c0c521cf42ec3521b83cf4180cf6afa3b0df0e57b294aa55e8da1e46",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/jamie_lin/systems.json",
+   "vm_sha256_of_git_show": "90d78b03c0c521cf42ec3521b83cf4180cf6afa3b0df0e57b294aa55e8da1e46"
+  },
+  "world/dataset/pact-net/agent_configs/jordan_park/systems.json": {
+   "bytes": 831,
+   "git_blob": "37ac155371541b0c19a5cda936ea7a4a067c10bb",
+   "sha256": "a27572d9c647168de6ddb66bcf57ca7ca55ac714f292f6756534c1a00981578f",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/jordan_park/systems.json",
+   "vm_sha256_of_git_show": "a27572d9c647168de6ddb66bcf57ca7ca55ac714f292f6756534c1a00981578f"
+  },
+  "world/dataset/pact-net/agent_configs/kenji_matsuda/data.json": {
+   "bytes": 15665,
+   "git_blob": "2fd15f23a0fe38e09445a12a9b9936191d5050e6",
+   "sha256": "1ad3277b377f86d7234da2c4e6677de152fec159448ff557c929120a8f3dbc58",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/kenji_matsuda/data.json",
+   "vm_sha256_of_git_show": "1ad3277b377f86d7234da2c4e6677de152fec159448ff557c929120a8f3dbc58"
+  },
+  "world/dataset/pact-net/agent_configs/kenji_matsuda/systems.json": {
+   "bytes": 1067,
+   "git_blob": "3cb68f61c30cc46e31fbaa8285a9195bcba8e64b",
+   "sha256": "629d96fad64c86d73b285370a2deaedba0478b5a325aafd322a4a45ddcddeac0",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/kenji_matsuda/systems.json",
+   "vm_sha256_of_git_show": "629d96fad64c86d73b285370a2deaedba0478b5a325aafd322a4a45ddcddeac0"
+  },
+  "world/dataset/pact-net/agent_configs/leah_brooks/data.json": {
+   "bytes": 5868,
+   "git_blob": "19ace202388c6931b94cde2901f2144e179c63ed",
+   "sha256": "a9d64b138a04511f61c610aa5d79f486d9d4cb7450bec37e7bb9125d07a5a2ca",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/leah_brooks/data.json",
+   "vm_sha256_of_git_show": "a9d64b138a04511f61c610aa5d79f486d9d4cb7450bec37e7bb9125d07a5a2ca"
+  },
+  "world/dataset/pact-net/agent_configs/leah_brooks/systems.json": {
+   "bytes": 1825,
+   "git_blob": "1b483040a74723254f6cfd1e6f2798dc3650e67d",
+   "sha256": "20dbf6f1c441dd6dd21e2eec06c097169215cf8fa2ed1fdfff99faa584e8ed03",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/leah_brooks/systems.json",
+   "vm_sha256_of_git_show": "20dbf6f1c441dd6dd21e2eec06c097169215cf8fa2ed1fdfff99faa584e8ed03"
+  },
+  "world/dataset/pact-net/agent_configs/linda_chen/systems.json": {
+   "bytes": 1078,
+   "git_blob": "f5edb3434a103ab41f1db09d0ffead41433ddb30",
+   "sha256": "2b5ab92134696ef08d3ddf3e92a704f87e22c938536312e9f2c17a02213cb217",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/linda_chen/systems.json",
+   "vm_sha256_of_git_show": "2b5ab92134696ef08d3ddf3e92a704f87e22c938536312e9f2c17a02213cb217"
+  },
+  "world/dataset/pact-net/agent_configs/lisa_nakamura/systems.json": {
+   "bytes": 1107,
+   "git_blob": "ffebe94b2b56a74115f8a1e57b947951c7a096f2",
+   "sha256": "97f148affa422275f3d219290cacb878fe2c019483b0c288cd525591ca874bcb",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/lisa_nakamura/systems.json",
+   "vm_sha256_of_git_show": "97f148affa422275f3d219290cacb878fe2c019483b0c288cd525591ca874bcb"
+  },
+  "world/dataset/pact-net/agent_configs/lorraine_pike/systems.json": {
+   "bytes": 1097,
+   "git_blob": "6386c50f5c6ecd714f42b3f4286fc08ee1f27002",
+   "sha256": "d4ed7c52970108d1734328a577c2fda25176af1ef4220d64095f6ed97385f372",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/lorraine_pike/systems.json",
+   "vm_sha256_of_git_show": "d4ed7c52970108d1734328a577c2fda25176af1ef4220d64095f6ed97385f372"
+  },
+  "world/dataset/pact-net/agent_configs/marcus_webb/systems.json": {
+   "bytes": 1187,
+   "git_blob": "39b65317f6d0558d57055ce321c9fb4f705b5062",
+   "sha256": "9d46cd2b0751cad84d25f89825aa338b23daaf891206f4647248d1f6e9049f04",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/marcus_webb/systems.json",
+   "vm_sha256_of_git_show": "9d46cd2b0751cad84d25f89825aa338b23daaf891206f4647248d1f6e9049f04"
+  },
+  "world/dataset/pact-net/agent_configs/margaret_ilunga/data.json": {
+   "bytes": 13088,
+   "git_blob": "54ba263a143adc9b744773ed33fd232448dae3e6",
+   "sha256": "212ffe31053a0756fbb81572dc169eae1eb9c06ef7fab8e8eb962906110be9c3",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/margaret_ilunga/data.json",
+   "vm_sha256_of_git_show": "212ffe31053a0756fbb81572dc169eae1eb9c06ef7fab8e8eb962906110be9c3"
+  },
+  "world/dataset/pact-net/agent_configs/margaret_ilunga/systems.json": {
+   "bytes": 1163,
+   "git_blob": "00fa1875a1c9701fc6cc09c8d02d65c5b084b297",
+   "sha256": "960eb56c53ea27626fa8999f7757edca2c4aec7c9dd376a7befb0b4fc990f50c",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/margaret_ilunga/systems.json",
+   "vm_sha256_of_git_show": "960eb56c53ea27626fa8999f7757edca2c4aec7c9dd376a7befb0b4fc990f50c"
+  },
+  "world/dataset/pact-net/agent_configs/maria_garcia/systems.json": {
+   "bytes": 877,
+   "git_blob": "dab6db9b94b3aa4fcc27634c1d414b19077497fa",
+   "sha256": "74c15bb2c42523db1f94527fa37c1165b4d09a425facda58489701172131258b",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/maria_garcia/systems.json",
+   "vm_sha256_of_git_show": "74c15bb2c42523db1f94527fa37c1165b4d09a425facda58489701172131258b"
+  },
+  "world/dataset/pact-net/agent_configs/meghan_osei/data.json": {
+   "bytes": 5569,
+   "git_blob": "51d3a6e13f5dea3982281dc56d01ced297933c03",
+   "sha256": "d61d68a164a8e8dcb645bb84a416f13df5a59af237ffb38a700f1ff0576d3ff7",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/meghan_osei/data.json",
+   "vm_sha256_of_git_show": "d61d68a164a8e8dcb645bb84a416f13df5a59af237ffb38a700f1ff0576d3ff7"
+  },
+  "world/dataset/pact-net/agent_configs/meghan_osei/systems.json": {
+   "bytes": 1287,
+   "git_blob": "cd19ff37362cb41d43b7de05e2532f99714b69e4",
+   "sha256": "0b6e147cce85209f825af6d8d628d87bf466db5f24c377a1c5c3cdb211f067ae",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/meghan_osei/systems.json",
+   "vm_sha256_of_git_show": "0b6e147cce85209f825af6d8d628d87bf466db5f24c377a1c5c3cdb211f067ae"
+  },
+  "world/dataset/pact-net/agent_configs/mike_torres/data.json": {
+   "bytes": 56201,
+   "git_blob": "0d072b351850f8503a673ba4e1c227dc6b61e437",
+   "sha256": "0117f81b493c3a6fc577738bab2ef9ae4d55c144533e8bb7d721b46700646fb3",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/mike_torres/data.json",
+   "vm_sha256_of_git_show": "0117f81b493c3a6fc577738bab2ef9ae4d55c144533e8bb7d721b46700646fb3"
+  },
+  "world/dataset/pact-net/agent_configs/mike_torres/systems.json": {
+   "bytes": 1346,
+   "git_blob": "ba839d835eef640c5d28d0b66c64bfe36735b11a",
+   "sha256": "533246448abde7be39f6aa3214e22deea4c58fe3e7b5572ef615292d5bd80c6e",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/mike_torres/systems.json",
+   "vm_sha256_of_git_show": "533246448abde7be39f6aa3214e22deea4c58fe3e7b5572ef615292d5bd80c6e"
+  },
+  "world/dataset/pact-net/agent_configs/monica_alvarez/data.json": {
+   "bytes": 5644,
+   "git_blob": "4ca7ae3a54338cf07f9b1f184bdbd682fb895bf7",
+   "sha256": "97b04e5c2e73925f2927e06538001029be2c5aff4d44602a72c8e1b34c35ece4",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/monica_alvarez/data.json",
+   "vm_sha256_of_git_show": "97b04e5c2e73925f2927e06538001029be2c5aff4d44602a72c8e1b34c35ece4"
+  },
+  "world/dataset/pact-net/agent_configs/monica_alvarez/systems.json": {
+   "bytes": 1330,
+   "git_blob": "c86f6e51d7a54c930b1708c497c5660a73b87bc1",
+   "sha256": "05a2393e062f992c961ae5b0e4af352bed9dbbb4f8d980834c1d734968cb2f20",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/monica_alvarez/systems.json",
+   "vm_sha256_of_git_show": "05a2393e062f992c961ae5b0e4af352bed9dbbb4f8d980834c1d734968cb2f20"
+  },
+  "world/dataset/pact-net/agent_configs/naomi_adeyemi/data.json": {
+   "bytes": 16583,
+   "git_blob": "39058536a8507df4c3b0386404d6d3a1bb11d77c",
+   "sha256": "7a3415e34e027b46af74b6e6619db155c2f0d57464f810d2922efe64d3af6f74",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/naomi_adeyemi/data.json",
+   "vm_sha256_of_git_show": "7a3415e34e027b46af74b6e6619db155c2f0d57464f810d2922efe64d3af6f74"
+  },
+  "world/dataset/pact-net/agent_configs/naomi_adeyemi/systems.json": {
+   "bytes": 1552,
+   "git_blob": "741122ffda0507629aa3741d6885388dcd902efd",
+   "sha256": "89e47cea4683dec7330e07b613ecab14378ff47df74bb62ff912232cec1573dd",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/naomi_adeyemi/systems.json",
+   "vm_sha256_of_git_show": "89e47cea4683dec7330e07b613ecab14378ff47df74bb62ff912232cec1573dd"
+  },
+  "world/dataset/pact-net/agent_configs/nina_volkov/systems.json": {
+   "bytes": 1041,
+   "git_blob": "29d23d2247cda96e7035b74e6af7d20f8a848f4a",
+   "sha256": "e0929dad8c21644a3d5ba3a05355de2c742c09713fae12fe6000386ca3c99027",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/nina_volkov/systems.json",
+   "vm_sha256_of_git_show": "e0929dad8c21644a3d5ba3a05355de2c742c09713fae12fe6000386ca3c99027"
+  },
+  "world/dataset/pact-net/agent_configs/nora_fields/data.json": {
+   "bytes": 6309,
+   "git_blob": "9c4dc4e55b3c42d16aae758713916fcfac322ce8",
+   "sha256": "efb861a4e123c69593162bd58d54f7d501cdf8f8576f5112174b641e8e9eda45",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/nora_fields/data.json",
+   "vm_sha256_of_git_show": "efb861a4e123c69593162bd58d54f7d501cdf8f8576f5112174b641e8e9eda45"
+  },
+  "world/dataset/pact-net/agent_configs/nora_fields/systems.json": {
+   "bytes": 2689,
+   "git_blob": "23199860dcb267faa46b2b8e0bf1369be68118f8",
+   "sha256": "94f26eb9180beda3c8c6aaa44d200e2463732e2ed2ecf9de9012d8567db89af1",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/nora_fields/systems.json",
+   "vm_sha256_of_git_show": "94f26eb9180beda3c8c6aaa44d200e2463732e2ed2ecf9de9012d8567db89af1"
+  },
+  "world/dataset/pact-net/agent_configs/omar_hassan/data.json": {
+   "bytes": 39328,
+   "git_blob": "eaa33b366858fbd1ec85f93c0f5871dba111e8c1",
+   "sha256": "63bc011689c807f64f0b1e92c8a3cef0f809f2744e59e2e52020aeadc44df50b",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/omar_hassan/data.json",
+   "vm_sha256_of_git_show": "63bc011689c807f64f0b1e92c8a3cef0f809f2744e59e2e52020aeadc44df50b"
+  },
+  "world/dataset/pact-net/agent_configs/omar_hassan/systems.json": {
+   "bytes": 827,
+   "git_blob": "47e0e1706ac0c2325f3d7d6641fb8f9cd30edab5",
+   "sha256": "58e7cedc461b27a89b1f13d50a911c12a9dccde4747966217aaeeb94ddd1190f",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/omar_hassan/systems.json",
+   "vm_sha256_of_git_show": "58e7cedc461b27a89b1f13d50a911c12a9dccde4747966217aaeeb94ddd1190f"
+  },
+  "world/dataset/pact-net/agent_configs/oskar_reinhardt/data.json": {
+   "bytes": 12560,
+   "git_blob": "e096b1eaadd906ab52c1ad056ca2e299571c9ffb",
+   "sha256": "75d31af1fd91a734c65fa6914c0cc2354ec905f6519b05af878ccf7ed86ff071",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/oskar_reinhardt/data.json",
+   "vm_sha256_of_git_show": "75d31af1fd91a734c65fa6914c0cc2354ec905f6519b05af878ccf7ed86ff071"
+  },
+  "world/dataset/pact-net/agent_configs/oskar_reinhardt/systems.json": {
+   "bytes": 1306,
+   "git_blob": "dafc88c9fc37515f0690e0249277451e0ecd72c6",
+   "sha256": "65f3542090a1d1a992056053a6ea45b6657000402570989c4d5bab51470a1853",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/oskar_reinhardt/systems.json",
+   "vm_sha256_of_git_show": "65f3542090a1d1a992056053a6ea45b6657000402570989c4d5bab51470a1853"
+  },
+  "world/dataset/pact-net/agent_configs/patrick_nwosu/data.json": {
+   "bytes": 13645,
+   "git_blob": "1cd3151c600a7cba3ecd9631575b1480540ea91b",
+   "sha256": "4ae9f38ab95c09d1e685f08e4bfcdff1a410cc2010b4e378d2cc8e33bcf65caf",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/patrick_nwosu/data.json",
+   "vm_sha256_of_git_show": "4ae9f38ab95c09d1e685f08e4bfcdff1a410cc2010b4e378d2cc8e33bcf65caf"
+  },
+  "world/dataset/pact-net/agent_configs/patrick_nwosu/systems.json": {
+   "bytes": 1522,
+   "git_blob": "8563a5ac715b0c8d058683cc4679bf70b46bc996",
+   "sha256": "8bbabff45817c3a2288c2b429a775809586353ffaaf34cb58bcecfc6fe733007",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/patrick_nwosu/systems.json",
+   "vm_sha256_of_git_show": "8bbabff45817c3a2288c2b429a775809586353ffaaf34cb58bcecfc6fe733007"
+  },
+  "world/dataset/pact-net/agent_configs/priya_sharma/data.json": {
+   "bytes": 54486,
+   "git_blob": "f35e4729d72f0521aa91f711d5af65b139aa8c5c",
+   "sha256": "31d21c415c512e4a58529a15446da2942ebf74a65afa0a95c8c2f8574baf5b03",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/priya_sharma/data.json",
+   "vm_sha256_of_git_show": "31d21c415c512e4a58529a15446da2942ebf74a65afa0a95c8c2f8574baf5b03"
+  },
+  "world/dataset/pact-net/agent_configs/priya_sharma/systems.json": {
+   "bytes": 2631,
+   "git_blob": "b011cc65abfb0799b624d46508e94e4c810c2542",
+   "sha256": "a04f3b6e68861e70623d4510e822d9f03e8ff7455d3324250494cf6321223081",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/priya_sharma/systems.json",
+   "vm_sha256_of_git_show": "a04f3b6e68861e70623d4510e822d9f03e8ff7455d3324250494cf6321223081"
+  },
+  "world/dataset/pact-net/agent_configs/rachel_kim/data.json": {
+   "bytes": 52884,
+   "git_blob": "912a5b5a5ee75fccc721017ab8dc4030b2a06109",
+   "sha256": "68db0e7b80b91245aa99ac19eda4742dc01a32b44e502f28dc49d2961b8ac49e",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/rachel_kim/data.json",
+   "vm_sha256_of_git_show": "68db0e7b80b91245aa99ac19eda4742dc01a32b44e502f28dc49d2961b8ac49e"
+  },
+  "world/dataset/pact-net/agent_configs/rachel_kim/systems.json": {
+   "bytes": 1148,
+   "git_blob": "88331f21363bdf5dcada6b5cf854b7963ea7146a",
+   "sha256": "85fc0234601d234a57c0748f930a42911bfce40fb9d8ce1dfb826180fb78d3f0",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/rachel_kim/systems.json",
+   "vm_sha256_of_git_show": "85fc0234601d234a57c0748f930a42911bfce40fb9d8ce1dfb826180fb78d3f0"
+  },
+  "world/dataset/pact-net/agent_configs/raj_venkatesan/data.json": {
+   "bytes": 11624,
+   "git_blob": "dc670c49cc3d48a08c326c707b5edf076eef9286",
+   "sha256": "2d3b0c4e9d4a8543e01ca4c1e1ca6000d1decc1945d70eae90e2bdc36f59c6c7",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/raj_venkatesan/data.json",
+   "vm_sha256_of_git_show": "2d3b0c4e9d4a8543e01ca4c1e1ca6000d1decc1945d70eae90e2bdc36f59c6c7"
+  },
+  "world/dataset/pact-net/agent_configs/raj_venkatesan/systems.json": {
+   "bytes": 1024,
+   "git_blob": "6639cd3303736ae391568facf6221d575c060a63",
+   "sha256": "77a7a33a9ad5bc77a60002f9def97fc91a230bf7c71c55fa95edd001b3abaf68",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/raj_venkatesan/systems.json",
+   "vm_sha256_of_git_show": "77a7a33a9ad5bc77a60002f9def97fc91a230bf7c71c55fa95edd001b3abaf68"
+  },
+  "world/dataset/pact-net/agent_configs/rosa_delgado/data.json": {
+   "bytes": 11457,
+   "git_blob": "a3bb33ccdcc6f5b5f8a16c5097635f7acbbf2e73",
+   "sha256": "e2a1930b560467ce90fcdac54e759a6feaa1c1cad5878b3f9ca740b9200ee2b8",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/rosa_delgado/data.json",
+   "vm_sha256_of_git_show": "e2a1930b560467ce90fcdac54e759a6feaa1c1cad5878b3f9ca740b9200ee2b8"
+  },
+  "world/dataset/pact-net/agent_configs/rosa_delgado/systems.json": {
+   "bytes": 980,
+   "git_blob": "ebe5a1828cf914af62e09ea8eef00270a7564dc7",
+   "sha256": "e5214f2c79600ddc9f55cd1aeb225e0183432a69c5568bdfe47060c1d2e960cc",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/rosa_delgado/systems.json",
+   "vm_sha256_of_git_show": "e5214f2c79600ddc9f55cd1aeb225e0183432a69c5568bdfe47060c1d2e960cc"
+  },
+  "world/dataset/pact-net/agent_configs/ryan_park/systems.json": {
+   "bytes": 664,
+   "git_blob": "646c3e32d40a777985ec24ed8cd540434cd461e7",
+   "sha256": "c138c04212dd316134923f93042c4d111e52fafe370180d0b8710c8bf8ac8191",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/ryan_park/systems.json",
+   "vm_sha256_of_git_show": "c138c04212dd316134923f93042c4d111e52fafe370180d0b8710c8bf8ac8191"
+  },
+  "world/dataset/pact-net/agent_configs/samira_cole/data.json": {
+   "bytes": 6370,
+   "git_blob": "8535263a851ba495ec98a78bdc267692f022e67d",
+   "sha256": "a1674fcf4d1169f5899fce60145c8ce7626070450e66cb30a1a05bd235a79537",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/samira_cole/data.json",
+   "vm_sha256_of_git_show": "a1674fcf4d1169f5899fce60145c8ce7626070450e66cb30a1a05bd235a79537"
+  },
+  "world/dataset/pact-net/agent_configs/samira_cole/systems.json": {
+   "bytes": 1318,
+   "git_blob": "71f0e4a9d553f8bd0fce0ff0ed75eff71b9e73db",
+   "sha256": "5168b1dbb96bd5907dfaf591eb33913c33c14d6db17bd6fb59b5817e6d91251a",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/samira_cole/systems.json",
+   "vm_sha256_of_git_show": "5168b1dbb96bd5907dfaf591eb33913c33c14d6db17bd6fb59b5817e6d91251a"
+  },
+  "world/dataset/pact-net/agent_configs/sarah_martinez/data.json": {
+   "bytes": 95653,
+   "git_blob": "39258dfce1dcfe889f0d322ad1875276e0fd189c",
+   "sha256": "ed3ac995f96a7ace0694cb9797e4d6ddb6fffacc1fc02df99798b5e9d0c729cb",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/sarah_martinez/data.json",
+   "vm_sha256_of_git_show": "ed3ac995f96a7ace0694cb9797e4d6ddb6fffacc1fc02df99798b5e9d0c729cb"
+  },
+  "world/dataset/pact-net/agent_configs/sarah_martinez/systems.json": {
+   "bytes": 1816,
+   "git_blob": "745dceec8cdaf88c4cb62497f921c7f3c0db5d07",
+   "sha256": "37458e9feed3194c839b21393147972e3d679bb37a9206f46565c2bf82353df1",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/sarah_martinez/systems.json",
+   "vm_sha256_of_git_show": "37458e9feed3194c839b21393147972e3d679bb37a9206f46565c2bf82353df1"
+  },
+  "world/dataset/pact-net/agent_configs/sophie_chen/systems.json": {
+   "bytes": 798,
+   "git_blob": "7d9b0ea7e130b5a4996bbb3f8b689baf71c4fe0b",
+   "sha256": "49eefbd6aef04470905730b5ba7973f45f09b332d4aecd1fd59da3a7fa63843d",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/sophie_chen/systems.json",
+   "vm_sha256_of_git_show": "49eefbd6aef04470905730b5ba7973f45f09b332d4aecd1fd59da3a7fa63843d"
+  },
+  "world/dataset/pact-net/agent_configs/stephen_kowalczyk/data.json": {
+   "bytes": 19041,
+   "git_blob": "9beaf26d8014619488faea9199708132dd364f60",
+   "sha256": "a25224c1b9c8d1d404f775f270cca77cdcde4694cc695fbf3de71596b15d1ac9",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/stephen_kowalczyk/data.json",
+   "vm_sha256_of_git_show": "a25224c1b9c8d1d404f775f270cca77cdcde4694cc695fbf3de71596b15d1ac9"
+  },
+  "world/dataset/pact-net/agent_configs/stephen_kowalczyk/systems.json": {
+   "bytes": 1415,
+   "git_blob": "a4ff9970cc6e95c98abc3831ecc35e665b277bd7",
+   "sha256": "286c92f63d26b80494746f4333516c868272f404a8a26990150e9c39e2a848d3",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/stephen_kowalczyk/systems.json",
+   "vm_sha256_of_git_show": "286c92f63d26b80494746f4333516c868272f404a8a26990150e9c39e2a848d3"
+  },
+  "world/dataset/pact-net/agent_configs/sunil_rao/data.json": {
+   "bytes": 13557,
+   "git_blob": "1aa3c1b4a7ef3d22bab7c2e305a2a2ba7fb6afcd",
+   "sha256": "d8f91b5da0dc24836f5100e418521776c80348216dd9ca04712a3fc8cb659807",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/sunil_rao/data.json",
+   "vm_sha256_of_git_show": "d8f91b5da0dc24836f5100e418521776c80348216dd9ca04712a3fc8cb659807"
+  },
+  "world/dataset/pact-net/agent_configs/sunil_rao/systems.json": {
+   "bytes": 1055,
+   "git_blob": "b34e9cfa1cbff63680d735a5c314dcb763038a20",
+   "sha256": "4fad1f4e6d36a9cf8937e568bbfe0fc70fc96032ceb6e0dcbb5737a10338c8ac",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/sunil_rao/systems.json",
+   "vm_sha256_of_git_show": "4fad1f4e6d36a9cf8937e568bbfe0fc70fc96032ceb6e0dcbb5737a10338c8ac"
+  },
+  "world/dataset/pact-net/agent_configs/terrence_boyd/data.json": {
+   "bytes": 12434,
+   "git_blob": "775607f3154deb7a9a7d0a5136a379252eacc115",
+   "sha256": "2bd51c079f40b8365070e2de4088b80f33d3cf89330bfc30eb1ef43099a15bcd",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/terrence_boyd/data.json",
+   "vm_sha256_of_git_show": "2bd51c079f40b8365070e2de4088b80f33d3cf89330bfc30eb1ef43099a15bcd"
+  },
+  "world/dataset/pact-net/agent_configs/terrence_boyd/systems.json": {
+   "bytes": 1003,
+   "git_blob": "43a0b66a48f17e44aed0d15602dc76d6f54882cc",
+   "sha256": "747c1b1f69cdb485b261dd8bc346c7117cf54926dbc8ee3e33b9fdfe4e3dade5",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/terrence_boyd/systems.json",
+   "vm_sha256_of_git_show": "747c1b1f69cdb485b261dd8bc346c7117cf54926dbc8ee3e33b9fdfe4e3dade5"
+  },
+  "world/dataset/pact-net/agent_configs/tina_rodriguez/data.json": {
+   "bytes": 55208,
+   "git_blob": "79b4733998caf47a0d58c1887b3b4a91f417d987",
+   "sha256": "3e5be3d7b819120ace82565c827d25885cec50dff8f72057fe75ab70fe01f2fb",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/tina_rodriguez/data.json",
+   "vm_sha256_of_git_show": "3e5be3d7b819120ace82565c827d25885cec50dff8f72057fe75ab70fe01f2fb"
+  },
+  "world/dataset/pact-net/agent_configs/tina_rodriguez/systems.json": {
+   "bytes": 932,
+   "git_blob": "90c4e7a80858b31baf2b25f7972f461b10fe623e",
+   "sha256": "da03c1aaa5131d385c9ee7a276d9a2f92b0b73354630b2e8a2fcfc9e4daffba0",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/tina_rodriguez/systems.json",
+   "vm_sha256_of_git_show": "da03c1aaa5131d385c9ee7a276d9a2f92b0b73354630b2e8a2fcfc9e4daffba0"
+  },
+  "world/dataset/pact-net/agent_configs/tom_bradford/systems.json": {
+   "bytes": 1054,
+   "git_blob": "31e7bcf1aaaf9198c7b6fb28736795da936d67b5",
+   "sha256": "4c9907a172e640cafbbd6911d38a9c8e6f10b589fdf23ed96d387cd77936d0ad",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/tom_bradford/systems.json",
+   "vm_sha256_of_git_show": "4c9907a172e640cafbbd6911d38a9c8e6f10b589fdf23ed96d387cd77936d0ad"
+  },
+  "world/dataset/pact-net/agent_configs/tomas_adeyemi/data.json": {
+   "bytes": 10385,
+   "git_blob": "6f66f86367ab0df9a1ffa588aacda50505477492",
+   "sha256": "efd7c85fd73e1327815a69f576bfaad2bc5b4748159532869799557130e96eb9",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/tomas_adeyemi/data.json",
+   "vm_sha256_of_git_show": "efd7c85fd73e1327815a69f576bfaad2bc5b4748159532869799557130e96eb9"
+  },
+  "world/dataset/pact-net/agent_configs/tomas_adeyemi/systems.json": {
+   "bytes": 1005,
+   "git_blob": "ce4933c2c3afb7c2c4330441e27e1bfc8691fbaa",
+   "sha256": "6ded2150d1ed22d35c8fe30897c681644e03bf49ab912607eb59ece6d53d86b4",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/tomas_adeyemi/systems.json",
+   "vm_sha256_of_git_show": "6ded2150d1ed22d35c8fe30897c681644e03bf49ab912607eb59ece6d53d86b4"
+  },
+  "world/dataset/pact-net/agent_configs/victor_tan/systems.json": {
+   "bytes": 817,
+   "git_blob": "56474b181ba6b69f0afb59109c5a429b3d79596e",
+   "sha256": "38631c193ae42310856cd889c0029c44d6a43d9b14951657ebe8d77fc420150b",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/victor_tan/systems.json",
+   "vm_sha256_of_git_show": "38631c193ae42310856cd889c0029c44d6a43d9b14951657ebe8d77fc420150b"
+  },
+  "world/dataset/pact-net/agent_configs/wes_arnold/data.json": {
+   "bytes": 21134,
+   "git_blob": "ca51c693fdb8f9cc490c38658cd9fc9124bb4e38",
+   "sha256": "6af2bedc9a803f40f6af92954a27e56dc44863a7edd53abb40416244cfffc342",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/wes_arnold/data.json",
+   "vm_sha256_of_git_show": "6af2bedc9a803f40f6af92954a27e56dc44863a7edd53abb40416244cfffc342"
+  },
+  "world/dataset/pact-net/agent_configs/wes_arnold/systems.json": {
+   "bytes": 1238,
+   "git_blob": "7929a6fc0c87b26f9fc1b7ce3bd3c3ba0b736b34",
+   "sha256": "4f3e35f4df8466eb1d905f2ba95750e1b0673af845bb5d8dbc321a041963bd23",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/agent_configs/wes_arnold/systems.json",
+   "vm_sha256_of_git_show": "4f3e35f4df8466eb1d905f2ba95750e1b0673af845bb5d8dbc321a041963bd23"
+  },
+  "world/dataset/pact-net/tasks/pact_net_tasks_v2.json": {
+   "bytes": 1076218,
+   "git_blob": "06fb266578497bd1edd03d17da80f0854cc3c367",
+   "sha256": "af0fb4213374b405a51e420bae9cc8b420c392c2ac4333466e0a2af1fab9d3e1",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/tasks/pact_net_tasks_v2.json",
+   "vm_sha256_of_git_show": "af0fb4213374b405a51e420bae9cc8b420c392c2ac4333466e0a2af1fab9d3e1"
+  },
+  "world/dataset/pact-net/world_design/contact_graph.json": {
+   "bytes": 12063,
+   "git_blob": "a5add10ecceef81b85b9d2c60d4ea018761a7c90",
+   "sha256": "88c0bcaf7d3a94ca5c58b3df2298d954fd1d70f1ba235dda30b439cc702f96a1",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/world_design/contact_graph.json",
+   "vm_sha256_of_git_show": "88c0bcaf7d3a94ca5c58b3df2298d954fd1d70f1ba235dda30b439cc702f96a1"
+  },
+  "world/dataset/pact-net/world_design/relational_access_matrix.json": {
+   "bytes": 142101,
+   "git_blob": "6a761b1adbd15eec25a87f3ed8228c17c9299887",
+   "sha256": "f3d1f0d105da4156f615c1e54959bdad7393acb16587b6cdf66b09c5ee78a87b",
+   "source": "SharedEval d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1), path dataset/pact-net/world_design/relational_access_matrix.json",
+   "vm_sha256_of_git_show": "f3d1f0d105da4156f615c1e54959bdad7393acb16587b6cdf66b09c5ee78a87b"
+  }
+ },
+ "forbidden_entries": 136,
+ "holders": 42,
+ "holders_without_bundled_data_json": [
+  "alex_chen"
+ ],
+ "kinship_anchors": [
+  "david_chen"
+ ]
+}

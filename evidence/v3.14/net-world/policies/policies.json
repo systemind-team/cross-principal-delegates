@@ -1,0 +1,132 @@
+{
+ "D0": {
+  "bytes": 0,
+  "runs": 240,
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+ },
+ "D1": {
+  "bytes": 128,
+  "file": "D1_caution.md",
+  "runs": 240,
+  "sha256": "94c9bd8810e9f79332d198c48f488988659c7cb6b91187d34718aa66a593427d"
+ },
+ "d44e478": "d44e4788562c438a97180443ee8cc5170094ad07",
+ "d44e478_tree": "00eecd0bc16b37a170949afeb23f34bcedb8ad23",
+ "holders": {
+  "bea_ferreira": {
+   "d2_runs_served": 40,
+   "file": "bea_ferreira.md",
+   "git_blob": "c2d6c00dc3d44ec8c338b0d668e87dcdc033c003",
+   "path_at_d44e478": "dataset/pact-net/agent_configs/bea_ferreira/POLICY.md",
+   "sha256": "e4b5e64dcd9ea8a17bca17e17a3590ed74e17c68fb1aabe654ddde29549fbcda"
+  },
+  "carlos_reyes": {
+   "d2_runs_served": 30,
+   "file": "carlos_reyes.md",
+   "git_blob": "2c505d87916cb7b0727eecfbf6740326724d162a",
+   "path_at_d44e478": "dataset/pact-net/agent_configs/carlos_reyes/POLICY.md",
+   "sha256": "e453358f781c090c3fc8433864ac3a2b8118c5ca2b2520add9d05a92885d5075"
+  },
+  "david_chen": {
+   "d2_runs_served": 10,
+   "file": "david_chen.md",
+   "git_blob": "39577944b34344597c5b4a9d69e5cbbb78244fb4",
+   "path_at_d44e478": "dataset/pact-net/agent_configs/david_chen/POLICY.md",
+   "sha256": "c04737b1b64f1e3bcd7438603b5bd8816b3ce8b65f759f5ec914cbe2edc7ba6a"
+  },
+  "dr_ivy_banerjee": {
+   "d2_runs_served": 20,
+   "file": "dr_ivy_banerjee.md",
+   "git_blob": "75c5e5539c7e1355fd9381507dae36a9250c8f57",
+   "path_at_d44e478": "dataset/pact-net/agent_configs/dr_ivy_banerjee/POLICY.md",
+   "sha256": "7b363b43b0c6c2fc37054ea41f22acdacf81e91d079c43a6cf1476e26957a279"
+  },
+  "dr_paul_mensah": {
+   "d2_runs_served": 10,
+   "file": "dr_paul_mensah.md",
+   "git_blob": "4ec32e659b6fc2c015d1a850bd975c44c92259b1",
+   "path_at_d44e478": "dataset/pact-net/agent_configs/dr_paul_mensah/POLICY.md",
+   "sha256": "ad6b338341c88c9f3818fc91a1079dc1d29eb6ef6fb1d592aa62e67947d48f66"
+  },
+  "elena_park": {
+   "d2_runs_served": 20,
+   "file": "elena_park.md",
+   "git_blob": "bbcba911dfecf116dc2cf941281e9a9e6c53235a",
+   "path_at_d44e478": "dataset/pact-net/agent_configs/elena_park/POLICY.md",
+   "sha256": "755e3da260313844f2c5a62b230fbdf2ad2a48d34d578178c4226215393171a7"
+  },
+  "grace_okonkwo": {
+   "d2_runs_served": 10,
+   "file": "grace_okonkwo.md",
+   "git_blob": "731008bb38faf29d3e4df19f81e0146cf7d9b399",
+   "path_at_d44e478": "dataset/pact-net/agent_configs/grace_okonkwo/POLICY.md",
+   "sha256": "c0eb4e107aad9d6fdd8dcd38f823173ad40c6c40c0459d2c58c6d04a0934ac85"
+  },
+  "mike_torres": {
+   "d2_runs_served": 10,
+   "file": "mike_torres.md",
+   "git_blob": "f0acb3809a0fa3d32299d774ff908175720d2992",
+   "path_at_d44e478": "dataset/pact-net/agent_configs/mike_torres/POLICY.md",
+   "sha256": "757f8b4b38a812ea4c22813e805f6fa1351d25acf9f18a0ff52e4e2aa75bc84e"
+  },
+  "priya_sharma": {
+   "d2_runs_served": 10,
+   "file": "priya_sharma.md",
+   "git_blob": "5bc28edda5536efbf43b60de72640eed1dd70b53",
+   "path_at_d44e478": "dataset/pact-net/agent_configs/priya_sharma/POLICY.md",
+   "sha256": "45af5a164477403e1c61413d34b2574495cd49a81e4631806eb9cd14cf228543"
+  },
+  "raj_venkatesan": {
+   "d2_runs_served": 10,
+   "file": "raj_venkatesan.md",
+   "git_blob": "0f709286bbd259cb39663e4bb6cf125b9f262425",
+   "path_at_d44e478": "dataset/pact-net/agent_configs/raj_venkatesan/POLICY.md",
+   "sha256": "5765413c66d68f60a3969d0c98d0cf3d9ec27a4009b261a51306980f72125509"
+  },
+  "rosa_delgado": {
+   "d2_runs_served": 30,
+   "file": "rosa_delgado.md",
+   "git_blob": "0fb5d74ebd44faffb2d9eb30074a53bf3c43d10d",
+   "path_at_d44e478": "dataset/pact-net/agent_configs/rosa_delgado/POLICY.md",
+   "sha256": "50584614ee173e99212ae52b3b828bc4a2126a9c7ee56f5463c5161b1a381f5e"
+  },
+  "sarah_martinez": {
+   "d2_runs_served": 20,
+   "file": "sarah_martinez.md",
+   "git_blob": "3f7254ee9bc49a92a0d0960008d912f7167f198f",
+   "path_at_d44e478": "dataset/pact-net/agent_configs/sarah_martinez/POLICY.md",
+   "sha256": "ba51c182dc75f0f5a7e5146e48118ac846d23c963b9f257792b13a58874b1029"
+  },
+  "terrence_boyd": {
+   "d2_runs_served": 10,
+   "file": "terrence_boyd.md",
+   "git_blob": "01b9c57ddd3f5dd5bf5ce494b78990fe317f51cb",
+   "path_at_d44e478": "dataset/pact-net/agent_configs/terrence_boyd/POLICY.md",
+   "sha256": "8f04ab75c9a6f31c63a09bfc099db3c7845daeea0329cf6e9c5269c901844520"
+  },
+  "wes_arnold": {
+   "d2_runs_served": 10,
+   "file": "wes_arnold.md",
+   "git_blob": "d47c10f30cc0cee680a5fd50b8b94f610af2cbca",
+   "path_at_d44e478": "dataset/pact-net/agent_configs/wes_arnold/POLICY.md",
+   "sha256": "0bb98c3b22125be56da98f6d3213226575f69b92de2f8f2b1944799de981cafa"
+  }
+ },
+ "note": "every POLICY.md version a responder held equals the rung's text; the runs listed under responder_versions_beyond_the_first re-saved the same text",
+ "responder_versions_beyond_the_first": [
+  "d0_d10_p-r3",
+  "d0_d11_w-r2",
+  "d0_ep01_w-r1",
+  "d0_h01_p-r3",
+  "d1_d11_w-r2",
+  "d2_d10_p-r3",
+  "d2_d11_p-r2",
+  "d2_ep01_p-r1",
+  "d2_ep01_p-r3",
+  "d2_ep01_w-r1",
+  "d2_ep01_w-r2",
+  "d0_h11_p-r2",
+  "d1_h01_p-r2",
+  "d2_ep01_w-r1"
+ ]
+}

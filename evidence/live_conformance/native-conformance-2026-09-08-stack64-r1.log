@@ -1,0 +1,21 @@
+Harness availability
+  Standard (deepseek-v4-flash, thinking off) available
+
+Running 29 case(s) against 2 column(s)...
+
+| Harness | pass | not applicable | not implemented | out of scope | not exercised | fail |
+| --- | --- | --- | --- | --- | --- | --- |
+| Adversary | 30 | 0 | 2 | 0 | 0 | 0 |
+| Standard (deepseek-v4-flash, thinking off) | 27 | 3 | 2 | 0 | 0 | 0 |
+
+What each column's turns actually did
+  Adversary                    31 turns, 80 mediated operations, outcomes: denied×1, escalated×1, failed×2, succeeded×27
+                               model: not declared
+                               prompt set: none (this column tells the seat nothing)
+  Standard (deepseek-v4-flash, thinking off) 29 turns, 78 mediated operations, outcomes: denied×1, escalated×1, failed×1, succeeded×26
+                               model: deepseek-v4-flash
+                               prompt set: sha256:ece3b355772e…
+
+Wrote /home/ubuntu/workspace/SharedOS/artifacts/conformance/native-conformance.json
+
+1 live column(s) ran; 0 cell(s) did not pass.

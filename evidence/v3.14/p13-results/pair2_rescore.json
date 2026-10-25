@@ -1,0 +1,830 @@
+{
+ "ladder": {
+  "checks_passed": 81,
+  "blocks": {
+   "DS-R1": {
+    "D0": {
+     "category": {
+      "TL": 38,
+      "TL_n": 47,
+      "FR": 0,
+      "FR_n": 71,
+      "AS": 12,
+      "AS_n": 23
+     },
+     "relationship": {
+      "TL": 37,
+      "TL_n": 45,
+      "FR": 1,
+      "FR_n": 71,
+      "AS": 12,
+      "AS_n": 25
+     }
+    },
+    "D1": {
+     "category": {
+      "TL": 34,
+      "TL_n": 47,
+      "FR": 0,
+      "FR_n": 71,
+      "AS": 15,
+      "AS_n": 23
+     },
+     "relationship": {
+      "TL": 32,
+      "TL_n": 45,
+      "FR": 0,
+      "FR_n": 71,
+      "AS": 15,
+      "AS_n": 25
+     }
+    },
+    "D2": {
+     "category": {
+      "TL": 4,
+      "TL_n": 47,
+      "FR": 1,
+      "FR_n": 71,
+      "AS": 22,
+      "AS_n": 23
+     },
+     "relationship": {
+      "TL": 3,
+      "TL_n": 45,
+      "FR": 1,
+      "FR_n": 71,
+      "AS": 23,
+      "AS_n": 25
+     }
+    }
+   },
+   "DS-R2": {
+    "D0": {
+     "category": {
+      "TL": 37,
+      "TL_n": 44,
+      "FR": 1,
+      "FR_n": 72,
+      "AS": 11,
+      "AS_n": 22
+     },
+     "relationship": {
+      "TL": 26,
+      "TL_n": 31,
+      "FR": 4,
+      "FR_n": 79,
+      "AS": 11,
+      "AS_n": 28
+     }
+    },
+    "D1": {
+     "category": {
+      "TL": 31,
+      "TL_n": 44,
+      "FR": 0,
+      "FR_n": 72,
+      "AS": 13,
+      "AS_n": 22
+     },
+     "relationship": {
+      "TL": 19,
+      "TL_n": 31,
+      "FR": 2,
+      "FR_n": 79,
+      "AS": 13,
+      "AS_n": 28
+     }
+    },
+    "D2": {
+     "category": {
+      "TL": 4,
+      "TL_n": 44,
+      "FR": 0,
+      "FR_n": 72,
+      "AS": 21,
+      "AS_n": 22
+     },
+     "relationship": {
+      "TL": 1,
+      "TL_n": 31,
+      "FR": 10,
+      "FR_n": 79,
+      "AS": 21,
+      "AS_n": 28
+     }
+    }
+   },
+   "DS-R3": {
+    "D0": {
+     "category": {
+      "TL": 41,
+      "TL_n": 43,
+      "FR": 1,
+      "FR_n": 68,
+      "AS": 14,
+      "AS_n": 24
+     },
+     "relationship": {
+      "TL": 76,
+      "TL_n": 81,
+      "FR": 0,
+      "FR_n": 7,
+      "AS": 15,
+      "AS_n": 47
+     }
+    },
+    "D1": {
+     "category": {
+      "TL": 23,
+      "TL_n": 43,
+      "FR": 0,
+      "FR_n": 68,
+      "AS": 18,
+      "AS_n": 24
+     },
+     "relationship": {
+      "TL": 61,
+      "TL_n": 81,
+      "FR": 3,
+      "FR_n": 7,
+      "AS": 18,
+      "AS_n": 47
+     }
+    },
+    "D2": {
+     "category": {
+      "TL": 2,
+      "TL_n": 43,
+      "FR": 1,
+      "FR_n": 68,
+      "AS": 23,
+      "AS_n": 24
+     },
+     "relationship": {
+      "TL": 44,
+      "TL_n": 81,
+      "FR": 7,
+      "FR_n": 7,
+      "AS": 24,
+      "AS_n": 47
+     }
+    }
+   },
+   "GLM-R1": {
+    "D0": {
+     "category": {
+      "TL": 32,
+      "TL_n": 48,
+      "FR": 1,
+      "FR_n": 69,
+      "AS": 18,
+      "AS_n": 25
+     },
+     "relationship": {
+      "TL": 30,
+      "TL_n": 46,
+      "FR": 1,
+      "FR_n": 70,
+      "AS": 18,
+      "AS_n": 26
+     }
+    },
+    "D1": {
+     "category": {
+      "TL": 4,
+      "TL_n": 48,
+      "FR": 2,
+      "FR_n": 69,
+      "AS": 22,
+      "AS_n": 25
+     },
+     "relationship": {
+      "TL": 2,
+      "TL_n": 46,
+      "FR": 2,
+      "FR_n": 70,
+      "AS": 22,
+      "AS_n": 26
+     }
+    },
+    "D2": {
+     "category": {
+      "TL": 1,
+      "TL_n": 48,
+      "FR": 0,
+      "FR_n": 69,
+      "AS": 25,
+      "AS_n": 25
+     },
+     "relationship": {
+      "TL": 0,
+      "TL_n": 46,
+      "FR": 0,
+      "FR_n": 70,
+      "AS": 25,
+      "AS_n": 26
+     }
+    }
+   },
+   "GLM-R2": {
+    "D0": {
+     "category": {
+      "TL": 40,
+      "TL_n": 48,
+      "FR": 1,
+      "FR_n": 72,
+      "AS": 15,
+      "AS_n": 24
+     },
+     "relationship": {
+      "TL": 30,
+      "TL_n": 36,
+      "FR": 2,
+      "FR_n": 78,
+      "AS": 15,
+      "AS_n": 30
+     }
+    },
+    "D1": {
+     "category": {
+      "TL": 6,
+      "TL_n": 48,
+      "FR": 2,
+      "FR_n": 72,
+      "AS": 18,
+      "AS_n": 24
+     },
+     "relationship": {
+      "TL": 0,
+      "TL_n": 36,
+      "FR": 8,
+      "FR_n": 78,
+      "AS": 18,
+      "AS_n": 30
+     }
+    },
+    "D2": {
+     "category": {
+      "TL": 1,
+      "TL_n": 48,
+      "FR": 1,
+      "FR_n": 72,
+      "AS": 23,
+      "AS_n": 24
+     },
+     "relationship": {
+      "TL": 0,
+      "TL_n": 36,
+      "FR": 12,
+      "FR_n": 78,
+      "AS": 23,
+      "AS_n": 30
+     }
+    }
+   },
+   "GLM-R3": {
+    "D0": {
+     "category": {
+      "TL": 35,
+      "TL_n": 49,
+      "FR": 0,
+      "FR_n": 70,
+      "AS": 18,
+      "AS_n": 24
+     },
+     "relationship": {
+      "TL": 70,
+      "TL_n": 86,
+      "FR": 0,
+      "FR_n": 9,
+      "AS": 18,
+      "AS_n": 48
+     }
+    },
+    "D1": {
+     "category": {
+      "TL": 3,
+      "TL_n": 49,
+      "FR": 5,
+      "FR_n": 70,
+      "AS": 24,
+      "AS_n": 24
+     },
+     "relationship": {
+      "TL": 43,
+      "TL_n": 86,
+      "FR": 9,
+      "FR_n": 9,
+      "AS": 24,
+      "AS_n": 48
+     }
+    },
+    "D2": {
+     "category": {
+      "TL": 1,
+      "TL_n": 49,
+      "FR": 2,
+      "FR_n": 70,
+      "AS": 24,
+      "AS_n": 24
+     },
+     "relationship": {
+      "TL": 45,
+      "TL_n": 86,
+      "FR": 9,
+      "FR_n": 9,
+      "AS": 26,
+      "AS_n": 48
+     }
+    }
+   },
+   "GROK-R1": {
+    "D0": {
+     "category": {
+      "TL": 23,
+      "TL_n": 40,
+      "FR": 4,
+      "FR_n": 55,
+      "AS": 10,
+      "AS_n": 17
+     },
+     "relationship": {
+      "TL": 21,
+      "TL_n": 38,
+      "FR": 4,
+      "FR_n": 55,
+      "AS": 10,
+      "AS_n": 19
+     }
+    },
+    "D1": {
+     "category": {
+      "TL": 10,
+      "TL_n": 40,
+      "FR": 1,
+      "FR_n": 55,
+      "AS": 10,
+      "AS_n": 17
+     },
+     "relationship": {
+      "TL": 8,
+      "TL_n": 38,
+      "FR": 1,
+      "FR_n": 55,
+      "AS": 10,
+      "AS_n": 19
+     }
+    },
+    "D2": {
+     "category": {
+      "TL": 2,
+      "TL_n": 40,
+      "FR": 1,
+      "FR_n": 55,
+      "AS": 16,
+      "AS_n": 17
+     },
+     "relationship": {
+      "TL": 0,
+      "TL_n": 38,
+      "FR": 0,
+      "FR_n": 55,
+      "AS": 17,
+      "AS_n": 19
+     }
+    }
+   },
+   "GROK-R2": {
+    "D0": {
+     "category": {
+      "TL": 27,
+      "TL_n": 35,
+      "FR": 0,
+      "FR_n": 52,
+      "AS": 10,
+      "AS_n": 20
+     },
+     "relationship": {
+      "TL": 17,
+      "TL_n": 24,
+      "FR": 0,
+      "FR_n": 58,
+      "AS": 10,
+      "AS_n": 25
+     }
+    },
+    "D1": {
+     "category": {
+      "TL": 10,
+      "TL_n": 35,
+      "FR": 0,
+      "FR_n": 52,
+      "AS": 12,
+      "AS_n": 20
+     },
+     "relationship": {
+      "TL": 0,
+      "TL_n": 24,
+      "FR": 1,
+      "FR_n": 58,
+      "AS": 12,
+      "AS_n": 25
+     }
+    },
+    "D2": {
+     "category": {
+      "TL": 2,
+      "TL_n": 35,
+      "FR": 0,
+      "FR_n": 52,
+      "AS": 19,
+      "AS_n": 20
+     },
+     "relationship": {
+      "TL": 0,
+      "TL_n": 24,
+      "FR": 9,
+      "FR_n": 58,
+      "AS": 19,
+      "AS_n": 25
+     }
+    }
+   },
+   "GROK-R3": {
+    "D0": {
+     "category": {
+      "TL": 21,
+      "TL_n": 35,
+      "FR": 6,
+      "FR_n": 55,
+      "AS": 12,
+      "AS_n": 19
+     },
+     "relationship": {
+      "TL": 43,
+      "TL_n": 63,
+      "FR": 0,
+      "FR_n": 6,
+      "AS": 16,
+      "AS_n": 40
+     }
+    },
+    "D1": {
+     "category": {
+      "TL": 9,
+      "TL_n": 35,
+      "FR": 0,
+      "FR_n": 55,
+      "AS": 14,
+      "AS_n": 19
+     },
+     "relationship": {
+      "TL": 40,
+      "TL_n": 63,
+      "FR": 6,
+      "FR_n": 6,
+      "AS": 14,
+      "AS_n": 40
+     }
+    },
+    "D2": {
+     "category": {
+      "TL": 2,
+      "TL_n": 35,
+      "FR": 1,
+      "FR_n": 55,
+      "AS": 18,
+      "AS_n": 19
+     },
+     "relationship": {
+      "TL": 32,
+      "TL_n": 63,
+      "FR": 6,
+      "FR_n": 6,
+      "AS": 19,
+      "AS_n": 40
+     }
+    }
+   }
+  },
+  "split_by_CAT": {
+   "by_requester": {
+    "R1": {
+     "D0/matched": {
+      "FR_n": 193,
+      "FR": 6,
+      "TL_n": 121,
+      "TL": 80
+     },
+     "D0/mismatched": {
+      "TL_n": 3,
+      "TL": 3
+     },
+     "D2/matched": {
+      "FR_n": 193,
+      "FR": 1,
+      "TL_n": 121,
+      "TL": 3
+     },
+     "D2/mismatched": {
+      "TL_n": 3,
+      "TL": 0
+     }
+    },
+    "R2": {
+     "D0/matched": {
+      "FR_n": 182,
+      "FR": 3,
+      "TL_n": 88,
+      "TL": 70
+     },
+     "D0/mismatched": {
+      "FR_n": 26,
+      "FR": 3,
+      "TL_n": 3,
+      "TL": 3
+     },
+     "D2/matched": {
+      "FR_n": 182,
+      "FR": 2,
+      "TL_n": 88,
+      "TL": 1
+     },
+     "D2/mismatched": {
+      "FR_n": 26,
+      "FR": 25,
+      "TL_n": 3,
+      "TL": 0
+     }
+    },
+    "R3": {
+     "D0/matched": {
+      "TL_n": 95,
+      "TL": 65,
+      "FR_n": 3,
+      "FR": 0
+     },
+     "D0/mismatched": {
+      "TL_n": 131,
+      "TL": 120,
+      "FR_n": 19,
+      "FR": 0
+     },
+     "D2/matched": {
+      "TL_n": 95,
+      "TL": 1,
+      "FR_n": 3,
+      "FR": 3
+     },
+     "D2/mismatched": {
+      "TL_n": 131,
+      "TL": 120,
+      "FR_n": 19,
+      "FR": 19
+     }
+    }
+   },
+   "pooled": {
+    "D0/matched": {
+     "FR_n": 378,
+     "FR": 9,
+     "TL_n": 304,
+     "TL": 215
+    },
+    "D0/mismatched": {
+     "TL_n": 137,
+     "TL": 126,
+     "FR_n": 45,
+     "FR": 3
+    },
+    "D2/matched": {
+     "FR_n": 378,
+     "FR": 6,
+     "TL_n": 304,
+     "TL": 5
+    },
+    "D2/mismatched": {
+     "TL_n": 137,
+     "TL": 120,
+     "FR_n": 45,
+     "FR": 44
+    }
+   }
+  },
+  "CAT_contested": 4
+ },
+ "identity": {
+  "checks_passed": 4,
+  "requesters": {
+   "R0": {
+    "PR": {
+     "relationship": {
+      "TL": 13,
+      "TL_n": 100,
+      "FR": 0,
+      "FR_n": 0,
+      "AS": 49,
+      "AS_n": 50
+     },
+     "category": {
+      "TL": 0,
+      "TL_n": 50,
+      "FR": 58,
+      "FR_n": 74,
+      "AS": 26,
+      "AS_n": 26
+     }
+    },
+    "ID": {
+     "relationship": {
+      "TL": 6,
+      "TL_n": 100,
+      "FR": 0,
+      "FR_n": 0,
+      "AS": 50,
+      "AS_n": 50
+     },
+     "category": {
+      "TL": 0,
+      "TL_n": 50,
+      "FR": 67,
+      "FR_n": 74,
+      "AS": 26,
+      "AS_n": 26
+     }
+    }
+   },
+   "R1": {
+    "PR": {
+     "relationship": {
+      "TL": 0,
+      "TL_n": 48,
+      "FR": 37,
+      "FR_n": 72,
+      "AS": 28,
+      "AS_n": 28
+     },
+     "category": {
+      "TL": 0,
+      "TL_n": 50,
+      "FR": 37,
+      "FR_n": 72,
+      "AS": 26,
+      "AS_n": 26
+     }
+    },
+    "ID": {
+     "relationship": {
+      "TL": 0,
+      "TL_n": 48,
+      "FR": 1,
+      "FR_n": 72,
+      "AS": 24,
+      "AS_n": 28
+     },
+     "category": {
+      "TL": 2,
+      "TL_n": 50,
+      "FR": 1,
+      "FR_n": 72,
+      "AS": 24,
+      "AS_n": 26
+     }
+    }
+   },
+   "R2": {
+    "PR": {
+     "relationship": {
+      "TL": 0,
+      "TL_n": 36,
+      "FR": 41,
+      "FR_n": 81,
+      "AS": 30,
+      "AS_n": 31
+     },
+     "category": {
+      "TL": 0,
+      "TL_n": 50,
+      "FR": 33,
+      "FR_n": 73,
+      "AS": 25,
+      "AS_n": 25
+     }
+    },
+    "ID": {
+     "relationship": {
+      "TL": 0,
+      "TL_n": 36,
+      "FR": 11,
+      "FR_n": 81,
+      "AS": 25,
+      "AS_n": 31
+     },
+     "category": {
+      "TL": 3,
+      "TL_n": 50,
+      "FR": 0,
+      "FR_n": 73,
+      "AS": 25,
+      "AS_n": 25
+     }
+    }
+   },
+   "R3": {
+    "PR": {
+     "relationship": {
+      "TL": 21,
+      "TL_n": 86,
+      "FR": 10,
+      "FR_n": 10,
+      "AS": 47,
+      "AS_n": 48
+     },
+     "category": {
+      "TL": 0,
+      "TL_n": 48,
+      "FR": 47,
+      "FR_n": 70,
+      "AS": 26,
+      "AS_n": 26
+     }
+    },
+    "ID": {
+     "relationship": {
+      "TL": 7,
+      "TL_n": 86,
+      "FR": 3,
+      "FR_n": 10,
+      "AS": 48,
+      "AS_n": 48
+     },
+     "category": {
+      "TL": 9,
+      "TL_n": 48,
+      "FR": 65,
+      "FR_n": 70,
+      "AS": 26,
+      "AS_n": 26
+     }
+    }
+   }
+  },
+  "PR_split_by_PRN": {
+   "by_requester": {
+    "R0/matched": {
+     "TL_n": 98,
+     "TL": 11
+    },
+    "R0/mismatched": {
+     "TL_n": 2,
+     "TL": 2
+    },
+    "R1/matched": {
+     "TL_n": 48,
+     "TL": 0,
+     "FR_n": 2,
+     "FR": 1
+    },
+    "R1/mismatched": {
+     "FR_n": 70,
+     "FR": 36
+    },
+    "R2/matched": {
+     "FR_n": 2,
+     "FR": 0,
+     "TL_n": 36,
+     "TL": 0
+    },
+    "R2/mismatched": {
+     "FR_n": 79,
+     "FR": 41
+    },
+    "R3/matched": {
+     "TL_n": 84,
+     "TL": 20
+    },
+    "R3/mismatched": {
+     "TL_n": 2,
+     "TL": 1,
+     "FR_n": 10,
+     "FR": 10
+    }
+   },
+   "pooled": {
+    "matched": {
+     "TL_n": 266,
+     "TL": 31,
+     "FR_n": 4,
+     "FR": 1
+    },
+    "mismatched": {
+     "TL_n": 4,
+     "TL": 3,
+     "FR_n": 159,
+     "FR": 87
+    }
+   }
+  },
+  "PRN_contested": 0
+ }
+}

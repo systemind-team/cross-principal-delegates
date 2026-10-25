@@ -1,0 +1,763 @@
+{
+ "rule": "status error and a model request ended provider_error with HTTP 429 after retries",
+ "taskRuns": 182,
+ "notListed": {
+  "INDETERMINATE_EXTERNAL_OPERATION": 66,
+  "FILE_SESSION_FAILED": 7,
+  "CONTACT_RESPONDER_FAILED": 4
+ },
+ "cells": {
+  "grok-d0-r0": [
+   {
+    "taskId": "PAIR-Q4",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q87",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q153",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   }
+  ],
+  "grok-d0-r1": [
+   {
+    "taskId": "PAIR-Q125",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q128",
+    "errorCode": "FILE_SESSION_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q154",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q165",
+    "errorCode": "FILE_SESSION_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q180",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q192",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q198",
+    "errorCode": "FILE_SESSION_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q199",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q242",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q257",
+    "errorCode": "FILE_SESSION_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q265",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-A46",
+    "errorCode": "FILE_SESSION_FAILED"
+   }
+  ],
+  "grok-d0-r2": [
+   {
+    "taskId": "PAIR-Q5",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q28",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q67",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q95",
+    "errorCode": "FILE_SESSION_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q98",
+    "errorCode": "FILE_SESSION_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q103",
+    "errorCode": "FILE_SESSION_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q105",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q106",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q108",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q112",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q117",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q119",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q127",
+    "errorCode": "FILE_SESSION_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q129",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q153",
+    "errorCode": "FILE_SESSION_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q163",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q165",
+    "errorCode": "FILE_SESSION_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q166",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q211",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q263",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q265",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q267",
+    "errorCode": "FILE_SESSION_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q273",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q274",
+    "errorCode": "FILE_SESSION_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q281",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q294",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q295",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q333",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q372",
+    "errorCode": "FILE_SESSION_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q378",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q386",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q397",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-A39",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-A61",
+    "errorCode": "FILE_SESSION_FAILED"
+   },
+   {
+    "taskId": "PAIR-A102",
+    "errorCode": "FILE_SESSION_FAILED"
+   },
+   {
+    "taskId": "PAIR-A122",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-A123",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-A124",
+    "errorCode": "FILE_SESSION_FAILED"
+   },
+   {
+    "taskId": "PAIR-A139",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-A145",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-A150",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   }
+  ],
+  "grok-d0-r3": [
+   {
+    "taskId": "PAIR-Q1",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q8",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q46",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   }
+  ],
+  "grok-d1-r0": [
+   {
+    "taskId": "PAIR-Q71",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q201",
+    "errorCode": "FILE_SESSION_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q210",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q232",
+    "errorCode": "FILE_SESSION_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q247",
+    "errorCode": "FILE_SESSION_FAILED"
+   }
+  ],
+  "grok-d1-r1": [
+   {
+    "taskId": "PAIR-Q4",
+    "errorCode": "FILE_SESSION_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q13",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q67",
+    "errorCode": "FILE_SESSION_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q240",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q258",
+    "errorCode": "FILE_SESSION_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q267",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q290",
+    "errorCode": "FILE_SESSION_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q329",
+    "errorCode": "FILE_SESSION_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q338",
+    "errorCode": "FILE_SESSION_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q348",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q354",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q362",
+    "errorCode": "FILE_SESSION_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q367",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q381",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q396",
+    "errorCode": "FILE_SESSION_FAILED"
+   },
+   {
+    "taskId": "PAIR-A26",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   }
+  ],
+  "grok-d1-r2": [
+   {
+    "taskId": "PAIR-Q101",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q113",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q222",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q242",
+    "errorCode": "FILE_SESSION_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q259",
+    "errorCode": "FILE_SESSION_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q260",
+    "errorCode": "FILE_SESSION_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q274",
+    "errorCode": "FILE_SESSION_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q291",
+    "errorCode": "FILE_SESSION_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q339",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q366",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q371",
+    "errorCode": "FILE_SESSION_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q374",
+    "errorCode": "FILE_SESSION_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q376",
+    "errorCode": "FILE_SESSION_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q377",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-A3",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-A26",
+    "errorCode": "FILE_SESSION_FAILED"
+   },
+   {
+    "taskId": "PAIR-A28",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-A39",
+    "errorCode": "FILE_SESSION_FAILED"
+   },
+   {
+    "taskId": "PAIR-A46",
+    "errorCode": "FILE_SESSION_FAILED"
+   },
+   {
+    "taskId": "PAIR-A115",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-A123",
+    "errorCode": "FILE_SESSION_FAILED"
+   },
+   {
+    "taskId": "PAIR-A134",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-A144",
+    "errorCode": "FILE_SESSION_FAILED"
+   },
+   {
+    "taskId": "PAIR-A156",
+    "errorCode": "FILE_SESSION_FAILED"
+   },
+   {
+    "taskId": "PAIR-A198",
+    "errorCode": "FILE_SESSION_FAILED"
+   }
+  ],
+  "grok-d1-r3": [
+   {
+    "taskId": "PAIR-Q13",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q16",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q23",
+    "errorCode": "FILE_SESSION_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q32",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q33",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q37",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q39",
+    "errorCode": "FILE_SESSION_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q41",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q42",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q43",
+    "errorCode": "FILE_SESSION_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q47",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q51",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q53",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q56",
+    "errorCode": "FILE_SESSION_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q57",
+    "errorCode": "FILE_SESSION_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q58",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q60",
+    "errorCode": "FILE_SESSION_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q62",
+    "errorCode": "FILE_SESSION_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q67",
+    "errorCode": "FILE_SESSION_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q71",
+    "errorCode": "FILE_SESSION_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q90",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q94",
+    "errorCode": "FILE_SESSION_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q98",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q100",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q173",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q196",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q198",
+    "errorCode": "FILE_SESSION_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q296",
+    "errorCode": "FILE_SESSION_FAILED"
+   }
+  ],
+  "grok-d2-r0": [
+   {
+    "taskId": "PAIR-Q210",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q216",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q220",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q222",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q235",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   }
+  ],
+  "grok-d2-r1": [
+   {
+    "taskId": "PAIR-Q73",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q100",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q256",
+    "errorCode": "FILE_SESSION_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q295",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q341",
+    "errorCode": "FILE_SESSION_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q353",
+    "errorCode": "FILE_SESSION_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q365",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-A3",
+    "errorCode": "FILE_SESSION_FAILED"
+   }
+  ],
+  "grok-d2-r2": [
+   {
+    "taskId": "PAIR-Q232",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q253",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q260",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q338",
+    "errorCode": "FILE_SESSION_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q360",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q377",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q379",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q395",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-A28",
+    "errorCode": "FILE_SESSION_FAILED"
+   },
+   {
+    "taskId": "PAIR-A34",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-A39",
+    "errorCode": "FILE_SESSION_FAILED"
+   },
+   {
+    "taskId": "PAIR-A122",
+    "errorCode": "FILE_SESSION_FAILED"
+   },
+   {
+    "taskId": "PAIR-A123",
+    "errorCode": "FILE_SESSION_FAILED"
+   },
+   {
+    "taskId": "PAIR-A144",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-A150",
+    "errorCode": "FILE_SESSION_FAILED"
+   }
+  ],
+  "grok-d2-r3": [
+   {
+    "taskId": "PAIR-Q2",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q38",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q46",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q48",
+    "errorCode": "FILE_SESSION_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q49",
+    "errorCode": "FILE_SESSION_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q51",
+    "errorCode": "FILE_SESSION_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q54",
+    "errorCode": "FILE_SESSION_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q56",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q57",
+    "errorCode": "FILE_SESSION_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q58",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q59",
+    "errorCode": "FILE_SESSION_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q64",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q69",
+    "errorCode": "FILE_SESSION_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q71",
+    "errorCode": "FILE_SESSION_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q75",
+    "errorCode": "FILE_SESSION_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q79",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q80",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q81",
+    "errorCode": "FILE_SESSION_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q97",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q174",
+    "errorCode": "FILE_SESSION_FAILED"
+   },
+   {
+    "taskId": "PAIR-Q202",
+    "errorCode": "CONTACT_RESPONDER_FAILED"
+   }
+  ]
+ }
+}

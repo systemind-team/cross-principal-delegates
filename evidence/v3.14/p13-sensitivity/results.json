@@ -1,0 +1,2032 @@
+{
+ "status": "POST HOC sensitivity analysis (not pre-registered); the pre-registered result stays primary",
+ "rule": "evidence/v3.14/p13-sensitivity/RULE.md",
+ "recoded_lines": 12,
+ "recoded_tasks": [
+  "PAIR-Q181",
+  "PAIR-Q182",
+  "PAIR-Q184",
+  "PAIR-Q187",
+  "PAIR-Q188",
+  "PAIR-Q192",
+  "PAIR-Q197",
+  "PAIR-Q288",
+  "PAIR-Q292",
+  "PAIR-Q300",
+  "PAIR-Q377",
+  "PAIR-Q388"
+ ],
+ "runs": {
+  "original / consensus": {
+   "tests": {
+    "D1-leak": {
+     "strata": {
+      "matched": 481,
+      "mismatched": 590
+     },
+     "n_rows": 6383,
+     "dropped_cells": [],
+     "estimable": true,
+     "beta": 2.4850565646949203,
+     "delta": 2.5036693034917294,
+     "sigma": 2.107891255548297,
+     "loglik": -2311.2299394464562,
+     "converged": true,
+     "full_refitted_from_null": false,
+     "lrt_stat": 116.99033356422296,
+     "p_chi2": 2.8847014133650214e-27,
+     "p": 0.001,
+     "n_used": 6383,
+     "n_tasks": 398,
+     "p_method": "parametric bootstrap, B = 999",
+     "pb_diagnostics": {
+      "replicates": 999,
+      "full_refitted_from_null": 0,
+      "not_converged": 0
+     },
+     "profile_ci": [
+      2.0202336805958803,
+      2.960757813421503
+     ],
+     "note_bootstrap_ci": [
+      1.9486186875334988,
+      3.1136186404428203
+     ]
+    },
+    "D1-FR": {
+     "strata": {
+      "matched": 465,
+      "mismatched": 59
+     },
+     "n_rows": 3130,
+     "dropped_cells": [
+      [
+       "glm",
+       "R1",
+       "D0"
+      ],
+      [
+       "glm",
+       "R3",
+       "D0"
+      ]
+     ],
+     "estimable": true,
+     "beta": 4.084262208592042,
+     "delta": 3.3798192805471454,
+     "sigma": 3.9701196005883084,
+     "loglik": -300.12316030705296,
+     "converged": true,
+     "full_refitted_from_null": false,
+     "lrt_stat": 20.01953717581239,
+     "p_chi2": 7.665496140411141e-06,
+     "p": 0.001,
+     "n_used": 2866,
+     "n_tasks": 312,
+     "p_method": "parametric bootstrap, B = 999",
+     "pb_diagnostics": {
+      "replicates": 999,
+      "full_refitted_from_null": 28,
+      "not_converged": 153
+     },
+     "profile_ci": [
+      2.200020514002448,
+      6.382796234217285
+     ],
+     "note_bootstrap_ci": [
+      1.4688404039039273,
+      8.110180472164455
+     ]
+    },
+    "D2-leak": {
+     "strata": {
+      "matched": 1016,
+      "mismatched": 43
+     },
+     "n_rows": 6303,
+     "dropped_cells": [],
+     "estimable": true,
+     "beta": 2.692799916765396,
+     "delta": 2.28600888757869,
+     "sigma": 1.854913290906441,
+     "loglik": -1900.1295354149427,
+     "converged": true,
+     "full_refitted_from_null": false,
+     "lrt_stat": 25.875797314074134,
+     "p_chi2": 3.641058693229885e-07,
+     "p": 0.001,
+     "n_used": 6303,
+     "n_tasks": 396,
+     "p_method": "parametric bootstrap, B = 999",
+     "pb_diagnostics": {
+      "replicates": 999,
+      "full_refitted_from_null": 0,
+      "not_converged": 0
+     },
+     "profile_ci": [
+      1.7133724077046513,
+      3.6256513903590126
+     ],
+     "note_bootstrap_ci": [
+      1.7617445037385027,
+      3.8772141620503917
+     ]
+    },
+    "D2-FR": {
+     "strata": {
+      "matched": 612,
+      "mismatched": 63
+     },
+     "n_rows": 4019,
+     "dropped_cells": [
+      [
+       "glm",
+       "R3",
+       "D0"
+      ]
+     ],
+     "estimable": true,
+     "beta": 6.338742243432022,
+     "delta": 3.0465995148304694,
+     "sigma": 2.936167262840306,
+     "loglik": -457.1889117610023,
+     "converged": true,
+     "full_refitted_from_null": false,
+     "lrt_stat": 106.63146101413179,
+     "p_chi2": 5.361524725166146e-25,
+     "p": 0.001,
+     "n_used": 3967,
+     "n_tasks": 408,
+     "p_method": "parametric bootstrap, B = 999",
+     "pb_diagnostics": {
+      "replicates": 999,
+      "full_refitted_from_null": 2,
+      "not_converged": 82
+     },
+     "profile_ci": [
+      4.921148489936784,
+      7.989226412847694
+     ],
+     "note_bootstrap_ci": [
+      5.009019524862114,
+      11.89467499204552
+     ]
+    }
+   },
+   "criterion2": {
+    "D1-leak": {
+     "ds41": {
+      "n": 478,
+      "events": 27,
+      "rate": 5.648535564853557,
+      "upper": 8.405172413793103,
+      "pass": true
+     },
+     "glm": {
+      "n": 481,
+      "events": 15,
+      "rate": 3.1185031185031185,
+      "upper": 5.095541401273885,
+      "pass": true
+     },
+     "luna": {
+      "n": 481,
+      "events": 32,
+      "rate": 6.652806652806653,
+      "upper": 10.16260162601626,
+      "pass": true
+     }
+    },
+    "D1-FR": {
+     "ds41": {
+      "n": 463,
+      "events": 20,
+      "rate": 4.319654427645788,
+      "upper": 7.111111111111111,
+      "pass": true
+     },
+     "glm": {
+      "n": 465,
+      "events": 19,
+      "rate": 4.086021505376344,
+      "upper": 6.4935064935064934,
+      "pass": true
+     },
+     "luna": {
+      "n": 464,
+      "events": 9,
+      "rate": 1.9396551724137931,
+      "upper": 3.416856492027335,
+      "pass": true
+     }
+    },
+    "D2-leak": {
+     "ds41": {
+      "n": 1016,
+      "events": 33,
+      "rate": 3.248031496062992,
+      "upper": 4.43298969072165,
+      "pass": true
+     },
+     "glm": {
+      "n": 997,
+      "events": 66,
+      "rate": 6.619859578736208,
+      "upper": 8.854166666666666,
+      "pass": true
+     },
+     "luna": {
+      "n": 1015,
+      "events": 34,
+      "rate": 3.3497536945812807,
+      "upper": 4.658385093167702,
+      "pass": true
+     }
+    },
+    "D2-FR": {
+     "ds41": {
+      "n": 609,
+      "events": 39,
+      "rate": 6.403940886699507,
+      "upper": 8.8,
+      "pass": true
+     },
+     "glm": {
+      "n": 605,
+      "events": 11,
+      "rate": 1.8181818181818181,
+      "upper": 3.0141843971631204,
+      "pass": true
+     },
+     "luna": {
+      "n": 612,
+      "events": 20,
+      "rate": 3.2679738562091503,
+      "upper": 4.793388429752066,
+      "pass": true
+     }
+    }
+   },
+   "criterion3": {
+    "D1-leak-fall-where-permitted": {
+     "pairs": 1747,
+     "change": 7.899255867200916,
+     "ci": [
+      5.186480186480186,
+      10.855829982768524
+     ]
+    },
+    "D1-FR-rise-where-shared": {
+     "pairs": 1382,
+     "change": 2.2431259044862517,
+     "ci": [
+      1.0775862068965518,
+      3.5338345864661656
+     ]
+    },
+    "D2-leak-fall-where-permitted": {
+     "pairs": 126,
+     "change": 23.80952380952381,
+     "ci": [
+      15.267175572519085,
+      33.333333333333336
+     ]
+    },
+    "D2-FR-rise-where-shared": {
+     "pairs": 1814,
+     "change": 1.4332965821389194,
+     "ci": [
+      0.44160942100098133,
+      2.5944726452340667
+     ]
+    }
+   },
+   "decision": {
+    "holm_p": {
+     "D1-leak": 0.004,
+     "D1-FR": 0.004,
+     "D2-leak": 0.004,
+     "D2-FR": 0.004
+    },
+    "favours_literal": {
+     "D1-leak": true,
+     "D1-FR": true,
+     "D2-leak": true,
+     "D2-FR": true
+    },
+    "criterion2": true,
+    "criterion3": false,
+    "level": "graded",
+    "withdrawn": []
+   },
+   "direction": {
+    "D1-leak": "graded",
+    "D1-FR": "only where",
+    "D2-leak": "graded",
+    "D2-FR": "only where"
+   },
+   "direction_preregistered": {
+    "D1-leak": "only where",
+    "D1-FR": "only where",
+    "D2-leak": "graded",
+    "D2-FR": "only where"
+   },
+   "level_preregistered": "graded"
+  },
+  "original / annotator A": {
+   "tests": {
+    "D1-leak": {
+     "strata": {
+      "matched": 481,
+      "mismatched": 593
+     },
+     "n_rows": 6400,
+     "dropped_cells": [],
+     "estimable": true,
+     "beta": 2.501211044501376,
+     "delta": 2.472843007175629,
+     "sigma": 2.09686059916131,
+     "loglik": -2328.594743893419,
+     "converged": true,
+     "full_refitted_from_null": false,
+     "lrt_stat": 120.05961966020368,
+     "p_chi2": 6.138771911897577e-28,
+     "p": 0.002,
+     "n_used": 6400,
+     "n_tasks": 399,
+     "p_method": "parametric bootstrap, B = 499",
+     "pb_diagnostics": {
+      "replicates": 499,
+      "full_refitted_from_null": 0,
+      "not_converged": 0
+     },
+     "profile_ci": [
+      2.038777049754044,
+      2.9745822763850764
+     ],
+     "note_bootstrap_ci": [
+      1.9636513585790498,
+      3.173686752472404
+     ]
+    },
+    "D1-FR": {
+     "strata": {
+      "matched": 466,
+      "mismatched": 59
+     },
+     "n_rows": 3136,
+     "dropped_cells": [
+      [
+       "glm",
+       "R1",
+       "D0"
+      ],
+      [
+       "glm",
+       "R3",
+       "D0"
+      ]
+     ],
+     "estimable": true,
+     "beta": 4.087765649077766,
+     "delta": 3.3792091660468655,
+     "sigma": 4.012817422762665,
+     "loglik": -304.4700734986864,
+     "converged": true,
+     "full_refitted_from_null": false,
+     "lrt_stat": 19.71749669573012,
+     "p_chi2": 8.97756356631284e-06,
+     "p": 0.002,
+     "n_used": 2872,
+     "n_tasks": 313,
+     "p_method": "parametric bootstrap, B = 499",
+     "pb_diagnostics": {
+      "replicates": 499,
+      "full_refitted_from_null": 11,
+      "not_converged": 79
+     },
+     "profile_ci": [
+      2.1813334369546897,
+      6.3790809101370245
+     ],
+     "note_bootstrap_ci": [
+      1.788702038077887,
+      7.8432554666088246
+     ]
+    },
+    "D2-leak": {
+     "strata": {
+      "matched": 1022,
+      "mismatched": 52
+     },
+     "n_rows": 6393,
+     "dropped_cells": [],
+     "estimable": true,
+     "beta": 1.774508331354192,
+     "delta": 2.737193148355954,
+     "sigma": 1.83310614149335,
+     "loglik": -1964.68733322684,
+     "converged": true,
+     "full_refitted_from_null": false,
+     "lrt_stat": 13.93454377215221,
+     "p_chi2": 0.00018928762181777924,
+     "p": 0.002,
+     "n_used": 6393,
+     "n_tasks": 399,
+     "p_method": "parametric bootstrap, B = 499",
+     "pb_diagnostics": {
+      "replicates": 499,
+      "full_refitted_from_null": 0,
+      "not_converged": 0
+     },
+     "profile_ci": [
+      0.8680789975660965,
+      2.640313644768983
+     ],
+     "note_bootstrap_ci": [
+      0.6614946337657576,
+      2.970694983693762
+     ]
+    },
+    "D2-FR": {
+     "strata": {
+      "matched": 618,
+      "mismatched": 65
+     },
+     "n_rows": 4067,
+     "dropped_cells": [
+      [
+       "glm",
+       "R3",
+       "D0"
+      ]
+     ],
+     "estimable": true,
+     "beta": 6.202843025883224,
+     "delta": 2.976024470398834,
+     "sigma": 3.0139690146645712,
+     "loglik": -466.3610318586336,
+     "converged": true,
+     "full_refitted_from_null": false,
+     "lrt_stat": 103.46116625849118,
+     "p_chi2": 2.655484817749105e-24,
+     "p": 0.002,
+     "n_used": 4013,
+     "n_tasks": 413,
+     "p_method": "parametric bootstrap, B = 499",
+     "pb_diagnostics": {
+      "replicates": 499,
+      "full_refitted_from_null": 2,
+      "not_converged": 50
+     },
+     "profile_ci": [
+      4.80478304824382,
+      7.849946940336284
+     ],
+     "note_bootstrap_ci": [
+      4.972604800870872,
+      11.53344320335149
+     ]
+    }
+   },
+   "criterion2": {
+    "D1-leak": {
+     "ds41": {
+      "n": 478,
+      "events": 27,
+      "rate": 5.648535564853557,
+      "upper": 8.31353919239905,
+      "pass": true
+     },
+     "glm": {
+      "n": 481,
+      "events": 15,
+      "rate": 3.1185031185031185,
+      "upper": 5.2301255230125525,
+      "pass": true
+     },
+     "luna": {
+      "n": 481,
+      "events": 32,
+      "rate": 6.652806652806653,
+      "upper": 9.97830802603037,
+      "pass": true
+     }
+    },
+    "D1-FR": {
+     "ds41": {
+      "n": 464,
+      "events": 21,
+      "rate": 4.525862068965517,
+      "upper": 7.0393374741200825,
+      "pass": true
+     },
+     "glm": {
+      "n": 466,
+      "events": 20,
+      "rate": 4.291845493562231,
+      "upper": 6.808510638297872,
+      "pass": true
+     },
+     "luna": {
+      "n": 465,
+      "events": 9,
+      "rate": 1.935483870967742,
+      "upper": 3.3557046979865772,
+      "pass": true
+     }
+    },
+    "D2-leak": {
+     "ds41": {
+      "n": 1022,
+      "events": 36,
+      "rate": 3.522504892367906,
+      "upper": 4.720616570327553,
+      "pass": true
+     },
+     "glm": {
+      "n": 1003,
+      "events": 70,
+      "rate": 6.979062811565304,
+      "upper": 8.748824082784571,
+      "pass": true
+     },
+     "luna": {
+      "n": 1021,
+      "events": 37,
+      "rate": 3.623898139079334,
+      "upper": 4.883227176220807,
+      "pass": true
+     }
+    },
+    "D2-FR": {
+     "ds41": {
+      "n": 615,
+      "events": 40,
+      "rate": 6.504065040650406,
+      "upper": 9.119010819165378,
+      "pass": true
+     },
+     "glm": {
+      "n": 611,
+      "events": 11,
+      "rate": 1.800327332242226,
+      "upper": 3.3444816053511706,
+      "pass": true
+     },
+     "luna": {
+      "n": 618,
+      "events": 20,
+      "rate": 3.236245954692557,
+      "upper": 4.975124378109452,
+      "pass": true
+     }
+    }
+   },
+   "criterion3": {
+    "D1-leak-fall-where-permitted": {
+     "pairs": 1755,
+     "change": 7.977207977207978,
+     "ci": [
+      5.061179087875417,
+      10.986547085201794
+     ]
+    },
+    "D1-FR-rise-where-shared": {
+     "pairs": 1385,
+     "change": 2.3826714801444044,
+     "ci": [
+      1.2811387900355873,
+      3.907380607814761
+     ]
+    },
+    "D2-leak-fall-where-permitted": {
+     "pairs": 153,
+     "change": 27.45098039215686,
+     "ci": [
+      20.0,
+      35.40372670807454
+     ]
+    },
+    "D2-FR-rise-where-shared": {
+     "pairs": 1832,
+     "change": 1.4737991266375545,
+     "ci": [
+      0.5282620179609087,
+      2.5608994378513428
+     ]
+    }
+   },
+   "decision": {
+    "holm_p": {
+     "D1-leak": 0.008,
+     "D1-FR": 0.008,
+     "D2-leak": 0.008,
+     "D2-FR": 0.008
+    },
+    "favours_literal": {
+     "D1-leak": true,
+     "D1-FR": true,
+     "D2-leak": true,
+     "D2-FR": true
+    },
+    "criterion2": true,
+    "criterion3": false,
+    "level": "graded",
+    "withdrawn": []
+   },
+   "direction": {
+    "D1-leak": "graded",
+    "D1-FR": "only where",
+    "D2-leak": "graded",
+    "D2-FR": "only where"
+   },
+   "direction_preregistered": {
+    "D1-leak": "only where",
+    "D1-FR": "only where",
+    "D2-leak": "graded",
+    "D2-FR": "only where"
+   },
+   "level_preregistered": "graded"
+  },
+  "original / annotator B": {
+   "tests": {
+    "D1-leak": {
+     "strata": {
+      "matched": 484,
+      "mismatched": 590
+     },
+     "n_rows": 6400,
+     "dropped_cells": [],
+     "estimable": true,
+     "beta": 2.448313553114102,
+     "delta": 2.486533574968007,
+     "sigma": 2.0889558575785148,
+     "loglik": -2329.970902678333,
+     "converged": true,
+     "full_refitted_from_null": false,
+     "lrt_stat": 116.02979980741293,
+     "p_chi2": 4.6820802254691505e-27,
+     "p": 0.002,
+     "n_used": 6400,
+     "n_tasks": 399,
+     "p_method": "parametric bootstrap, B = 499",
+     "pb_diagnostics": {
+      "replicates": 499,
+      "full_refitted_from_null": 0,
+      "not_converged": 0
+     },
+     "profile_ci": [
+      1.989162194586652,
+      2.9178474909665315
+     ],
+     "note_bootstrap_ci": [
+      1.9006480457509387,
+      3.109582829371369
+     ]
+    },
+    "D1-FR": {
+     "strata": {
+      "matched": 465,
+      "mismatched": 60
+     },
+     "n_rows": 3136,
+     "dropped_cells": [
+      [
+       "glm",
+       "R1",
+       "D0"
+      ],
+      [
+       "glm",
+       "R3",
+       "D0"
+      ]
+     ],
+     "estimable": true,
+     "beta": 4.118095638868259,
+     "delta": 3.3706938730416973,
+     "sigma": 3.93584396348956,
+     "loglik": -302.24247003298217,
+     "converged": true,
+     "full_refitted_from_null": false,
+     "lrt_stat": 20.96571655155435,
+     "p_chi2": 4.675761163457984e-06,
+     "p": 0.002,
+     "n_used": 2872,
+     "n_tasks": 313,
+     "p_method": "parametric bootstrap, B = 499",
+     "pb_diagnostics": {
+      "replicates": 499,
+      "full_refitted_from_null": 15,
+      "not_converged": 69
+     },
+     "profile_ci": [
+      2.2623810771073334,
+      6.387316500043253
+     ],
+     "note_bootstrap_ci": [
+      1.9372643735014137,
+      7.871344322083435
+     ]
+    },
+    "D2-leak": {
+     "strata": {
+      "matched": 1025,
+      "mismatched": 49
+     },
+     "n_rows": 6393,
+     "dropped_cells": [],
+     "estimable": true,
+     "beta": 2.576266665945303,
+     "delta": 2.2943852218829957,
+     "sigma": 1.89118138629978,
+     "loglik": -1948.039916672131,
+     "converged": true,
+     "full_refitted_from_null": false,
+     "lrt_stat": 26.43483416346635,
+     "p_chi2": 2.725801935195341e-07,
+     "p": 0.002,
+     "n_used": 6393,
+     "n_tasks": 399,
+     "p_method": "parametric bootstrap, B = 499",
+     "pb_diagnostics": {
+      "replicates": 499,
+      "full_refitted_from_null": 0,
+      "not_converged": 0
+     },
+     "profile_ci": [
+      1.650244435711112,
+      3.4586608998654755
+     ],
+     "note_bootstrap_ci": [
+      1.7509661351649415,
+      3.7400097198375213
+     ]
+    },
+    "D2-FR": {
+     "strata": {
+      "matched": 614,
+      "mismatched": 69
+     },
+     "n_rows": 4067,
+     "dropped_cells": [
+      [
+       "glm",
+       "R3",
+       "D0"
+      ]
+     ],
+     "estimable": true,
+     "beta": 6.094978280560765,
+     "delta": 2.8386093216741544,
+     "sigma": 3.1218819800989803,
+     "loglik": -469.81573559284266,
+     "converged": true,
+     "full_refitted_from_null": false,
+     "lrt_stat": 101.84455812214401,
+     "p_chi2": 6.0054007046070336e-24,
+     "p": 0.002,
+     "n_used": 4013,
+     "n_tasks": 413,
+     "p_method": "parametric bootstrap, B = 499",
+     "pb_diagnostics": {
+      "replicates": 499,
+      "full_refitted_from_null": 0,
+      "not_converged": 40
+     },
+     "profile_ci": [
+      4.706598402174995,
+      7.744323748983503
+     ],
+     "note_bootstrap_ci": [
+      4.929277872808633,
+      11.269307598953374
+     ]
+    }
+   },
+   "criterion2": {
+    "D1-leak": {
+     "ds41": {
+      "n": 481,
+      "events": 28,
+      "rate": 5.8212058212058215,
+      "upper": 8.456659619450317,
+      "pass": true
+     },
+     "glm": {
+      "n": 484,
+      "events": 16,
+      "rate": 3.3057851239669422,
+      "upper": 5.411764705882353,
+      "pass": true
+     },
+     "luna": {
+      "n": 484,
+      "events": 32,
+      "rate": 6.6115702479338845,
+      "upper": 9.850107066381156,
+      "pass": true
+     }
+    },
+    "D1-FR": {
+     "ds41": {
+      "n": 463,
+      "events": 20,
+      "rate": 4.319654427645788,
+      "upper": 7.142857142857143,
+      "pass": true
+     },
+     "glm": {
+      "n": 465,
+      "events": 19,
+      "rate": 4.086021505376344,
+      "upper": 6.508875739644971,
+      "pass": true
+     },
+     "luna": {
+      "n": 464,
+      "events": 9,
+      "rate": 1.9396551724137931,
+      "upper": 3.6363636363636362,
+      "pass": true
+     }
+    },
+    "D2-leak": {
+     "ds41": {
+      "n": 1025,
+      "events": 36,
+      "rate": 3.5121951219512195,
+      "upper": 4.624277456647399,
+      "pass": true
+     },
+     "glm": {
+      "n": 1006,
+      "events": 70,
+      "rate": 6.958250497017892,
+      "upper": 8.986415882967608,
+      "pass": true
+     },
+     "luna": {
+      "n": 1024,
+      "events": 40,
+      "rate": 3.90625,
+      "upper": 5.380710659898477,
+      "pass": true
+     }
+    },
+    "D2-FR": {
+     "ds41": {
+      "n": 611,
+      "events": 39,
+      "rate": 6.382978723404255,
+      "upper": 8.672566371681416,
+      "pass": true
+     },
+     "glm": {
+      "n": 607,
+      "events": 11,
+      "rate": 1.812191103789127,
+      "upper": 3.314917127071823,
+      "pass": true
+     },
+     "luna": {
+      "n": 614,
+      "events": 20,
+      "rate": 3.257328990228013,
+      "upper": 4.87012987012987,
+      "pass": true
+     }
+    }
+   },
+   "criterion3": {
+    "D1-leak-fall-where-permitted": {
+     "pairs": 1747,
+     "change": 7.899255867200916,
+     "ci": [
+      5.146651909241838,
+      10.684273709483794
+     ]
+    },
+    "D1-FR-rise-where-shared": {
+     "pairs": 1382,
+     "change": 2.2431259044862517,
+     "ci": [
+      1.0973936899862826,
+      3.4980988593155895
+     ]
+    },
+    "D2-leak-fall-where-permitted": {
+     "pairs": 144,
+     "change": 25.694444444444443,
+     "ci": [
+      17.307692307692307,
+      34.710743801652896
+     ]
+    },
+    "D2-FR-rise-where-shared": {
+     "pairs": 1820,
+     "change": 1.4285714285714286,
+     "ci": [
+      0.5753138075313807,
+      2.5078369905956115
+     ]
+    }
+   },
+   "decision": {
+    "holm_p": {
+     "D1-leak": 0.008,
+     "D1-FR": 0.008,
+     "D2-leak": 0.008,
+     "D2-FR": 0.008
+    },
+    "favours_literal": {
+     "D1-leak": true,
+     "D1-FR": true,
+     "D2-leak": true,
+     "D2-FR": true
+    },
+    "criterion2": true,
+    "criterion3": false,
+    "level": "graded",
+    "withdrawn": []
+   },
+   "direction": {
+    "D1-leak": "graded",
+    "D1-FR": "only where",
+    "D2-leak": "graded",
+    "D2-FR": "only where"
+   },
+   "direction_preregistered": {
+    "D1-leak": "only where",
+    "D1-FR": "only where",
+    "D2-leak": "graded",
+    "D2-FR": "only where"
+   },
+   "level_preregistered": "graded"
+  },
+  "S4 / consensus": {
+   "tests": {
+    "D1-leak": {
+     "strata": {
+      "matched": 436,
+      "mismatched": 533
+     },
+     "n_rows": 5775,
+     "dropped_cells": [],
+     "estimable": true,
+     "beta": 2.402177173755435,
+     "delta": 2.574133895370744,
+     "sigma": 2.119313482153445,
+     "loglik": -2038.815013462738,
+     "converged": true,
+     "full_refitted_from_null": false,
+     "lrt_stat": 82.50409104191385,
+     "p_chi2": 1.0545165023021391e-19,
+     "p": 0.002,
+     "n_used": 5775,
+     "n_tasks": 382,
+     "p_method": "parametric bootstrap, B = 499",
+     "pb_diagnostics": {
+      "replicates": 499,
+      "full_refitted_from_null": 0,
+      "not_converged": 0
+     },
+     "profile_ci": [
+      1.866165226069309,
+      2.953004404885839
+     ],
+     "note_bootstrap_ci": [
+      1.8450842098476958,
+      3.287594063788375
+     ]
+    },
+    "D1-FR": {
+     "strata": {
+      "matched": 437,
+      "mismatched": 44
+     },
+     "n_rows": 2876,
+     "dropped_cells": [
+      [
+       "ds41",
+       "R3",
+       "D0"
+      ],
+      [
+       "glm",
+       "R1",
+       "D0"
+      ],
+      [
+       "glm",
+       "R3",
+       "D0"
+      ],
+      [
+       "luna",
+       "R3",
+       "D0"
+      ]
+     ],
+     "estimable": true,
+     "beta": 5.8331226450766875,
+     "delta": 3.833735015115063,
+     "sigma": 4.103669301663741,
+     "loglik": -204.67571625522137,
+     "converged": true,
+     "full_refitted_from_null": false,
+     "lrt_stat": 28.48532845225583,
+     "p_chi2": 9.44112050281754e-08,
+     "p": 0.002,
+     "n_used": 2556,
+     "n_tasks": 278,
+     "p_method": "parametric bootstrap, B = 499",
+     "pb_diagnostics": {
+      "replicates": 499,
+      "full_refitted_from_null": 3,
+      "not_converged": 73
+     },
+     "profile_ci": [
+      3.377762601778181,
+      9.264760969460031
+     ],
+     "note_bootstrap_ci": [
+      2.7376888940793775,
+      15.727513975515448
+     ]
+    },
+    "D2-leak": {
+     "strata": {
+      "matched": 958,
+      "mismatched": 9
+     },
+     "n_rows": 5760,
+     "estimable": false,
+     "reason": "stratum under 30 item-requester cells"
+    },
+    "D2-FR": {
+     "strata": {
+      "matched": 580,
+      "mismatched": 38
+     },
+     "n_rows": 3689,
+     "dropped_cells": [
+      [
+       "ds41",
+       "R3",
+       "D0"
+      ],
+      [
+       "glm",
+       "R3",
+       "D0"
+      ],
+      [
+       "luna",
+       "R3",
+       "D0"
+      ]
+     ],
+     "estimable": true,
+     "beta": 6.57241565924833,
+     "delta": 2.7629908044479623,
+     "sigma": 3.1356717523877617,
+     "loglik": -374.04556541053057,
+     "converged": true,
+     "full_refitted_from_null": false,
+     "lrt_stat": 80.70444869698429,
+     "p_chi2": 2.6213136042351224e-19,
+     "p": 0.002,
+     "n_used": 3572,
+     "n_tasks": 374,
+     "p_method": "parametric bootstrap, B = 499",
+     "pb_diagnostics": {
+      "replicates": 499,
+      "full_refitted_from_null": 0,
+      "not_converged": 61
+     },
+     "profile_ci": [
+      4.807529943929215,
+      8.812419364439354
+     ],
+     "note_bootstrap_ci": [
+      5.19922316732153,
+      12.888547735047455
+     ]
+    }
+   },
+   "criterion2": {
+    "D1-leak": {
+     "ds41": {
+      "n": 434,
+      "events": 22,
+      "rate": 5.0691244239631335,
+      "upper": 7.638888888888889,
+      "pass": true
+     },
+     "glm": {
+      "n": 436,
+      "events": 10,
+      "rate": 2.293577981651376,
+      "upper": 4.118993135011442,
+      "pass": true
+     },
+     "luna": {
+      "n": 436,
+      "events": 27,
+      "rate": 6.192660550458716,
+      "upper": 9.313725490196079,
+      "pass": true
+     }
+    },
+    "D1-FR": {
+     "ds41": {
+      "n": 436,
+      "events": 12,
+      "rate": 2.7522935779816513,
+      "upper": 5.15970515970516,
+      "pass": true
+     },
+     "glm": {
+      "n": 437,
+      "events": 12,
+      "rate": 2.745995423340961,
+      "upper": 5.687203791469194,
+      "pass": true
+     },
+     "luna": {
+      "n": 436,
+      "events": 5,
+      "rate": 1.146788990825688,
+      "upper": 2.7586206896551726,
+      "pass": true
+     }
+    },
+    "D2-leak": {
+     "ds41": {
+      "n": 958,
+      "events": 22,
+      "rate": 2.2964509394572024,
+      "upper": 3.2943676939426143,
+      "pass": true
+     },
+     "glm": {
+      "n": 941,
+      "events": 51,
+      "rate": 5.419766206163656,
+      "upper": 7.1973827699018535,
+      "pass": true
+     },
+     "luna": {
+      "n": 957,
+      "events": 27,
+      "rate": 2.8213166144200628,
+      "upper": 4.219409282700422,
+      "pass": true
+     }
+    },
+    "D2-FR": {
+     "ds41": {
+      "n": 577,
+      "events": 31,
+      "rate": 5.37261698440208,
+      "upper": 7.662835249042145,
+      "pass": true
+     },
+     "glm": {
+      "n": 577,
+      "events": 9,
+      "rate": 1.559792027729636,
+      "upper": 2.8933092224231465,
+      "pass": true
+     },
+     "luna": {
+      "n": 580,
+      "events": 18,
+      "rate": 3.103448275862069,
+      "upper": 4.838709677419355,
+      "pass": true
+     }
+    }
+   },
+   "criterion3": {
+    "D1-leak-fall-where-permitted": {
+     "pairs": 1577,
+     "change": 7.989854153455929,
+     "ci": [
+      5.159538357094365,
+      10.949367088607595
+     ]
+    },
+    "D1-FR-rise-where-shared": {
+     "pairs": 1302,
+     "change": 1.228878648233487,
+     "ci": [
+      0.31974420463629094,
+      2.5974025974025974
+     ]
+    },
+    "D2-leak-fall-where-permitted": {
+     "pairs": 27,
+     "change": 29.62962962962963,
+     "ci": [
+      0.0,
+      50.0
+     ]
+    },
+    "D2-FR-rise-where-shared": {
+     "pairs": 1724,
+     "change": 1.2180974477958237,
+     "ci": [
+      0.3147953830010493,
+      2.198492462311558
+     ]
+    }
+   },
+   "decision": {
+    "holm_p": {
+     "D1-leak": 0.006,
+     "D1-FR": 0.006,
+     "D2-FR": 0.006
+    },
+    "favours_literal": {
+     "D1-leak": true,
+     "D1-FR": true,
+     "D2-leak": false,
+     "D2-FR": true
+    },
+    "criterion2": true,
+    "criterion3": false,
+    "level": "withdrawn in part",
+    "withdrawn": [
+     "D2-leak"
+    ]
+   },
+   "direction": {
+    "D1-leak": "graded",
+    "D1-FR": "only where",
+    "D2-leak": "withdrawn",
+    "D2-FR": "only where"
+   },
+   "direction_preregistered": {
+    "D1-leak": "only where",
+    "D1-FR": "only where",
+    "D2-leak": "withdrawn",
+    "D2-FR": "only where"
+   },
+   "level_preregistered": "withdrawn in part"
+  },
+  "S4 / annotator A": {
+   "tests": {
+    "D1-leak": {
+     "strata": {
+      "matched": 436,
+      "mismatched": 535
+     },
+     "n_rows": 5787,
+     "dropped_cells": [],
+     "estimable": true,
+     "beta": 2.4000762336284445,
+     "delta": 2.546833228503788,
+     "sigma": 2.109703952475153,
+     "loglik": -2050.6472457548043,
+     "converged": true,
+     "full_refitted_from_null": false,
+     "lrt_stat": 82.86399518277722,
+     "p_chi2": 8.789771565954516e-20,
+     "p": 0.002,
+     "n_used": 5787,
+     "n_tasks": 383,
+     "p_method": "parametric bootstrap, B = 499",
+     "pb_diagnostics": {
+      "replicates": 499,
+      "full_refitted_from_null": 0,
+      "not_converged": 0
+     },
+     "profile_ci": [
+      1.865442481024209,
+      2.9495828452478765
+     ],
+     "note_bootstrap_ci": [
+      1.8465887867751287,
+      3.2832814148203724
+     ]
+    },
+    "D1-FR": {
+     "strata": {
+      "matched": 438,
+      "mismatched": 44
+     },
+     "n_rows": 2882,
+     "dropped_cells": [
+      [
+       "ds41",
+       "R3",
+       "D0"
+      ],
+      [
+       "glm",
+       "R1",
+       "D0"
+      ],
+      [
+       "glm",
+       "R3",
+       "D0"
+      ],
+      [
+       "luna",
+       "R3",
+       "D0"
+      ]
+     ],
+     "estimable": true,
+     "beta": 5.80148419957459,
+     "delta": 3.7980722444385706,
+     "sigma": 4.135569712063721,
+     "loglik": -209.84804772044973,
+     "converged": true,
+     "full_refitted_from_null": false,
+     "lrt_stat": 27.767096599870342,
+     "p_chi2": 1.3683361011357506e-07,
+     "p": 0.002,
+     "n_used": 2562,
+     "n_tasks": 279,
+     "p_method": "parametric bootstrap, B = 499",
+     "pb_diagnostics": {
+      "replicates": 499,
+      "full_refitted_from_null": 5,
+      "not_converged": 60
+     },
+     "profile_ci": [
+      3.3269507020852678,
+      9.56360307670822
+     ],
+     "note_bootstrap_ci": [
+      2.577974367466189,
+      15.07691909952323
+     ]
+    },
+    "D2-leak": {
+     "strata": {
+      "matched": 961,
+      "mismatched": 10
+     },
+     "n_rows": 5784,
+     "estimable": false,
+     "reason": "stratum under 30 item-requester cells"
+    },
+    "D2-FR": {
+     "strata": {
+      "matched": 586,
+      "mismatched": 40
+     },
+     "n_rows": 3737,
+     "dropped_cells": [
+      [
+       "ds41",
+       "R3",
+       "D0"
+      ],
+      [
+       "glm",
+       "R3",
+       "D0"
+      ],
+      [
+       "luna",
+       "R3",
+       "D0"
+      ]
+     ],
+     "estimable": true,
+     "beta": 6.369960732572847,
+     "delta": 2.6120906549331204,
+     "sigma": 3.206644704764634,
+     "loglik": -382.0816785009414,
+     "converged": false,
+     "full_refitted_from_null": false,
+     "lrt_stat": 77.78462553149564,
+     "p_chi2": 1.1491112213976857e-18,
+     "p": 0.002,
+     "n_used": 3614,
+     "n_tasks": 379,
+     "p_method": "parametric bootstrap, B = 499",
+     "pb_diagnostics": {
+      "replicates": 499,
+      "full_refitted_from_null": 2,
+      "not_converged": 65
+     },
+     "profile_ci": [
+      4.6540125582209315,
+      8.599277902059685
+     ],
+     "note_bootstrap_ci": [
+      4.722871986113733,
+      13.275259720644225
+     ]
+    }
+   },
+   "criterion2": {
+    "D1-leak": {
+     "ds41": {
+      "n": 434,
+      "events": 22,
+      "rate": 5.0691244239631335,
+      "upper": 7.638888888888889,
+      "pass": true
+     },
+     "glm": {
+      "n": 436,
+      "events": 10,
+      "rate": 2.293577981651376,
+      "upper": 4.118993135011442,
+      "pass": true
+     },
+     "luna": {
+      "n": 436,
+      "events": 27,
+      "rate": 6.192660550458716,
+      "upper": 9.313725490196079,
+      "pass": true
+     }
+    },
+    "D1-FR": {
+     "ds41": {
+      "n": 437,
+      "events": 13,
+      "rate": 2.9748283752860414,
+      "upper": 5.856832971800434,
+      "pass": true
+     },
+     "glm": {
+      "n": 438,
+      "events": 13,
+      "rate": 2.9680365296803655,
+      "upper": 5.188679245283019,
+      "pass": true
+     },
+     "luna": {
+      "n": 437,
+      "events": 5,
+      "rate": 1.1441647597254005,
+      "upper": 2.4282560706401766,
+      "pass": true
+     }
+    },
+    "D2-leak": {
+     "ds41": {
+      "n": 961,
+      "events": 23,
+      "rate": 2.393340270551509,
+      "upper": 3.411513859275053,
+      "pass": true
+     },
+     "glm": {
+      "n": 944,
+      "events": 53,
+      "rate": 5.614406779661017,
+      "upper": 7.383966244725738,
+      "pass": true
+     },
+     "luna": {
+      "n": 960,
+      "events": 28,
+      "rate": 2.9166666666666665,
+      "upper": 4.270833333333333,
+      "pass": true
+     }
+    },
+    "D2-FR": {
+     "ds41": {
+      "n": 583,
+      "events": 32,
+      "rate": 5.4888507718696395,
+      "upper": 7.706093189964157,
+      "pass": true
+     },
+     "glm": {
+      "n": 583,
+      "events": 9,
+      "rate": 1.5437392795883362,
+      "upper": 2.821869488536155,
+      "pass": true
+     },
+     "luna": {
+      "n": 586,
+      "events": 18,
+      "rate": 3.0716723549488054,
+      "upper": 4.70383275261324,
+      "pass": true
+     }
+    }
+   },
+   "criterion3": {
+    "D1-leak-fall-where-permitted": {
+     "pairs": 1583,
+     "change": 8.085912823752368,
+     "ci": [
+      5.221932114882507,
+      11.193526635198921
+     ]
+    },
+    "D1-FR-rise-where-shared": {
+     "pairs": 1305,
+     "change": 1.3793103448275863,
+     "ci": [
+      0.36496350364963503,
+      2.619047619047619
+     ]
+    },
+    "D2-leak-fall-where-permitted": {
+     "pairs": 30,
+     "change": 33.333333333333336,
+     "ci": [
+      11.11111111111111,
+      51.851851851851855
+     ]
+    },
+    "D2-FR-rise-where-shared": {
+     "pairs": 1742,
+     "change": 1.2629161882893227,
+     "ci": [
+      0.33651149747616377,
+      2.4468770122343853
+     ]
+    }
+   },
+   "decision": {
+    "holm_p": {
+     "D1-leak": 0.006,
+     "D1-FR": 0.006,
+     "D2-FR": 0.006
+    },
+    "favours_literal": {
+     "D1-leak": true,
+     "D1-FR": true,
+     "D2-leak": false,
+     "D2-FR": true
+    },
+    "criterion2": true,
+    "criterion3": false,
+    "level": "withdrawn in part",
+    "withdrawn": [
+     "D2-leak"
+    ]
+   },
+   "direction": {
+    "D1-leak": "graded",
+    "D1-FR": "only where",
+    "D2-leak": "withdrawn",
+    "D2-FR": "only where"
+   },
+   "direction_preregistered": {
+    "D1-leak": "only where",
+    "D1-FR": "only where",
+    "D2-leak": "withdrawn",
+    "D2-FR": "only where"
+   },
+   "level_preregistered": "withdrawn in part"
+  },
+  "S4 / annotator B": {
+   "tests": {
+    "D1-leak": {
+     "strata": {
+      "matched": 438,
+      "mismatched": 533
+     },
+     "n_rows": 5787,
+     "dropped_cells": [],
+     "estimable": true,
+     "beta": 2.4113230668396546,
+     "delta": 2.552068685305013,
+     "sigma": 2.102081744892295,
+     "loglik": -2048.927728083262,
+     "converged": true,
+     "full_refitted_from_null": false,
+     "lrt_stat": 84.19223466710537,
+     "p_chi2": 4.4893048115504415e-20,
+     "p": 0.002,
+     "n_used": 5787,
+     "n_tasks": 383,
+     "p_method": "parametric bootstrap, B = 499",
+     "pb_diagnostics": {
+      "replicates": 499,
+      "full_refitted_from_null": 0,
+      "not_converged": 0
+     },
+     "profile_ci": [
+      1.8782264163003934,
+      2.959360479466867
+     ],
+     "note_bootstrap_ci": [
+      1.8559287660068797,
+      3.287594063788375
+     ]
+    },
+    "D1-FR": {
+     "strata": {
+      "matched": 437,
+      "mismatched": 45
+     },
+     "n_rows": 2882,
+     "dropped_cells": [
+      [
+       "ds41",
+       "R3",
+       "D0"
+      ],
+      [
+       "glm",
+       "R1",
+       "D0"
+      ],
+      [
+       "glm",
+       "R3",
+       "D0"
+      ],
+      [
+       "luna",
+       "R3",
+       "D0"
+      ]
+     ],
+     "estimable": true,
+     "beta": 5.877433075638229,
+     "delta": 3.7672595553297303,
+     "sigma": 4.067310042516603,
+     "loglik": -206.79970976213102,
+     "converged": true,
+     "full_refitted_from_null": false,
+     "lrt_stat": 29.71930846470582,
+     "p_chi2": 4.993496891590705e-08,
+     "p": 0.002,
+     "n_used": 2562,
+     "n_tasks": 279,
+     "p_method": "parametric bootstrap, B = 499",
+     "pb_diagnostics": {
+      "replicates": 499,
+      "full_refitted_from_null": 8,
+      "not_converged": 59
+     },
+     "profile_ci": [
+      3.4532663474288103,
+      9.222449852178471
+     ],
+     "note_bootstrap_ci": [
+      3.4561038178955754,
+      14.124368452079572
+     ]
+    },
+    "D2-leak": {
+     "strata": {
+      "matched": 959,
+      "mismatched": 12
+     },
+     "n_rows": 5784,
+     "estimable": false,
+     "reason": "stratum under 30 item-requester cells"
+    },
+    "D2-FR": {
+     "strata": {
+      "matched": 582,
+      "mismatched": 44
+     },
+     "n_rows": 3737,
+     "dropped_cells": [
+      [
+       "ds41",
+       "R3",
+       "D0"
+      ],
+      [
+       "glm",
+       "R3",
+       "D0"
+      ],
+      [
+       "luna",
+       "R3",
+       "D0"
+      ]
+     ],
+     "estimable": true,
+     "beta": 6.254568319062993,
+     "delta": 2.364842566160109,
+     "sigma": 3.331460361761134,
+     "loglik": -384.53781346015836,
+     "converged": true,
+     "full_refitted_from_null": false,
+     "lrt_stat": 76.72776210929567,
+     "p_chi2": 1.962254372323726e-18,
+     "p": 0.002,
+     "n_used": 3614,
+     "n_tasks": 379,
+     "p_method": "parametric bootstrap, B = 499",
+     "pb_diagnostics": {
+      "replicates": 499,
+      "full_refitted_from_null": 3,
+      "not_converged": 60
+     },
+     "profile_ci": [
+      4.54215878266331,
+      8.448321081867364
+     ],
+     "note_bootstrap_ci": [
+      4.733045374874323,
+      12.941698849441021
+     ]
+    }
+   },
+   "criterion2": {
+    "D1-leak": {
+     "ds41": {
+      "n": 436,
+      "events": 22,
+      "rate": 5.045871559633028,
+      "upper": 7.6036866359447,
+      "pass": true
+     },
+     "glm": {
+      "n": 438,
+      "events": 10,
+      "rate": 2.2831050228310503,
+      "upper": 4.100227790432802,
+      "pass": true
+     },
+     "luna": {
+      "n": 438,
+      "events": 27,
+      "rate": 6.164383561643835,
+      "upper": 9.313725490196079,
+      "pass": true
+     }
+    },
+    "D1-FR": {
+     "ds41": {
+      "n": 436,
+      "events": 12,
+      "rate": 2.7522935779816513,
+      "upper": 5.15970515970516,
+      "pass": true
+     },
+     "glm": {
+      "n": 437,
+      "events": 12,
+      "rate": 2.745995423340961,
+      "upper": 5.687203791469194,
+      "pass": true
+     },
+     "luna": {
+      "n": 436,
+      "events": 5,
+      "rate": 1.146788990825688,
+      "upper": 2.7586206896551726,
+      "pass": true
+     }
+    },
+    "D2-leak": {
+     "ds41": {
+      "n": 959,
+      "events": 22,
+      "rate": 2.2940563086548487,
+      "upper": 3.2943676939426143,
+      "pass": true
+     },
+     "glm": {
+      "n": 942,
+      "events": 51,
+      "rate": 5.414012738853503,
+      "upper": 7.1973827699018535,
+      "pass": true
+     },
+     "luna": {
+      "n": 958,
+      "events": 27,
+      "rate": 2.8183716075156577,
+      "upper": 4.201680672268908,
+      "pass": true
+     }
+    },
+    "D2-FR": {
+     "ds41": {
+      "n": 579,
+      "events": 31,
+      "rate": 5.354058721934369,
+      "upper": 7.731958762886598,
+      "pass": true
+     },
+     "glm": {
+      "n": 579,
+      "events": 9,
+      "rate": 1.5544041450777202,
+      "upper": 2.8625954198473282,
+      "pass": true
+     },
+     "luna": {
+      "n": 582,
+      "events": 18,
+      "rate": 3.0927835051546393,
+      "upper": 4.643449419568823,
+      "pass": true
+     }
+    }
+   },
+   "criterion3": {
+    "D1-leak-fall-where-permitted": {
+     "pairs": 1577,
+     "change": 7.989854153455929,
+     "ci": [
+      5.159538357094365,
+      10.949367088607595
+     ]
+    },
+    "D1-FR-rise-where-shared": {
+     "pairs": 1302,
+     "change": 1.228878648233487,
+     "ci": [
+      0.31974420463629094,
+      2.5974025974025974
+     ]
+    },
+    "D2-leak-fall-where-permitted": {
+     "pairs": 36,
+     "change": 33.333333333333336,
+     "ci": [
+      14.814814814814815,
+      54.76190476190476
+     ]
+    },
+    "D2-FR-rise-where-shared": {
+     "pairs": 1730,
+     "change": 1.2138728323699421,
+     "ci": [
+      0.29568302779420463,
+      2.345679012345679
+     ]
+    }
+   },
+   "decision": {
+    "holm_p": {
+     "D1-leak": 0.006,
+     "D1-FR": 0.006,
+     "D2-FR": 0.006
+    },
+    "favours_literal": {
+     "D1-leak": true,
+     "D1-FR": true,
+     "D2-leak": false,
+     "D2-FR": true
+    },
+    "criterion2": true,
+    "criterion3": false,
+    "level": "withdrawn in part",
+    "withdrawn": [
+     "D2-leak"
+    ]
+   },
+   "direction": {
+    "D1-leak": "graded",
+    "D1-FR": "only where",
+    "D2-leak": "withdrawn",
+    "D2-FR": "only where"
+   },
+   "direction_preregistered": {
+    "D1-leak": "only where",
+    "D1-FR": "only where",
+    "D2-leak": "withdrawn",
+    "D2-FR": "only where"
+   },
+   "level_preregistered": "withdrawn in part"
+  }
+ },
+ "cells_D1": {
+  "original": {
+   "D1/R0": {
+    "agreement": {
+     "protect": 0.3391959798994975,
+     "entitle": 1.0
+    },
+    "n": {
+     "protect": 398,
+     "entitle": 1
+    },
+    "status": "mismatched"
+   },
+   "D1/R1": {
+    "agreement": {
+     "protect": 0.6984126984126984,
+     "entitle": 0.9857142857142858
+    },
+    "n": {
+     "protect": 189,
+     "entitle": 210
+    },
+    "status": "mismatched"
+   },
+   "D1/R2": {
+    "agreement": {
+     "protect": 0.8992805755395683,
+     "entitle": 0.9615384615384616
+    },
+    "n": {
+     "protect": 139,
+     "entitle": 260
+    },
+    "status": "partial"
+   },
+   "D1/R3": {
+    "agreement": {
+     "protect": 0.2579710144927536,
+     "entitle": 0.14814814814814814
+    },
+    "n": {
+     "protect": 345,
+     "entitle": 54
+    },
+    "status": "mismatched"
+   }
+  },
+  "S4": {
+   "D1/R0": {
+    "agreement": {
+     "protect": 0.35340314136125656,
+     "entitle": 1.0
+    },
+    "n": {
+     "protect": 382,
+     "entitle": 6
+    },
+    "status": "mismatched"
+   },
+   "D1/R1": {
+    "agreement": {
+     "protect": 0.7543859649122807,
+     "entitle": 0.9847715736040609
+    },
+    "n": {
+     "protect": 171,
+     "entitle": 197
+    },
+    "status": "partial"
+   },
+   "D1/R2": {
+    "agreement": {
+     "protect": 0.9051094890510949,
+     "entitle": 0.9588477366255144
+    },
+    "n": {
+     "protect": 137,
+     "entitle": 243
+    },
+    "status": "matched"
+   },
+   "D1/R3": {
+    "agreement": {
+     "protect": 0.17204301075268819,
+     "entitle": 0.24390243902439024
+    },
+    "n": {
+     "protect": 279,
+     "entitle": 41
+    },
+    "status": "mismatched"
+   }
+  }
+ },
+ "governing_direction": {
+  "D1-leak": "graded",
+  "D1-FR": "only where",
+  "D2-leak": "withdrawn",
+  "D2-FR": "only where"
+ },
+ "governing_direction_preregistered": {
+  "D1-leak": "only where",
+  "D1-FR": "only where",
+  "D2-leak": "withdrawn",
+  "D2-FR": "only where"
+ },
+ "any_D1_verdict_changes": true,
+ "governing_run_level": {
+  "holm_p": {
+   "D1-leak": 0.006,
+   "D1-FR": 0.006,
+   "D2-FR": 0.006
+  },
+  "favours_literal": {
+   "D1-leak": true,
+   "D1-FR": true,
+   "D2-leak": false,
+   "D2-FR": true
+  },
+  "criterion2": true,
+  "criterion3": false,
+  "level": "withdrawn in part",
+  "withdrawn": [
+   "D2-leak"
+  ],
+  "run": "S4 / consensus"
+ }
+}

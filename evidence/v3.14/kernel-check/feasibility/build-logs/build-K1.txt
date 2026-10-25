@@ -1,0 +1,25 @@
+== K1 c74461c1c4b715fd60c18401100cd72362d3afc1 2026-10-05T07:10:04Z
+Scope: all 17 workspace projects
+(node:2957957) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Lockfile is up to date, resolution step is skipped
+Progress: resolved 1, reused 0, downloaded 0, added 0
+Packages: +78
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Progress: resolved 78, reused 78, downloaded 0, added 78, done
+
+devDependencies:
++ @types/node 22.20.1
++ prettier 3.9.6
++ publint 0.3.23
++ typedoc 0.28.20
++ typedoc-plugin-markdown 4.12.0
++ typescript 5.9.3
++ vitest 2.1.9
+
+Done in 667ms
+
+> sharedos@0.1.0-alpha.4 build <vm>/kernel-check/kernels/K1
+> node scripts/clean-generated.mjs && tsc -b --force && node scripts/check-generated.mjs
+
+== K1 built 2026-10-05T07:10:12Z

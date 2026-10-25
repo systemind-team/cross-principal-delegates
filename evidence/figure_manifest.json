@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "generator": "scripts/render_figures.py",
+  "generator_sha256": "d6b45cd09ca972811e7b97c13fd6b7942a8c057f8bed6590749bdbdd87a4fc33",
+  "backend": {
+    "name": "Python/matplotlib",
+    "matplotlib_version": "3.10.9"
+  },
+  "source": {
+    "frozen_path": "evidence/notes_scope_source.json",
+    "original_path": "<external>/summary_q1_200.json",
+    "sha256": "5eb6d6865b6ac82d050d54c856c5dac7d5a034c9310b02cd55a6d7678b5a0826",
+    "benchmark": "PACT-PAIR Q1-200 (Notes QA)",
+    "source_date": "2026-05-16",
+    "source_model_field": "GPT-5.5",
+    "judge_model": "GPT-5-mini"
+  },
+  "figures": {
+    "delegation_overview": {
+      "dimensions_inches": [
+        6.0,
+        2.38
+      ],
+      "minimum_label_size_pt": 9,
+      "exports": {
+        "figures/delegation_overview.pdf": {
+          "sha256": "198bbf846fa026bb90cea99d81895c7f4ac73deef26eb521362efcd4766e4bf6"
+        },
+        "figures/delegation_overview.svg": {
+          "sha256": "98a56c6cec8855550a444c0b7578462b18a7a7213b5c303504f99c0212cf6b33"
+        },
+        "figures/delegation_overview.png": {
+          "sha256": "27b7793a4986fdedcf557fe57f777e14328f8ecc412199e50634f29298fd1d54"
+        }
+      },
+      "kind": "conceptual schematic",
+      "claim": "Researchers register PAIR or NET scenarios, run separately owned delegates under independently checked authority in SharedOS, and evaluate interaction traces and state changes through SharedEval.",
+      "data_source": null,
+      "implementation_boundary": "Conceptual framework relationship, not evidence that the historical PAIR/NET results have been rerun on the current SharedOS runtime. No integrated experiment, typed views or information-flow guarantee is claimed.",
+      "reading_order": [
+        "Configure: SharedEval scenario registration and PAIR/NET instances",
+        "Interact: distinct owners, delegates, drivers and state/tools in SharedOS; messages do not grant authority",
+        "Evaluate: SharedEval utility, leak and mutation outcomes"
+      ],
+      "final_manuscript_width_inches": 5.5,
+      "minimum_label_size_at_manuscript_width_pt": 8.25
+    },
+    "scope_tradeoff": {
+      "dimensions_inches": [
+        6.0,
+        2.4
+      ],
+      "minimum_label_size_pt": 9,
+      "exports": {
+        "figures/scope_tradeoff.pdf": {
+          "sha256": "4a7be3a6e3cd719f19736a0eaca6fbfa4c70c30c2fe9214dc0a5d8968ee9dd73"
+        },
+        "figures/scope_tradeoff.svg": {
+          "sha256": "402e7ce280d7820470cceac3225add86d714b6a2aeb5f7b63ad64b62400f4cd6"
+        },
+        "figures/scope_tradeoff.png": {
+          "sha256": "bb4795961e67b6006958df75e6b0b157ad242e8a614bdbdfc3d170ccf04b6343"
+        }
+      },
+      "kind": "quantitative paired bars",
+      "claim": "The documented scoped Notes condition (folder mounting plus an access notice, with the same base relationship policy) has lower disclosure and lower task utility. Exact loaded run prompts are not archived.",
+      "data_source": "evidence/notes_scope_source.json",
+      "aggregation": "Sum count numerators and error-excluded denominators over R0\u2013R4, then divide; do not average requester percentages.",
+      "metric_definitions": {
+        "utility": "Correct answers to legitimate utility questions / evaluated utility questions, excluding errors.",
+        "disclosure": "Disclosures on private or boundary questions (P+B) / evaluated private or boundary questions, excluding errors."
+      },
+      "uncertainty": "Observed rates only; one run per requester-condition. No confidence intervals or significance claims.",
+      "caveats": [
+        "Historical implementation; not validation of the current SharedOS kernel.",
+        "Post-hoc folder scopes.",
+        "Scoped runner adds an access notice; its separate effect is not isolated, and exact loaded run prompts are not archived.",
+        "Different error-excluded denominators across conditions.",
+        "Reduced disclosure is accompanied by reduced utility; Pareto improvement is not established."
+      ],
+      "derived_counts": {
+        "D3": {
+          "utility_numerator": 435,
+          "utility_denominator": 551,
+          "disclosure_numerator": 54,
+          "disclosure_denominator": 418,
+          "errors": 31,
+          "requester_conditions": 5,
+          "utility_percent": 78.94736842105263,
+          "disclosure_percent": 12.91866028708134
+        },
+        "MCC_H_D3": {
+          "utility_numerator": 352,
+          "utility_denominator": 540,
+          "disclosure_numerator": 23,
+          "disclosure_denominator": 412,
+          "errors": 48,
+          "requester_conditions": 5,
+          "utility_percent": 65.18518518518519,
+          "disclosure_percent": 5.58252427184466
+        }
+      }
+    }
+  }
+}

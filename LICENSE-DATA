@@ -1,0 +1,12 @@
+Data license
+
+Copyright (c) 2026 The authors of "Cross-Principal Communication between Agent Delegates"
+
+The data in this archive, everything under evidence/ (the PAIR tasks with their
+gold facts, both label sets, the owner's workspace and policies, the NET world and
+the frozen run records), is licensed under the Creative Commons Attribution 4.0
+International License (CC BY 4.0). To view a copy of this license, visit
+https://creativecommons.org/licenses/by/4.0/
+
+The code (reproduce.sh and everything under scripts/) is licensed under the MIT
+License; see LICENSE.

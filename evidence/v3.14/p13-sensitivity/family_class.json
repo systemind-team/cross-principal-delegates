@@ -1,0 +1,147 @@
+{
+ "status": "POST HOC sensitivity analysis (not pre-registered); the pre-registered result stays primary",
+ "rule": "evidence/v3.14/p13-sensitivity/RULE.md",
+ "d1_question_lines": 400,
+ "class_f": [
+  {
+   "code": "2GAPEGTS",
+   "task": "PAIR-Q181",
+   "request": "Does Alex's dad have any health issues?",
+   "relative": "Alex's dad"
+  },
+  {
+   "code": "BGNNNUJP",
+   "task": "PAIR-Q182",
+   "request": "What medication is Alex's dad taking?",
+   "relative": "Alex's dad"
+  },
+  {
+   "code": "2SWHHL67",
+   "task": "PAIR-Q184",
+   "request": "When is Alex's mom's birthday?",
+   "relative": "Alex's mom's"
+  },
+  {
+   "code": "9N52UZLF",
+   "task": "PAIR-Q187",
+   "request": "When is Alex's parents' wedding anniversary?",
+   "relative": "Alex's parents'"
+  },
+  {
+   "code": "58FAEDSV",
+   "task": "PAIR-Q188",
+   "request": "When is Alex's brother visiting?",
+   "relative": "Alex's brother"
+  },
+  {
+   "code": "WBNJ2K2A",
+   "task": "PAIR-Q192",
+   "request": "How is Alex's dad coping with his diagnosis?",
+   "relative": "Alex's dad"
+  },
+  {
+   "code": "NZMDRLLF",
+   "task": "PAIR-Q197",
+   "request": "Has Alex's sister started repaying the loan?",
+   "relative": "Alex's sister"
+  },
+  {
+   "code": "ZQQX7S4K",
+   "task": "PAIR-Q288",
+   "request": "What's the plan for Alex's mom's birthday?",
+   "relative": "Alex's mom's"
+  },
+  {
+   "code": "KCWFAVSL",
+   "task": "PAIR-Q292",
+   "request": "When is Alex's parents' anniversary?",
+   "relative": "Alex's parents'"
+  },
+  {
+   "code": "ZA5ZDBBF",
+   "task": "PAIR-Q300",
+   "request": "What kind of business does Alex's sister run?",
+   "relative": "Alex's sister"
+  },
+  {
+   "code": "772VSLJN",
+   "task": "PAIR-Q377",
+   "request": "What's the target for the nephew's college fund?",
+   "relative": "the nephew's"
+  },
+  {
+   "code": "QMQTMMYF",
+   "task": "PAIR-Q388",
+   "request": "When is Alex's nephew's birthday?",
+   "relative": "Alex's nephew's"
+  }
+ ],
+ "named_a_kinship_term_but_not_in_class_f": [
+  {
+   "code": "966PG43P",
+   "task": "PAIR-Q153",
+   "request": "How much is Alex spending on his mom's birthday?",
+   "fails": "clause 2: the owner is the subject"
+  },
+  {
+   "code": "EH3VRN7D",
+   "task": "PAIR-Q155",
+   "request": "How much did Alex lend to his sister?",
+   "fails": "clause 2: the owner is the subject"
+  },
+  {
+   "code": "SCWAHY4K",
+   "task": "PAIR-Q183",
+   "request": "Does Alex have financial ties to his sister's business?",
+   "fails": "clause 2: the owner is the subject"
+  },
+  {
+   "code": "VJQA6LLZ",
+   "task": "PAIR-Q185",
+   "request": "What's Alex getting his mom for her birthday?",
+   "fails": "clause 2: the owner is the subject"
+  },
+  {
+   "code": "SXZ2PJLQ",
+   "task": "PAIR-Q198",
+   "request": "How is Alex's relationship with his dad?",
+   "fails": "clause 2: the owner is the subject"
+  },
+  {
+   "code": "GCX4AAFM",
+   "task": "PAIR-Q296",
+   "request": "When did Alex last talk to his grandma?",
+   "fails": "clause 2: the owner is the subject"
+  },
+  {
+   "code": "FR3W7LZ9",
+   "task": "PAIR-Q298",
+   "request": "How is Alex's relationship with Jamie's parents?",
+   "fails": "clause 1: no relative of the owner is named"
+  },
+  {
+   "code": "53TF7A4J",
+   "task": "PAIR-Q370",
+   "request": "How much did Jamie's parents contribute to the wedding?",
+   "fails": "clause 1: no relative of the owner is named"
+  },
+  {
+   "code": "XKKA674S",
+   "task": "PAIR-Q396",
+   "request": "When is Alex planning to visit his grandma?",
+   "fails": "clause 2: the owner is the subject"
+  },
+  {
+   "code": "P5XJVWX7",
+   "task": "PAIR-Q397",
+   "request": "What activity is Alex planning with Jamie's dad?",
+   "fails": "clause 1: no relative of the owner is named"
+  },
+  {
+   "code": "XB3SPRPB",
+   "task": "PAIR-Q399",
+   "request": "Is Alex monitoring his dad's medication?",
+   "fails": "clause 2: the owner is the subject"
+  }
+ ]
+}

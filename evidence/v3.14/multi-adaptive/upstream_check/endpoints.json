@@ -1,0 +1,192 @@
+{
+ "about": "OpenRouter public endpoints lists (unauthenticated GET, no cost) fetched before the pilot, to choose and verify the attacker upstream slug (host: prefer google-vertex, alternative google-ai-studio) and to confirm the responder's Relace upstream.",
+ "fetched_at": "2026-10-24T09:20:48+00:00",
+ "urls": [
+  "https://openrouter.ai/api/v1/models/google/gemini-2.5-flash/endpoints",
+  "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4-flash-0731/endpoints"
+ ],
+ "gemini-2.5-flash": {
+  "sha256_of_response": "f709f529c47bd915f3a57e53c8e9f22d3613a5c9bdebdcb4ba8ade00d98b5f57",
+  "endpoints": [
+   {
+    "provider_name": "Google AI Studio",
+    "tag": "google-ai-studio/flex",
+    "prompt_usd_per_token": "0.00000015",
+    "completion_usd_per_token": "0.00000125"
+   },
+   {
+    "provider_name": "Google AI Studio",
+    "tag": "google-ai-studio",
+    "prompt_usd_per_token": "0.0000003",
+    "completion_usd_per_token": "0.0000025"
+   },
+   {
+    "provider_name": "Google AI Studio",
+    "tag": "google-ai-studio/priority",
+    "prompt_usd_per_token": "0.00000054",
+    "completion_usd_per_token": "0.0000045"
+   }
+  ]
+ },
+ "deepseek-v4-flash-0731": {
+  "sha256_of_response": "d4f7d560398c2c2ef870b0b0ca8946229c1554e010b04c9055253b5cda7fa7a3",
+  "endpoints": [
+   {
+    "provider_name": "Relace",
+    "tag": "relace/fp4",
+    "prompt_usd_per_token": "0.0000000422",
+    "completion_usd_per_token": "0.0000001694"
+   },
+   {
+    "provider_name": "Baidu",
+    "tag": "baidu/fp8",
+    "prompt_usd_per_token": "0.00000004444",
+    "completion_usd_per_token": "0.00000013332"
+   },
+   {
+    "provider_name": "Reka",
+    "tag": "reka",
+    "prompt_usd_per_token": "0.00000005",
+    "completion_usd_per_token": "0.000000528"
+   },
+   {
+    "provider_name": "DeepInfra",
+    "tag": "deepinfra/fp8",
+    "prompt_usd_per_token": "0.00000006",
+    "completion_usd_per_token": "0.00000018"
+   },
+   {
+    "provider_name": "StreamLake",
+    "tag": "streamlake/fp8",
+    "prompt_usd_per_token": "0.000000088",
+    "completion_usd_per_token": "0.000000264"
+   },
+   {
+    "provider_name": "Inceptron",
+    "tag": "inceptron/fp4",
+    "prompt_usd_per_token": "0.00000011",
+    "completion_usd_per_token": "0.0000003666"
+   },
+   {
+    "provider_name": "DigitalOcean",
+    "tag": "digitalocean",
+    "prompt_usd_per_token": "0.000000119",
+    "completion_usd_per_token": "0.000000238"
+   },
+   {
+    "provider_name": "BaseTen",
+    "tag": "baseten/fp8",
+    "prompt_usd_per_token": "0.00000013",
+    "completion_usd_per_token": "0.00000026"
+   },
+   {
+    "provider_name": "BaseTen",
+    "tag": "baseten/fp32",
+    "prompt_usd_per_token": "0.00000013",
+    "completion_usd_per_token": "0.00000026"
+   },
+   {
+    "provider_name": "Venice",
+    "tag": "venice",
+    "prompt_usd_per_token": "0.00000013",
+    "completion_usd_per_token": "0.00000026"
+   },
+   {
+    "provider_name": "CoreWeave",
+    "tag": "coreweave/fp8",
+    "prompt_usd_per_token": "0.00000013",
+    "completion_usd_per_token": "0.00000028"
+   },
+   {
+    "provider_name": "Wafer",
+    "tag": "wafer/fast",
+    "prompt_usd_per_token": "0.00000014",
+    "completion_usd_per_token": "0.00000023"
+   },
+   {
+    "provider_name": "Cohere",
+    "tag": "cohere",
+    "prompt_usd_per_token": "0.00000014",
+    "completion_usd_per_token": "0.00000028"
+   },
+   {
+    "provider_name": "Parasail",
+    "tag": "parasail/fp8",
+    "prompt_usd_per_token": "0.00000014",
+    "completion_usd_per_token": "0.00000028"
+   },
+   {
+    "provider_name": "Sail Research",
+    "tag": "sail-research/us",
+    "prompt_usd_per_token": "0.00000015",
+    "completion_usd_per_token": "0.00000015"
+   },
+   {
+    "provider_name": "Sail Research",
+    "tag": "sail-research/fp4",
+    "prompt_usd_per_token": "0.00000015",
+    "completion_usd_per_token": "0.00000015"
+   },
+   {
+    "provider_name": "Mancer 2",
+    "tag": "mancer/fp8",
+    "prompt_usd_per_token": "0.0000002",
+    "completion_usd_per_token": "0.0000006"
+   },
+   {
+    "provider_name": "SiliconFlow",
+    "tag": "siliconflow/fp8",
+    "prompt_usd_per_token": "0.00000022",
+    "completion_usd_per_token": "0.00000066"
+   },
+   {
+    "provider_name": "GMICloud",
+    "tag": "gmicloud/fp8",
+    "prompt_usd_per_token": "0.000000286",
+    "completion_usd_per_token": "0.000000858"
+   },
+   {
+    "provider_name": "Alibaba",
+    "tag": "alibaba",
+    "prompt_usd_per_token": "0.000000352",
+    "completion_usd_per_token": "0.000001056"
+   },
+   {
+    "provider_name": "Alibaba",
+    "tag": "alibaba/us-east-1",
+    "prompt_usd_per_token": "0.000000374",
+    "completion_usd_per_token": "0.000001122"
+   },
+   {
+    "provider_name": "Novita",
+    "tag": "novita/fp8",
+    "prompt_usd_per_token": "0.0000004092",
+    "completion_usd_per_token": "0.0000012276"
+   },
+   {
+    "provider_name": "Phala",
+    "tag": "phala",
+    "prompt_usd_per_token": "0.00000044",
+    "completion_usd_per_token": "0.00000132"
+   },
+   {
+    "provider_name": "AtlasCloud",
+    "tag": "atlas-cloud/fp4",
+    "prompt_usd_per_token": "0.00000044",
+    "completion_usd_per_token": "0.00000132"
+   },
+   {
+    "provider_name": "Cloudflare",
+    "tag": "cloudflare",
+    "prompt_usd_per_token": "0.00000044",
+    "completion_usd_per_token": "0.00000132"
+   }
+  ]
+ },
+ "decision": {
+  "attacker_slug": "google-ai-studio",
+  "why": "google-vertex is not listed for google/gemini-2.5-flash at fetch time; the host's alternative google-ai-studio is (tags google-ai-studio/flex, google-ai-studio, google-ai-studio/priority). OpenRouter matches provider.only by provider (P1-6's 'Relace' matched the relace/fp4 tag), so the flex/priority variants are the same provider; the served tier is read from the pilot's per-call cost.",
+  "served_name_to_expect": "Google AI Studio (normalized to google-ai-studio by PROVIDER_ALIASES)",
+  "responder": "Relace still serves deepseek/deepseek-v4-flash-0731 (tag relace/fp4)"
+ }
+}

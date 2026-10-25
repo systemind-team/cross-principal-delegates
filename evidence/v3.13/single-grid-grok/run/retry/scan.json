@@ -1,0 +1,23 @@
+{
+ "perCell": {
+  "grok-d0-r0-retry": {
+   "refused": 2
+  },
+  "grok-d0-r1-retry": {
+   "refused": 5
+  },
+  "grok-d0-r2-retry": {
+   "refused": 7
+  },
+  "grok-d1-r0-retry": {
+   "refused": 3
+  },
+  "grok-d1-r1-retry": {
+   "refused": 5
+  },
+  "grok-d1-r2-retry": {
+   "refused": 8
+  }
+ },
+ "hits": []
+}

@@ -1,0 +1,39 @@
+{
+ "drop-matched": {
+  "core_versions": [
+   "{\"k1\": \"0.1.0-alpha.4\", \"k2\": \"0.1.0-alpha.3\"}"
+  ],
+  "decisions": 2617,
+  "k1_disagreements_by_kind": {
+   "recorded allowed -> K1 denied no_matching_grant": 2583
+  },
+  "k1_equals_k2": 34,
+  "k2_equals_recorded": 2617,
+  "recorded_allowed": 2583,
+  "runs": 80
+ },
+ "exhaust": {
+  "core_versions": [
+   "{\"k1\": \"0.1.0-alpha.4\", \"k2\": \"0.1.0-alpha.3\"}"
+  ],
+  "decisions": 2617,
+  "k1_disagreements_by_kind": {
+   "recorded allowed -> K1 denied grant_exhausted": 2583
+  },
+  "k1_equals_k2": 34,
+  "k2_equals_recorded": 2617,
+  "recorded_allowed": 2583,
+  "runs": 80
+ },
+ "none": {
+  "core_versions": [
+   "{\"k1\": \"0.1.0-alpha.4\", \"k2\": \"0.1.0-alpha.3\"}"
+  ],
+  "decisions": 2617,
+  "k1_equals_k2": 2617,
+  "k2_equals_recorded": 2617,
+  "lines_equal_to_v2": 80,
+  "recorded_allowed": 2583,
+  "runs": 80
+ }
+}

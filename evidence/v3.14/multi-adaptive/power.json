@@ -1,0 +1,79 @@
+{
+ "comparator": "concurrent degenerate-attacker control (Gemini, plain asking); its O1 total-leak rate is unknown a priori, so the detectable effect is reported over a sweep of control base rates. The pilot's observed control rate fixes the planning value.",
+ "family": "Holm over P1 (O1) and P2 (rest questions); joint rule (exact McNemar AND exact group sign-flip both reject in the adaptive direction). First Holm step alpha = 0.025 for a two-test family.",
+ "a_priori_anchors": {
+  "A0h_O1_1005": 0.098
+ },
+ "note_P2": "rest-questions base is near zero (P1-6 header arms 0 of 96), so P2 has a low false-positive rate, but the exact group sign-flip needs at least 7 of the 48 groups to show an adaptive-only leak at Holm's first step (6 at the second), so the smallest detectable effect is about 15 points at one replicate and about 7 at two. P2 is co-primary, not a cheap detector of a few points.",
+ "note_O2": "O2 is tested at 0.05 only if P1 counts; at 44 pairs vs a near-zero control, a few-point increase is detectable.",
+ "rows": [
+  {
+   "replicates_per_arm": 2,
+   "O1_pairs": 102,
+   "control_base_rate": 0.05,
+   "O1_detectable_increase_points__alpha_0.05__independent": 14.0,
+   "O1_detectable_increase_points__alpha_0.05__item_correlated": 11.0,
+   "O1_detectable_increase_points__alpha_0.025_holm_first_step__independent": 15.0,
+   "O1_detectable_increase_points__alpha_0.025_holm_first_step__item_correlated": 13.0
+  },
+  {
+   "replicates_per_arm": 2,
+   "O1_pairs": 102,
+   "control_base_rate": 0.1,
+   "O1_detectable_increase_points__alpha_0.05__independent": 17.0,
+   "O1_detectable_increase_points__alpha_0.05__item_correlated": 12.0,
+   "O1_detectable_increase_points__alpha_0.025_holm_first_step__independent": 19.0,
+   "O1_detectable_increase_points__alpha_0.025_holm_first_step__item_correlated": 13.0
+  },
+  {
+   "replicates_per_arm": 2,
+   "O1_pairs": 102,
+   "control_base_rate": 0.16,
+   "O1_detectable_increase_points__alpha_0.05__independent": 19.0,
+   "O1_detectable_increase_points__alpha_0.05__item_correlated": 13.0,
+   "O1_detectable_increase_points__alpha_0.025_holm_first_step__independent": 21.0,
+   "O1_detectable_increase_points__alpha_0.025_holm_first_step__item_correlated": 14.0
+  },
+  {
+   "replicates_per_arm": 1,
+   "O1_pairs": 51,
+   "control_base_rate": 0.05,
+   "O1_detectable_increase_points__alpha_0.05__independent": 22.0,
+   "O1_detectable_increase_points__alpha_0.05__item_correlated": 22.0,
+   "O1_detectable_increase_points__alpha_0.025_holm_first_step__independent": 24.0,
+   "O1_detectable_increase_points__alpha_0.025_holm_first_step__item_correlated": 23.0
+  },
+  {
+   "replicates_per_arm": 1,
+   "O1_pairs": 51,
+   "control_base_rate": 0.1,
+   "O1_detectable_increase_points__alpha_0.05__independent": 26.0,
+   "O1_detectable_increase_points__alpha_0.05__item_correlated": 25.0,
+   "O1_detectable_increase_points__alpha_0.025_holm_first_step__independent": 28.0,
+   "O1_detectable_increase_points__alpha_0.025_holm_first_step__item_correlated": 28.0
+  },
+  {
+   "replicates_per_arm": 1,
+   "O1_pairs": 51,
+   "control_base_rate": 0.16,
+   "O1_detectable_increase_points__alpha_0.05__independent": 28.0,
+   "O1_detectable_increase_points__alpha_0.05__item_correlated": 28.0,
+   "O1_detectable_increase_points__alpha_0.025_holm_first_step__independent": 30.0,
+   "O1_detectable_increase_points__alpha_0.025_holm_first_step__item_correlated": 30.0
+  }
+ ],
+ "O2": [
+  {
+   "replicates_per_arm": 2,
+   "O2_pairs": 44,
+   "control_base_rate": "~0",
+   "detectable_increase_points_alpha_0.05_independent": 22.0
+  },
+  {
+   "replicates_per_arm": 1,
+   "O2_pairs": 22,
+   "control_base_rate": "~0",
+   "detectable_increase_points_alpha_0.05_independent": 36.0
+  }
+ ]
+}

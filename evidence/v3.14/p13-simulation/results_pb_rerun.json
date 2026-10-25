@@ -1,0 +1,31 @@
+{
+ "source": "scripts/p13/simulate_fr_rerun.py pb (the data sets of simulate_pb.py 100 99 D1-FR D2-FR, seed 11)",
+ "fitting_code": "fixed",
+ "scenario": "b = 0 (null)",
+ "results": {
+  "D1-FR": {
+   "replicates": 100,
+   "estimable": 100,
+   "B": 99,
+   "reject_pb": 0.01,
+   "reject_chi2": 0.02,
+   "fits_not_converged": 0,
+   "bootstrap_replicates_not_converged": 3,
+   "bootstrap_full_refitted_from_null": 0,
+   "old_code_reject_chi2": 0.06,
+   "old_code_reproduces_withdrawn_reject_chi2": true
+  },
+  "D2-FR": {
+   "replicates": 100,
+   "estimable": 100,
+   "B": 99,
+   "reject_pb": 0.07,
+   "reject_chi2": 0.07,
+   "fits_not_converged": 0,
+   "bootstrap_replicates_not_converged": 0,
+   "bootstrap_full_refitted_from_null": 0,
+   "old_code_reject_chi2": 0.08,
+   "old_code_reproduces_withdrawn_reject_chi2": true
+  }
+ }
+}

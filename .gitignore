@@ -1,0 +1,8 @@
+# Written by reproduce.sh
+/figures/
+/tables/
+/appendix/
+# Python and system files
+__pycache__/
+*.pyc
+.DS_Store

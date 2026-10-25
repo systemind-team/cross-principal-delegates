@@ -1,0 +1,725 @@
+{
+ "about": "Static property of the PAIR I workspace. NOT a claim that any mechanism removed leak: no grant was issued, no kernel ran, no model was observed. Every figure is an oracle bound under the scorer's own labels.",
+ "inputs": {
+  "questions": {
+   "path": "evidence/v3.14/pair-dataset/questions.json",
+   "sha256": "9032f46a79b2c9d6f6664b8aabea4006561b287de66bb59b0304cf619fdb265a"
+  },
+  "data_store": {
+   "path": "evidence/v3.14/pair-dataset/alex_data_store.json",
+   "sha256": "f67467c13e4dde3ff0a3ad38b2bc98e7a777fc771034fe53ab88105433297617"
+  },
+  "relationship": {
+   "path": "evidence/v3.1/sharedeval/dataset/pact-pair/relationship_labels/relationship_label_matrix_v2.json",
+   "sha256": "be59b5ad7acccb764ac435809d3fb523c86ae1b0354907699cd3df8752641d16"
+  },
+  "fact_locations": {
+   "path": "evidence/v3.14/mechanism-static/fact_locations.json",
+   "sha256": "65adb0935081b7f4703fa4cc432a4639c9a4a6b9ef415f26fa6f7d0f06af66dd"
+  }
+ },
+ "feasibility": {
+  "questions": 400,
+  "match_rate_declared_source": 1.0,
+  "shipped_grant_granularity": "task x surface: PACT-Pair issues one grant per (task, {notes|todos}), resource path ['task', taskId, surface] (src/suites/pact-pair/sharedos-grants.ts); not by folder or note. Note/folder grants are expressible in the resource model but PACT-Pair issues none.",
+  "items_touched": 236,
+  "questions_per_item": {
+   "1": 121,
+   "2": 80,
+   "3": 23,
+   "4": 8,
+   "5": 3,
+   "6": 1
+  },
+  "separability": {
+   "items": 236,
+   "items_one_category": 230,
+   "items_two_categories": 6,
+   "items_mixing_answer_and_refuse": 0,
+   "note": "230 of 236 items hold questions of one category; no item mixes an answer-category and a refuse-category question, which is why category labels co-locate 0 at item level. Separability is partly a property of how the workspace was authored."
+  },
+  "fact_occurrence": {
+   "questions_with_a_gold_fact_in_a_non_source_resource_matcher": 314,
+   "questions_with_a_gold_fact_in_a_non_source_resource_verbatim": 204,
+   "questions_with_every_gold_fact_in_a_non_source_resource_matcher": 145,
+   "questions_with_no_gold_fact_matching_declared_source_matcher": 11,
+   "data_quality_note": "11 questions have no gold fact that the matcher finds in their own declared source; listed in no_declared_source_match."
+  },
+  "no_declared_source_match": [
+   "PAIR-Q50",
+   "PAIR-Q92",
+   "PAIR-Q103",
+   "PAIR-Q152",
+   "PAIR-Q178",
+   "PAIR-Q179",
+   "PAIR-Q198",
+   "PAIR-Q307",
+   "PAIR-Q322",
+   "PAIR-Q335",
+   "PAIR-Q349"
+  ]
+ },
+ "definitional": {
+  "note": "Under strict, every protected question's declared source holds a protected question and is withheld, so strict's protected-removed is 100% for any labels; under loose, every entitled question's declared source holds an entitled question and is granted, so loose's over-block is 0% for any labels. These are not findings.",
+  "random_label_draws": 1000,
+  "violations_of_strict_100_removed_and_loose_0_overblock": 0,
+  "measured_content": "strict's over-block and loose's residual, which both equal the co-location counts (the colocation block). Occurrence (the occurrence block) shows even these understate leak, because the workspace copies facts across resources."
+ },
+ "colocation": [
+  {
+   "label_set": "relationship",
+   "granularity": "item",
+   "requester": "R0",
+   "entitled": 1,
+   "entitled_sharing_resource_with_protected": 1,
+   "entitled_share": 1.0,
+   "protected": 399,
+   "protected_sharing_resource_with_entitled": 2,
+   "protected_share": 0.005
+  },
+  {
+   "label_set": "relationship",
+   "granularity": "item",
+   "requester": "R1",
+   "entitled": 210,
+   "entitled_sharing_resource_with_protected": 4,
+   "entitled_share": 0.019,
+   "protected": 190,
+   "protected_sharing_resource_with_entitled": 3,
+   "protected_share": 0.0158
+  },
+  {
+   "label_set": "relationship",
+   "granularity": "item",
+   "requester": "R2",
+   "entitled": 261,
+   "entitled_sharing_resource_with_protected": 5,
+   "entitled_share": 0.0192,
+   "protected": 139,
+   "protected_sharing_resource_with_entitled": 4,
+   "protected_share": 0.0288
+  },
+  {
+   "label_set": "relationship",
+   "granularity": "item",
+   "requester": "R3",
+   "entitled": 54,
+   "entitled_sharing_resource_with_protected": 11,
+   "entitled_share": 0.2037,
+   "protected": 346,
+   "protected_sharing_resource_with_entitled": 15,
+   "protected_share": 0.0434
+  },
+  {
+   "label_set": "relationship",
+   "granularity": "folder",
+   "requester": "R0",
+   "entitled": 1,
+   "entitled_sharing_resource_with_protected": 1,
+   "entitled_share": 1.0,
+   "protected": 399,
+   "protected_sharing_resource_with_entitled": 20,
+   "protected_share": 0.0501
+  },
+  {
+   "label_set": "relationship",
+   "granularity": "folder",
+   "requester": "R1",
+   "entitled": 210,
+   "entitled_sharing_resource_with_protected": 68,
+   "entitled_share": 0.3238,
+   "protected": 190,
+   "protected_sharing_resource_with_entitled": 72,
+   "protected_share": 0.3789
+  },
+  {
+   "label_set": "relationship",
+   "granularity": "folder",
+   "requester": "R2",
+   "entitled": 261,
+   "entitled_sharing_resource_with_protected": 31,
+   "entitled_share": 0.1188,
+   "protected": 139,
+   "protected_sharing_resource_with_entitled": 21,
+   "protected_share": 0.1511
+  },
+  {
+   "label_set": "relationship",
+   "granularity": "folder",
+   "requester": "R3",
+   "entitled": 54,
+   "entitled_sharing_resource_with_protected": 53,
+   "entitled_share": 0.9815,
+   "protected": 346,
+   "protected_sharing_resource_with_entitled": 107,
+   "protected_share": 0.3092
+  },
+  {
+   "label_set": "category",
+   "granularity": "item",
+   "requester": "ALL",
+   "entitled": 200,
+   "entitled_sharing_resource_with_protected": 0,
+   "entitled_share": 0.0,
+   "protected": 200,
+   "protected_sharing_resource_with_entitled": 0,
+   "protected_share": 0.0
+  },
+  {
+   "label_set": "category",
+   "granularity": "folder",
+   "requester": "ALL",
+   "entitled": 200,
+   "entitled_sharing_resource_with_protected": 58,
+   "entitled_share": 0.29,
+   "protected": 200,
+   "protected_sharing_resource_with_entitled": 42,
+   "protected_share": 0.21
+  }
+ ],
+ "occurrence": [
+  {
+   "label_set": "relationship",
+   "rule": "strict",
+   "granularity": "item",
+   "requester": "R0",
+   "protected": 399,
+   "entitled": 1,
+   "protected_left_readable_declared": 0,
+   "over_block_declared": 1,
+   "protected_left_readable_matcher": 0,
+   "over_block_matcher": 1,
+   "protected_left_readable_verbatim": 0,
+   "over_block_verbatim": 1
+  },
+  {
+   "label_set": "relationship",
+   "rule": "strict",
+   "granularity": "item",
+   "requester": "R1",
+   "protected": 190,
+   "entitled": 210,
+   "protected_left_readable_declared": 0,
+   "over_block_declared": 4,
+   "protected_left_readable_matcher": 45,
+   "over_block_matcher": 2,
+   "protected_left_readable_verbatim": 14,
+   "over_block_verbatim": 2
+  },
+  {
+   "label_set": "relationship",
+   "rule": "strict",
+   "granularity": "item",
+   "requester": "R2",
+   "protected": 139,
+   "entitled": 261,
+   "protected_left_readable_declared": 0,
+   "over_block_declared": 5,
+   "protected_left_readable_matcher": 33,
+   "over_block_matcher": 2,
+   "protected_left_readable_verbatim": 12,
+   "over_block_verbatim": 2
+  },
+  {
+   "label_set": "relationship",
+   "rule": "strict",
+   "granularity": "item",
+   "requester": "R3",
+   "protected": 346,
+   "entitled": 54,
+   "protected_left_readable_declared": 0,
+   "over_block_declared": 11,
+   "protected_left_readable_matcher": 48,
+   "over_block_matcher": 5,
+   "protected_left_readable_verbatim": 17,
+   "over_block_verbatim": 5
+  },
+  {
+   "label_set": "relationship",
+   "rule": "strict",
+   "granularity": "folder",
+   "requester": "R0",
+   "protected": 399,
+   "entitled": 1,
+   "protected_left_readable_declared": 0,
+   "over_block_declared": 1,
+   "protected_left_readable_matcher": 0,
+   "over_block_matcher": 1,
+   "protected_left_readable_verbatim": 0,
+   "over_block_verbatim": 1
+  },
+  {
+   "label_set": "relationship",
+   "rule": "strict",
+   "granularity": "folder",
+   "requester": "R1",
+   "protected": 190,
+   "entitled": 210,
+   "protected_left_readable_declared": 0,
+   "over_block_declared": 67,
+   "protected_left_readable_matcher": 26,
+   "over_block_matcher": 37,
+   "protected_left_readable_verbatim": 8,
+   "over_block_verbatim": 50
+  },
+  {
+   "label_set": "relationship",
+   "rule": "strict",
+   "granularity": "folder",
+   "requester": "R2",
+   "protected": 139,
+   "entitled": 261,
+   "protected_left_readable_declared": 0,
+   "over_block_declared": 31,
+   "protected_left_readable_matcher": 32,
+   "over_block_matcher": 5,
+   "protected_left_readable_verbatim": 11,
+   "over_block_verbatim": 12
+  },
+  {
+   "label_set": "relationship",
+   "rule": "strict",
+   "granularity": "folder",
+   "requester": "R3",
+   "protected": 346,
+   "entitled": 54,
+   "protected_left_readable_declared": 0,
+   "over_block_declared": 53,
+   "protected_left_readable_matcher": 0,
+   "over_block_matcher": 53,
+   "protected_left_readable_verbatim": 0,
+   "over_block_verbatim": 53
+  },
+  {
+   "label_set": "relationship",
+   "rule": "loose",
+   "granularity": "item",
+   "requester": "R0",
+   "protected": 399,
+   "entitled": 1,
+   "protected_left_readable_declared": 2,
+   "over_block_declared": 0,
+   "protected_left_readable_matcher": 9,
+   "over_block_matcher": 0,
+   "protected_left_readable_verbatim": 4,
+   "over_block_verbatim": 0
+  },
+  {
+   "label_set": "relationship",
+   "rule": "loose",
+   "granularity": "item",
+   "requester": "R1",
+   "protected": 190,
+   "entitled": 210,
+   "protected_left_readable_declared": 3,
+   "over_block_declared": 0,
+   "protected_left_readable_matcher": 47,
+   "over_block_matcher": 0,
+   "protected_left_readable_verbatim": 16,
+   "over_block_verbatim": 0
+  },
+  {
+   "label_set": "relationship",
+   "rule": "loose",
+   "granularity": "item",
+   "requester": "R2",
+   "protected": 139,
+   "entitled": 261,
+   "protected_left_readable_declared": 4,
+   "over_block_declared": 0,
+   "protected_left_readable_matcher": 35,
+   "over_block_matcher": 0,
+   "protected_left_readable_verbatim": 14,
+   "over_block_verbatim": 0
+  },
+  {
+   "label_set": "relationship",
+   "rule": "loose",
+   "granularity": "item",
+   "requester": "R3",
+   "protected": 346,
+   "entitled": 54,
+   "protected_left_readable_declared": 15,
+   "over_block_declared": 0,
+   "protected_left_readable_matcher": 65,
+   "over_block_matcher": 0,
+   "protected_left_readable_verbatim": 31,
+   "over_block_verbatim": 0
+  },
+  {
+   "label_set": "relationship",
+   "rule": "loose",
+   "granularity": "folder",
+   "requester": "R0",
+   "protected": 399,
+   "entitled": 1,
+   "protected_left_readable_declared": 20,
+   "over_block_declared": 0,
+   "protected_left_readable_matcher": 69,
+   "over_block_matcher": 0,
+   "protected_left_readable_verbatim": 42,
+   "over_block_verbatim": 0
+  },
+  {
+   "label_set": "relationship",
+   "rule": "loose",
+   "granularity": "folder",
+   "requester": "R1",
+   "protected": 190,
+   "entitled": 210,
+   "protected_left_readable_declared": 72,
+   "over_block_declared": 0,
+   "protected_left_readable_matcher": 113,
+   "over_block_matcher": 0,
+   "protected_left_readable_verbatim": 94,
+   "over_block_verbatim": 0
+  },
+  {
+   "label_set": "relationship",
+   "rule": "loose",
+   "granularity": "folder",
+   "requester": "R2",
+   "protected": 139,
+   "entitled": 261,
+   "protected_left_readable_declared": 21,
+   "over_block_declared": 0,
+   "protected_left_readable_matcher": 62,
+   "over_block_matcher": 0,
+   "protected_left_readable_verbatim": 43,
+   "over_block_verbatim": 0
+  },
+  {
+   "label_set": "relationship",
+   "rule": "loose",
+   "granularity": "folder",
+   "requester": "R3",
+   "protected": 346,
+   "entitled": 54,
+   "protected_left_readable_declared": 107,
+   "over_block_declared": 0,
+   "protected_left_readable_matcher": 164,
+   "over_block_matcher": 0,
+   "protected_left_readable_verbatim": 129,
+   "over_block_verbatim": 0
+  },
+  {
+   "label_set": "category",
+   "rule": "strict",
+   "granularity": "item",
+   "requester": "ALL",
+   "protected": 200,
+   "entitled": 200,
+   "protected_left_readable_declared": 0,
+   "over_block_declared": 0,
+   "protected_left_readable_matcher": 39,
+   "over_block_matcher": 0,
+   "protected_left_readable_verbatim": 13,
+   "over_block_verbatim": 0
+  },
+  {
+   "label_set": "category",
+   "rule": "strict",
+   "granularity": "folder",
+   "requester": "ALL",
+   "protected": 200,
+   "entitled": 200,
+   "protected_left_readable_declared": 0,
+   "over_block_declared": 57,
+   "protected_left_readable_matcher": 27,
+   "over_block_matcher": 28,
+   "protected_left_readable_verbatim": 9,
+   "over_block_verbatim": 41
+  },
+  {
+   "label_set": "category",
+   "rule": "loose",
+   "granularity": "item",
+   "requester": "ALL",
+   "protected": 200,
+   "entitled": 200,
+   "protected_left_readable_declared": 0,
+   "over_block_declared": 0,
+   "protected_left_readable_matcher": 39,
+   "over_block_matcher": 0,
+   "protected_left_readable_verbatim": 13,
+   "over_block_verbatim": 0
+  },
+  {
+   "label_set": "category",
+   "rule": "loose",
+   "granularity": "folder",
+   "requester": "ALL",
+   "protected": 200,
+   "entitled": 200,
+   "protected_left_readable_declared": 42,
+   "over_block_declared": 0,
+   "protected_left_readable_matcher": 80,
+   "over_block_matcher": 0,
+   "protected_left_readable_verbatim": 55,
+   "over_block_verbatim": 0
+  }
+ ],
+ "leave_one_pass_out": {
+  "method": "Grants from one annotation pass (strict/loose, item level, declared sources, over the annotated questions that map to a source); truth = majority of the other four passes, ties to protect. Reported per held-out pass and as the mean over the five. It shows the bound depends on the label author: a different author (one pass vs the majority) leaves residual leak and over-block of the same order as the policy text. Fleiss kappa over R0-R3 QA is 0.708.",
+  "requesters": [
+   {
+    "requester": "R0",
+    "per_held_pass": [
+     {
+      "held_pass": "A1",
+      "annotated_questions": 301,
+      "truth_protected": 300,
+      "truth_entitled": 1,
+      "strict_protected_readable": 0,
+      "strict_over_block": 1,
+      "loose_protected_readable": 0,
+      "loose_over_block": 1
+     },
+     {
+      "held_pass": "A2",
+      "annotated_questions": 301,
+      "truth_protected": 301,
+      "truth_entitled": 0,
+      "strict_protected_readable": 26,
+      "strict_over_block": 0,
+      "loose_protected_readable": 56,
+      "loose_over_block": 0
+     },
+     {
+      "held_pass": "A3",
+      "annotated_questions": 301,
+      "truth_protected": 300,
+      "truth_entitled": 1,
+      "strict_protected_readable": 0,
+      "strict_over_block": 1,
+      "loose_protected_readable": 0,
+      "loose_over_block": 1
+     },
+     {
+      "held_pass": "A4",
+      "annotated_questions": 301,
+      "truth_protected": 301,
+      "truth_entitled": 0,
+      "strict_protected_readable": 0,
+      "strict_over_block": 0,
+      "loose_protected_readable": 3,
+      "loose_over_block": 0
+     },
+     {
+      "held_pass": "E",
+      "annotated_questions": 301,
+      "truth_protected": 301,
+      "truth_entitled": 0,
+      "strict_protected_readable": 12,
+      "strict_over_block": 0,
+      "loose_protected_readable": 25,
+      "loose_over_block": 0
+     }
+    ],
+    "mean_strict_protected_readable_share": 0.0252,
+    "mean_strict_over_block_share": 1.0,
+    "mean_loose_protected_readable_share": 0.0558,
+    "mean_loose_over_block_share": 1.0
+   },
+   {
+    "requester": "R1",
+    "per_held_pass": [
+     {
+      "held_pass": "A1",
+      "annotated_questions": 301,
+      "truth_protected": 98,
+      "truth_entitled": 203,
+      "strict_protected_readable": 0,
+      "strict_over_block": 115,
+      "loose_protected_readable": 6,
+      "loose_over_block": 56
+     },
+     {
+      "held_pass": "A2",
+      "annotated_questions": 301,
+      "truth_protected": 109,
+      "truth_entitled": 192,
+      "strict_protected_readable": 20,
+      "strict_over_block": 0,
+      "loose_protected_readable": 26,
+      "loose_over_block": 0
+     },
+     {
+      "held_pass": "A3",
+      "annotated_questions": 301,
+      "truth_protected": 109,
+      "truth_entitled": 192,
+      "strict_protected_readable": 39,
+      "strict_over_block": 0,
+      "loose_protected_readable": 39,
+      "loose_over_block": 0
+     },
+     {
+      "held_pass": "A4",
+      "annotated_questions": 301,
+      "truth_protected": 105,
+      "truth_entitled": 196,
+      "strict_protected_readable": 8,
+      "strict_over_block": 4,
+      "loose_protected_readable": 8,
+      "loose_over_block": 4
+     },
+     {
+      "held_pass": "E",
+      "annotated_questions": 301,
+      "truth_protected": 100,
+      "truth_entitled": 201,
+      "strict_protected_readable": 3,
+      "strict_over_block": 13,
+      "loose_protected_readable": 3,
+      "loose_over_block": 7
+     }
+    ],
+    "mean_strict_protected_readable_share": 0.1295,
+    "mean_strict_over_block_share": 0.1303,
+    "mean_loose_protected_readable_share": 0.1527,
+    "mean_loose_over_block_share": 0.0662
+   },
+   {
+    "requester": "R2",
+    "per_held_pass": [
+     {
+      "held_pass": "A1",
+      "annotated_questions": 301,
+      "truth_protected": 88,
+      "truth_entitled": 213,
+      "strict_protected_readable": 17,
+      "strict_over_block": 70,
+      "loose_protected_readable": 23,
+      "loose_over_block": 32
+     },
+     {
+      "held_pass": "A2",
+      "annotated_questions": 301,
+      "truth_protected": 72,
+      "truth_entitled": 229,
+      "strict_protected_readable": 2,
+      "strict_over_block": 19,
+      "loose_protected_readable": 2,
+      "loose_over_block": 13
+     },
+     {
+      "held_pass": "A3",
+      "annotated_questions": 301,
+      "truth_protected": 72,
+      "truth_entitled": 229,
+      "strict_protected_readable": 0,
+      "strict_over_block": 29,
+      "loose_protected_readable": 0,
+      "loose_over_block": 29
+     },
+     {
+      "held_pass": "A4",
+      "annotated_questions": 301,
+      "truth_protected": 88,
+      "truth_entitled": 213,
+      "strict_protected_readable": 18,
+      "strict_over_block": 0,
+      "loose_protected_readable": 18,
+      "loose_over_block": 0
+     },
+     {
+      "held_pass": "E",
+      "annotated_questions": 301,
+      "truth_protected": 88,
+      "truth_entitled": 213,
+      "strict_protected_readable": 16,
+      "strict_over_block": 0,
+      "loose_protected_readable": 18,
+      "loose_over_block": 0
+     }
+    ],
+    "mean_strict_protected_readable_share": 0.1215,
+    "mean_strict_over_block_share": 0.1076,
+    "mean_loose_protected_readable_share": 0.1396,
+    "mean_loose_over_block_share": 0.0667
+   },
+   {
+    "requester": "R3",
+    "per_held_pass": [
+     {
+      "held_pass": "A1",
+      "annotated_questions": 301,
+      "truth_protected": 278,
+      "truth_entitled": 23,
+      "strict_protected_readable": 36,
+      "strict_over_block": 1,
+      "loose_protected_readable": 42,
+      "loose_over_block": 1
+     },
+     {
+      "held_pass": "A2",
+      "annotated_questions": 301,
+      "truth_protected": 266,
+      "truth_entitled": 35,
+      "strict_protected_readable": 26,
+      "strict_over_block": 13,
+      "loose_protected_readable": 58,
+      "loose_over_block": 13
+     },
+     {
+      "held_pass": "A3",
+      "annotated_questions": 301,
+      "truth_protected": 277,
+      "truth_entitled": 24,
+      "strict_protected_readable": 48,
+      "strict_over_block": 2,
+      "loose_protected_readable": 48,
+      "loose_over_block": 2
+     },
+     {
+      "held_pass": "A4",
+      "annotated_questions": 301,
+      "truth_protected": 263,
+      "truth_entitled": 38,
+      "strict_protected_readable": 0,
+      "strict_over_block": 38,
+      "loose_protected_readable": 3,
+      "loose_over_block": 38
+     },
+     {
+      "held_pass": "E",
+      "annotated_questions": 301,
+      "truth_protected": 277,
+      "truth_entitled": 24,
+      "strict_protected_readable": 38,
+      "strict_over_block": 2,
+      "loose_protected_readable": 55,
+      "loose_over_block": 2
+     }
+    ],
+    "mean_strict_protected_readable_share": 0.1075,
+    "mean_strict_over_block_share": 0.3163,
+    "mean_loose_protected_readable_share": 0.1505,
+    "mean_loose_over_block_share": 0.3163
+   }
+  ]
+ },
+ "actions": {
+  "covered": false,
+  "per_requester": {
+   "R0": {
+    "execute": 0,
+    "refuse": 200
+   },
+   "R1": {
+    "execute": 91,
+    "refuse": 109
+   },
+   "R2": {
+    "execute": 67,
+    "refuse": 133
+   },
+   "R3": {
+    "execute": 0,
+    "refuse": 200
+   }
+  },
+  "note": "The static computation covers the 400 questions only. R0 and R3 may cause none of the 200 actions, so a catalogue without mutation tools prevents every unauthorized action of theirs with no over-block and no per-item labels; this is the host policy ceiling, evidenced on K1 only (03_research_framework.tex). R1 and R2 may cause 91 and 67, which separating needs per-operation labels."
+ }
+}

@@ -1,0 +1,1311 @@
+{
+ "e1": {
+  "azure_cells_dir_readable": false,
+  "docker_sharedeval_images_on_vm": [],
+  "images": [
+   {
+    "cells": 58,
+    "imageDigest": "sha256:bc17ce54a4dfaece3ce0600058fbbdb65077ccb9d72dbb3b902ee61f48596dd6",
+    "imageRef": "sharedeval-experiment:58829feb1728",
+    "voided_cells": [
+     "ds41-d6-r2-rep1.bad-504-20260914",
+     "ds41-d6-r3-rep1.bad-504-20260914"
+    ]
+   },
+   {
+    "cells": 24,
+    "imageDigest": "sha256:5eab4c1d13c453ca29ce6779c49390a8c0d024a891e98ce9acfebfa20e2e6367",
+    "imageRef": "sharedeval-experiment:0735564b0c31",
+    "voided_cells": []
+   },
+   {
+    "cells": 2,
+    "imageDigest": "sha256:2abe0ab279e03e3b9af7b65ad726936ff85758c536b0061fbf067533cd8435ca",
+    "imageRef": "sharedeval-experiment:79b52cf8b76b-codex",
+    "voided_cells": []
+   }
+  ],
+  "openrouter_cells_dir": "<vm>/work/v41-grid-out",
+  "openrouter_task_dirs_readable": false
+ },
+ "e2_cross_check_with_packing_delivery": {
+  "grid600": {
+   "agree_with_packing_delivery_freeze": 2400,
+   "by_revision_and_validity": [
+    {
+     "revision": "26dd392",
+     "sessions": 30,
+     "valid": true
+    },
+    {
+     "revision": "5db4182",
+     "sessions": 2353,
+     "valid": true
+    },
+    {
+     "revision": null,
+     "sessions": 1,
+     "valid": false
+    },
+    {
+     "revision": "e20062e",
+     "sessions": 16,
+     "valid": true
+    }
+   ],
+   "sessions": 2400
+  },
+  "pack1": {
+   "agree_with_packing_delivery_freeze": 180,
+   "by_revision_and_validity": [
+    {
+     "revision": "26dd392",
+     "sessions": 180,
+     "valid": true
+    }
+   ],
+   "sessions": 180
+  },
+  "pack10": {
+   "agree_with_packing_delivery_freeze": 18,
+   "by_revision_and_validity": [
+    {
+     "revision": "26dd392",
+     "sessions": 18,
+     "valid": true
+    }
+   ],
+   "sessions": 18
+  }
+ },
+ "e2_sessions": {
+  "grid600": {
+   "by_requester": {
+    "R0": {
+     "26dd392fc83df022f29bc0852f4bedfdf69ba0ae": 7,
+     "5db4182c8c3b1082e4585b6473d70fa8296cbe67": 581,
+     "e20062ef31adb01113a64a0acc80d226ccf1f305": 12
+    },
+    "R1": {
+     "26dd392fc83df022f29bc0852f4bedfdf69ba0ae": 8,
+     "5db4182c8c3b1082e4585b6473d70fa8296cbe67": 589,
+     "e20062ef31adb01113a64a0acc80d226ccf1f305": 3
+    },
+    "R2": {
+     "26dd392fc83df022f29bc0852f4bedfdf69ba0ae": 10,
+     "5db4182c8c3b1082e4585b6473d70fa8296cbe67": 590
+    },
+    "R3": {
+     "26dd392fc83df022f29bc0852f4bedfdf69ba0ae": 5,
+     "5db4182c8c3b1082e4585b6473d70fa8296cbe67": 593,
+     "None": 1,
+     "e20062ef31adb01113a64a0acc80d226ccf1f305": 1
+    }
+   },
+   "by_revision": {
+    "26dd392fc83df022f29bc0852f4bedfdf69ba0ae": 30,
+    "5db4182c8c3b1082e4585b6473d70fa8296cbe67": 2353,
+    "None": 1,
+    "e20062ef31adb01113a64a0acc80d226ccf1f305": 16
+   },
+   "launch_revision_vs_run_json_kernelRevision": [
+    {
+     "launch_revision": "5db4182",
+     "run_json_has_kernelRevision": false,
+     "sessions": 2353
+    },
+    {
+     "launch_revision": "26dd392",
+     "run_json_has_kernelRevision": true,
+     "sessions": 30
+    },
+    {
+     "launch_revision": "e20062e",
+     "run_json_has_kernelRevision": false,
+     "sessions": 16
+    },
+    {
+     "launch_revision": null,
+     "run_json_has_kernelRevision": true,
+     "sessions": 1
+    }
+   ],
+   "log_ids_not_a_session": [
+    "OC-TEST",
+    "relaunch"
+   ],
+   "rule": "sourceRevision of the session's last launch log by mtime",
+   "sessions": 2400,
+   "sessions_whose_launches_disagree": [],
+   "sessions_without_a_revision": [
+    {
+     "launches": [
+      [
+       "G6-R3-r3-g094.p1.log",
+       null
+      ],
+      [
+       "G6-R3-r3-g094.p2.log",
+       null
+      ],
+      [
+       "G6-R3-r3-g094.p3.log",
+       null
+      ],
+      [
+       "G6-R3-r3-g094.p4.log",
+       null
+      ],
+      [
+       "G6-R3-r3-g094.p5.log",
+       null
+      ],
+      [
+       "G6-R3-r3-g094.p6.log",
+       null
+      ],
+      [
+       "G6-R3-r3-g094.p7.log",
+       null
+      ],
+      [
+       "G6-R3-r3-g094.p8.log",
+       null
+      ]
+     ],
+     "run_json_has_kernelRevision": true,
+     "session": "G6-R3-r3-g094"
+    }
+   ],
+   "sessions_without_logs": []
+  },
+  "pack1": {
+   "by_requester": {
+    "R1": {
+     "26dd392fc83df022f29bc0852f4bedfdf69ba0ae": 180
+    }
+   },
+   "by_revision": {
+    "26dd392fc83df022f29bc0852f4bedfdf69ba0ae": 180
+   },
+   "launch_revision_vs_run_json_kernelRevision": [
+    {
+     "launch_revision": "26dd392",
+     "run_json_has_kernelRevision": true,
+     "sessions": 180
+    }
+   ],
+   "log_ids_not_a_session": [
+    "sched"
+   ],
+   "rule": "sourceRevision of the session's last launch log by mtime",
+   "sessions": 180,
+   "sessions_whose_launches_disagree": [],
+   "sessions_without_a_revision": [],
+   "sessions_without_logs": []
+  },
+  "pack10": {
+   "by_requester": {
+    "R1": {
+     "26dd392fc83df022f29bc0852f4bedfdf69ba0ae": 18
+    }
+   },
+   "by_revision": {
+    "26dd392fc83df022f29bc0852f4bedfdf69ba0ae": 18
+   },
+   "launch_revision_vs_run_json_kernelRevision": [
+    {
+     "launch_revision": "26dd392",
+     "run_json_has_kernelRevision": true,
+     "sessions": 18
+    }
+   ],
+   "log_ids_not_a_session": [
+    "sched"
+   ],
+   "rule": "sourceRevision of the session's last launch log by mtime",
+   "sessions": 18,
+   "sessions_whose_launches_disagree": [],
+   "sessions_without_a_revision": [],
+   "sessions_without_logs": []
+  }
+ },
+ "evaluator_pins": {
+  "0735564 (VM)": {
+   "SHAREDOS_RUNTIME_PACKAGES_V1": {
+    "lines": "26-31",
+    "value": [
+     "contracts",
+     "core",
+     "os",
+     "runtime"
+    ]
+   },
+   "SHAREDOS_VERIFIED_REVISION_V1": {
+    "lines": "34-35",
+    "value": "3aa07e33999b656a10ace294fd4e41df8cbc318e"
+   },
+   "SHAREDOS_VERIFIED_RUNTIME_DIGEST_V1": {
+    "lines": "36-37",
+    "value": "4afb23d79851a83a48e25e968f04e45cefc81847b4a9963c62277b5c05862d5d"
+   },
+   "build-image.sh SHAREDOS_PINNED_REVISION": {
+    "lines": "20",
+    "value": "3aa07e33999b656a10ace294fd4e41df8cbc318e"
+   },
+   "ci.yml SHAREDOS_PIN": {
+    "lines": "60",
+    "value": "ac0f1bb210baa3ba4b7e0d0baaf2291bbe9ffd05"
+   },
+   "commit": "0735564b0c318b83fd2b611f73b25f2c74f4e5b5",
+   "file": "src/execution/sharedos/v1/load-sharedos.ts",
+   "where": "<vm>/repos/SharedEval-a1"
+  },
+  "0735564b0c31": {
+   ".github/workflows/ci.yml SHAREDOS_PIN": {
+    "lines": "60",
+    "value": "ac0f1bb210baa3ba4b7e0d0baaf2291bbe9ffd05"
+   },
+   "SHAREDOS_RUNTIME_PACKAGES_V1": {
+    "lines": "26-31",
+    "value": [
+     "contracts",
+     "core",
+     "os",
+     "runtime"
+    ]
+   },
+   "SHAREDOS_VERIFIED_REVISION_V1": {
+    "lines": "34-35",
+    "value": "3aa07e33999b656a10ace294fd4e41df8cbc318e"
+   },
+   "SHAREDOS_VERIFIED_RUNTIME_DIGEST_V1": {
+    "lines": "36-37",
+    "value": "4afb23d79851a83a48e25e968f04e45cefc81847b4a9963c62277b5c05862d5d"
+   },
+   "commit": "0735564b0c318b83fd2b611f73b25f2c74f4e5b5",
+   "file": "src/execution/sharedos/v1/load-sharedos.ts",
+   "scripts/experiments/build-image.sh SHAREDOS_PINNED_REVISION": {
+    "lines": "20",
+    "value": "3aa07e33999b656a10ace294fd4e41df8cbc318e"
+   },
+   "where": "local clone <external>/SharedEval"
+  },
+  "26dd392": {
+   ".github/workflows/ci.yml SHAREDOS_PIN": {
+    "lines": "61",
+    "value": "3aa07e33999b656a10ace294fd4e41df8cbc318e"
+   },
+   "SHAREDOS_RUNTIME_PACKAGES_V1": {
+    "lines": "26-31",
+    "value": [
+     "contracts",
+     "core",
+     "os",
+     "runtime"
+    ]
+   },
+   "SHAREDOS_VERIFIED_REVISION_V1": {
+    "lines": "34-35",
+    "value": "3aa07e33999b656a10ace294fd4e41df8cbc318e"
+   },
+   "SHAREDOS_VERIFIED_RUNTIME_DIGEST_V1": {
+    "lines": "36-37",
+    "value": "4afb23d79851a83a48e25e968f04e45cefc81847b4a9963c62277b5c05862d5d"
+   },
+   "commit": "26dd392fc83df022f29bc0852f4bedfdf69ba0ae",
+   "file": "src/execution/sharedos/v1/load-sharedos.ts",
+   "scripts/experiments/build-image.sh SHAREDOS_PINNED_REVISION": {
+    "lines": "20",
+    "value": "3aa07e33999b656a10ace294fd4e41df8cbc318e"
+   },
+   "where": "local clone <external>/SharedEval"
+  },
+  "26dd392 (VM)": {
+   "SHAREDOS_RUNTIME_PACKAGES_V1": {
+    "lines": "26-31",
+    "value": [
+     "contracts",
+     "core",
+     "os",
+     "runtime"
+    ]
+   },
+   "SHAREDOS_VERIFIED_REVISION_V1": {
+    "lines": "34-35",
+    "value": "3aa07e33999b656a10ace294fd4e41df8cbc318e"
+   },
+   "SHAREDOS_VERIFIED_RUNTIME_DIGEST_V1": {
+    "lines": "36-37",
+    "value": "4afb23d79851a83a48e25e968f04e45cefc81847b4a9963c62277b5c05862d5d"
+   },
+   "build-image.sh SHAREDOS_PINNED_REVISION": {
+    "lines": "20",
+    "value": "3aa07e33999b656a10ace294fd4e41df8cbc318e"
+   },
+   "ci.yml SHAREDOS_PIN": {
+    "lines": "61",
+    "value": "3aa07e33999b656a10ace294fd4e41df8cbc318e"
+   },
+   "commit": "26dd392fc83df022f29bc0852f4bedfdf69ba0ae",
+   "file": "src/execution/sharedos/v1/load-sharedos.ts",
+   "where": "<vm>/repos/SharedEval-a1"
+  },
+  "4565add (VM)": {
+   "SHAREDOS_RUNTIME_PACKAGES_V1": {
+    "lines": "26-31",
+    "value": [
+     "contracts",
+     "core",
+     "os",
+     "runtime"
+    ]
+   },
+   "SHAREDOS_VERIFIED_REVISION_V1": {
+    "lines": "34-35",
+    "value": "3aa07e33999b656a10ace294fd4e41df8cbc318e"
+   },
+   "SHAREDOS_VERIFIED_RUNTIME_DIGEST_V1": {
+    "lines": "36-37",
+    "value": "4afb23d79851a83a48e25e968f04e45cefc81847b4a9963c62277b5c05862d5d"
+   },
+   "build-image.sh SHAREDOS_PINNED_REVISION": {
+    "lines": "20",
+    "value": "3aa07e33999b656a10ace294fd4e41df8cbc318e"
+   },
+   "ci.yml SHAREDOS_PIN": {
+    "lines": "61",
+    "value": "3aa07e33999b656a10ace294fd4e41df8cbc318e"
+   },
+   "commit": "4565add03628d967938f8a6cebf2d33b27f80249",
+   "file": "src/execution/sharedos/v1/load-sharedos.ts",
+   "where": "<vm>/repos/SharedEval-told"
+  },
+  "58829fe (VM)": {
+   "SHAREDOS_RUNTIME_PACKAGES_V1": {
+    "lines": "26-31",
+    "value": [
+     "contracts",
+     "core",
+     "os",
+     "runtime"
+    ]
+   },
+   "SHAREDOS_VERIFIED_REVISION_V1": {
+    "lines": "34-35",
+    "value": "3aa07e33999b656a10ace294fd4e41df8cbc318e"
+   },
+   "SHAREDOS_VERIFIED_RUNTIME_DIGEST_V1": {
+    "lines": "36-37",
+    "value": "4afb23d79851a83a48e25e968f04e45cefc81847b4a9963c62277b5c05862d5d"
+   },
+   "build-image.sh SHAREDOS_PINNED_REVISION": {
+    "lines": "20",
+    "value": "3aa07e33999b656a10ace294fd4e41df8cbc318e"
+   },
+   "ci.yml SHAREDOS_PIN": {
+    "lines": "60",
+    "value": "ac0f1bb210baa3ba4b7e0d0baaf2291bbe9ffd05"
+   },
+   "commit": "58829feb17289e4e3092dae44089831a51336c4a",
+   "file": "src/execution/sharedos/v1/load-sharedos.ts",
+   "where": "<vm>/repos/SharedEval-a1"
+  },
+  "58829feb1728": {
+   ".github/workflows/ci.yml SHAREDOS_PIN": {
+    "lines": "60",
+    "value": "ac0f1bb210baa3ba4b7e0d0baaf2291bbe9ffd05"
+   },
+   "SHAREDOS_RUNTIME_PACKAGES_V1": {
+    "lines": "26-31",
+    "value": [
+     "contracts",
+     "core",
+     "os",
+     "runtime"
+    ]
+   },
+   "SHAREDOS_VERIFIED_REVISION_V1": {
+    "lines": "34-35",
+    "value": "3aa07e33999b656a10ace294fd4e41df8cbc318e"
+   },
+   "SHAREDOS_VERIFIED_RUNTIME_DIGEST_V1": {
+    "lines": "36-37",
+    "value": "4afb23d79851a83a48e25e968f04e45cefc81847b4a9963c62277b5c05862d5d"
+   },
+   "commit": "58829feb17289e4e3092dae44089831a51336c4a",
+   "file": "src/execution/sharedos/v1/load-sharedos.ts",
+   "scripts/experiments/build-image.sh SHAREDOS_PINNED_REVISION": {
+    "lines": "20",
+    "value": "3aa07e33999b656a10ace294fd4e41df8cbc318e"
+   },
+   "where": "local clone <external>/SharedEval"
+  },
+  "5db4182": {
+   ".github/workflows/ci.yml SHAREDOS_PIN": {
+    "lines": "61",
+    "value": "3aa07e33999b656a10ace294fd4e41df8cbc318e"
+   },
+   "SHAREDOS_RUNTIME_PACKAGES_V1": {
+    "lines": "26-31",
+    "value": [
+     "contracts",
+     "core",
+     "os",
+     "runtime"
+    ]
+   },
+   "SHAREDOS_VERIFIED_REVISION_V1": {
+    "lines": "34-35",
+    "value": "3aa07e33999b656a10ace294fd4e41df8cbc318e"
+   },
+   "SHAREDOS_VERIFIED_RUNTIME_DIGEST_V1": {
+    "lines": "36-37",
+    "value": "4afb23d79851a83a48e25e968f04e45cefc81847b4a9963c62277b5c05862d5d"
+   },
+   "commit": "5db4182c8c3b1082e4585b6473d70fa8296cbe67",
+   "file": "src/execution/sharedos/v1/load-sharedos.ts",
+   "scripts/experiments/build-image.sh SHAREDOS_PINNED_REVISION": {
+    "lines": "20",
+    "value": "3aa07e33999b656a10ace294fd4e41df8cbc318e"
+   },
+   "where": "local clone <external>/SharedEval"
+  },
+  "5db4182 (VM)": {
+   "SHAREDOS_RUNTIME_PACKAGES_V1": {
+    "lines": "26-31",
+    "value": [
+     "contracts",
+     "core",
+     "os",
+     "runtime"
+    ]
+   },
+   "SHAREDOS_VERIFIED_REVISION_V1": {
+    "lines": "34-35",
+    "value": "3aa07e33999b656a10ace294fd4e41df8cbc318e"
+   },
+   "SHAREDOS_VERIFIED_RUNTIME_DIGEST_V1": {
+    "lines": "36-37",
+    "value": "4afb23d79851a83a48e25e968f04e45cefc81847b4a9963c62277b5c05862d5d"
+   },
+   "build-image.sh SHAREDOS_PINNED_REVISION": {
+    "lines": "20",
+    "value": "3aa07e33999b656a10ace294fd4e41df8cbc318e"
+   },
+   "ci.yml SHAREDOS_PIN": {
+    "lines": "61",
+    "value": "3aa07e33999b656a10ace294fd4e41df8cbc318e"
+   },
+   "commit": "5db4182c8c3b1082e4585b6473d70fa8296cbe67",
+   "file": "src/execution/sharedos/v1/load-sharedos.ts",
+   "where": "<vm>/repos/SharedEval-a1"
+  },
+  "8081e7e (VM)": {
+   "SHAREDOS_RUNTIME_PACKAGES_V1": {
+    "lines": "26-31",
+    "value": [
+     "contracts",
+     "core",
+     "os",
+     "runtime"
+    ]
+   },
+   "SHAREDOS_VERIFIED_REVISION_V1": {
+    "lines": "34-35",
+    "value": "3aa07e33999b656a10ace294fd4e41df8cbc318e"
+   },
+   "SHAREDOS_VERIFIED_RUNTIME_DIGEST_V1": {
+    "lines": "36-37",
+    "value": "4afb23d79851a83a48e25e968f04e45cefc81847b4a9963c62277b5c05862d5d"
+   },
+   "build-image.sh SHAREDOS_PINNED_REVISION": {
+    "lines": "20",
+    "value": "3aa07e33999b656a10ace294fd4e41df8cbc318e"
+   },
+   "ci.yml SHAREDOS_PIN": {
+    "lines": "61",
+    "value": "3aa07e33999b656a10ace294fd4e41df8cbc318e"
+   },
+   "commit": "8081e7e78e0e5acfe79830c606619faae53c3b0a",
+   "file": "src/execution/sharedos/v1/load-sharedos.ts",
+   "where": "<vm>/repos/SharedEval-a1"
+  },
+  "8081e7e78e0e": {
+   ".github/workflows/ci.yml SHAREDOS_PIN": {
+    "lines": "61",
+    "value": "3aa07e33999b656a10ace294fd4e41df8cbc318e"
+   },
+   "SHAREDOS_RUNTIME_PACKAGES_V1": {
+    "lines": "26-31",
+    "value": [
+     "contracts",
+     "core",
+     "os",
+     "runtime"
+    ]
+   },
+   "SHAREDOS_VERIFIED_REVISION_V1": {
+    "lines": "34-35",
+    "value": "3aa07e33999b656a10ace294fd4e41df8cbc318e"
+   },
+   "SHAREDOS_VERIFIED_RUNTIME_DIGEST_V1": {
+    "lines": "36-37",
+    "value": "4afb23d79851a83a48e25e968f04e45cefc81847b4a9963c62277b5c05862d5d"
+   },
+   "commit": "8081e7e78e0e5acfe79830c606619faae53c3b0a",
+   "file": "src/execution/sharedos/v1/load-sharedos.ts",
+   "scripts/experiments/build-image.sh SHAREDOS_PINNED_REVISION": {
+    "lines": "20",
+    "value": "3aa07e33999b656a10ace294fd4e41df8cbc318e"
+   },
+   "where": "local clone <external>/SharedEval"
+  },
+  "d44e478 (VM)": {
+   "SHAREDOS_RUNTIME_PACKAGES_V1": {
+    "lines": "26-31",
+    "value": [
+     "contracts",
+     "core",
+     "os",
+     "runtime"
+    ]
+   },
+   "SHAREDOS_VERIFIED_REVISION_V1": {
+    "lines": "34-35",
+    "value": "3aa07e33999b656a10ace294fd4e41df8cbc318e"
+   },
+   "SHAREDOS_VERIFIED_RUNTIME_DIGEST_V1": {
+    "lines": "36-37",
+    "value": "4afb23d79851a83a48e25e968f04e45cefc81847b4a9963c62277b5c05862d5d"
+   },
+   "build-image.sh SHAREDOS_PINNED_REVISION": {
+    "lines": "20",
+    "value": "3aa07e33999b656a10ace294fd4e41df8cbc318e"
+   },
+   "ci.yml SHAREDOS_PIN": {
+    "lines": "61",
+    "value": "3aa07e33999b656a10ace294fd4e41df8cbc318e"
+   },
+   "commit": "d44e4788562c438a97180443ee8cc5170094ad07",
+   "file": "src/execution/sharedos/v1/load-sharedos.ts",
+   "where": "<vm>/repos/SE-net-e1"
+  },
+  "e20062e": {
+   ".github/workflows/ci.yml SHAREDOS_PIN": {
+    "lines": "61",
+    "value": "3aa07e33999b656a10ace294fd4e41df8cbc318e"
+   },
+   "SHAREDOS_RUNTIME_PACKAGES_V1": {
+    "lines": "26-31",
+    "value": [
+     "contracts",
+     "core",
+     "os",
+     "runtime"
+    ]
+   },
+   "SHAREDOS_VERIFIED_REVISION_V1": {
+    "lines": "34-35",
+    "value": "3aa07e33999b656a10ace294fd4e41df8cbc318e"
+   },
+   "SHAREDOS_VERIFIED_RUNTIME_DIGEST_V1": {
+    "lines": "36-37",
+    "value": "4afb23d79851a83a48e25e968f04e45cefc81847b4a9963c62277b5c05862d5d"
+   },
+   "commit": "e20062ef31adb01113a64a0acc80d226ccf1f305",
+   "file": "src/execution/sharedos/v1/load-sharedos.ts",
+   "scripts/experiments/build-image.sh SHAREDOS_PINNED_REVISION": {
+    "lines": "20",
+    "value": "3aa07e33999b656a10ace294fd4e41df8cbc318e"
+   },
+   "where": "local clone <external>/SharedEval"
+  },
+  "e20062e (VM)": {
+   "SHAREDOS_RUNTIME_PACKAGES_V1": {
+    "lines": "26-31",
+    "value": [
+     "contracts",
+     "core",
+     "os",
+     "runtime"
+    ]
+   },
+   "SHAREDOS_VERIFIED_REVISION_V1": {
+    "lines": "34-35",
+    "value": "3aa07e33999b656a10ace294fd4e41df8cbc318e"
+   },
+   "SHAREDOS_VERIFIED_RUNTIME_DIGEST_V1": {
+    "lines": "36-37",
+    "value": "4afb23d79851a83a48e25e968f04e45cefc81847b4a9963c62277b5c05862d5d"
+   },
+   "build-image.sh SHAREDOS_PINNED_REVISION": {
+    "lines": "20",
+    "value": "3aa07e33999b656a10ace294fd4e41df8cbc318e"
+   },
+   "ci.yml SHAREDOS_PIN": {
+    "lines": "61",
+    "value": "3aa07e33999b656a10ace294fd4e41df8cbc318e"
+   },
+   "commit": "e20062ef31adb01113a64a0acc80d226ccf1f305",
+   "file": "src/execution/sharedos/v1/load-sharedos.ts",
+   "where": "<vm>/repos/SharedEval-a1"
+  }
+ },
+ "generated_utc": "2026-10-04T16:10Z",
+ "github": {
+  "systemind-team/SharedEval@0735564b0c31": "0735564b0c318b83fd2b611f73b25f2c74f4e5b5",
+  "systemind-team/SharedEval@26dd392": "26dd392fc83df022f29bc0852f4bedfdf69ba0ae",
+  "systemind-team/SharedEval@40f4f01": "not found (HTTP 422)",
+  "systemind-team/SharedEval@4565add": "not found (HTTP 422)",
+  "systemind-team/SharedEval@58829feb1728": "58829feb17289e4e3092dae44089831a51336c4a",
+  "systemind-team/SharedEval@5aaa7f1": "not found (HTTP 422)",
+  "systemind-team/SharedEval@5db4182": "5db4182c8c3b1082e4585b6473d70fa8296cbe67",
+  "systemind-team/SharedEval@6773638": "6773638d927a39ac76e294b7987860f74fdd2da3",
+  "systemind-team/SharedEval@79b52cf8b76b": "not found (HTTP 422)",
+  "systemind-team/SharedEval@8081e7e78e0e": "8081e7e78e0e5acfe79830c606619faae53c3b0a",
+  "systemind-team/SharedEval@d44e478": "not found (HTTP 422)",
+  "systemind-team/SharedEval@e20062e": "e20062ef31adb01113a64a0acc80d226ccf1f305",
+  "systemind-team/SharedOS@3aa07e3": "3aa07e33999b656a10ace294fd4e41df8cbc318e",
+  "systemind-team/SharedOS@5392148": "5392148fbcb229927643df5009ef2e0e2508af27",
+  "systemind-team/SharedOS@c74461c": "c74461c1c4b715fd60c18401100cd72362d3afc1"
+ },
+ "k1_k2_divergence": {
+  "commands": [
+   "git -C <SharedOS> rev-list --count $(git merge-base 3aa07e3 c74461c)..3aa07e3",
+   "git -C <SharedOS> rev-list --count $(git merge-base 3aa07e3 c74461c)..c74461c",
+   "git -C <SharedOS> diff --shortstat 3aa07e3 c74461c -- packages/contracts/src packages/core/src packages/os/src packages/runtime/src"
+  ],
+  "commits_only_in_K1": 178,
+  "commits_only_in_K2": 9,
+  "git_version": "git version 2.50.1 (Apple Git-155)",
+  "merge_base": "bd76d1161ec3f2a3aed74b079efe466f312c5c9a",
+  "merge_base_subject": "docs(changelog): record the model-driven column",
+  "merge_bases_all": [
+   "bd76d1161ec3f2a3aed74b079efe466f312c5c9a"
+  ],
+  "numstat_totals": {
+   "binary_files": 0,
+   "changed_lines": 9752,
+   "deletions": 370,
+   "files": 47,
+   "insertions": 9382
+  },
+  "per_package": {
+   "contracts": "8 files changed, 317 insertions(+), 1 deletion(-)",
+   "core": "27 files changed, 7206 insertions(+), 283 deletions(-)",
+   "os": "2 files changed, 405 insertions(+), 6 deletions(-)",
+   "runtime": "10 files changed, 1454 insertions(+), 80 deletions(-)"
+  },
+  "repository": "<external>/SharedOS",
+  "shortstat_K2_to_K1_four_package_src": {
+   "default": "47 files changed, 9382 insertions(+), 370 deletions(-)",
+   "no_renames": "47 files changed, 9382 insertions(+), 370 deletions(-)",
+   "renames": "47 files changed, 9382 insertions(+), 370 deletions(-)"
+  },
+  "whole_repository_shortstat": "187 files changed, 29143 insertions(+), 4545 deletions(-)"
+ },
+ "labels": {
+  "E1": {
+   "agrees_with_table9": true,
+   "checked": "58829fe and 0735564: local clone and every VM SharedEval clone (pins below). Image per cell: <vm>/work/v41-grid-out/*/*/cell-provenance.json (imageRef, imageDigest).",
+   "commits": [
+    "58829feb17289e4e3092dae44089831a51336c4a",
+    "0735564b0c318b83fd2b611f73b25f2c74f4e5b5",
+    "79b52cf8b76b",
+    "40f4f01"
+   ],
+   "images_by_cell": [
+    {
+     "cells": 58,
+     "imageDigest": "sha256:bc17ce54a4dfaece3ce0600058fbbdb65077ccb9d72dbb3b902ee61f48596dd6",
+     "imageRef": "sharedeval-experiment:58829feb1728",
+     "voided_cells": [
+      "ds41-d6-r2-rep1.bad-504-20260914",
+      "ds41-d6-r3-rep1.bad-504-20260914"
+     ]
+    },
+    {
+     "cells": 24,
+     "imageDigest": "sha256:5eab4c1d13c453ca29ce6779c49390a8c0d024a891e98ce9acfebfa20e2e6367",
+     "imageRef": "sharedeval-experiment:0735564b0c31",
+     "voided_cells": []
+    },
+    {
+     "cells": 2,
+     "imageDigest": "sha256:2abe0ab279e03e3b9af7b65ad726936ff85758c536b0061fbf067533cd8435ca",
+     "imageRef": "sharedeval-experiment:79b52cf8b76b-codex",
+     "voided_cells": []
+    }
+   ],
+   "verified": "partial: 58829fe and 0735564 (commits and pins) and the cell-to-image mapping; NOT 79b52cf8b76b or 40f4f01 (in no local or VM clone and not on GitHub systemind-team/SharedEval), so their SharedOS pin is unverified",
+   "table9": "images 58829feb1728, 0735564b0c31, 79b52cf8b76b-codex; Azure native 40f4f01",
+   "what": "PAIR I builds: OpenRouter cells ran in images sharedeval-experiment:<first 12 hex of the SharedEval commit>; Azure cells ran SharedEval natively"
+  },
+  "E2": {
+   "agrees_with_table9": true,
+   "checked": "last launch log per session (<vm>/runs/<study>/logs/<session>.*.log, sourceRevision)",
+   "commits": [
+    "e20062ef31adb01113a64a0acc80d226ccf1f305",
+    "5db4182c8c3b1082e4585b6473d70fa8296cbe67",
+    "26dd392fc83df022f29bc0852f4bedfdf69ba0ae"
+   ],
+   "sessions_by_revision": {
+    "grid600": {
+     "26dd392fc83df022f29bc0852f4bedfdf69ba0ae": 30,
+     "5db4182c8c3b1082e4585b6473d70fa8296cbe67": 2353,
+     "None": 1,
+     "e20062ef31adb01113a64a0acc80d226ccf1f305": 16
+    },
+    "pack1": {
+     "26dd392fc83df022f29bc0852f4bedfdf69ba0ae": 180
+    },
+    "pack10": {
+     "26dd392fc83df022f29bc0852f4bedfdf69ba0ae": 18
+    }
+   },
+   "verified": true,
+   "table9": "e20062e, 5db4182, 26dd392 (pack1 and pack10 ran 26dd392)",
+   "what": "probing grid (grid600, 2,400 sessions) and packing study (pack1, 180; pack10, 18)"
+  },
+  "E3": {
+   "agrees_with_table9": true,
+   "checked": "local clone and VM clone SharedEval-a1 (HEAD, no tracked changes); launch logs of t3simple and pair2id2 (vm.lanes)",
+   "commit": "8081e7e78e0e5acfe79830c606619faae53c3b0a",
+   "tree": "0e2ac35d26c77c15000a4126a6b3a994392314bb",
+   "verified": true,
+   "table9": "8081e7e78e0e; header ladder = 4565add (E3 + scripts/pair_multi/told_ladder/sharedeval-told-4565add.patch)",
+   "what": "ladder grid (VM lane t3simple, run ids S4-*) and identity comparison (VM lane pair2id2)"
+  },
+  "E3-header": {
+   "agrees_with_table9": true,
+   "checked": "VM clone SharedEval-told (HEAD 4565add); local: E3's tree with the patch applied (git apply --cached in a throw-away repository) equals 4565add's tree",
+   "commit": "4565add03628d967938f8a6cebf2d33b27f80249",
+   "parent": [
+    "8081e7e78e0e5acfe79830c606619faae53c3b0a"
+   ],
+   "patch": {
+    "E3_tree_plus_patch": "b898c190a40660b47acf210d01502f099cbe55eb",
+    "patch": "scripts/pair_multi/told_ladder/sharedeval-told-4565add.patch",
+    "patch_id_stable": "25c8f4a08b7c8ab41b1cba79c6ce53057012d84f",
+    "patch_names_commit": "4565add03628d967938f8a6cebf2d33b27f80249",
+    "tree_equal": true,
+    "vm_4565add_parent": [
+     "8081e7e78e0e5acfe79830c606619faae53c3b0a"
+    ],
+    "vm_4565add_tree": "b898c190a40660b47acf210d01502f099cbe55eb"
+   },
+   "tree": "b898c190a40660b47acf210d01502f099cbe55eb",
+   "verified": true,
+   "table9": "8081e7e78e0e; header ladder = 4565add (E3 + scripts/pair_multi/told_ladder/sharedeval-told-4565add.patch)",
+   "what": "header ladder (VM lane pair2told): E3 plus the told-policy patch"
+  },
+  "E4": {
+   "agrees_with_table9": true,
+   "checked": "VM clone <vm>/repos/SE-net-e1 (HEAD d44e478, no tracked changes); its tree is in the local clone as the tree of 6773638 (origin/net/register-missing-workspaces)",
+   "commit": "d44e4788562c438a97180443ee8cc5170094ad07",
+   "parent": [
+    "511e225dc2a56495a9f6da56a245603333114997"
+   ],
+   "same_tree_as": [
+    "6773638d927a39ac76e294b7987860f74fdd2da3"
+   ],
+   "tree": "00eecd0bc16b37a170949afeb23f34bcedb8ad23",
+   "verified": true,
+   "table9": "d44e4788562c438a97180443ee8cc5170094ad07 (VM clone <vm>/repos/SE-net-e1)",
+   "what": "NET rerun (VM lanes net-or-ds, net-or-glm)"
+  },
+  "K1": {
+   "agrees_with_table9": true,
+   "checked": "local SharedOS clone and VM clone <vm>/repos/SharedOS: git log -1 --format='%H %T %P' c74461c",
+   "commit": "c74461c1c4b715fd60c18401100cd72362d3afc1",
+   "subject": "Merge pull request #64 from Aicoo-Team/perf/tool-definition-json-walk",
+   "tree": "b1f29050bf42ad2f97fb5fef2a3ed107d42bfabc",
+   "verified": true,
+   "table9": "c74461c1c4b715fd60c18401100cd72362d3afc1; tree b1f29050bf42ad2f97fb5fef2a3ed107d42bfabc",
+   "what": "SharedOS conformance snapshot: the kernel revision the conformance results are reported at (evidence/runtime_manifest.json source_revision; evidence/kernel_conformance.source.json)"
+  },
+  "K1-live": {
+   "agrees_with_table9": true,
+   "author_date": "2026-09-08T13:14:57Z",
+   "checked": "local SharedOS clone and VM clone: git log -1 --format='%H %T %P %ad' 5392148",
+   "commit": "5392148fbcb229927643df5009ef2e0e2508af27",
+   "same_tree_as_K1": true,
+   "second_parent_of_K1": true,
+   "tree": "b1f29050bf42ad2f97fb5fef2a3ed107d42bfabc",
+   "verified": true,
+   "table9": "5392148 (same tree b1f29050\u2026)",
+   "what": "commit of the live conformance pass of 2026-09-08 (evidence/live_conformance/); second parent of the K1 merge commit, with the same tree"
+  },
+  "K2": {
+   "agrees_with_table9": true,
+   "checked": "local SharedOS clone, VM clones SharedOS and SharedOS-3aa07e3 (HEAD 3aa07e3, no tracked changes, dist built); binding.json of every run directory (vm.e2/lanes recorded_at_run_time)",
+   "commit": "3aa07e33999b656a10ace294fd4e41df8cbc318e",
+   "subject": "docs(changelog): record escalation over MCP",
+   "tree": "1745fa36f8157c8a52a3dd12266ea046ceccda4c",
+   "verified": true,
+   "verified_for_studies": "E2, E3, E3-header, E4 from run records; E1 only through the pin in the source of 58829fe and 0735564 (PAIR I run records are not readable)",
+   "table9": "3aa07e33999b656a10ace294fd4e41df8cbc318e",
+   "what": "SharedOS revision every evaluator revision below pins (SHAREDOS_VERIFIED_REVISION_V1) and that every run directory of E2, E3, the header ladder and E4 recorded binding at run time"
+  },
+  "runtime-digest": {
+   "agrees_with_table9": true,
+   "checked": "declared at every evaluator revision opened (evaluator_pins); recomputed from the local K2 build; recorded at run time by every E2/E3/E3-header/E4 run directory",
+   "recomputed": {
+    "build": "<external>/SharedOS-3aa07e3",
+    "build_head": "3aa07e33999b656a10ace294fd4e41df8cbc318e",
+    "build_tracked_dirty": false,
+    "digest": "4afb23d79851a83a48e25e968f04e45cefc81847b4a9963c62277b5c05862d5d",
+    "equals_pin": true,
+    "function": "digestSharedOsRuntimeV1 from SharedEval 8081e7e78e0e:src/execution/sharedos/v1/load-sharedos.ts",
+    "node": "v25.8.1"
+   },
+   "value": "4afb23d79851a83a48e25e968f04e45cefc81847b4a9963c62277b5c05862d5d",
+   "verified": true,
+   "table9": "4afb23d79851a83a48e25e968f04e45cefc81847b4a9963c62277b5c05862d5d",
+   "what": "SHAREDOS_VERIFIED_RUNTIME_DIGEST_V1: sha256 over the four runtime packages' package.json and dist JavaScript plus zod's v3 closure (digestSharedOsRuntimeV1)"
+  }
+ },
+ "other_lanes_launch_revisions": {
+  "net-or-ds": {
+   "every_log_sourceRevision": {
+    "None": 63,
+    "d44e4788562c438a97180443ee8cc5170094ad07": 415
+   },
+   "last_launch_sourceRevision": {
+    "None": 40,
+    "d44e4788562c438a97180443ee8cc5170094ad07": 393
+   },
+   "logs_without_revision": {
+    "short_with_error_text": 63
+   },
+   "run_ids_with_logs": 433
+  },
+  "net-or-glm": {
+   "every_log_sourceRevision": {
+    "None": 31,
+    "d44e4788562c438a97180443ee8cc5170094ad07": 274
+   },
+   "last_launch_sourceRevision": {
+    "None": 17,
+    "d44e4788562c438a97180443ee8cc5170094ad07": 272
+   },
+   "logs_without_revision": {
+    "short_with_error_text": 31
+   },
+   "run_ids_with_logs": 289
+  },
+  "pair2id2": {
+   "every_log_sourceRevision": {
+    "8081e7e78e0e5acfe79830c606619faae53c3b0a": 398,
+    "None": 15
+   },
+   "last_launch_sourceRevision": {
+    "8081e7e78e0e5acfe79830c606619faae53c3b0a": 398,
+    "None": 15
+   },
+   "logs_without_revision": {
+    "short_with_error_text": 15
+   },
+   "run_ids_with_logs": 413
+  },
+  "pair2told": {
+   "every_log_sourceRevision": {
+    "4565add03628d967938f8a6cebf2d33b27f80249": 596,
+    "None": 23
+   },
+   "last_launch_sourceRevision": {
+    "4565add03628d967938f8a6cebf2d33b27f80249": 596,
+    "None": 23
+   },
+   "logs_without_revision": {
+    "short_with_error_text": 23
+   },
+   "run_ids_with_logs": 619
+  },
+  "t3full": {
+   "every_log_sourceRevision": {
+    "26dd392fc83df022f29bc0852f4bedfdf69ba0ae": 995,
+    "None": 400
+   },
+   "last_launch_sourceRevision": {
+    "26dd392fc83df022f29bc0852f4bedfdf69ba0ae": 995,
+    "None": 400
+   },
+   "logs_without_revision": {
+    "short_with_error_text": 400
+   },
+   "run_ids_with_logs": 1395
+  },
+  "t3simple": {
+   "every_log_sourceRevision": {
+    "8081e7e78e0e5acfe79830c606619faae53c3b0a": 1346,
+    "None": 43
+   },
+   "last_launch_sourceRevision": {
+    "8081e7e78e0e5acfe79830c606619faae53c3b0a": 1346,
+    "None": 43
+   },
+   "logs_without_revision": {
+    "short_with_error_text": 43
+   },
+   "run_ids_with_logs": 1389
+  }
+ },
+ "recorded_at_run_time": {
+  "grid600": {
+   "binding_sharedOs": [
+    {
+     "revision": "3aa07e33999b656a10ace294fd4e41df8cbc318e",
+     "runs": 2400,
+     "runtime_digest": "4afb23d79851a83a48e25e968f04e45cefc81847b4a9963c62277b5c05862d5d"
+    }
+   ],
+   "run_json_backend_kernel": [
+    {
+     "revision": null,
+     "runs": 2369,
+     "runtime_digest": null
+    },
+    {
+     "revision": "3aa07e33999b656a10ace294fd4e41df8cbc318e",
+     "runs": 31,
+     "runtime_digest": "4afb23d79851a83a48e25e968f04e45cefc81847b4a9963c62277b5c05862d5d"
+    }
+   ]
+  },
+  "net-or-ds": {
+   "binding_sharedOs": [
+    {
+     "revision": "3aa07e33999b656a10ace294fd4e41df8cbc318e",
+     "runs": 432,
+     "runtime_digest": "4afb23d79851a83a48e25e968f04e45cefc81847b4a9963c62277b5c05862d5d"
+    }
+   ],
+   "run_json_backend_kernel": [
+    {
+     "revision": null,
+     "runs": 432,
+     "runtime_digest": null
+    }
+   ]
+  },
+  "net-or-glm": {
+   "binding_sharedOs": [
+    {
+     "revision": "3aa07e33999b656a10ace294fd4e41df8cbc318e",
+     "runs": 288,
+     "runtime_digest": "4afb23d79851a83a48e25e968f04e45cefc81847b4a9963c62277b5c05862d5d"
+    }
+   ],
+   "run_json_backend_kernel": [
+    {
+     "revision": null,
+     "runs": 288,
+     "runtime_digest": null
+    }
+   ]
+  },
+  "pack1": {
+   "binding_sharedOs": [
+    {
+     "revision": "3aa07e33999b656a10ace294fd4e41df8cbc318e",
+     "runs": 180,
+     "runtime_digest": "4afb23d79851a83a48e25e968f04e45cefc81847b4a9963c62277b5c05862d5d"
+    }
+   ],
+   "run_json_backend_kernel": [
+    {
+     "revision": "3aa07e33999b656a10ace294fd4e41df8cbc318e",
+     "runs": 180,
+     "runtime_digest": "4afb23d79851a83a48e25e968f04e45cefc81847b4a9963c62277b5c05862d5d"
+    }
+   ]
+  },
+  "pack10": {
+   "binding_sharedOs": [
+    {
+     "revision": "3aa07e33999b656a10ace294fd4e41df8cbc318e",
+     "runs": 18,
+     "runtime_digest": "4afb23d79851a83a48e25e968f04e45cefc81847b4a9963c62277b5c05862d5d"
+    }
+   ],
+   "run_json_backend_kernel": [
+    {
+     "revision": "3aa07e33999b656a10ace294fd4e41df8cbc318e",
+     "runs": 18,
+     "runtime_digest": "4afb23d79851a83a48e25e968f04e45cefc81847b4a9963c62277b5c05862d5d"
+    }
+   ]
+  },
+  "pair2id2": {
+   "binding_sharedOs": [
+    {
+     "revision": "3aa07e33999b656a10ace294fd4e41df8cbc318e",
+     "runs": 413,
+     "runtime_digest": "4afb23d79851a83a48e25e968f04e45cefc81847b4a9963c62277b5c05862d5d"
+    }
+   ],
+   "run_json_backend_kernel": [
+    {
+     "revision": "3aa07e33999b656a10ace294fd4e41df8cbc318e",
+     "runs": 413,
+     "runtime_digest": "4afb23d79851a83a48e25e968f04e45cefc81847b4a9963c62277b5c05862d5d"
+    }
+   ]
+  },
+  "pair2told": {
+   "binding_sharedOs": [
+    {
+     "revision": "3aa07e33999b656a10ace294fd4e41df8cbc318e",
+     "runs": 619,
+     "runtime_digest": "4afb23d79851a83a48e25e968f04e45cefc81847b4a9963c62277b5c05862d5d"
+    }
+   ],
+   "run_json_backend_kernel": [
+    {
+     "revision": "3aa07e33999b656a10ace294fd4e41df8cbc318e",
+     "runs": 619,
+     "runtime_digest": "4afb23d79851a83a48e25e968f04e45cefc81847b4a9963c62277b5c05862d5d"
+    }
+   ]
+  },
+  "t3full": {
+   "binding_sharedOs": [
+    {
+     "revision": "3aa07e33999b656a10ace294fd4e41df8cbc318e",
+     "runs": 1395,
+     "runtime_digest": "4afb23d79851a83a48e25e968f04e45cefc81847b4a9963c62277b5c05862d5d"
+    }
+   ],
+   "run_json_backend_kernel": [
+    {
+     "revision": "3aa07e33999b656a10ace294fd4e41df8cbc318e",
+     "runs": 1395,
+     "runtime_digest": "4afb23d79851a83a48e25e968f04e45cefc81847b4a9963c62277b5c05862d5d"
+    }
+   ]
+  },
+  "t3simple": {
+   "binding_sharedOs": [
+    {
+     "revision": "3aa07e33999b656a10ace294fd4e41df8cbc318e",
+     "runs": 1389,
+     "runtime_digest": "4afb23d79851a83a48e25e968f04e45cefc81847b4a9963c62277b5c05862d5d"
+    }
+   ],
+   "run_json_backend_kernel": [
+    {
+     "revision": "3aa07e33999b656a10ace294fd4e41df8cbc318e",
+     "runs": 1389,
+     "runtime_digest": "4afb23d79851a83a48e25e968f04e45cefc81847b4a9963c62277b5c05862d5d"
+    }
+   ]
+  }
+ },
+ "runtime_packages": {
+  "SHAREDOS_RUNTIME_PACKAGES_V1": [
+   "contracts",
+   "core",
+   "os",
+   "runtime"
+  ],
+  "listed_in": "SharedEval src/execution/sharedos/v1/load-sharedos.ts, lines 26-31 at every evaluator revision opened (evaluator_pins)",
+  "npm_packages": {
+   "K1": {
+    "contracts": {
+     "name": "@aicoo/sharedos-contracts",
+     "version": "0.1.0-alpha.4"
+    },
+    "core": {
+     "name": "@aicoo/sharedos-core",
+     "version": "0.1.0-alpha.4"
+    },
+    "os": {
+     "name": "@aicoo/sharedos-os",
+     "version": "0.1.0-alpha.4"
+    },
+    "runtime": {
+     "name": "@aicoo/sharedos-runtime",
+     "version": "0.1.0-alpha.4"
+    }
+   },
+   "K2": {
+    "contracts": {
+     "name": "@aicoo/sharedos-contracts",
+     "version": "0.1.0-alpha.3"
+    },
+    "core": {
+     "name": "@aicoo/sharedos-core",
+     "version": "0.1.0-alpha.3"
+    },
+    "os": {
+     "name": "@aicoo/sharedos-os",
+     "version": "0.1.0-alpha.3"
+    },
+    "runtime": {
+     "name": "@aicoo/sharedos-runtime",
+     "version": "0.1.0-alpha.3"
+    }
+   }
+  }
+ },
+ "sharedos_k2_checkout_on_vm": {
+  "dist_index_js_present": {
+   "contracts": true,
+   "core": true,
+   "os": true,
+   "runtime": true
+  },
+  "head": "3aa07e33999b656a10ace294fd4e41df8cbc318e",
+  "path": "<vm>/repos/SharedOS-3aa07e3",
+  "tracked_dirty": false
+ },
+ "vm_clones": {
+  "SE-net-e1": {
+   "head": "d44e4788562c438a97180443ee8cc5170094ad07",
+   "resolved": {
+    "0735564b0c31": "0735564b0c318b83fd2b611f73b25f2c74f4e5b5",
+    "26dd392": null,
+    "40f4f01": null,
+    "4565add": null,
+    "58829feb1728": "58829feb17289e4e3092dae44089831a51336c4a",
+    "5aaa7f1": null,
+    "5db4182": null,
+    "6773638": null,
+    "79b52cf8b76b": null,
+    "8081e7e78e0e": null,
+    "d44e478": "d44e4788562c438a97180443ee8cc5170094ad07",
+    "e20062e": null
+   },
+   "tracked_dirty": false
+  },
+  "SharedEval": {
+   "head": "f74f038520c3dd914288ea02da1eb71a1f8ac524",
+   "resolved": {
+    "0735564b0c31": "0735564b0c318b83fd2b611f73b25f2c74f4e5b5",
+    "26dd392": "26dd392fc83df022f29bc0852f4bedfdf69ba0ae",
+    "40f4f01": null,
+    "4565add": null,
+    "58829feb1728": "58829feb17289e4e3092dae44089831a51336c4a",
+    "5aaa7f1": null,
+    "5db4182": "5db4182c8c3b1082e4585b6473d70fa8296cbe67",
+    "6773638": null,
+    "79b52cf8b76b": null,
+    "8081e7e78e0e": null,
+    "d44e478": null,
+    "e20062e": "e20062ef31adb01113a64a0acc80d226ccf1f305"
+   },
+   "tracked_dirty": false
+  },
+  "SharedEval-a1": {
+   "head": "8081e7e78e0e5acfe79830c606619faae53c3b0a",
+   "resolved": {
+    "0735564b0c31": "0735564b0c318b83fd2b611f73b25f2c74f4e5b5",
+    "26dd392": "26dd392fc83df022f29bc0852f4bedfdf69ba0ae",
+    "40f4f01": null,
+    "4565add": "4565add03628d967938f8a6cebf2d33b27f80249",
+    "58829feb1728": "58829feb17289e4e3092dae44089831a51336c4a",
+    "5aaa7f1": null,
+    "5db4182": "5db4182c8c3b1082e4585b6473d70fa8296cbe67",
+    "6773638": null,
+    "79b52cf8b76b": null,
+    "8081e7e78e0e": "8081e7e78e0e5acfe79830c606619faae53c3b0a",
+    "d44e478": null,
+    "e20062e": "e20062ef31adb01113a64a0acc80d226ccf1f305"
+   },
+   "tracked_dirty": false
+  },
+  "SharedEval-hygbase": {
+   "head": "0e26bea9c55d255dc2247368bd312fc1986342ce",
+   "resolved": {
+    "0735564b0c31": "0735564b0c318b83fd2b611f73b25f2c74f4e5b5",
+    "26dd392": "26dd392fc83df022f29bc0852f4bedfdf69ba0ae",
+    "40f4f01": null,
+    "4565add": null,
+    "58829feb1728": "58829feb17289e4e3092dae44089831a51336c4a",
+    "5aaa7f1": null,
+    "5db4182": "5db4182c8c3b1082e4585b6473d70fa8296cbe67",
+    "6773638": null,
+    "79b52cf8b76b": null,
+    "8081e7e78e0e": null,
+    "d44e478": null,
+    "e20062e": "e20062ef31adb01113a64a0acc80d226ccf1f305"
+   },
+   "tracked_dirty": false
+  },
+  "SharedEval-hygiene": {
+   "head": "b4bf2d7c8d4d56dc005fc5fb39c9761025b346fb",
+   "resolved": {
+    "0735564b0c31": "0735564b0c318b83fd2b611f73b25f2c74f4e5b5",
+    "26dd392": "26dd392fc83df022f29bc0852f4bedfdf69ba0ae",
+    "40f4f01": null,
+    "4565add": null,
+    "58829feb1728": "58829feb17289e4e3092dae44089831a51336c4a",
+    "5aaa7f1": null,
+    "5db4182": "5db4182c8c3b1082e4585b6473d70fa8296cbe67",
+    "6773638": null,
+    "79b52cf8b76b": null,
+    "8081e7e78e0e": null,
+    "d44e478": null,
+    "e20062e": "e20062ef31adb01113a64a0acc80d226ccf1f305"
+   },
+   "tracked_dirty": false
+  },
+  "SharedEval-spoof": {
+   "head": "7f409dac704e9729c2ff53dfec3cdcb680311fe6",
+   "resolved": {
+    "0735564b0c31": "0735564b0c318b83fd2b611f73b25f2c74f4e5b5",
+    "26dd392": "26dd392fc83df022f29bc0852f4bedfdf69ba0ae",
+    "40f4f01": null,
+    "4565add": "4565add03628d967938f8a6cebf2d33b27f80249",
+    "58829feb1728": "58829feb17289e4e3092dae44089831a51336c4a",
+    "5aaa7f1": null,
+    "5db4182": "5db4182c8c3b1082e4585b6473d70fa8296cbe67",
+    "6773638": null,
+    "79b52cf8b76b": null,
+    "8081e7e78e0e": "8081e7e78e0e5acfe79830c606619faae53c3b0a",
+    "d44e478": null,
+    "e20062e": "e20062ef31adb01113a64a0acc80d226ccf1f305"
+   },
+   "tracked_dirty": false
+  },
+  "SharedEval-told": {
+   "head": "4565add03628d967938f8a6cebf2d33b27f80249",
+   "resolved": {
+    "0735564b0c31": "0735564b0c318b83fd2b611f73b25f2c74f4e5b5",
+    "26dd392": "26dd392fc83df022f29bc0852f4bedfdf69ba0ae",
+    "40f4f01": null,
+    "4565add": "4565add03628d967938f8a6cebf2d33b27f80249",
+    "58829feb1728": "58829feb17289e4e3092dae44089831a51336c4a",
+    "5aaa7f1": null,
+    "5db4182": "5db4182c8c3b1082e4585b6473d70fa8296cbe67",
+    "6773638": null,
+    "79b52cf8b76b": null,
+    "8081e7e78e0e": "8081e7e78e0e5acfe79830c606619faae53c3b0a",
+    "d44e478": null,
+    "e20062e": "e20062ef31adb01113a64a0acc80d226ccf1f305"
+   },
+   "tracked_dirty": false
+  },
+  "SharedOS": {
+   "head": "006af0267c08f8eab0cdc1937e1f5cd7cdbc8249",
+   "resolved": {
+    "3aa07e3": "3aa07e33999b656a10ace294fd4e41df8cbc318e",
+    "5392148": "5392148fbcb229927643df5009ef2e0e2508af27",
+    "c74461c": "c74461c1c4b715fd60c18401100cd72362d3afc1"
+   },
+   "tracked_dirty": false
+  },
+  "SharedOS-3aa07e3": {
+   "head": "3aa07e33999b656a10ace294fd4e41df8cbc318e",
+   "resolved": {
+    "3aa07e3": "3aa07e33999b656a10ace294fd4e41df8cbc318e",
+    "5392148": "5392148fbcb229927643df5009ef2e0e2508af27",
+    "c74461c": "c74461c1c4b715fd60c18401100cd72362d3afc1"
+   },
+   "tracked_dirty": false
+  }
+ },
+ "what": "Provenance manifest for the paper's kernel (K) and evaluator (E) revisions. Regenerate with: python3 scripts/freeze/provenance/collect.py --github --write"
+}

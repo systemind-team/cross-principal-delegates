@@ -1,0 +1,50 @@
+SharedOS 0.1.0-alpha.4
+
+Harness availability
+  Claude Code  available 2.1.263
+  Codex        available (version not reported)
+  DeepSeek     available 0.1.1-rc.2
+  Pi           available 0.84.2
+
+Running against 5 column(s)...
+
+| Harness | pass | not applicable | not implemented | out of scope | not exercised | fail |
+| --- | --- | --- | --- | --- | --- | --- |
+| Adversary | 30 | 0 | 2 | 0 | 0 | 0 |
+| Claude Code | 21 | 8 | 2 | 1 | 0 | 0 |
+| Codex | 21 | 8 | 2 | 1 | 0 | 0 |
+| DeepSeek | 21 | 8 | 2 | 1 | 0 | 0 |
+| Pi | 19 | 8 | 2 | 1 | 2 | 0 |
+
+What each column's turns actually did
+  Adversary    31 turns, 80 mediated operations, outcomes: denied×1, escalated×1, failed×2, succeeded×27
+               catalogue: none published (this column serves no catalogue)
+               model:     not declared
+               prompt set: none (this column tells the seat nothing)
+               runtime:   sharedos.conformance.hostile 1.0.0 (protocol 1)
+  Claude Code  29 turns, 73 mediated operations, outcomes: cancelled×1, denied×1, escalated×1, succeeded×26
+               catalogue: sha256:8cd0edd3dc27…, sha256:18d643dde579…, sha256:5b932ecca14f…, sha256:f34db2fc5d08… over 17/13/18 tools
+               model:     deepseek-v4-flash
+               prompt set: sha256:b8ca158a90b1…
+               runtime:   sharedos.conformance.claude-code-mcp 0.1.0-alpha.4 (protocol 1)
+  Codex        29 turns, 72 mediated operations, outcomes: denied×1, escalated×1, succeeded×27
+               catalogue: sha256:8cd0edd3dc27…, sha256:18d643dde579…, sha256:5b932ecca14f…, sha256:f34db2fc5d08… over 17/13/18 tools
+               model:     deepseek-v4-flash
+               prompt set: sha256:dd29e3164705…
+               runtime:   sharedos.conformance.codex-mcp 0.1.0-alpha.4 (protocol 1)
+  DeepSeek     29 turns, 76 mediated operations, outcomes: denied×1, escalated×2, succeeded×26
+               catalogue: sha256:8cd0edd3dc27…, sha256:18d643dde579…, sha256:5b932ecca14f…, sha256:f34db2fc5d08… over 17/13/18 tools
+               model:     deepseek-v4-flash
+               prompt set: sha256:dd29e3164705…
+               runtime:   sharedos.conformance.deepseek-mcp 0.1.0-alpha.4 (protocol 1)
+  Pi           29 turns, 67 mediated operations, outcomes: denied×1, escalated×1, succeeded×27
+               catalogue: sha256:8cd0edd3dc27…, sha256:18d643dde579…, sha256:5b932ecca14f…, sha256:f34db2fc5d08… over 17/13/18 tools
+               model:     deepseek-v4-flash
+               prompt set: sha256:dd29e3164705…
+               runtime:   sharedos.conformance.pi-mcp 0.1.0-alpha.4 (protocol 1)
+
+Wrote /home/ubuntu/workspace/SharedOS/artifacts/conformance/mcp-conformance.json
+
+4 MCP column(s) ran; 2 cell(s) did not pass.
+  - host-policy-denied/frozen-ledger-and-mutations on pi-mcp: not_exercised — the control attempt read-outside-frozen-subtree did not succeed, so the row proves nothing
+  - broker-out-of-scope/search-confined-to-one-page-tree on pi-mcp: not_exercised — the control attempt search-inside-the-scope did not succeed, so the row proves nothing

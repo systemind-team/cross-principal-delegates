@@ -1,0 +1,28 @@
+From ed93b89af8c0291794485416c0744706e82c9f82 Mon Sep 17 00:00:00 2001
+From: kernel-check <kernel-check@invalid>
+Date: Mon, 5 Oct 2026 07:22:30 +0000
+Subject: [PATCH 2/2] PROBE ONLY step 2: switch off the tool-catalog check when
+ visibleTools is absent
+
+---
+ src/runner/v1/file-workflow-sharedos-evidence.ts | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+diff --git a/src/runner/v1/file-workflow-sharedos-evidence.ts b/src/runner/v1/file-workflow-sharedos-evidence.ts
+index 1ad16f3..612a349 100644
+--- a/src/runner/v1/file-workflow-sharedos-evidence.ts
++++ b/src/runner/v1/file-workflow-sharedos-evidence.ts
+@@ -629,6 +629,10 @@ function assertSuccessfulCatalogTools(
+ }
+ 
+ function parseVisibleTools(event: NativeAuditEvent): ReadonlySet<string> {
++  // PROBE ONLY (kernel-check scoping): K1 records catalogHash, not visibleTools. This admits every tool.
++  if (event.metadata?.['visibleTools'] === undefined) {
++    return new (class extends Set<string> { override has(_tool: string) { return true; } })();
++  }
+   const visible = event.metadata?.['visibleTools'];
+   if (
+     !Array.isArray(visible)
+-- 
+2.43.0
+

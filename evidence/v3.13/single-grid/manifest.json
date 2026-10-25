@@ -1,0 +1,154 @@
+{
+ "files": {
+  "evidence/v3.13/single-grid/action_split.json": {
+   "sha256": "3656c76eeb79dc3950774991daebad4c3a04092bb3e606b3b4f5c74a36958f3a",
+   "bytes": 3777
+  },
+  "evidence/v3.13/single-grid/cells.json": {
+   "sha256": "2afd6a7caa3590f27debaff31fd6c13f65336ef4f1537c7c1d266fbfb23e0f27",
+   "bytes": 233393
+  },
+  "evidence/v3.13/single-grid/diag_scan.json": {
+   "sha256": "a0bf4c39b755f90485d3e285f3660f04ea0b5b5ed83b23c46c1804dce4cc2fd9",
+   "bytes": 190344
+  },
+  "evidence/v3.13/single-grid/digest.txt": {
+   "sha256": "335d8edabc20da378885cb0ab262a8d8e0bc2266284610b021a6f6786b7e3d07",
+   "bytes": 4487
+  },
+  "evidence/v3.13/single-grid/policies/D0_R1.display.txt": {
+   "sha256": "628a9c4dd17b6cfe58410d258a6b93eff0c7ce2c02eeedffbfa4d7b55368816e",
+   "bytes": 331
+  },
+  "evidence/v3.13/single-grid/policies/D0_R1.txt": {
+   "sha256": "628a9c4dd17b6cfe58410d258a6b93eff0c7ce2c02eeedffbfa4d7b55368816e",
+   "bytes": 331
+  },
+  "evidence/v3.13/single-grid/policies/D1_R1.display.txt": {
+   "sha256": "4c8d0ac2a9885bf7f5b0252cc3314108e9694a9623258997244df56b099a4f27",
+   "bytes": 465
+  },
+  "evidence/v3.13/single-grid/policies/D1_R1.txt": {
+   "sha256": "4c8d0ac2a9885bf7f5b0252cc3314108e9694a9623258997244df56b099a4f27",
+   "bytes": 465
+  },
+  "evidence/v3.13/single-grid/policies/D2_R1.display.txt": {
+   "sha256": "b21395821805309af885f6d6c13681735b40cd9133f66aca1ce5592a4451a780",
+   "bytes": 2352
+  },
+  "evidence/v3.13/single-grid/policies/D2_R1.txt": {
+   "sha256": "ca13bcfa2c3e825f3928c9d1fd2139b073bd27cd9aa1b571c4be9e23d4d833d6",
+   "bytes": 2352
+  },
+  "evidence/v3.13/single-grid/policies/D3_R1.display.txt": {
+   "sha256": "df3715024cfef8753b64cf5748cf20391a01383f8b9f242e4f03e2337da093bd",
+   "bytes": 2984
+  },
+  "evidence/v3.13/single-grid/policies/D3_R1.txt": {
+   "sha256": "145b0705f99b956e898fa9045a8bd1b7f9572d45d293192e85d02b59c9742237",
+   "bytes": 2984
+  },
+  "evidence/v3.13/single-grid/policies/D4_R1.display.txt": {
+   "sha256": "320951e7f2a311d3b5038a8cd250b981dbe70647f9b06450f6d3140aeaa939e3",
+   "bytes": 3283
+  },
+  "evidence/v3.13/single-grid/policies/D4_R1.txt": {
+   "sha256": "42f4f7a2fbf548fd8e661513d0155e208277bab1826cbac492e70a77d8260786",
+   "bytes": 3283
+  },
+  "evidence/v3.13/single-grid/policies/D5_R1.display.txt": {
+   "sha256": "8fbaa99e45d6336e1e3fb49445b041ee2b79637236c1f509c812e713a49bcdf8",
+   "bytes": 3365
+  },
+  "evidence/v3.13/single-grid/policies/D5_R1.txt": {
+   "sha256": "07be76f242c2dc5a4bedfe832e67e8606c578e2f1c103fcaeb2145fa1deab873",
+   "bytes": 3362
+  },
+  "evidence/v3.13/single-grid/policies/D6_R1.display.txt": {
+   "sha256": "4499f586dd5962b37eac426df5261c49248cb4a9455003356ae80e982b53a395",
+   "bytes": 2211
+  },
+  "evidence/v3.13/single-grid/policies/D6_R1.txt": {
+   "sha256": "4499f586dd5962b37eac426df5261c49248cb4a9455003356ae80e982b53a395",
+   "bytes": 2211
+  },
+  "evidence/v3.13/single-grid/policies/PROMPTS_D0-D6.md": {
+   "sha256": "029d847c1119f564d5b254ddc375af1dd8404f0ffe33a69dfc3a92f50d31625c",
+   "bytes": 17651
+  },
+  "evidence/v3.13/single-grid/pools.json": {
+   "sha256": "57373ef957a3234806332117bd4c017e01a3f5c8f754bbb103b8bd80d42e4d83",
+   "bytes": 146317
+  },
+  "evidence/v3.13/single-grid/rescore-azure-28.json": {
+   "sha256": "9d1ef6d9eb80397b922352969a5366b69155b30093b8fc4129694547e544d5ef",
+   "bytes": 142355
+  },
+  "evidence/v3.13/single-grid/rescore-openrouter-82.json": {
+   "sha256": "f51dc60e66e8e005b2ee70917fc87d1500662551ffebb2558825cba73b3be8a9",
+   "bytes": 415083
+  },
+  "evidence/v3.13/single-grid/review/HUMAN_VERDICTS.md": {
+   "sha256": "615da7fa8ae17d2960fe077c5c408225c6c324c26211197d85b7062ef21858ab",
+   "bytes": 2676
+  },
+  "evidence/v3.13/single-grid/review/REVIEW_RUBRIC.md": {
+   "sha256": "703fbb295edbf3156b01155046bcb82dae90ffa03034d282b93b55e10dbf27d7",
+   "bytes": 4125
+  },
+  "evidence/v3.13/single-grid/review/ai_verdicts.jsonl": {
+   "sha256": "d57cd5481b56e41dfb1107e18e76417003cab18abbffbe3bf3d6ae3be6c451c0",
+   "bytes": 218318
+  },
+  "evidence/v3.13/single-grid/review/human_subset.jsonl": {
+   "sha256": "0f997d8ec1f965261ceab758c7476a2439c535b61ac580c202d15957fbfddd62",
+   "bytes": 109460
+  },
+  "evidence/v3.13/single-grid/review/human_verdicts.jsonl": {
+   "sha256": "5d4b50cce6358b8aa654cffb4815188b3275a0143d8ca37aab82c20a429f218c",
+   "bytes": 18412
+  },
+  "evidence/v3.13/single-grid/review/packets.jsonl": {
+   "sha256": "bc4c53078a338c34e0903b13f28d8ea7862c98d8d5002e79ad735ad83c0b2c36",
+   "bytes": 818832
+  },
+  "evidence/v3.13/single-grid/review/summary.json": {
+   "sha256": "6ec2a11015b01a1c381f30873a1cbfd5e32f23fc1ec29ed3fb6dca0229e19e67",
+   "bytes": 7705
+  },
+  "evidence/v3.13/single-grid/stats.json": {
+   "sha256": "de5d5b4b61bfe29f8d31416021b24ed7861f4b12b16be01eadd08996cf3d0650",
+   "bytes": 367884
+  }
+ },
+ "derived_from": {
+  "server": "<user>@<ip> (<host>)",
+  "openrouter_grid_runs": "<vm>/work/v41-grid-out/<cell>-rep1/ (extracted 2026-09-25 from oldserver-backup-20260919/home/v41-grid-out.tar.gz; original host <ip>:~/v41-grid-out)",
+  "azure_grid_runs": "<vm>/luna/grid/configs/runs/luna-<cell>-rep1/ (28 directories carrying .done; the *.bad-anyof-20260922 directories are voided)",
+  "rescore_openrouter": {
+   "path": "<vm>/work/rescore-v41-recovered/{rescore.json,tasks/}",
+   "sha256_rescore_json": "f51dc60e66e8e005b2ee70917fc87d1500662551ffebb2558825cba73b3be8a9",
+   "strict_identical_to": {
+    "path": "<vm>/work/rescore-v41/rescore-final-82.json",
+    "sha256": "b198e12546272264e6bdbb4fda6552af00c6710a4a998f3ab314137057f44675"
+   }
+  },
+  "rescore_azure": {
+   "path": "<vm>/work/rescore-luna/{rescore.json,tasks/}",
+   "sha256_rescore_json": "9d1ef6d9eb80397b922352969a5366b69155b30093b8fc4129694547e544d5ef"
+  },
+  "task_detail_merge": {
+   "path": "local notes/single-grid/out/tasks.jsonl (66,000 rows, 75 MB; reproducible from the two tasks/ directories with build_cells.py)",
+   "sha256": "195f90e18034a6d989ae014171a730be8d84b84baf52aada73435ba6689a75b1"
+  },
+  "rescore_tool": "SharedEval scripts/experiments/rescore-relationship-grid.ts --include-text --recover-quarantined-qa, commit 5aaa7f1 (feat/azure-reasoning-max-completion-tokens; parent 40f4f01)",
+  "relationship_labels": {
+   "file": "dataset/pact-pair/relationship_labels/relationship_label_matrix_v2.json",
+   "version": "2.0.0-rc1",
+   "sha256": "be59b5ad7acccb764ac435809d3fb523c86ae1b0354907699cd3df8752641d16"
+  },
+  "policy_assets_commit": "SharedEval 9c29358 (feat(pact-pair): register the policy-v3 ladder D0-D6 x R0-R3 as static identified assets)",
+  "sharedos_revision": "3aa07e33999b (pinned for every cell)",
+  "generated": "2026-09-24"
+ }
+}

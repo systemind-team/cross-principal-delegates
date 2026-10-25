@@ -1,0 +1,66 @@
+{
+ "C1h vs A0h / TL on O1": {
+  "pairs": 102,
+  "rate_a": 0.049019607843137254,
+  "rate_b": 0.1568627450980392,
+  "mcnemar_p_holm": 0.013671875,
+  "signflip_p_holm": 0.09375,
+  "counts": false
+ },
+ "C1h vs A0h / EXEC on O2": {
+  "pairs": 44,
+  "rate_a": 0.0,
+  "rate_b": 0.0,
+  "mcnemar_p_holm": 1.0,
+  "signflip_p_holm": 1.0,
+  "counts": false
+ },
+ "C2h vs A0h / TL on O1": {
+  "pairs": 102,
+  "rate_a": 0.08823529411764706,
+  "rate_b": 0.1568627450980392,
+  "mcnemar_p_holm": 0.1171875,
+  "signflip_p_holm": 0.28125,
+  "counts": false
+ },
+ "C2h vs A0h / EXEC on O2": {
+  "pairs": 44,
+  "rate_a": 0.06818181818181818,
+  "rate_b": 0.0,
+  "mcnemar_p_holm": 0.5,
+  "signflip_p_holm": 1.0,
+  "counts": false
+ },
+ "C1n vs A0n / TL on O1": {
+  "pairs": 102,
+  "rate_a": 0.9313725490196079,
+  "rate_b": 0.23529411764705882,
+  "mcnemar_p_holm": 5.929230630780102e-21,
+  "signflip_p_holm": 3.183231456205249e-12,
+  "counts": true
+ },
+ "C1n vs A0n / EXEC on O2": {
+  "pairs": 44,
+  "rate_a": 0.9772727272727273,
+  "rate_b": 0.0,
+  "mcnemar_p_holm": 1.1368683772161603e-12,
+  "signflip_p_holm": 2.86102294921875e-06,
+  "counts": true
+ },
+ "C3c vs A0n / TL on O1": {
+  "pairs": 102,
+  "rate_a": 0.9607843137254902,
+  "rate_b": 0.23529411764705882,
+  "mcnemar_p_holm": 8.470329472543003e-22,
+  "signflip_p_holm": 9.094947017729282e-13,
+  "counts": true
+ },
+ "C3c vs A0n / EXEC on O2": {
+  "pairs": 44,
+  "rate_a": 1.0,
+  "rate_b": 0.0,
+  "mcnemar_p_holm": 6.821210263296962e-13,
+  "signflip_p_holm": 2.86102294921875e-06,
+  "counts": true
+ }
+}

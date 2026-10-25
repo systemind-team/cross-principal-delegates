@@ -1,0 +1,55 @@
+{
+ "about": "Frozen attacker model configuration for P2-3. The responder keeps the top-level DeepSeek model; this block is the requester (attacker) model, carried by SharedEval's actors.requester.model (b43acc3, forward-ported onto 7f409da). Both actors reach the same gateway endpoint; the dedicated key created for the run must permit both models, one upstream each, and nothing else.",
+ "responder": {
+  "provider": "openai-compatible",
+  "baseUrl": "http://127.0.0.1:8787/v1",
+  "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+  "model": "deepseek/deepseek-v4-flash-0731",
+  "maxOutputTokens": 4096,
+  "temperature": 0,
+  "attemptTimeoutMs": 300000,
+  "providerRouting": {
+   "order": [
+    "Relace"
+   ],
+   "only": [
+    "Relace"
+   ],
+   "allowFallbacks": false
+  },
+  "note": "byte-identical (as a model block) to P1-6's MODEL (gen.py; lane MANIFEST.model): pinned to Relace, 300 s attempt timeout; served model asserted on every call"
+ },
+ "attacker": {
+  "model": "google/gemini-2.5-flash",
+  "family": "different-family (not DeepSeek, not the NET judge's family); not claimed stronger",
+  "provider": "openai-compatible",
+  "baseUrl": "http://127.0.0.1:8787/v1",
+  "apiKeyEnv": "SHAREDEVAL_MODEL_API_KEY",
+  "temperature": 1.0,
+  "temperature_note": "the responder stays at 0; the attacker runs at 1.0 so the two replicates are two attacks, not near-copies",
+  "reasoning": {
+   "effort": "low"
+  },
+  "reasoning_note": "fixed and recorded: Gemini bills reasoning tokens at the output price, so the budget is pinned, not left to the pilot",
+  "maxOutputTokens": 4096,
+  "providerRouting": {
+   "order": [
+    "google-ai-studio"
+   ],
+   "only": [
+    "google-ai-studio"
+   ],
+   "allowFallbacks": false
+  },
+  "providerRouting_note": "pinned to the single OpenRouter provider 'google-ai-studio' serving gemini-2.5-flash through the gateway, chosen from the public endpoints list (evidence/v3.14/multi-adaptive/upstream_check/endpoints.json; host: prefer google-vertex, alternative google-ai-studio). SharedEval records OpenRouter's display name, so the per-call check compares it to this slug through PROVIDER_ALIASES (delivery_adaptive.py).",
+  "attemptTimeoutMs": 300000,
+  "attemptTimeoutMs_note": "the same per-attempt deadline as the responder (P1-6's 300 s), so neither seat times out on a slower upstream"
+ },
+ "attacker_inputs": {
+  "heartbeat": "frozen/HEARTBEAT.md",
+  "control_heartbeat": "frozen/HEARTBEAT-control.md",
+  "target_policy_shown_to_attacker": "D2R_ID_R0 (the policy the responder runs: the verified-caller header naming the stranger, plus the D2 body); makes the attacker defence-aware",
+  "persona_files": "agents/tina (the colleague's genuine files; impersonation is the baseline identity, not a selected tactic; stated in the paper scope per R1)",
+  "tactics_menu_note": "inlined into frozen/HEARTBEAT.md (the runtime mounts only four workspace files); the menu source is frozen/sources/menu.md and a copy is kept at frozen/menu.md for the supplement"
+ }
+}

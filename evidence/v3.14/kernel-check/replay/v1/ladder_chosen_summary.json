@@ -1,0 +1,61 @@
+{
+ "blocks": {
+  "rest of the ladder grid": {
+   "decisions": 43791,
+   "denied:no_matching_grant": 126,
+   "k1_equals_k2": 43791,
+   "k1_equals_recorded": 43791,
+   "k2_equals_recorded": 43791,
+   "no_valid_run": 4,
+   "recorded_allowed": 43665,
+   "recorded_denied": 126,
+   "runs": 1266,
+   "slots": 1270,
+   "usage_calibrated_runs": 1266
+  },
+  "subset (DS, D0/D2, R1/R3, 20 groups)": {
+   "decisions": 2617,
+   "denied:no_matching_grant": 34,
+   "k1_equals_k2": 2617,
+   "k1_equals_recorded": 2617,
+   "k2_equals_recorded": 2617,
+   "recorded_allowed": 2583,
+   "recorded_denied": 34,
+   "runs": 80,
+   "slots": 80,
+   "usage_calibrated_runs": 80
+  }
+ },
+ "differences": [],
+ "replay_errors": [],
+ "slots_without_valid_run": [
+  {
+   "arm": "GLM",
+   "group": "g168",
+   "requester": "R3",
+   "run": null,
+   "rung": "D1"
+  },
+  {
+   "arm": "GROK",
+   "group": "g188",
+   "requester": "R2",
+   "run": null,
+   "rung": "D0"
+  },
+  {
+   "arm": "GROK",
+   "group": "g060",
+   "requester": "R3",
+   "run": null,
+   "rung": "D0"
+  },
+  {
+   "arm": "GROK",
+   "group": "g060",
+   "requester": "R2",
+   "run": null,
+   "rung": "D1"
+  }
+ ]
+}

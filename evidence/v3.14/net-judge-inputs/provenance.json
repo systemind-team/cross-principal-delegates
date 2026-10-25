@@ -1,0 +1,506 @@
+{
+ "what": "Provenance of the frozen NET judge inputs; see README.md",
+ "sharedeval": {
+  "vm_checkout": "<vm>/repos/SE-net-e1",
+  "branch": "net/differential-disclosure",
+  "head": "d44e4788562c438a97180443ee8cc5170094ad07",
+  "equals_record_revision": true,
+  "modified_or_untracked_files_under_src_suites_pact_net_and_dataset_pact_net": 0
+ },
+ "judge": {
+  "model": "DeepSeek-V4-Flash-0731",
+  "rubric_sha256": "0ad59198c09575afdb72fc2475a710c08475ed2569de7cb96f5366f3d53b7adb",
+  "invocation": "npm run -s judge:pact-net -- judge-runs --lane <J>/<L>-<G>/lane --both-arms --model DeepSeek-V4-Flash-0731 --votes 3 --max-calls 6000 --label <L>-<G> --out <J>/<L>-<G>/out --cache <J>/cache-<L>-<G>.json",
+  "code_path": "cli.ts judgeRunsCommand -> observed.ts judgePactNetObservedRepliesV1 -> rubric.ts renderPactNetJudgePromptV1 -> contracts.ts sha256HexV1",
+  "judge_dir": "<vm>/runs/net-or-judge",
+  "responder_runs": [
+   "<vm>/runs/net-or-ds/cfg/runs",
+   "<vm>/runs/net-or-glm/cfg/runs"
+  ]
+ },
+ "lanes": [
+  {
+   "lane": "net-or-ds-d0",
+   "lane_dir": "<vm>/runs/net-or-judge/net-or-ds-d0/lane",
+   "cfg_symlinks": 48,
+   "symlinks_match_cfg_runs": true,
+   "run_roots": 144,
+   "replies_read_now": 147,
+   "judgments_recorded": 147,
+   "judgments_json": {
+    "path": "<vm>/runs/net-or-judge/net-or-ds-d0/out/judgments.json",
+    "sha256": "00dcd8a208f62a8e5628c8bee81e1e7a328c36ba835ad14e4ef0f55ba2f3202d"
+   },
+   "cache_json": {
+    "path": "<vm>/runs/net-or-judge/cache-net-or-ds-d0.json",
+    "sha256": "a037094ae4e718a4817a1521ca3cbc932ef73e4b03edaf984830eae84bd15cc9",
+    "entries": 147
+   },
+   "prompt_hash_equal_to_judgments_json": 147
+  },
+  {
+   "lane": "net-or-ds-d1",
+   "lane_dir": "<vm>/runs/net-or-judge/net-or-ds-d1/lane",
+   "cfg_symlinks": 48,
+   "symlinks_match_cfg_runs": true,
+   "run_roots": 144,
+   "replies_read_now": 151,
+   "judgments_recorded": 151,
+   "judgments_json": {
+    "path": "<vm>/runs/net-or-judge/net-or-ds-d1/out/judgments.json",
+    "sha256": "cd3d483296af1bc1a0015276633f006519922c88e9b62865399f52ab69a9540a"
+   },
+   "cache_json": {
+    "path": "<vm>/runs/net-or-judge/cache-net-or-ds-d1.json",
+    "sha256": "058c1ebe4ec1623e56521535568045b5a78a4a43e71da95297e441ecd001d7d5",
+    "entries": 147
+   },
+   "prompt_hash_equal_to_judgments_json": 151
+  },
+  {
+   "lane": "net-or-ds-d2",
+   "lane_dir": "<vm>/runs/net-or-judge/net-or-ds-d2/lane",
+   "cfg_symlinks": 48,
+   "symlinks_match_cfg_runs": true,
+   "run_roots": 144,
+   "replies_read_now": 147,
+   "judgments_recorded": 147,
+   "judgments_json": {
+    "path": "<vm>/runs/net-or-judge/net-or-ds-d2/out/judgments.json",
+    "sha256": "73d82f750755083221ccb8633667b5038294ce0537a9be14a761d990aa3335d3"
+   },
+   "cache_json": {
+    "path": "<vm>/runs/net-or-judge/cache-net-or-ds-d2.json",
+    "sha256": "f104c09ba03410da6e9aa9f5636f48fcd55673a224720f3849b2f3fc61097de9",
+    "entries": 147
+   },
+   "prompt_hash_equal_to_judgments_json": 147
+  },
+  {
+   "lane": "net-or-glm-d0",
+   "lane_dir": "<vm>/runs/net-or-judge/net-or-glm-d0/lane",
+   "cfg_symlinks": 48,
+   "symlinks_match_cfg_runs": true,
+   "run_roots": 96,
+   "replies_read_now": 263,
+   "judgments_recorded": 263,
+   "judgments_json": {
+    "path": "<vm>/runs/net-or-judge/net-or-glm-d0/out/judgments.json",
+    "sha256": "9f3bb17d072a03de28e6845175f8f6d6f57fb7bbb0c5f85dddc986547a9d6df9"
+   },
+   "cache_json": {
+    "path": "<vm>/runs/net-or-judge/cache-net-or-glm-d0.json",
+    "sha256": "2a206efd0238bf163989e238660a448fdc480c304b5c2144b45c068879479dfd",
+    "entries": 250
+   },
+   "prompt_hash_equal_to_judgments_json": 263
+  },
+  {
+   "lane": "net-or-glm-d1",
+   "lane_dir": "<vm>/runs/net-or-judge/net-or-glm-d1/lane",
+   "cfg_symlinks": 48,
+   "symlinks_match_cfg_runs": true,
+   "run_roots": 96,
+   "replies_read_now": 261,
+   "judgments_recorded": 261,
+   "judgments_json": {
+    "path": "<vm>/runs/net-or-judge/net-or-glm-d1/out/judgments.json",
+    "sha256": "31010bdfef90bdad7d91d81e0e2a185dbd7d6e5078ae43314141aa98333a9ad3"
+   },
+   "cache_json": {
+    "path": "<vm>/runs/net-or-judge/cache-net-or-glm-d1.json",
+    "sha256": "68b5e2dbe13a5956823bb2a52473b4117854d3bdfa31be0b37bf1a7bead441a8",
+    "entries": 271
+   },
+   "prompt_hash_equal_to_judgments_json": 261
+  },
+  {
+   "lane": "net-or-glm-d2",
+   "lane_dir": "<vm>/runs/net-or-judge/net-or-glm-d2/lane",
+   "cfg_symlinks": 48,
+   "symlinks_match_cfg_runs": true,
+   "run_roots": 96,
+   "replies_read_now": 337,
+   "judgments_recorded": 337,
+   "judgments_json": {
+    "path": "<vm>/runs/net-or-judge/net-or-glm-d2/out/judgments.json",
+    "sha256": "89971804ebed52308605c8d547e8a353da0db998f78c5f5421273f1cb90a74c4"
+   },
+   "cache_json": {
+    "path": "<vm>/runs/net-or-judge/cache-net-or-glm-d2.json",
+    "sha256": "bddd7c4ce7546f04e75175333004b26d3ed811607726066e9a858d817ef81e75",
+    "entries": 341
+   },
+   "prompt_hash_equal_to_judgments_json": 337
+  }
+ ],
+ "files_read": {
+  "dataset/pact-net/agent_configs/alex_chen/USER.md": {
+   "sha256": "1478c9f9a55cbee36396e662d7c410dc1a812f4d3638ee02c1f601c77a0fd82f",
+   "git_blob_sha1": "63e984daed6b3c67fe37284376f76245345728e4",
+   "bytes": 190,
+   "blob_at_head": true
+  },
+  "dataset/pact-net/agent_configs/bea_ferreira/USER.md": {
+   "sha256": "1ae1c639179fee1afd2cb4ceaca00b1097231a63f6139b6a9dfa2de29bf2b356",
+   "git_blob_sha1": "9097722a4d9355ce6f640191cec95949cd32a402",
+   "bytes": 263,
+   "blob_at_head": true
+  },
+  "dataset/pact-net/agent_configs/bea_ferreira/data.json": {
+   "sha256": "5b9bc3c1b3f91e262ae965693432f26f74c0dd4717d8dfe25a5304da0870e315",
+   "git_blob_sha1": "0885dfb13456834da73ae3329e55c6d05d414b6d",
+   "bytes": 18920,
+   "blob_at_head": true
+  },
+  "dataset/pact-net/agent_configs/carlos_reyes/USER.md": {
+   "sha256": "1217f55e212b8d0f1cc3b5319df0534263743ffd36b7eb9d7999373dc6969373",
+   "git_blob_sha1": "3e4848bc41eaedacb39dbe53cd65941b5cca7414",
+   "bytes": 341,
+   "blob_at_head": true
+  },
+  "dataset/pact-net/agent_configs/carlos_reyes/data.json": {
+   "sha256": "8767ff09bbfe4cf6b494e5773d0c5d9a3d962155cf9e58969b61e3743518032b",
+   "git_blob_sha1": "588ea69a798f10acf26fafe4c0da699ebf55d63a",
+   "bytes": 70795,
+   "blob_at_head": true
+  },
+  "dataset/pact-net/agent_configs/clara_lindqvist/USER.md": {
+   "sha256": "ee2ef171a0e6232b3184cc87782b3403838a0afcc3f21f9aec63796c3726df08",
+   "git_blob_sha1": "716640022dd0a0e01654abd3e1d2122a8e497857",
+   "bytes": 300,
+   "blob_at_head": true
+  },
+  "dataset/pact-net/agent_configs/dana_reeves/USER.md": {
+   "sha256": "e0609296b319e43a5ac36e9e9a81c348d87bf3b70a8d4d73e0fdc8163fe1a3c6",
+   "git_blob_sha1": "8194d7b1bfa8ba2957c49c90ff30a4611432701d",
+   "bytes": 222,
+   "blob_at_head": true
+  },
+  "dataset/pact-net/agent_configs/daniel_cho/USER.md": {
+   "sha256": "526888b4a461e4694f52222bb6700aab115e98722f2eb28076f937904e7bb81c",
+   "git_blob_sha1": "45f9aaf76caabc6ce0d43ff6f8167defb1848c81",
+   "bytes": 358,
+   "blob_at_head": true
+  },
+  "dataset/pact-net/agent_configs/david_chen/USER.md": {
+   "sha256": "744278446e29ea91bdf76f7a5c41d764cf73502e3cb861b0b1c95defd42a2bdb",
+   "git_blob_sha1": "da01e883e5781aa4fef3d97dc10a76d5012ee429",
+   "bytes": 218,
+   "blob_at_head": true
+  },
+  "dataset/pact-net/agent_configs/david_chen/data.json": {
+   "sha256": "3d4098242b15a9f7f78898ae8e9eaf370d134ed7e5990dbb1fe72421939523a1",
+   "git_blob_sha1": "f9b2eada088aabbb3b9537d1ac60fa8d3afea1e6",
+   "bytes": 16920,
+   "blob_at_head": true
+  },
+  "dataset/pact-net/agent_configs/dr_ivy_banerjee/USER.md": {
+   "sha256": "aca387b0dd209b01d5f343170143cdfebb9898d1456d3662e49c4ff89eab7f18",
+   "git_blob_sha1": "2aa58d4606b82381475790441aac33e01f0a45e1",
+   "bytes": 264,
+   "blob_at_head": true
+  },
+  "dataset/pact-net/agent_configs/dr_ivy_banerjee/data.json": {
+   "sha256": "c196210afbe5d638fbd6b3086b1c6c91c1ae643e9550545ca3892841e9e4d48d",
+   "git_blob_sha1": "72e4f42643c232a4699fab89e37fc6d8485459b2",
+   "bytes": 13459,
+   "blob_at_head": true
+  },
+  "dataset/pact-net/agent_configs/dr_maya_patel/USER.md": {
+   "sha256": "988bd280e53bf2cf0ab5dd464d51bd7a9fa4d62eac7b9e2c3145d7810faf60e6",
+   "git_blob_sha1": "6bd6ecbdd0b15970f5af437710d6112c7694e4a5",
+   "bytes": 368,
+   "blob_at_head": true
+  },
+  "dataset/pact-net/agent_configs/dr_paul_mensah/USER.md": {
+   "sha256": "d35b67d0853c79407d2b095d92b72f9dd7d158db9111711e96ac4d2682328973",
+   "git_blob_sha1": "3bf78e1e07347c5fa2aa90ee352b2f71b8c0e059",
+   "bytes": 203,
+   "blob_at_head": true
+  },
+  "dataset/pact-net/agent_configs/dr_paul_mensah/data.json": {
+   "sha256": "6309e47d588f776e7640322b6f978d132f055ceb7a034f80ba1ba6ef40b2a119",
+   "git_blob_sha1": "5f47e58c5a2e70a7cc5837c335516baa970808cd",
+   "bytes": 10649,
+   "blob_at_head": true
+  },
+  "dataset/pact-net/agent_configs/elena_park/USER.md": {
+   "sha256": "28b9c9b6bac8329823f76b225f6a6efaf65d8b89b4a0f238c3eca1fbb3f846f6",
+   "git_blob_sha1": "f9d47a1a24b93a0e5b73a6f2a455fdbb2b360e1e",
+   "bytes": 219,
+   "blob_at_head": true
+  },
+  "dataset/pact-net/agent_configs/elena_park/data.json": {
+   "sha256": "b163ad573c16bd9b77fb18d6fd7ded0814e675e1fb6ac9d1d54a04d2e5b605de",
+   "git_blob_sha1": "912b4fbcff3a62500934918f11679886fad2901a",
+   "bytes": 61293,
+   "blob_at_head": true
+  },
+  "dataset/pact-net/agent_configs/farida_haddad/USER.md": {
+   "sha256": "f22cd384319b8e1194ed6434f393d5ee6f35d98309ccc8dcd91d35eebeb0aa62",
+   "git_blob_sha1": "9573370072d2085df9232588debcba14be0502a7",
+   "bytes": 334,
+   "blob_at_head": true
+  },
+  "dataset/pact-net/agent_configs/grace_okonkwo/USER.md": {
+   "sha256": "a6d3871ad35a664e00ae7c3aa36269ca66d5bd8389753f464b7a5516e6260c38",
+   "git_blob_sha1": "6e0a3728daa51ee70c7e2dc878fa131b88fb1691",
+   "bytes": 393,
+   "blob_at_head": true
+  },
+  "dataset/pact-net/agent_configs/grace_okonkwo/data.json": {
+   "sha256": "cdd15fc69670c01f9db26ad6816a420fe979cea412dc1ab0f8cd130dbd162d2b",
+   "git_blob_sha1": "04a32387ad570980cb5a79976ed7d4d2eaf66529",
+   "bytes": 18787,
+   "blob_at_head": true
+  },
+  "dataset/pact-net/agent_configs/hannah_brix/USER.md": {
+   "sha256": "f44066ab2ae090f5ec119b3ad946a6c861bdbf4ff1b4a84958fffc825435c678",
+   "git_blob_sha1": "93611cf43862a925db3257912d68afc3f8180525",
+   "bytes": 301,
+   "blob_at_head": true
+  },
+  "dataset/pact-net/agent_configs/helen_vasquez/USER.md": {
+   "sha256": "ac06602bf482243f84e47c86d1db91a2dbb189d7b9594797e826d4e1deee6291",
+   "git_blob_sha1": "18c9fc266f6fa35d131c8e4ad15f3fa03e653e6c",
+   "bytes": 330,
+   "blob_at_head": true
+  },
+  "dataset/pact-net/agent_configs/kenji_matsuda/USER.md": {
+   "sha256": "ac53adb53b5dc6075dddec0e6ad30c676e1bbf4a364df9096c251137d56b500f",
+   "git_blob_sha1": "71bb143618173e981585514ac88c9cc92a39f89f",
+   "bytes": 295,
+   "blob_at_head": true
+  },
+  "dataset/pact-net/agent_configs/linda_chen/USER.md": {
+   "sha256": "e5562366a847bd8fe975e2f5f578af769fd367d51ab75cf44302826f53d950ff",
+   "git_blob_sha1": "1d20e8c1701feef15fff44a479ea0188197449de",
+   "bytes": 237,
+   "blob_at_head": true
+  },
+  "dataset/pact-net/agent_configs/lorraine_pike/USER.md": {
+   "sha256": "eb00b76a8309372edc62c47f5aecb999bb90f2744aabfa907cf0073293233a67",
+   "git_blob_sha1": "6a9292ffdaf618194c7c90377e267064b0ff0837",
+   "bytes": 223,
+   "blob_at_head": true
+  },
+  "dataset/pact-net/agent_configs/maria_garcia/USER.md": {
+   "sha256": "79fe2388c7aa39a2e1753e2e91396ff3ce54ca99378caef24a97168ad204084f",
+   "git_blob_sha1": "00c4465444f9bdc7514c12b3a1c6764c0581fd5c",
+   "bytes": 230,
+   "blob_at_head": true
+  },
+  "dataset/pact-net/agent_configs/mike_torres/USER.md": {
+   "sha256": "f7d370c66ef9d887ccd105686e44906a53f3053c8230614b9db3509b569ba95b",
+   "git_blob_sha1": "48959b95589476aee66531510b5331ad7f8c4540",
+   "bytes": 211,
+   "blob_at_head": true
+  },
+  "dataset/pact-net/agent_configs/mike_torres/data.json": {
+   "sha256": "0117f81b493c3a6fc577738bab2ef9ae4d55c144533e8bb7d721b46700646fb3",
+   "git_blob_sha1": "0d072b351850f8503a673ba4e1c227dc6b61e437",
+   "bytes": 56201,
+   "blob_at_head": true
+  },
+  "dataset/pact-net/agent_configs/naomi_adeyemi/USER.md": {
+   "sha256": "4b9cba3f5718658eb8402c2515ceac754079e1d4cfa02f65c36669de2398f57f",
+   "git_blob_sha1": "ed493a438f987a4d9406be6217e43a4778a1b831",
+   "bytes": 446,
+   "blob_at_head": true
+  },
+  "dataset/pact-net/agent_configs/omar_hassan/USER.md": {
+   "sha256": "d9588e94e7872f0623f2d1300dfb183e3ea3431715ba0030e3df4f440612081f",
+   "git_blob_sha1": "cf283007d1f0d1a52b6dc7b18bc0f9cbb9e4ebab",
+   "bytes": 229,
+   "blob_at_head": true
+  },
+  "dataset/pact-net/agent_configs/patrick_nwosu/USER.md": {
+   "sha256": "52cc89c6f1b2eedcbcb0c4509d2feb969fbe5c9234dc27ce21804cfe2df8b7db",
+   "git_blob_sha1": "f6c0b8a1a7ea62d2d059b62fcb2498ecad1aebb3",
+   "bytes": 485,
+   "blob_at_head": true
+  },
+  "dataset/pact-net/agent_configs/priya_sharma/USER.md": {
+   "sha256": "6a350f6a8d4597a7fbf113572be3fd52e9aa7697c5da9d74baccc9e171ab55e5",
+   "git_blob_sha1": "a615eb0288a96aa55557d73a995033e940d82b59",
+   "bytes": 261,
+   "blob_at_head": true
+  },
+  "dataset/pact-net/agent_configs/priya_sharma/data.json": {
+   "sha256": "31d21c415c512e4a58529a15446da2942ebf74a65afa0a95c8c2f8574baf5b03",
+   "git_blob_sha1": "f35e4729d72f0521aa91f711d5af65b139aa8c5c",
+   "bytes": 54486,
+   "blob_at_head": true
+  },
+  "dataset/pact-net/agent_configs/raj_venkatesan/USER.md": {
+   "sha256": "619a2c80c2a84d2482cc313b08f5dcf209aee681d0d77ac9507d3c9d5fc4649c",
+   "git_blob_sha1": "9cdf17eb0bdfc1fba6e7c4a69ec6053148a43589",
+   "bytes": 241,
+   "blob_at_head": true
+  },
+  "dataset/pact-net/agent_configs/raj_venkatesan/data.json": {
+   "sha256": "2d3b0c4e9d4a8543e01ca4c1e1ca6000d1decc1945d70eae90e2bdc36f59c6c7",
+   "git_blob_sha1": "dc670c49cc3d48a08c326c707b5edf076eef9286",
+   "bytes": 11624,
+   "blob_at_head": true
+  },
+  "dataset/pact-net/agent_configs/rosa_delgado/USER.md": {
+   "sha256": "8e653a15246410ee0d48bad84a258ac9eb135383177a0cf033d4af7230972d71",
+   "git_blob_sha1": "a24f5599fbb3bf07cefae0efbee40823d7f41793",
+   "bytes": 252,
+   "blob_at_head": true
+  },
+  "dataset/pact-net/agent_configs/rosa_delgado/data.json": {
+   "sha256": "e2a1930b560467ce90fcdac54e759a6feaa1c1cad5878b3f9ca740b9200ee2b8",
+   "git_blob_sha1": "a3bb33ccdcc6f5b5f8a16c5097635f7acbbf2e73",
+   "bytes": 11457,
+   "blob_at_head": true
+  },
+  "dataset/pact-net/agent_configs/sarah_martinez/USER.md": {
+   "sha256": "feb92718a2a1bae5531e488f0cd81f10c0a3c2f0071c50ce6c73175fdc080bb9",
+   "git_blob_sha1": "c952be1e8d4bf5e2229251f101477cf17461f2d9",
+   "bytes": 224,
+   "blob_at_head": true
+  },
+  "dataset/pact-net/agent_configs/sarah_martinez/data.json": {
+   "sha256": "ed3ac995f96a7ace0694cb9797e4d6ddb6fffacc1fc02df99798b5e9d0c729cb",
+   "git_blob_sha1": "39258dfce1dcfe889f0d322ad1875276e0fd189c",
+   "bytes": 95653,
+   "blob_at_head": true
+  },
+  "dataset/pact-net/agent_configs/sophie_chen/USER.md": {
+   "sha256": "b6a4a921c2d6059c04f9f53a485fd1b8257d3331e9c4a1471d97a01e72b5265c",
+   "git_blob_sha1": "a4a4ff55aa5b8842d5ad9015fcf39f28d60382a3",
+   "bytes": 195,
+   "blob_at_head": true
+  },
+  "dataset/pact-net/agent_configs/stephen_kowalczyk/USER.md": {
+   "sha256": "3693e3f0fc02f047dd3c138bca35500bcebcd1fadd3f724ae6929751ec76dacc",
+   "git_blob_sha1": "478ba0ba02d7a67ca0bc451a4b2efa700aed5f54",
+   "bytes": 288,
+   "blob_at_head": true
+  },
+  "dataset/pact-net/agent_configs/terrence_boyd/USER.md": {
+   "sha256": "0f961321a376fdae0b4301b14e8c1d6ba5fc9b0a66bc1036b128ef14b0565ecb",
+   "git_blob_sha1": "0a2fec4cdff25ace6401d780e1499339506ead5e",
+   "bytes": 232,
+   "blob_at_head": true
+  },
+  "dataset/pact-net/agent_configs/terrence_boyd/data.json": {
+   "sha256": "2bd51c079f40b8365070e2de4088b80f33d3cf89330bfc30eb1ef43099a15bcd",
+   "git_blob_sha1": "775607f3154deb7a9a7d0a5136a379252eacc115",
+   "bytes": 12434,
+   "blob_at_head": true
+  },
+  "dataset/pact-net/agent_configs/tina_rodriguez/USER.md": {
+   "sha256": "8a440fa5b299d2390e2c98090a01de5647b3c411ec796f3e8f3c2fc9867fe72d",
+   "git_blob_sha1": "7502233a9f04d87e2c4cde5157eada440f7dbff2",
+   "bytes": 233,
+   "blob_at_head": true
+  },
+  "dataset/pact-net/agent_configs/victor_tan/USER.md": {
+   "sha256": "be2c87d76349ce591668c24ffce0de76b692ffdef814118c1f8b6d5be3379c60",
+   "git_blob_sha1": "581fe7c339f58c3fcd353c4f4c8302215bb273c8",
+   "bytes": 214,
+   "blob_at_head": true
+  },
+  "dataset/pact-net/agent_configs/wes_arnold/USER.md": {
+   "sha256": "8a46bdeed4b4a636bd02f15767bf1139ca54e5f3e9c93b9abd5af1e7bbbf309f",
+   "git_blob_sha1": "0dc01958cd6ef7d45484a02bb2825c11040e1a0f",
+   "bytes": 296,
+   "blob_at_head": true
+  },
+  "dataset/pact-net/agent_configs/wes_arnold/data.json": {
+   "sha256": "6af2bedc9a803f40f6af92954a27e56dc44863a7edd53abb40416244cfffc342",
+   "git_blob_sha1": "ca51c693fdb8f9cc490c38658cd9fc9124bb4e38",
+   "bytes": 21134,
+   "blob_at_head": true
+  },
+  "dataset/pact-net/tasks/disclosure_gold_v1.json": {
+   "sha256": "dec85889737d5e20c8325f766b95d8b86cb08da84e9a0810324f948930433f54",
+   "git_blob_sha1": "31f0ad0651ecf11dd6f5a9cdb9d37775c1a54096",
+   "bytes": 108663,
+   "blob_at_head": true
+  },
+  "dataset/pact-net/tasks/pact_net_tasks_v2.json": {
+   "sha256": "af0fb4213374b405a51e420bae9cc8b420c392c2ac4333466e0a2af1fab9d3e1",
+   "git_blob_sha1": "06fb266578497bd1edd03d17da80f0854cc3c367",
+   "bytes": 1076218,
+   "blob_at_head": true
+  },
+  "dataset/pact-net/world_design/relational_access_matrix.json": {
+   "sha256": "f3d1f0d105da4156f615c1e54959bdad7393acb16587b6cdf66b09c5ee78a87b",
+   "git_blob_sha1": "6a761b1adbd15eec25a87f3ed8228c17c9299887",
+   "bytes": 142101,
+   "blob_at_head": true
+  },
+  "src/suites/pact-net/judge-tools/v1/cli.ts": {
+   "sha256": "9280baf9cea6018094902bbd2ea9589881d8c8419995678ab1a7f82ef52aa750",
+   "git_blob_sha1": "dd77cf49b8c9b0265b399d4faa4e05bb6ab63baa",
+   "bytes": 18713,
+   "blob_at_head": true
+  },
+  "src/suites/pact-net/judge-tools/v1/contracts.ts": {
+   "sha256": "30b25be547f57d866ce94911e9e43fdf651f460a99454d8ff4025a0fdc7be2a4",
+   "git_blob_sha1": "5ea6047d3d18bd40a8992a46a5ce6de23bf0326d",
+   "bytes": 4058,
+   "blob_at_head": true
+  },
+  "src/suites/pact-net/judge-tools/v1/judge.ts": {
+   "sha256": "cf5e0aac67b5e33f53767e9a30325a3bff6f3944688a6f12029445cc59e0fd11",
+   "git_blob_sha1": "ef80b39726ab47ab5c931357d89defa7136a36b8",
+   "bytes": 13351,
+   "blob_at_head": true
+  },
+  "src/suites/pact-net/judge-tools/v1/observed.ts": {
+   "sha256": "f294dda26ae04085f46bb4699516704c64110b502455c5380597a7a01912235c",
+   "git_blob_sha1": "49f705e648e3fd1915c396dbcb34427b07a8df05",
+   "bytes": 10506,
+   "blob_at_head": true
+  },
+  "src/suites/pact-net/judge-tools/v1/rubric.ts": {
+   "sha256": "14d7ce2e38fb37902e26ac26f916928473cd9d61d211eb70f1cfb6ad634ba722",
+   "git_blob_sha1": "0a0de6866c58799eb93103743f4ffe315cd0505a",
+   "bytes": 8456,
+   "blob_at_head": true
+  },
+  "src/suites/pact-net/v2-probes.ts": {
+   "sha256": "72a9d4bbe2b0c0bd23ded772670a6e92d698519e510716b5fa1ff47f1aa9d7f7",
+   "git_blob_sha1": "2c8eb4b2551f9d5418b0b37da890a9c9c9033cd4",
+   "bytes": 25075,
+   "blob_at_head": true
+  }
+ },
+ "extraction": {
+  "script": "scripts/freeze/net_judge_inputs/extract_net_judge_inputs.ts",
+  "script_sha256": "28d4b082319504efe46164310ee71152aac57d3c967eeb6ccf5b59f60f9074ef",
+  "output_sha256_uncompressed": "9e099a3b6fc4989ca87bb58e69edcb2c0ec79cab3cc156c63226fca9b5c3f902",
+  "output_records": {
+   "edge": 24,
+   "holder": 14,
+   "identity": 33,
+   "lane": 6,
+   "meta": 1,
+   "reply": 1306
+  },
+  "node": "v24.18.0",
+  "probes_loaded_both_arms": 102,
+  "shareable_chars_per_note": 2400,
+  "shareable_chars_total": 40000
+ },
+ "checks": {
+  "rows": 1306,
+  "prompt_hash_equal_on_all_paths": 1306,
+  "paths": [
+   "extraction render (rubric.ts functions)",
+   "observed.ts judgePactNetObservedRepliesV1 with the offline always-refused fake",
+   "out/judgments.json promptHash",
+   "cache-<lane>.json entry promptHash",
+   "v3.13 replies.jsonl prompt_hash"
+  ],
+  "reply_sha256_equal_on_all_paths": 1306,
+  "prompts_where_a_dollar_pattern_was_expanded": 0,
+  "prompts_with_unpaired_surrogates": 0
+ }
+}

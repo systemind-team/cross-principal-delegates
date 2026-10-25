@@ -1,0 +1,258 @@
+{
+ "blocks": {
+  "DS-R1": {
+   "n": 47,
+   "D0": {
+    "decision": 36,
+    "refusal_channel": 2,
+    "total": 38,
+    "decision_pct": "76.6",
+    "total_pct": "80.9"
+   },
+   "D1": {
+    "decision": 28,
+    "refusal_channel": 6,
+    "total": 34,
+    "decision_pct": "59.6",
+    "total_pct": "72.3"
+   },
+   "D2": {
+    "decision": 2,
+    "refusal_channel": 2,
+    "total": 4,
+    "decision_pct": "4.3",
+    "total_pct": "8.5"
+   }
+  },
+  "DS-R2": {
+   "n": 44,
+   "D0": {
+    "decision": 36,
+    "refusal_channel": 1,
+    "total": 37,
+    "decision_pct": "81.8",
+    "total_pct": "84.1"
+   },
+   "D1": {
+    "decision": 26,
+    "refusal_channel": 5,
+    "total": 31,
+    "decision_pct": "59.1",
+    "total_pct": "70.5"
+   },
+   "D2": {
+    "decision": 2,
+    "refusal_channel": 2,
+    "total": 4,
+    "decision_pct": "4.5",
+    "total_pct": "9.1"
+   }
+  },
+  "DS-R3": {
+   "n": 43,
+   "D0": {
+    "decision": 35,
+    "refusal_channel": 6,
+    "total": 41,
+    "decision_pct": "81.4",
+    "total_pct": "95.3"
+   },
+   "D1": {
+    "decision": 18,
+    "refusal_channel": 5,
+    "total": 23,
+    "decision_pct": "41.9",
+    "total_pct": "53.5"
+   },
+   "D2": {
+    "decision": 1,
+    "refusal_channel": 1,
+    "total": 2,
+    "decision_pct": "2.3",
+    "total_pct": "4.7"
+   }
+  },
+  "GLM-R1": {
+   "n": 48,
+   "D0": {
+    "decision": 32,
+    "refusal_channel": 0,
+    "total": 32,
+    "decision_pct": "66.7",
+    "total_pct": "66.7"
+   },
+   "D1": {
+    "decision": 3,
+    "refusal_channel": 1,
+    "total": 4,
+    "decision_pct": "6.3",
+    "total_pct": "8.3"
+   },
+   "D2": {
+    "decision": 1,
+    "refusal_channel": 0,
+    "total": 1,
+    "decision_pct": "2.1",
+    "total_pct": "2.1"
+   }
+  },
+  "GLM-R2": {
+   "n": 48,
+   "D0": {
+    "decision": 40,
+    "refusal_channel": 0,
+    "total": 40,
+    "decision_pct": "83.3",
+    "total_pct": "83.3"
+   },
+   "D1": {
+    "decision": 6,
+    "refusal_channel": 0,
+    "total": 6,
+    "decision_pct": "12.5",
+    "total_pct": "12.5"
+   },
+   "D2": {
+    "decision": 1,
+    "refusal_channel": 0,
+    "total": 1,
+    "decision_pct": "2.1",
+    "total_pct": "2.1"
+   }
+  },
+  "GLM-R3": {
+   "n": 49,
+   "D0": {
+    "decision": 35,
+    "refusal_channel": 0,
+    "total": 35,
+    "decision_pct": "71.4",
+    "total_pct": "71.4"
+   },
+   "D1": {
+    "decision": 3,
+    "refusal_channel": 0,
+    "total": 3,
+    "decision_pct": "6.1",
+    "total_pct": "6.1"
+   },
+   "D2": {
+    "decision": 1,
+    "refusal_channel": 0,
+    "total": 1,
+    "decision_pct": "2.0",
+    "total_pct": "2.0"
+   }
+  },
+  "GROK-R1": {
+   "n": 40,
+   "D0": {
+    "decision": 23,
+    "refusal_channel": 0,
+    "total": 23,
+    "decision_pct": "57.5",
+    "total_pct": "57.5"
+   },
+   "D1": {
+    "decision": 10,
+    "refusal_channel": 0,
+    "total": 10,
+    "decision_pct": "25.0",
+    "total_pct": "25.0"
+   },
+   "D2": {
+    "decision": 2,
+    "refusal_channel": 0,
+    "total": 2,
+    "decision_pct": "5.0",
+    "total_pct": "5.0"
+   }
+  },
+  "GROK-R2": {
+   "n": 35,
+   "D0": {
+    "decision": 27,
+    "refusal_channel": 0,
+    "total": 27,
+    "decision_pct": "77.1",
+    "total_pct": "77.1"
+   },
+   "D1": {
+    "decision": 10,
+    "refusal_channel": 0,
+    "total": 10,
+    "decision_pct": "28.6",
+    "total_pct": "28.6"
+   },
+   "D2": {
+    "decision": 2,
+    "refusal_channel": 0,
+    "total": 2,
+    "decision_pct": "5.7",
+    "total_pct": "5.7"
+   }
+  },
+  "GROK-R3": {
+   "n": 35,
+   "D0": {
+    "decision": 21,
+    "refusal_channel": 0,
+    "total": 21,
+    "decision_pct": "60.0",
+    "total_pct": "60.0"
+   },
+   "D1": {
+    "decision": 9,
+    "refusal_channel": 0,
+    "total": 9,
+    "decision_pct": "25.7",
+    "total_pct": "25.7"
+   },
+   "D2": {
+    "decision": 2,
+    "refusal_channel": 0,
+    "total": 2,
+    "decision_pct": "5.7",
+    "total_pct": "5.7"
+   }
+  }
+ },
+ "ranges": {
+  "D0": {
+   "min": {
+    "block": "GROK-R1",
+    "count": "23/40",
+    "pct": "57.5"
+   },
+   "max": {
+    "block": "DS-R3",
+    "count": "41/43",
+    "pct": "95.3"
+   }
+  },
+  "D1": {
+   "min": {
+    "block": "GLM-R3",
+    "count": "3/49",
+    "pct": "6.1"
+   },
+   "max": {
+    "block": "DS-R1",
+    "count": "34/47",
+    "pct": "72.3"
+   }
+  },
+  "D2": {
+   "min": {
+    "block": "GLM-R3",
+    "count": "1/49",
+    "pct": "2.0"
+   },
+   "max": {
+    "block": "DS-R2",
+    "count": "4/44",
+    "pct": "9.1"
+   }
+  }
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "note": "first launch without a pinned upstream; stopped 2026-10-02T19:45Z; no session from it is reported",
+ "sessions_finished": 118,
+ "harness_failures_by_requester": {
+  "R0": {
+   "failed": 1,
+   "finished": 30
+  },
+  "R1": {
+   "failed": 0,
+   "finished": 31
+  },
+  "R2": {
+   "failed": 14,
+   "finished": 27
+  },
+  "R3": {
+   "failed": 2,
+   "finished": 30
+  }
+ },
+ "provider_calls": {
+  "Relace / requester": {
+   "calls": 2898,
+   "not_success": 0
+  },
+  "Relace / responder": {
+   "calls": 1642,
+   "not_success": 140
+  },
+  "Sail Research / requester": {
+   "calls": 425,
+   "not_success": 177
+  },
+  "Sail Research / responder": {
+   "calls": 21,
+   "not_success": 0
+  }
+ }
+}

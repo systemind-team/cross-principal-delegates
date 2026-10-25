@@ -1,0 +1,88 @@
+{
+ "lane": "ablation",
+ "arms": {
+  "AB-D0T": {
+   "runs": 240,
+   "binding_sharedOs": [
+    {
+     "revision": "3aa07e33999b656a10ace294fd4e41df8cbc318e",
+     "runtime_digest": "4afb23d79851a83a48e25e968f04e45cefc81847b4a9963c62277b5c05862d5d",
+     "runs": 240
+    }
+   ],
+   "run_json_backend_kernel": [
+    {
+     "revision": "3aa07e33999b656a10ace294fd4e41df8cbc318e",
+     "runtime_digest": "4afb23d79851a83a48e25e968f04e45cefc81847b4a9963c62277b5c05862d5d",
+     "runs": 158
+    },
+    {
+     "revision": null,
+     "runtime_digest": null,
+     "runs": 82
+    }
+   ]
+  },
+  "AB-D1T": {
+   "runs": 240,
+   "binding_sharedOs": [
+    {
+     "revision": "3aa07e33999b656a10ace294fd4e41df8cbc318e",
+     "runtime_digest": "4afb23d79851a83a48e25e968f04e45cefc81847b4a9963c62277b5c05862d5d",
+     "runs": 240
+    }
+   ],
+   "run_json_backend_kernel": [
+    {
+     "revision": "3aa07e33999b656a10ace294fd4e41df8cbc318e",
+     "runtime_digest": "4afb23d79851a83a48e25e968f04e45cefc81847b4a9963c62277b5c05862d5d",
+     "runs": 240
+    }
+   ]
+  },
+  "AB-D0S": {
+   "runs": 240,
+   "binding_sharedOs": [
+    {
+     "revision": "3aa07e33999b656a10ace294fd4e41df8cbc318e",
+     "runtime_digest": "4afb23d79851a83a48e25e968f04e45cefc81847b4a9963c62277b5c05862d5d",
+     "runs": 240
+    }
+   ],
+   "run_json_backend_kernel": [
+    {
+     "revision": null,
+     "runtime_digest": null,
+     "runs": 230
+    },
+    {
+     "revision": "3aa07e33999b656a10ace294fd4e41df8cbc318e",
+     "runtime_digest": "4afb23d79851a83a48e25e968f04e45cefc81847b4a9963c62277b5c05862d5d",
+     "runs": 10
+    }
+   ]
+  },
+  "AB-D2S": {
+   "runs": 240,
+   "binding_sharedOs": [
+    {
+     "revision": "3aa07e33999b656a10ace294fd4e41df8cbc318e",
+     "runtime_digest": "4afb23d79851a83a48e25e968f04e45cefc81847b4a9963c62277b5c05862d5d",
+     "runs": 240
+    }
+   ],
+   "run_json_backend_kernel": [
+    {
+     "revision": "3aa07e33999b656a10ace294fd4e41df8cbc318e",
+     "runtime_digest": "4afb23d79851a83a48e25e968f04e45cefc81847b4a9963c62277b5c05862d5d",
+     "runs": 239
+    },
+    {
+     "revision": null,
+     "runtime_digest": null,
+     "runs": 1
+    }
+   ]
+  }
+ }
+}

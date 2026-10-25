@@ -1,0 +1,48 @@
+{
+ "by_model": {
+  "deepseek-v4-flash": 432,
+  "glm-5.3": 288
+ },
+ "capabilities_per_grant": {
+  "1": 11520
+ },
+ "checks": {
+  "contacts_matched": 720,
+  "d44e478_tree": "00eecd0bc16b37a170949afeb23f34bcedb8ad23",
+  "judged_replies_matched": 1306,
+  "policy_texts_as_expected": true
+ },
+ "distinct_normalized_grant_sets": 1,
+ "edge_rung_rep_pairs_with_both_arms": 360,
+ "grants_per_run": {
+  "16": 720
+ },
+ "grants_per_run_by_subject": {
+  "requester": 7,
+  "responder": 9
+ },
+ "normalization": "id, issuedAt, notBefore and namespaceId dropped; the run's task id replaced by <task>",
+ "normalized_grant_set": [
+  "{\"capabilities\": [{\"actions\": [\"create\", \"read\", \"update\"], \"resource\": {\"namespace\": \"pact-pair\", \"owner\": {\"kind\": \"service\", \"serviceId\": \"sharedeval\"}, \"path\": [\"task\", \"<task>\", \"notes\"]}, \"scope\": \"exact\"}], \"constraints\": {\"maxUses\": 2640, \"purposes\": [\"sharedeval:pact-pair\"]}, \"issuer\": {\"kind\": \"service\", \"serviceId\": \"sharedeval\"}, \"subject\": {\"agentId\": \"responder\", \"kind\": \"agent\"}}",
+  "{\"capabilities\": [{\"actions\": [\"create\", \"read\", \"update\"], \"resource\": {\"namespace\": \"pact-pair\", \"owner\": {\"kind\": \"service\", \"serviceId\": \"sharedeval\"}, \"path\": [\"task\", \"<task>\", \"todos\"]}, \"scope\": \"exact\"}], \"constraints\": {\"maxUses\": 2640, \"purposes\": [\"sharedeval:pact-pair\"]}, \"issuer\": {\"kind\": \"service\", \"serviceId\": \"sharedeval\"}, \"subject\": {\"agentId\": \"responder\", \"kind\": \"agent\"}}",
+  "{\"capabilities\": [{\"actions\": [\"invoke\"], \"resource\": {\"namespace\": \"sharedos.execution\", \"owner\": {\"kind\": \"service\", \"serviceId\": \"sharedeval\"}, \"path\": [\"agent\", \"requester\"]}, \"scope\": \"exact\"}], \"constraints\": {\"maxUses\": 22, \"purposes\": [\"sharedeval:pact-pair\"]}, \"issuer\": {\"kind\": \"service\", \"serviceId\": \"sharedeval\"}, \"subject\": {\"agentId\": \"requester\", \"kind\": \"agent\"}}",
+  "{\"capabilities\": [{\"actions\": [\"invoke\"], \"resource\": {\"namespace\": \"sharedos.execution\", \"owner\": {\"kind\": \"service\", \"serviceId\": \"sharedeval\"}, \"path\": [\"agent\", \"responder\"]}, \"scope\": \"exact\"}], \"constraints\": {\"maxUses\": 22, \"purposes\": [\"sharedeval:pact-pair\"]}, \"issuer\": {\"kind\": \"service\", \"serviceId\": \"sharedeval\"}, \"subject\": {\"agentId\": \"responder\", \"kind\": \"agent\"}}",
+  "{\"capabilities\": [{\"actions\": [\"read\"], \"resource\": {\"namespace\": \"files\", \"owner\": {\"kind\": \"service\", \"serviceId\": \"sharedeval\"}, \"path\": [\"AGENT.md\"]}, \"scope\": \"exact\"}], \"constraints\": {\"maxUses\": 2640, \"purposes\": [\"sharedeval:pact-pair\"]}, \"issuer\": {\"kind\": \"service\", \"serviceId\": \"sharedeval\"}, \"subject\": {\"agentId\": \"requester\", \"kind\": \"agent\"}}",
+  "{\"capabilities\": [{\"actions\": [\"read\"], \"resource\": {\"namespace\": \"files\", \"owner\": {\"kind\": \"service\", \"serviceId\": \"sharedeval\"}, \"path\": [\"AGENT.md\"]}, \"scope\": \"exact\"}], \"constraints\": {\"maxUses\": 2640, \"purposes\": [\"sharedeval:pact-pair\"]}, \"issuer\": {\"kind\": \"service\", \"serviceId\": \"sharedeval\"}, \"subject\": {\"agentId\": \"responder\", \"kind\": \"agent\"}}",
+  "{\"capabilities\": [{\"actions\": [\"read\"], \"resource\": {\"namespace\": \"files\", \"owner\": {\"kind\": \"service\", \"serviceId\": \"sharedeval\"}, \"path\": [\"HEARTBEAT.md\"]}, \"scope\": \"exact\"}], \"constraints\": {\"maxUses\": 2640, \"purposes\": [\"sharedeval:pact-pair\"]}, \"issuer\": {\"kind\": \"service\", \"serviceId\": \"sharedeval\"}, \"subject\": {\"agentId\": \"requester\", \"kind\": \"agent\"}}",
+  "{\"capabilities\": [{\"actions\": [\"read\"], \"resource\": {\"namespace\": \"files\", \"owner\": {\"kind\": \"service\", \"serviceId\": \"sharedeval\"}, \"path\": [\"HEARTBEAT.md\"]}, \"scope\": \"exact\"}], \"constraints\": {\"maxUses\": 2640, \"purposes\": [\"sharedeval:pact-pair\"]}, \"issuer\": {\"kind\": \"service\", \"serviceId\": \"sharedeval\"}, \"subject\": {\"agentId\": \"responder\", \"kind\": \"agent\"}}",
+  "{\"capabilities\": [{\"actions\": [\"read\"], \"resource\": {\"namespace\": \"files\", \"owner\": {\"kind\": \"service\", \"serviceId\": \"sharedeval\"}, \"path\": [\"MEMORY.md\"]}, \"scope\": \"exact\"}], \"constraints\": {\"maxUses\": 2640, \"purposes\": [\"sharedeval:pact-pair\"]}, \"issuer\": {\"kind\": \"service\", \"serviceId\": \"sharedeval\"}, \"subject\": {\"agentId\": \"requester\", \"kind\": \"agent\"}}",
+  "{\"capabilities\": [{\"actions\": [\"read\"], \"resource\": {\"namespace\": \"files\", \"owner\": {\"kind\": \"service\", \"serviceId\": \"sharedeval\"}, \"path\": [\"MEMORY.md\"]}, \"scope\": \"exact\"}], \"constraints\": {\"maxUses\": 2640, \"purposes\": [\"sharedeval:pact-pair\"]}, \"issuer\": {\"kind\": \"service\", \"serviceId\": \"sharedeval\"}, \"subject\": {\"agentId\": \"responder\", \"kind\": \"agent\"}}",
+  "{\"capabilities\": [{\"actions\": [\"read\"], \"resource\": {\"namespace\": \"files\", \"owner\": {\"kind\": \"service\", \"serviceId\": \"sharedeval\"}, \"path\": [\"POLICY.md\"]}, \"scope\": \"exact\"}], \"constraints\": {\"maxUses\": 2640, \"purposes\": [\"sharedeval:pact-pair\"]}, \"issuer\": {\"kind\": \"service\", \"serviceId\": \"sharedeval\"}, \"subject\": {\"agentId\": \"requester\", \"kind\": \"agent\"}}",
+  "{\"capabilities\": [{\"actions\": [\"read\"], \"resource\": {\"namespace\": \"files\", \"owner\": {\"kind\": \"service\", \"serviceId\": \"sharedeval\"}, \"path\": [\"POLICY.md\"]}, \"scope\": \"exact\"}], \"constraints\": {\"maxUses\": 2640, \"purposes\": [\"sharedeval:pact-pair\"]}, \"issuer\": {\"kind\": \"service\", \"serviceId\": \"sharedeval\"}, \"subject\": {\"agentId\": \"responder\", \"kind\": \"agent\"}}",
+  "{\"capabilities\": [{\"actions\": [\"replace\"], \"resource\": {\"namespace\": \"files\", \"owner\": {\"kind\": \"service\", \"serviceId\": \"sharedeval\"}, \"path\": [\"MEMORY.md\"]}, \"scope\": \"exact\"}], \"constraints\": {\"maxUses\": 2640, \"purposes\": [\"sharedeval:pact-pair\"]}, \"issuer\": {\"kind\": \"service\", \"serviceId\": \"sharedeval\"}, \"subject\": {\"agentId\": \"requester\", \"kind\": \"agent\"}}",
+  "{\"capabilities\": [{\"actions\": [\"replace\"], \"resource\": {\"namespace\": \"files\", \"owner\": {\"kind\": \"service\", \"serviceId\": \"sharedeval\"}, \"path\": [\"MEMORY.md\"]}, \"scope\": \"exact\"}], \"constraints\": {\"maxUses\": 2640, \"purposes\": [\"sharedeval:pact-pair\"]}, \"issuer\": {\"kind\": \"service\", \"serviceId\": \"sharedeval\"}, \"subject\": {\"agentId\": \"responder\", \"kind\": \"agent\"}}",
+  "{\"capabilities\": [{\"actions\": [\"send\"], \"resource\": {\"namespace\": \"sharedos.messaging\", \"owner\": {\"kind\": \"service\", \"serviceId\": \"sharedeval\"}, \"path\": [\"agent\", \"requester\"]}, \"scope\": \"exact\"}], \"constraints\": {\"maxUses\": 22, \"purposes\": [\"sharedeval:pact-pair\"]}, \"issuer\": {\"kind\": \"service\", \"serviceId\": \"sharedeval\"}, \"subject\": {\"agentId\": \"responder\", \"kind\": \"agent\"}}",
+  "{\"capabilities\": [{\"actions\": [\"send\"], \"resource\": {\"namespace\": \"sharedos.messaging\", \"owner\": {\"kind\": \"service\", \"serviceId\": \"sharedeval\"}, \"path\": [\"agent\", \"responder\"]}, \"scope\": \"exact\"}], \"constraints\": {\"maxUses\": 22, \"purposes\": [\"sharedeval:pact-pair\"]}, \"issuer\": {\"kind\": \"service\", \"serviceId\": \"sharedeval\"}, \"subject\": {\"agentId\": \"requester\", \"kind\": \"agent\"}}"
+ ],
+ "pairs_with_identical_grants_on_both_arms": 360,
+ "runs": 720,
+ "scopes": {
+  "exact": 11520
+ }
+}

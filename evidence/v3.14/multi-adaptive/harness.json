@@ -1,0 +1,40 @@
+{
+ "about": "SharedEval harness for the P2-3 adaptive arm. It forward-ports the cross-model requester (actors.requester.model) and keeps P1-6's spoof patch, so the attacker (Gemini) runs the requester seat and the responder keeps DeepSeek. Built by applying three patches to 8081e7e, exactly as P1-6 records its own base.",
+ "base": "8081e7e",
+ "patches_in_order": [
+  {
+   "path": "scripts/pair_multi/told_ladder/sharedeval-told-4565add.patch",
+   "gives_tree": "b898c190a40660b47acf210d01502f099cbe55eb",
+   "note": "= 4565add, the told ladder"
+  },
+  {
+   "path": "scripts/pair_multi/spoof/sharedeval-spoof-7f409da.patch",
+   "gives_tree": "ca93558122a315784576ffa11b99bde5494daaac",
+   "note": "= 7f409da, P1-6's spoof patch"
+  },
+  {
+   "path": "scripts/pair_multi/spoof/adaptive/sharedeval-adaptive-7f409da.patch",
+   "gives_tree": "c028ac7676587d2b03b646a39929322c7980c161",
+   "patch_sha256": "8e9a3df26d8ba0ea29a2688f269c5b738d2b186595b2bfb9cca416d94b0d077d",
+   "note": "forward-port of the cross-model requester (upstream b43acc3) onto 7f409da, plus workflow.attackerHeartbeat and the two registered requester heartbeats"
+  }
+ ],
+ "final_tree": "c028ac7676587d2b03b646a39929322c7980c161",
+ "kernel": "K2 (SharedOS 3aa07e33)",
+ "tests": "tsc --noEmit passes; tests/runner-v1/*.test.ts + tests/suites/pact-pair/*.test.ts = 695 tests, 688 pass, 0 fail, 6 skipped, 1 pre-existing TODO; the cross-model config tests re-pinned to this base pass (digest 93ab4c96...); a production test asserts workflow.attackerHeartbeat overrides only the requester heartbeat reference",
+ "cross_model_check": "actors.requester.model with a different model and the same endpoint host parses; an identical override and a different host are rejected; absent the field the configDigest is unchanged",
+ "registered_requester_heartbeats": {
+  "heartbeats/pact-pair-adaptive-attacker": {
+   "version": "1.0.0",
+   "sha256": "1da8c38eed5e1c4f76ed3e0d8168f15b2e67276c7f5e658afe55c56f8531c31b",
+   "equals_frozen": "evidence/v3.14/multi-adaptive/frozen/HEARTBEAT.md"
+  },
+  "heartbeats/pact-pair-adaptive-control": {
+   "version": "1.0.0",
+   "sha256": "b55dc47c46472b26802eed0412c8b53a363572d115f86a2c8f42af1f81e970e8",
+   "equals_frozen": "evidence/v3.14/multi-adaptive/frozen/HEARTBEAT-control.md"
+  }
+ },
+ "consumes": "actors.requester.model (the attacker model) and workflow.attackerHeartbeat (the frozen requester heartbeat asset id); gen_lane.py writes both. The registered heartbeat shas equal the paper's frozen HEARTBEAT.md / HEARTBEAT-control.md, so the harness and the paper cannot drift.",
+ "x1b_note": " (R3 v4 check): the control heartbeat regained its plain-asking instruction as a control-only <<CT>> block; the control asset digest changed 686de47f -> b55dc47c and the tree 66a19eaf -> c028ac76. The attacker asset is unchanged (1da8c38e)."
+}

@@ -1,0 +1,61 @@
+✔ loader pins exactly the four production SharedOS packages (1.123634ms)
+✔ module parsing rejects every missing production export before execution (1.220003ms)
+✔ module parsing rejects the production testkit as a runtime dependency (0.117998ms)
+✔ the pinned real build has the expected package names, digest, and exports (83.29312ms)
+✖ real SharedOS mediates both actors, files, task tools, and request/reply (294.213301ms)
+✖ an accepted request without a selected task fails the heartbeat closed (217.851917ms)
+✖ durable router corruption remains fatal across the SharedOS tool boundary (231.730941ms)
+✔ a failed close never reopens the session to model work (162.933796ms)
+✔ session reconstruction reuses byte-identical startedAt authority (317.128023ms)
+✔ session reconstruction fails loud on malformed prior binding authority (136.571738ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 7
+ℹ fail 3
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1555.776834
+
+✖ failing tests:
+
+test at tests/execution/sharedos-runtime-conformance.test.ts:1:1200
+✖ real SharedOS mediates both actors, files, task tools, and request/reply (294.213301ms)
+  Error: SharedOS turn produced no authorization audit evidence
+      at SharedOsFileSession.executeRequesterTurn (<vm>/kernel-check/se/e1-k1/src/runner/v1/sharedos-file-session.ts:288:13)
+
+test at tests/execution/sharedos-runtime-conformance.test.ts:1:8170
+✖ an accepted request without a selected task fails the heartbeat closed (217.851917ms)
+  AssertionError [ERR_ASSERTION]: The input did not match the regular expression /bind one selected task/. Input:
+  
+  'Error: SharedOS turn produced no authorization audit evidence'
+  
+      at async TestContext.<anonymous> (<vm>/kernel-check/se/e1-k1/tests/execution/sharedos-runtime-conformance.test.ts:283:3)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: Error: SharedOS turn produced no authorization audit evidence
+        at SharedOsFileSession.executeRequesterTurn (<vm>/kernel-check/se/e1-k1/src/runner/v1/sharedos-file-session.ts:288:13),
+    expected: /bind one selected task/,
+    operator: 'rejects',
+    diff: 'simple'
+  }
+
+test at tests/execution/sharedos-runtime-conformance.test.ts:1:8526
+✖ durable router corruption remains fatal across the SharedOS tool boundary (231.730941ms)
+  AssertionError [ERR_ASSERTION]: The input did not match the regular expression /responder.*binding/i. Input:
+  
+  'Error: SharedOS turn produced no authorization audit evidence'
+  
+      at async TestContext.<anonymous> (<vm>/kernel-check/se/e1-k1/tests/execution/sharedos-runtime-conformance.test.ts:307:3)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: Error: SharedOS turn produced no authorization audit evidence
+        at SharedOsFileSession.executeRequesterTurn (<vm>/kernel-check/se/e1-k1/src/runner/v1/sharedos-file-session.ts:288:13),
+    expected: /responder.*binding/i,
+    operator: 'rejects',
+    diff: 'simple'
+  }

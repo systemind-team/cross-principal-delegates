@@ -1,0 +1,293 @@
+{
+ "pair2": {
+  "replies": 10651,
+  "instances": 2396,
+  "later_exposure_instances": 79,
+  "cells": [
+   {
+    "position": "first",
+    "analyser_hit": false,
+    "runtime_hit": false,
+    "record": "answered",
+    "replies": 2
+   },
+   {
+    "position": "first",
+    "analyser_hit": false,
+    "runtime_hit": false,
+    "record": "no reply",
+    "replies": 299
+   },
+   {
+    "position": "first",
+    "analyser_hit": false,
+    "runtime_hit": false,
+    "record": "refused",
+    "replies": 1733
+   },
+   {
+    "position": "first",
+    "analyser_hit": false,
+    "runtime_hit": true,
+    "record": "refused",
+    "replies": 7
+   },
+   {
+    "position": "first",
+    "analyser_hit": true,
+    "runtime_hit": false,
+    "record": "refused",
+    "replies": 13
+   },
+   {
+    "position": "first",
+    "analyser_hit": true,
+    "runtime_hit": true,
+    "record": "answered",
+    "replies": 94
+   },
+   {
+    "position": "first",
+    "analyser_hit": true,
+    "runtime_hit": true,
+    "record": "refused",
+    "replies": 248
+   },
+   {
+    "position": "later",
+    "analyser_hit": false,
+    "runtime_hit": false,
+    "record": "answered",
+    "replies": 2
+   },
+   {
+    "position": "later",
+    "analyser_hit": false,
+    "runtime_hit": false,
+    "record": "no reply",
+    "replies": 54
+   },
+   {
+    "position": "later",
+    "analyser_hit": false,
+    "runtime_hit": false,
+    "record": "refused",
+    "replies": 7590
+   },
+   {
+    "position": "later",
+    "analyser_hit": false,
+    "runtime_hit": true,
+    "record": "refused",
+    "replies": 16
+   },
+   {
+    "position": "later",
+    "analyser_hit": true,
+    "runtime_hit": false,
+    "record": "refused",
+    "replies": 135
+   },
+   {
+    "position": "later",
+    "analyser_hit": true,
+    "runtime_hit": true,
+    "record": "answered",
+    "replies": 2
+   },
+   {
+    "position": "later",
+    "analyser_hit": true,
+    "runtime_hit": true,
+    "record": "refused",
+    "replies": 456
+   }
+  ],
+  "first_replies": 2396,
+  "first_replies_with_text": 2097,
+  "first_no_reply": {
+   "failed / CONTACT_RESPONDER_FILE_READ_REQUIRED / requester recorded error / reply none": 296,
+   "failed / CONTACT_RESPONDER_FILE_READ_REQUIRED / requester recorded pending / reply none": 3
+  },
+  "answered_by_analyser_hit": {
+   "first, analyser hit, stratum S4P": 94,
+   "later, analyser hit, stratum S1L": 1,
+   "later, analyser clean, stratum S3P": 2,
+   "later, analyser hit, stratum S4P": 1,
+   "first, analyser clean, stratum S3P": 2
+  },
+  "later_replies_of_first_flagged_instances": 1069,
+  "strata": {
+   "S1F": {
+    "population": 79,
+    "draw": "census"
+   },
+   "S1L": {
+    "population": 146,
+    "draw": "census"
+   },
+   "S2": {
+    "population": 261,
+    "draw": "census"
+   },
+   "S3P": {
+    "population": 4,
+    "draw": "census"
+   },
+   "S4P": {
+    "population": 95,
+    "draw": "census"
+   },
+   "S5F": {
+    "population": 1656,
+    "draw": 240
+   },
+   "S5L": {
+    "population": 6981,
+    "draw": 240
+   },
+   "SR": {
+    "population": 9,
+    "draw": "census"
+   }
+  },
+  "not_drawn": 1420,
+  "ends_mid_sentence": 15
+ },
+ "pair1": {
+  "protected_scored_questions": 29366,
+  "cells": [
+   {
+    "model": "DeepSeek",
+    "decision": "answer",
+    "runtime_hit": false,
+    "questions": 203
+   },
+   {
+    "model": "DeepSeek",
+    "decision": "answer",
+    "runtime_hit": true,
+    "questions": 1958
+   },
+   {
+    "model": "DeepSeek",
+    "decision": "refuse",
+    "runtime_hit": false,
+    "questions": 8734
+   },
+   {
+    "model": "DeepSeek",
+    "decision": "refuse",
+    "runtime_hit": true,
+    "questions": 282
+   },
+   {
+    "model": "GLM",
+    "decision": "answer",
+    "runtime_hit": false,
+    "questions": 249
+   },
+   {
+    "model": "GLM",
+    "decision": "answer",
+    "runtime_hit": true,
+    "questions": 1936
+   },
+   {
+    "model": "GLM",
+    "decision": "refuse",
+    "runtime_hit": false,
+    "questions": 8164
+   },
+   {
+    "model": "GLM",
+    "decision": "refuse",
+    "runtime_hit": true,
+    "questions": 337
+   },
+   {
+    "model": "GPT-5.6",
+    "decision": "answer",
+    "runtime_hit": false,
+    "questions": 465
+   },
+   {
+    "model": "GPT-5.6",
+    "decision": "answer",
+    "runtime_hit": true,
+    "questions": 1591
+   },
+   {
+    "model": "GPT-5.6",
+    "decision": "refuse",
+    "runtime_hit": false,
+    "questions": 5444
+   },
+   {
+    "model": "GPT-5.6",
+    "decision": "refuse",
+    "runtime_hit": true,
+    "questions": 3
+   }
+  ],
+  "strata": {
+   "S3I DeepSeek": {
+    "population": 203,
+    "draw": 40
+   },
+   "S3I GLM": {
+    "population": 249,
+    "draw": 40
+   },
+   "S3I GPT-5.6": {
+    "population": 465,
+    "draw": 40
+   },
+   "S4I DeepSeek": {
+    "population": 1958,
+    "draw": 15
+   },
+   "S4I GLM": {
+    "population": 1936,
+    "draw": 15
+   },
+   "S4I GPT-5.6": {
+    "population": 1591,
+    "draw": 15
+   },
+   "S6C DeepSeek": {
+    "population": 8734,
+    "draw": 30
+   },
+   "S6C GLM": {
+    "population": 8164,
+    "draw": 30
+   },
+   "S6C GPT-5.6": {
+    "population": 5444,
+    "draw": 30
+   },
+   "S6F DeepSeek": {
+    "population": 282,
+    "draw": 20
+   },
+   "S6F GLM": {
+    "population": 337,
+    "draw": 20
+   },
+   "S6F GPT-5.6": {
+    "population": 3,
+    "draw": 3
+   }
+  },
+  "no_reply_text": 0
+ },
+ "sizes": {
+  "S5F": 240,
+  "S5L": 240,
+  "S3I": 40,
+  "S4I": 15,
+  "S6F": 20,
+  "S6C": 30
+ }
+}

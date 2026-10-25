@@ -1,0 +1,156 @@
+{
+ "all_studies": {
+  "gate_k2_reproduces_record": true,
+  "k1_vs_k2_disagreements": [],
+  "replay_errors": {},
+  "totals": {
+   "decisions": 312373,
+   "denied:no_matching_grant": 7003,
+   "folders": 5019,
+   "k1_equals_k2": 312373,
+   "k1_equals_recorded": 312373,
+   "k2_equals_recorded": 312373,
+   "recorded_allowed": 305370,
+   "recorded_denied": 7003,
+   "runs_replayed": 5019,
+   "runs_with_deferred_grants": 2598,
+   "usage_calibrated_runs": 5019
+  }
+ },
+ "sampled_80": {
+  "found": 80,
+  "gate_k2_reproduces_record": true,
+  "k1_vs_k2_disagreements": [],
+  "replay_errors": {},
+  "slots": 80,
+  "totals": {
+   "decisions": 2617,
+   "denied:no_matching_grant": 34,
+   "folders": 80,
+   "k1_equals_k2": 2617,
+   "k1_equals_recorded": 2617,
+   "k2_equals_recorded": 2617,
+   "recorded_allowed": 2583,
+   "recorded_denied": 34,
+   "runs_replayed": 80,
+   "runs_with_deferred_grants": 0,
+   "usage_calibrated_runs": 80
+  }
+ },
+ "studies": {
+  "PAIR II header comparison (E3, 8081e7e)": {
+   "gate_k2_reproduces_record": true,
+   "k1_vs_k2_disagreements": [],
+   "lane": "pair2id2",
+   "replay_errors": {},
+   "totals": {
+    "decisions": 19530,
+    "denied:no_matching_grant": 12,
+    "folders": 413,
+    "k1_equals_k2": 19530,
+    "k1_equals_recorded": 19530,
+    "k2_equals_recorded": 19530,
+    "recorded_allowed": 19518,
+    "recorded_denied": 12,
+    "runs_replayed": 413,
+    "runs_with_deferred_grants": 0,
+    "usage_calibrated_runs": 413
+   }
+  },
+  "PAIR II header ladder (E3-header, 4565add)": {
+   "gate_k2_reproduces_record": true,
+   "k1_vs_k2_disagreements": [],
+   "lane": "pair2told",
+   "replay_errors": {},
+   "totals": {
+    "decisions": 20881,
+    "denied:no_matching_grant": 6,
+    "folders": 619,
+    "k1_equals_k2": 20881,
+    "k1_equals_recorded": 20881,
+    "k2_equals_recorded": 20881,
+    "recorded_allowed": 20875,
+    "recorded_denied": 6,
+    "runs_replayed": 619,
+    "runs_with_deferred_grants": 0,
+    "usage_calibrated_runs": 619
+   }
+  },
+  "PAIR II ladder grid (E3, 8081e7e)": {
+   "gate_k2_reproduces_record": true,
+   "k1_vs_k2_disagreements": [],
+   "lane": "t3simple",
+   "replay_errors": {},
+   "totals": {
+    "decisions": 47189,
+    "denied:no_matching_grant": 166,
+    "folders": 1389,
+    "k1_equals_k2": 47189,
+    "k1_equals_recorded": 47189,
+    "k2_equals_recorded": 47189,
+    "recorded_allowed": 47023,
+    "recorded_denied": 166,
+    "runs_replayed": 1389,
+    "runs_with_deferred_grants": 0,
+    "usage_calibrated_runs": 1389
+   }
+  },
+  "PAIR II packing, 1 per session (E2)": {
+   "gate_k2_reproduces_record": true,
+   "k1_vs_k2_disagreements": [],
+   "lane": "pack1",
+   "replay_errors": {},
+   "totals": {
+    "decisions": 5608,
+    "denied:no_matching_grant": 381,
+    "folders": 180,
+    "k1_equals_k2": 5608,
+    "k1_equals_recorded": 5608,
+    "k2_equals_recorded": 5608,
+    "recorded_allowed": 5227,
+    "recorded_denied": 381,
+    "runs_replayed": 180,
+    "runs_with_deferred_grants": 180,
+    "usage_calibrated_runs": 180
+   }
+  },
+  "PAIR II packing, 10 per session (E2)": {
+   "gate_k2_reproduces_record": true,
+   "k1_vs_k2_disagreements": [],
+   "lane": "pack10",
+   "replay_errors": {},
+   "totals": {
+    "decisions": 5367,
+    "denied:no_matching_grant": 65,
+    "folders": 18,
+    "k1_equals_k2": 5367,
+    "k1_equals_recorded": 5367,
+    "k2_equals_recorded": 5367,
+    "recorded_allowed": 5302,
+    "recorded_denied": 65,
+    "runs_replayed": 18,
+    "runs_with_deferred_grants": 18,
+    "usage_calibrated_runs": 18
+   }
+  },
+  "PAIR II probing grid (E2)": {
+   "gate_k2_reproduces_record": true,
+   "k1_vs_k2_disagreements": [],
+   "lane": "grid600",
+   "replay_errors": {},
+   "totals": {
+    "decisions": 213798,
+    "denied:no_matching_grant": 6373,
+    "folders": 2400,
+    "k1_equals_k2": 213798,
+    "k1_equals_recorded": 213798,
+    "k2_equals_recorded": 213798,
+    "recorded_allowed": 207425,
+    "recorded_denied": 6373,
+    "runs_replayed": 2400,
+    "runs_with_deferred_grants": 2400,
+    "usage_calibrated_runs": 2400
+   }
+  }
+ }
+}

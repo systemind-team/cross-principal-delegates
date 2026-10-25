@@ -1,0 +1,567 @@
+{
+ "S4": {
+  "annotator A": {
+   "D1/R0": {
+    "agreement": {
+     "entitle": 1.0,
+     "protect": 0.3838120104438642
+    },
+    "n": {
+     "entitle": 6,
+     "protect": 383
+    },
+    "status": "mismatched"
+   },
+   "D1/R1": {
+    "agreement": {
+     "entitle": 0.9847715736040609,
+     "protect": 0.8245614035087719
+    },
+    "n": {
+     "entitle": 197,
+     "protect": 171
+    },
+    "status": "partial"
+   },
+   "D1/R2": {
+    "agreement": {
+     "entitle": 0.9590163934426229,
+     "protect": 0.9927007299270073
+    },
+    "n": {
+     "entitle": 244,
+     "protect": 137
+    },
+    "status": "matched"
+   },
+   "D1/R3": {
+    "agreement": {
+     "entitle": 0.14634146341463414,
+     "protect": 0.18214285714285713
+    },
+    "n": {
+     "entitle": 41,
+     "protect": 280
+    },
+    "status": "mismatched"
+   },
+   "D2/R0": {
+    "agreement": {
+     "entitle": 0.6666666666666666,
+     "protect": 1.0
+    },
+    "n": {
+     "entitle": 6,
+     "protect": 583
+    },
+    "status": "mismatched"
+   },
+   "D2/R1": {
+    "agreement": {
+     "entitle": 0.9858156028368794,
+     "protect": 0.9314079422382672
+    },
+    "n": {
+     "entitle": 282,
+     "protect": 277
+    },
+    "status": "matched"
+   },
+   "D2/R2": {
+    "agreement": {
+     "entitle": 0.9075907590759076,
+     "protect": 0.8669201520912547
+    },
+    "n": {
+     "entitle": 303,
+     "protect": 263
+    },
+    "status": "partial"
+   },
+   "D2/R3": {
+    "agreement": {
+     "entitle": 0.8048780487804879,
+     "protect": 0.9729166666666667
+    },
+    "n": {
+     "entitle": 41,
+     "protect": 480
+    },
+    "status": "partial"
+   }
+  },
+  "annotator B": {
+   "D1/R0": {
+    "agreement": {
+     "entitle": 1.0,
+     "protect": 0.38642297650130547
+    },
+    "n": {
+     "entitle": 6,
+     "protect": 383
+    },
+    "status": "mismatched"
+   },
+   "D1/R1": {
+    "agreement": {
+     "entitle": 0.9847715736040609,
+     "protect": 0.8245614035087719
+    },
+    "n": {
+     "entitle": 197,
+     "protect": 171
+    },
+    "status": "partial"
+   },
+   "D1/R2": {
+    "agreement": {
+     "entitle": 0.9549180327868853,
+     "protect": 0.9927007299270073
+    },
+    "n": {
+     "entitle": 244,
+     "protect": 137
+    },
+    "status": "matched"
+   },
+   "D1/R3": {
+    "agreement": {
+     "entitle": 0.14634146341463414,
+     "protect": 0.18571428571428572
+    },
+    "n": {
+     "entitle": 41,
+     "protect": 280
+    },
+    "status": "mismatched"
+   },
+   "D2/R0": {
+    "agreement": {
+     "entitle": 0.8333333333333334,
+     "protect": 1.0
+    },
+    "n": {
+     "entitle": 6,
+     "protect": 583
+    },
+    "status": "partial"
+   },
+   "D2/R1": {
+    "agreement": {
+     "entitle": 0.975177304964539,
+     "protect": 0.9350180505415162
+    },
+    "n": {
+     "entitle": 282,
+     "protect": 277
+    },
+    "status": "matched"
+   },
+   "D2/R2": {
+    "agreement": {
+     "entitle": 0.9042904290429042,
+     "protect": 0.870722433460076
+    },
+    "n": {
+     "entitle": 303,
+     "protect": 263
+    },
+    "status": "partial"
+   },
+   "D2/R3": {
+    "agreement": {
+     "entitle": 0.8048780487804879,
+     "protect": 0.9625
+    },
+    "n": {
+     "entitle": 41,
+     "protect": 480
+    },
+    "status": "partial"
+   }
+  },
+  "consensus": {
+   "D1/R0": {
+    "agreement": {
+     "entitle": 1.0,
+     "protect": 0.38481675392670156
+    },
+    "n": {
+     "entitle": 6,
+     "protect": 382
+    },
+    "status": "mismatched"
+   },
+   "D1/R1": {
+    "agreement": {
+     "entitle": 0.9847715736040609,
+     "protect": 0.8245614035087719
+    },
+    "n": {
+     "entitle": 197,
+     "protect": 171
+    },
+    "status": "partial"
+   },
+   "D1/R2": {
+    "agreement": {
+     "entitle": 0.9588477366255144,
+     "protect": 0.9927007299270073
+    },
+    "n": {
+     "entitle": 243,
+     "protect": 137
+    },
+    "status": "matched"
+   },
+   "D1/R3": {
+    "agreement": {
+     "entitle": 0.14634146341463414,
+     "protect": 0.1827956989247312
+    },
+    "n": {
+     "entitle": 41,
+     "protect": 279
+    },
+    "status": "mismatched"
+   },
+   "D2/R0": {
+    "agreement": {
+     "entitle": 0.8,
+     "protect": 1.0
+    },
+    "n": {
+     "entitle": 5,
+     "protect": 583
+    },
+    "status": "partial"
+   },
+   "D2/R1": {
+    "agreement": {
+     "entitle": 0.985663082437276,
+     "protect": 0.9347826086956522
+    },
+    "n": {
+     "entitle": 279,
+     "protect": 276
+    },
+    "status": "matched"
+   },
+   "D2/R2": {
+    "agreement": {
+     "entitle": 0.91,
+     "protect": 0.8702290076335878
+    },
+    "n": {
+     "entitle": 300,
+     "protect": 262
+    },
+    "status": "partial"
+   },
+   "D2/R3": {
+    "agreement": {
+     "entitle": 0.8205128205128205,
+     "protect": 0.9726315789473684
+    },
+    "n": {
+     "entitle": 39,
+     "protect": 475
+    },
+    "status": "partial"
+   }
+  },
+  "same_status_in_all_three": [
+   "D1/R0",
+   "D1/R1",
+   "D1/R2",
+   "D1/R3",
+   "D2/R1",
+   "D2/R2",
+   "D2/R3"
+  ]
+ },
+ "original": {
+  "annotator A": {
+   "D1/R0": {
+    "agreement": {
+     "entitle": 1.0,
+     "protect": 0.3684210526315789
+    },
+    "n": {
+     "entitle": 1,
+     "protect": 399
+    },
+    "status": "mismatched"
+   },
+   "D1/R1": {
+    "agreement": {
+     "entitle": 0.9857142857142858,
+     "protect": 0.7578947368421053
+    },
+    "n": {
+     "entitle": 210,
+     "protect": 190
+    },
+    "status": "partial"
+   },
+   "D1/R2": {
+    "agreement": {
+     "entitle": 0.9616858237547893,
+     "protect": 0.9856115107913669
+    },
+    "n": {
+     "entitle": 261,
+     "protect": 139
+    },
+    "status": "matched"
+   },
+   "D1/R3": {
+    "agreement": {
+     "entitle": 0.037037037037037035,
+     "protect": 0.2745664739884393
+    },
+    "n": {
+     "entitle": 54,
+     "protect": 346
+    },
+    "status": "mismatched"
+   },
+   "D2/R0": {
+    "agreement": {
+     "entitle": 1.0,
+     "protect": 0.986644407345576
+    },
+    "n": {
+     "entitle": 1,
+     "protect": 599
+    },
+    "status": "matched"
+   },
+   "D2/R1": {
+    "agreement": {
+     "entitle": 0.9833887043189369,
+     "protect": 0.903010033444816
+    },
+    "n": {
+     "entitle": 301,
+     "protect": 299
+    },
+    "status": "matched"
+   },
+   "D2/R2": {
+    "agreement": {
+     "entitle": 0.8689024390243902,
+     "protect": 0.8455882352941176
+    },
+    "n": {
+     "entitle": 328,
+     "protect": 272
+    },
+    "status": "partial"
+   },
+   "D2/R3": {
+    "agreement": {
+     "entitle": 0.6851851851851852,
+     "protect": 0.9267399267399268
+    },
+    "n": {
+     "entitle": 54,
+     "protect": 546
+    },
+    "status": "mismatched"
+   }
+  },
+  "annotator B": {
+   "D1/R0": {
+    "agreement": {
+     "entitle": 1.0,
+     "protect": 0.37092731829573933
+    },
+    "n": {
+     "entitle": 1,
+     "protect": 399
+    },
+    "status": "mismatched"
+   },
+   "D1/R1": {
+    "agreement": {
+     "entitle": 0.9857142857142858,
+     "protect": 0.7631578947368421
+    },
+    "n": {
+     "entitle": 210,
+     "protect": 190
+    },
+    "status": "partial"
+   },
+   "D1/R2": {
+    "agreement": {
+     "entitle": 0.9578544061302682,
+     "protect": 0.9856115107913669
+    },
+    "n": {
+     "entitle": 261,
+     "protect": 139
+    },
+    "status": "matched"
+   },
+   "D1/R3": {
+    "agreement": {
+     "entitle": 0.037037037037037035,
+     "protect": 0.2774566473988439
+    },
+    "n": {
+     "entitle": 54,
+     "protect": 346
+    },
+    "status": "mismatched"
+   },
+   "D2/R0": {
+    "agreement": {
+     "entitle": 1.0,
+     "protect": 0.989983305509182
+    },
+    "n": {
+     "entitle": 1,
+     "protect": 599
+    },
+    "status": "matched"
+   },
+   "D2/R1": {
+    "agreement": {
+     "entitle": 0.973421926910299,
+     "protect": 0.9063545150501672
+    },
+    "n": {
+     "entitle": 301,
+     "protect": 299
+    },
+    "status": "matched"
+   },
+   "D2/R2": {
+    "agreement": {
+     "entitle": 0.8658536585365854,
+     "protect": 0.8492647058823529
+    },
+    "n": {
+     "entitle": 328,
+     "protect": 272
+    },
+    "status": "partial"
+   },
+   "D2/R3": {
+    "agreement": {
+     "entitle": 0.6851851851851852,
+     "protect": 0.924908424908425
+    },
+    "n": {
+     "entitle": 54,
+     "protect": 546
+    },
+    "status": "mismatched"
+   }
+  },
+  "consensus": {
+   "D1/R0": {
+    "agreement": {
+     "entitle": 1.0,
+     "protect": 0.3693467336683417
+    },
+    "n": {
+     "entitle": 1,
+     "protect": 398
+    },
+    "status": "mismatched"
+   },
+   "D1/R1": {
+    "agreement": {
+     "entitle": 0.9857142857142858,
+     "protect": 0.7619047619047619
+    },
+    "n": {
+     "entitle": 210,
+     "protect": 189
+    },
+    "status": "partial"
+   },
+   "D1/R2": {
+    "agreement": {
+     "entitle": 0.9615384615384616,
+     "protect": 0.9856115107913669
+    },
+    "n": {
+     "entitle": 260,
+     "protect": 139
+    },
+    "status": "matched"
+   },
+   "D1/R3": {
+    "agreement": {
+     "entitle": 0.037037037037037035,
+     "protect": 0.2753623188405797
+    },
+    "n": {
+     "entitle": 54,
+     "protect": 345
+    },
+    "status": "mismatched"
+   },
+   "D2/R0": {
+    "agreement": {
+     "entitle": 1.0,
+     "protect": 0.9915966386554622
+    },
+    "n": {
+     "entitle": 1,
+     "protect": 595
+    },
+    "status": "matched"
+   },
+   "D2/R1": {
+    "agreement": {
+     "entitle": 0.9832214765100671,
+     "protect": 0.9087837837837838
+    },
+    "n": {
+     "entitle": 298,
+     "protect": 296
+    },
+    "status": "matched"
+   },
+   "D2/R2": {
+    "agreement": {
+     "entitle": 0.8707692307692307,
+     "protect": 0.8487084870848709
+    },
+    "n": {
+     "entitle": 325,
+     "protect": 271
+    },
+    "status": "partial"
+   },
+   "D2/R3": {
+    "agreement": {
+     "entitle": 0.6923076923076923,
+     "protect": 0.9345794392523364
+    },
+    "n": {
+     "entitle": 52,
+     "protect": 535
+    },
+    "status": "mismatched"
+   }
+  },
+  "same_status_in_all_three": [
+   "D1/R0",
+   "D1/R1",
+   "D1/R2",
+   "D1/R3",
+   "D2/R0",
+   "D2/R1",
+   "D2/R2",
+   "D2/R3"
+  ]
+ },
+ "rule": "the pre-registered description (analysis.describe_cells): matched if the coded verdict agrees with the labels on at least 90% of protected and of entitled tasks, mismatched if either is below 70%, partial otherwise; here for the consensus codes (as results.json) and for each coder's codes alone",
+ "written_by": "scripts/p13/render_tables.py"
+}

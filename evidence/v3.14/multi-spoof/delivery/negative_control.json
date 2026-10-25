@@ -1,0 +1,4146 @@
+{
+ "sessions": 413,
+ "totals": {
+  "stored_requests": 3680,
+  "stored_with_a_prefix": 0,
+  "stored_with_verified_caller": 0,
+  "responder_turns": 3669,
+  "responder_turns_with_any_prefix": 0,
+  "requester_calls_with_prefix": 0,
+  "requester_prompts_with_prefix": 0,
+  "replies_quoting_prefix": 0
+ },
+ "note": "Every run folder of the 10-02 header comparison (first attempts and retries). No session carries a prefix, so every count other than stored_requests and responder_turns must be 0.",
+ "rows": {
+  "I2-ID-R0-g004": {
+   "stored_requests": 11,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 11,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R0-g008": {
+   "stored_requests": 13,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 13,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R0-g012": {
+   "stored_requests": 11,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 11,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R0-g016": {
+   "stored_requests": 12,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 12,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R0-g020": {
+   "stored_requests": 11,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 11,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R0-g024": {
+   "stored_requests": 12,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 12,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R0-g028": {
+   "stored_requests": 11,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 11,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R0-g032": {
+   "stored_requests": 11,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 11,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R0-g036": {
+   "stored_requests": 12,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 12,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R0-g040": {
+   "stored_requests": 11,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 11,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R0-g044": {
+   "stored_requests": 13,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 13,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R0-g048": {
+   "stored_requests": 11,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 11,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R0-g052": {
+   "stored_requests": 12,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 12,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R0-g056": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R0-g060": {
+   "stored_requests": 12,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 12,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R0-g064": {
+   "stored_requests": 8,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 8,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R0-g068": {
+   "stored_requests": 11,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 11,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R0-g072": {
+   "stored_requests": 13,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 13,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R0-g076": {
+   "stored_requests": 11,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 11,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R0-g080": {
+   "stored_requests": 11,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 11,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R0-g084": {
+   "stored_requests": 13,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 13,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R0-g088": {
+   "stored_requests": 11,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 11,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R0-g092": {
+   "stored_requests": 12,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 12,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R0-g096": {
+   "stored_requests": 12,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 12,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R0-g100": {
+   "stored_requests": 11,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 11,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R0-g104": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R0-g108": {
+   "stored_requests": 11,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 11,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R0-g112": {
+   "stored_requests": 11,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 11,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R0-g116": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R0-g120": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R0-g124": {
+   "stored_requests": 12,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 12,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R0-g128": {
+   "stored_requests": 13,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 13,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R0-g132": {
+   "stored_requests": 13,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 13,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R0-g136": {
+   "stored_requests": 11,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 11,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R0-g140": {
+   "stored_requests": 11,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 11,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R0-g144": {
+   "stored_requests": 13,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 13,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R0-g148": {
+   "stored_requests": 12,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 12,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R0-g152": {
+   "stored_requests": 12,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 12,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R0-g156": {
+   "stored_requests": 11,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 11,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R0-g160": {
+   "stored_requests": 13,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 13,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R0-g164": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R0-g168": {
+   "stored_requests": 12,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 12,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R0-g172": {
+   "stored_requests": 12,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 12,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R0-g176": {
+   "stored_requests": 11,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 11,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R0-g180": {
+   "stored_requests": 12,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 12,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R0-g184": {
+   "stored_requests": 12,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 12,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R0-g188": {
+   "stored_requests": 12,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 12,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R0-g192": {
+   "stored_requests": 11,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 11,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R0-g196": {
+   "stored_requests": 11,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 11,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R0-g200": {
+   "stored_requests": 11,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 11,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R1-g004": {
+   "stored_requests": 3,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 3,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R1-g008": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R1-g012": {
+   "stored_requests": 3,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 3,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R1-g016": {
+   "stored_requests": 13,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 13,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R1-g020": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R1-g024": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R1-g028": {
+   "stored_requests": 8,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 8,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R1-g032": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R1-g036": {
+   "stored_requests": 8,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 8,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R1-g040": {
+   "stored_requests": 8,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 8,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R1-g044": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R1-g048": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R1-g052": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R1-g056": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R1-g060": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R1-g064": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R1-g068": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R1-g072": {
+   "stored_requests": 6,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 6,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R1-g076": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R1-g080": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R1-g084": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R1-g088": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R1-g092": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R1-g096": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R1-g100": {
+   "stored_requests": 8,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 8,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R1-g104": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R1-g108": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R1-g112": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R1-g116": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R1-g120": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R1-g124": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R1-g128": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R1-g132": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R1-g136": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R1-g140": {
+   "stored_requests": 8,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 8,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R1-g144": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R1-g148": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R1-g152": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R1-g156": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R1-g160": {
+   "stored_requests": 8,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 8,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R1-g164": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R1-g168": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R1-g172": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R1-g176": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R1-g180": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R1-g184": {
+   "stored_requests": 8,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 8,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R1-g188": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R1-g192": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R1-g196": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R1-g200": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R2-g004": {
+   "stored_requests": 3,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 3,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R2-g008": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R2-g012": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R2-g016": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R2-g020": {
+   "stored_requests": 8,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 8,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R2-g024": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R2-g028": {
+   "stored_requests": 3,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 3,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R2-g032": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R2-g036": {
+   "stored_requests": 8,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 8,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R2-g040": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R2-g044": {
+   "stored_requests": 8,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 8,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R2-g048": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R2-g052": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R2-g056": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R2-g060": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R2-g064": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R2-g068": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R2-g072": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R2-g076": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R2-g080": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R2-g084": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R2-g088": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R2-g092": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R2-g096": {
+   "stored_requests": 3,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 3,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R2-g100": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R2-g104": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R2-g108": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R2-g112": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R2-g116": {
+   "stored_requests": 8,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 8,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R2-g120": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R2-g124": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R2-g128": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R2-g132": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R2-g136": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R2-g140": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R2-g144": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R2-g148": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R2-g152": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R2-g156": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R2-g160": {
+   "stored_requests": 8,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 8,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R2-g164": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R2-g168": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R2-g172": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R2-g176": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R2-g180": {
+   "stored_requests": 8,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 8,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R2-g184": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R2-g188": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R2-g192": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R2-g196": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R2-g200": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R3-g004": {
+   "stored_requests": 13,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 13,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R3-g008": {
+   "stored_requests": 8,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 8,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R3-g012": {
+   "stored_requests": 11,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 11,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R3-g016": {
+   "stored_requests": 8,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 8,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R3-g020": {
+   "stored_requests": 11,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 11,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R3-g024": {
+   "stored_requests": 11,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 11,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R3-g028": {
+   "stored_requests": 11,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 11,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R3-g032": {
+   "stored_requests": 11,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 11,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R3-g036": {
+   "stored_requests": 12,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 12,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R3-g040": {
+   "stored_requests": 11,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 11,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R3-g044": {
+   "stored_requests": 13,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 13,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R3-g048-x2": {
+   "stored_requests": 12,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 12,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R3-g048": {
+   "stored_requests": 2,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 1,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R3-g052": {
+   "stored_requests": 12,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 12,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R3-g056": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R3-g060": {
+   "stored_requests": 13,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 13,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R3-g064-x2": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R3-g064": {
+   "stored_requests": 2,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 1,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R3-g068": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R3-g072": {
+   "stored_requests": 12,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 12,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R3-g076": {
+   "stored_requests": 11,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 11,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R3-g080": {
+   "stored_requests": 8,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 8,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R3-g084": {
+   "stored_requests": 11,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 11,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R3-g088": {
+   "stored_requests": 11,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 11,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R3-g092": {
+   "stored_requests": 13,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 13,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R3-g096": {
+   "stored_requests": 13,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 13,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R3-g100": {
+   "stored_requests": 13,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 13,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R3-g104": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R3-g108": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R3-g112": {
+   "stored_requests": 11,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 11,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R3-g116": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R3-g120": {
+   "stored_requests": 13,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 13,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R3-g124": {
+   "stored_requests": 11,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 11,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R3-g128": {
+   "stored_requests": 12,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 12,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R3-g132": {
+   "stored_requests": 8,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 8,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R3-g136": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R3-g140": {
+   "stored_requests": 11,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 11,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R3-g144": {
+   "stored_requests": 13,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 13,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R3-g148": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R3-g152-x2": {
+   "stored_requests": 11,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 11,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R3-g152": {
+   "stored_requests": 2,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 1,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R3-g156": {
+   "stored_requests": 11,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 11,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R3-g160": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R3-g164": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R3-g168": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R3-g172": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R3-g176": {
+   "stored_requests": 12,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 12,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R3-g180": {
+   "stored_requests": 11,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 11,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R3-g184": {
+   "stored_requests": 12,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 12,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R3-g188": {
+   "stored_requests": 13,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 13,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R3-g192-x2": {
+   "stored_requests": 12,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 12,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R3-g192": {
+   "stored_requests": 2,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 1,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R3-g196": {
+   "stored_requests": 12,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 12,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-ID-R3-g200": {
+   "stored_requests": 13,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 13,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R0-g004": {
+   "stored_requests": 13,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 13,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R0-g008": {
+   "stored_requests": 11,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 11,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R0-g012": {
+   "stored_requests": 11,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 11,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R0-g016": {
+   "stored_requests": 11,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 11,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R0-g020": {
+   "stored_requests": 11,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 11,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R0-g024": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R0-g028": {
+   "stored_requests": 12,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 12,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R0-g032": {
+   "stored_requests": 13,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 13,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R0-g036": {
+   "stored_requests": 11,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 11,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R0-g040-x2": {
+   "stored_requests": 13,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 13,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R0-g040": {
+   "stored_requests": 2,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 1,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R0-g044": {
+   "stored_requests": 11,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 11,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R0-g048": {
+   "stored_requests": 12,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 12,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R0-g052": {
+   "stored_requests": 8,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 8,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R0-g056": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R0-g060": {
+   "stored_requests": 11,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 11,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R0-g064": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R0-g068": {
+   "stored_requests": 12,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 12,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R0-g072": {
+   "stored_requests": 13,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 13,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R0-g076": {
+   "stored_requests": 12,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 12,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R0-g080": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R0-g084": {
+   "stored_requests": 13,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 13,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R0-g088": {
+   "stored_requests": 12,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 12,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R0-g092": {
+   "stored_requests": 11,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 11,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R0-g096": {
+   "stored_requests": 11,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 11,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R0-g100": {
+   "stored_requests": 13,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 13,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R0-g104": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R0-g108": {
+   "stored_requests": 11,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 11,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R0-g112": {
+   "stored_requests": 11,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 11,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R0-g116": {
+   "stored_requests": 12,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 12,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R0-g120": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R0-g124": {
+   "stored_requests": 13,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 13,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R0-g128": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R0-g132": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R0-g136": {
+   "stored_requests": 12,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 12,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R0-g140": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R0-g144": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R0-g148": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R0-g152": {
+   "stored_requests": 11,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 11,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R0-g156": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R0-g160": {
+   "stored_requests": 11,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 11,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R0-g164": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R0-g168": {
+   "stored_requests": 12,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 12,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R0-g172": {
+   "stored_requests": 12,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 12,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R0-g176": {
+   "stored_requests": 11,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 11,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R0-g180": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R0-g184": {
+   "stored_requests": 13,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 13,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R0-g188": {
+   "stored_requests": 13,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 13,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R0-g192": {
+   "stored_requests": 11,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 11,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R0-g196": {
+   "stored_requests": 11,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 11,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R0-g200": {
+   "stored_requests": 11,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 11,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R1-g004": {
+   "stored_requests": 11,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 11,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R1-g008": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R1-g012": {
+   "stored_requests": 11,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 11,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R1-g016": {
+   "stored_requests": 12,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 12,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R1-g020": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R1-g024-x2": {
+   "stored_requests": 11,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 11,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R1-g024": {
+   "stored_requests": 2,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 1,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R1-g028": {
+   "stored_requests": 13,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 13,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R1-g032": {
+   "stored_requests": 13,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 13,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R1-g036": {
+   "stored_requests": 12,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 12,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R1-g040": {
+   "stored_requests": 9,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 9,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R1-g044": {
+   "stored_requests": 8,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 8,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R1-g048": {
+   "stored_requests": 11,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 11,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R1-g052": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R1-g056": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R1-g060": {
+   "stored_requests": 11,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 11,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R1-g064": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R1-g068": {
+   "stored_requests": 13,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 13,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R1-g072": {
+   "stored_requests": 12,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 12,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R1-g076": {
+   "stored_requests": 12,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 12,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R1-g080": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R1-g084": {
+   "stored_requests": 13,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 13,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R1-g088": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R1-g092": {
+   "stored_requests": 8,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 8,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R1-g096": {
+   "stored_requests": 13,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 13,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R1-g100": {
+   "stored_requests": 9,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 9,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R1-g104": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R1-g108": {
+   "stored_requests": 8,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 8,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R1-g112": {
+   "stored_requests": 11,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 11,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R1-g116": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R1-g120": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R1-g124": {
+   "stored_requests": 9,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 9,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R1-g128": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R1-g132": {
+   "stored_requests": 8,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 8,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R1-g136": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R1-g140": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R1-g144": {
+   "stored_requests": 11,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 11,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R1-g148": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R1-g152": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R1-g156": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R1-g160": {
+   "stored_requests": 11,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 11,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R1-g164": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R1-g168": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R1-g172": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R1-g176": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R1-g180": {
+   "stored_requests": 8,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 8,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R1-g184": {
+   "stored_requests": 8,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 8,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R1-g188": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R1-g192": {
+   "stored_requests": 8,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 8,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R1-g196-x2": {
+   "stored_requests": 8,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 8,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R1-g196": {
+   "stored_requests": 1,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 1,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R1-g200": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R2-g004": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R2-g008": {
+   "stored_requests": 9,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 9,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R2-g012": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R2-g016": {
+   "stored_requests": 11,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 11,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R2-g020": {
+   "stored_requests": 13,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 13,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R2-g024": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R2-g028": {
+   "stored_requests": 11,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 11,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R2-g032": {
+   "stored_requests": 11,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 11,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R2-g036": {
+   "stored_requests": 11,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 11,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R2-g040": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R2-g044": {
+   "stored_requests": 13,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 13,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R2-g048": {
+   "stored_requests": 9,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 9,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R2-g052": {
+   "stored_requests": 9,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 9,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R2-g056": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R2-g060": {
+   "stored_requests": 11,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 11,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R2-g064": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R2-g068": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R2-g072": {
+   "stored_requests": 8,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 8,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R2-g076": {
+   "stored_requests": 8,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 8,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R2-g080": {
+   "stored_requests": 8,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 8,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R2-g084": {
+   "stored_requests": 12,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 12,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R2-g088": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R2-g092": {
+   "stored_requests": 8,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 8,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R2-g096": {
+   "stored_requests": 8,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 8,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R2-g100": {
+   "stored_requests": 8,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 8,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R2-g104": {
+   "stored_requests": 8,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 8,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R2-g108": {
+   "stored_requests": 9,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 9,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R2-g112": {
+   "stored_requests": 8,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 8,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R2-g116": {
+   "stored_requests": 9,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 9,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R2-g120": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R2-g124": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R2-g128": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R2-g132": {
+   "stored_requests": 9,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 9,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R2-g136": {
+   "stored_requests": 9,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 9,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R2-g140": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R2-g144": {
+   "stored_requests": 8,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 8,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R2-g148": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R2-g152": {
+   "stored_requests": 13,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 13,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R2-g156": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R2-g160": {
+   "stored_requests": 13,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 13,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R2-g164": {
+   "stored_requests": 8,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 8,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R2-g168": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R2-g172": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R2-g176": {
+   "stored_requests": 8,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 8,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R2-g180-x2": {
+   "stored_requests": 8,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 8,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R2-g180": {
+   "stored_requests": 1,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 1,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R2-g184": {
+   "stored_requests": 13,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 13,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R2-g188": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R2-g192": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R2-g196": {
+   "stored_requests": 9,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 9,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R2-g200": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R3-g004": {
+   "stored_requests": 13,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 13,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R3-g008": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R3-g012": {
+   "stored_requests": 13,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 13,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R3-g016": {
+   "stored_requests": 12,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 12,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R3-g020": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R3-g024": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R3-g028": {
+   "stored_requests": 13,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 13,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R3-g032": {
+   "stored_requests": 13,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 13,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R3-g036": {
+   "stored_requests": 12,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 12,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R3-g040": {
+   "stored_requests": 12,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 12,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R3-g044": {
+   "stored_requests": 8,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 8,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R3-g048-x2": {
+   "stored_requests": 13,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 13,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R3-g048": {
+   "stored_requests": 2,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 1,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R3-g052": {
+   "stored_requests": 8,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 8,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R3-g056": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R3-g060": {
+   "stored_requests": 13,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 13,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R3-g064-x2": {
+   "stored_requests": 8,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 8,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R3-g064": {
+   "stored_requests": 2,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 1,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R3-g068": {
+   "stored_requests": 8,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 8,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R3-g072": {
+   "stored_requests": 12,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 12,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R3-g076": {
+   "stored_requests": 13,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 13,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R3-g080": {
+   "stored_requests": 12,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 12,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R3-g084": {
+   "stored_requests": 12,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 12,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R3-g088": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R3-g092": {
+   "stored_requests": 8,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 8,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R3-g096": {
+   "stored_requests": 12,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 12,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R3-g100": {
+   "stored_requests": 13,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 13,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R3-g104": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R3-g108": {
+   "stored_requests": 13,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 13,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R3-g112": {
+   "stored_requests": 12,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 12,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R3-g116": {
+   "stored_requests": 12,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 12,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R3-g120-x2": {
+   "stored_requests": 2,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 1,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R3-g120": {
+   "stored_requests": 2,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 1,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R3-g124": {
+   "stored_requests": 13,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 13,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R3-g128": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R3-g132": {
+   "stored_requests": 8,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 8,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R3-g136": {
+   "stored_requests": 13,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 13,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R3-g140": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R3-g144": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R3-g148": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R3-g152": {
+   "stored_requests": 9,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 9,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R3-g156": {
+   "stored_requests": 11,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 11,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R3-g160-x2": {
+   "stored_requests": 12,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 12,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R3-g160": {
+   "stored_requests": 2,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 1,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R3-g164": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R3-g168": {
+   "stored_requests": 8,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 8,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R3-g172": {
+   "stored_requests": 11,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 11,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R3-g176": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R3-g180": {
+   "stored_requests": 8,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 8,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R3-g184": {
+   "stored_requests": 11,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 11,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R3-g188": {
+   "stored_requests": 11,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 11,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R3-g192": {
+   "stored_requests": 7,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 7,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R3-g196-x2": {
+   "stored_requests": 1,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 1,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R3-g196": {
+   "stored_requests": 1,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 1,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  },
+  "I2-PR-R3-g200": {
+   "stored_requests": 11,
+   "stored_with_a_prefix": 0,
+   "stored_with_verified_caller": 0,
+   "responder_turns": 11,
+   "responder_turns_with_any_prefix": 0,
+   "requester_calls_with_prefix": 0,
+   "requester_prompts_with_prefix": 0,
+   "replies_quoting_prefix": 0
+  }
+ }
+}

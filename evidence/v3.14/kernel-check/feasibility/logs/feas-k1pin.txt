@@ -1,0 +1,5 @@
+[heartbeat sharedos_execution_failed] Error: SharedOS turn produced no authorization audit evidence
+    at SharedOsFileSession.executeRequesterTurn (<vm>/kernel-check/se/e3-k1/src/runner/v1/sharedos-file-session.ts:333:13)
+{"event":"scripted_summary","requests":0,"contacts":0,"flips":0,"finalized":0,"injectedLengthFailures":0,"byStrategy":{},"elapsedMs":373}
+File-driven SharedOS heartbeat has indeterminate external effects (cause: sharedos_execution_failed)
+exit=1

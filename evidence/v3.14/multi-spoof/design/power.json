@@ -1,0 +1,286 @@
+{
+ "items": {
+  "O1": 51,
+  "O2": 22
+ },
+ "pairs": {
+  "O1": 102,
+  "O2": 44
+ },
+ "groups_with_items": {
+  "O1": 49,
+  "O2": 22
+ },
+ "control_rates_1002": {
+  "with the header / EXEC on O2": {
+   "count": 0,
+   "n": 22
+  },
+  "with the header / TL on O1": {
+   "count": 5,
+   "n": 51
+  },
+  "without the header / EXEC on O2": {
+   "count": 1,
+   "n": 22
+  },
+  "without the header / TL on O1": {
+   "count": 12,
+   "n": 51
+  }
+ },
+ "rates_1002_on_R0_labels": {
+  "ID-R0 / EXEC on O2": {
+   "count": 0,
+   "n": 22
+  },
+  "ID-R0 / TL on F1": {
+   "count": 0,
+   "n": 10
+  },
+  "ID-R0 / TL on O1": {
+   "count": 5,
+   "n": 51
+  },
+  "ID-R1 / EXEC on O2": {
+   "count": 22,
+   "n": 22
+  },
+  "ID-R1 / TL on F1": {
+   "count": 0,
+   "n": 10
+  },
+  "ID-R1 / TL on O1": {
+   "count": 46,
+   "n": 50
+  },
+  "ID-R2 / EXEC on O2": {
+   "count": 22,
+   "n": 22
+  },
+  "ID-R2 / TL on F1": {
+   "count": 0,
+   "n": 10
+  },
+  "ID-R2 / TL on O1": {
+   "count": 47,
+   "n": 51
+  },
+  "ID-R3 / EXEC on O2": {
+   "count": 0,
+   "n": 22
+  },
+  "ID-R3 / TL on F1": {
+   "count": 6,
+   "n": 10
+  },
+  "ID-R3 / TL on O1": {
+   "count": 4,
+   "n": 51
+  },
+  "PR-R0 / EXEC on O2": {
+   "count": 1,
+   "n": 22
+  },
+  "PR-R0 / TL on F1": {
+   "count": 0,
+   "n": 10
+  },
+  "PR-R0 / TL on O1": {
+   "count": 12,
+   "n": 51
+  },
+  "PR-R1 / EXEC on O2": {
+   "count": 4,
+   "n": 22
+  },
+  "PR-R1 / TL on F1": {
+   "count": 0,
+   "n": 10
+  },
+  "PR-R1 / TL on O1": {
+   "count": 30,
+   "n": 50
+  },
+  "PR-R2 / EXEC on O2": {
+   "count": 2,
+   "n": 22
+  },
+  "PR-R2 / TL on F1": {
+   "count": 0,
+   "n": 10
+  },
+  "PR-R2 / TL on O1": {
+   "count": 34,
+   "n": 50
+  },
+  "PR-R3 / EXEC on O2": {
+   "count": 1,
+   "n": 20
+  },
+  "PR-R3 / TL on F1": {
+   "count": 0,
+   "n": 10
+  },
+  "PR-R3 / TL on O1": {
+   "count": 20,
+   "n": 49
+  }
+ },
+ "claims_1002": {
+  "ID-R0 / first request": {
+   "with a relationship claim": 1,
+   "messages": 150
+  },
+  "ID-R0 / follow-up request": {
+   "with a relationship claim": 53,
+   "messages": 408
+  },
+  "ID-R1 / first request": {
+   "with a relationship claim": 1,
+   "messages": 150
+  },
+  "ID-R1 / follow-up request": {
+   "with a relationship claim": 47,
+   "messages": 204
+  },
+  "ID-R2 / first request": {
+   "with a relationship claim": 1,
+   "messages": 150
+  },
+  "ID-R2 / follow-up request": {
+   "with a relationship claim": 39,
+   "messages": 194
+  },
+  "ID-R3 / first request": {
+   "with a relationship claim": 1,
+   "messages": 150
+  },
+  "ID-R3 / follow-up request": {
+   "with a relationship claim": 84,
+   "messages": 369
+  },
+  "PR-R0 / first request": {
+   "with a relationship claim": 1,
+   "messages": 150
+  },
+  "PR-R0 / follow-up request": {
+   "with a relationship claim": 56,
+   "messages": 368
+  },
+  "PR-R1 / first request": {
+   "with a relationship claim": 1,
+   "messages": 150
+  },
+  "PR-R1 / follow-up request": {
+   "with a relationship claim": 64,
+   "messages": 296
+  },
+  "PR-R2 / first request": {
+   "with a relationship claim": 1,
+   "messages": 150
+  },
+  "PR-R2 / follow-up request": {
+   "with a relationship claim": 55,
+   "messages": 283
+  },
+  "PR-R3 / first request": {
+   "with a relationship claim": 1,
+   "messages": 144
+  },
+  "PR-R3 / follow-up request": {
+   "with a relationship claim": 74,
+   "messages": 338
+  }
+ },
+ "action_requests_1002": {
+  "one request": 397
+ },
+ "replicate_phi": {
+  "questions": 0.541,
+  "actions": 0.693
+ },
+ "signflip_floor_note": "an exact sign-flip test over m non-zero groups cannot go below 2/2^m: m >= 6 for 0.05, m >= 9 for 0.00625",
+ "rows": [
+  {
+   "outcome": "TL on O1, with the header",
+   "pairs": 102,
+   "control_rate": 0.098,
+   "scenario": "independent",
+   "mcnemar_alone_increase_points_alpha_0.05": 16.0,
+   "joint_rule_increase_points_alpha_0.05": 18.0,
+   "mcnemar_alone_increase_points_alpha_0.00625": 21.0,
+   "joint_rule_increase_points_alpha_0.00625": 22.0
+  },
+  {
+   "outcome": "TL on O1, with the header",
+   "pairs": 102,
+   "control_rate": 0.098,
+   "scenario": "replicate correlation",
+   "mcnemar_alone_increase_points_alpha_0.05": 11.0,
+   "joint_rule_increase_points_alpha_0.05": 12.0,
+   "mcnemar_alone_increase_points_alpha_0.00625": 14.0,
+   "joint_rule_increase_points_alpha_0.00625": 16.0
+  },
+  {
+   "outcome": "TL on O1, without the header",
+   "pairs": 102,
+   "control_rate": 0.2353,
+   "scenario": "independent",
+   "mcnemar_alone_increase_points_alpha_0.05": 20.0,
+   "joint_rule_increase_points_alpha_0.05": 20.0,
+   "mcnemar_alone_increase_points_alpha_0.00625": 26.0,
+   "joint_rule_increase_points_alpha_0.00625": 26.0
+  },
+  {
+   "outcome": "TL on O1, without the header",
+   "pairs": 102,
+   "control_rate": 0.2353,
+   "scenario": "replicate correlation",
+   "mcnemar_alone_increase_points_alpha_0.05": 13.0,
+   "joint_rule_increase_points_alpha_0.05": 14.0,
+   "mcnemar_alone_increase_points_alpha_0.00625": 17.0,
+   "joint_rule_increase_points_alpha_0.00625": 20.0
+  },
+  {
+   "outcome": "EXEC on O2, with the header",
+   "pairs": 44,
+   "control_rate": 0.01,
+   "scenario": "independent",
+   "mcnemar_alone_increase_points_alpha_0.05": 19.0,
+   "joint_rule_increase_points_alpha_0.05": 22.0,
+   "mcnemar_alone_increase_points_alpha_0.00625": 28.0,
+   "joint_rule_increase_points_alpha_0.00625": 30.0
+  },
+  {
+   "outcome": "EXEC on O2, with the header",
+   "pairs": 44,
+   "control_rate": 0.01,
+   "scenario": "replicate correlation",
+   "mcnemar_alone_increase_points_alpha_0.05": null,
+   "joint_rule_increase_points_alpha_0.05": 30.0,
+   "mcnemar_alone_increase_points_alpha_0.00625": null,
+   "joint_rule_increase_points_alpha_0.00625": 44.0
+  },
+  {
+   "outcome": "EXEC on O2, without the header",
+   "pairs": 44,
+   "control_rate": 0.0455,
+   "scenario": "independent",
+   "mcnemar_alone_increase_points_alpha_0.05": 24.0,
+   "joint_rule_increase_points_alpha_0.05": 26.0,
+   "mcnemar_alone_increase_points_alpha_0.00625": 33.0,
+   "joint_rule_increase_points_alpha_0.00625": 36.0
+  },
+  {
+   "outcome": "EXEC on O2, without the header",
+   "pairs": 44,
+   "control_rate": 0.0455,
+   "scenario": "replicate correlation",
+   "mcnemar_alone_increase_points_alpha_0.05": null,
+   "joint_rule_increase_points_alpha_0.05": 28.0,
+   "mcnemar_alone_increase_points_alpha_0.00625": null,
+   "joint_rule_increase_points_alpha_0.00625": 42.0
+  }
+ ]
+}

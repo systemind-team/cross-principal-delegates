@@ -1,0 +1,13 @@
+{
+ "messages_k2": 16,
+ "messages_k1": 16,
+ "message_sets_equal": true,
+ "only_k2": [],
+ "only_k1": [],
+ "builder_bodies_equal": {
+  "deniedToolResult": true,
+  "failedToolResult": true,
+  "deniedResourceResult": true,
+  "failedResourceResult": true
+ }
+}

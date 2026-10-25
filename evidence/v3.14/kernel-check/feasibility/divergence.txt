@@ -1,0 +1,8 @@
+== SharedEval 58829fe..8081e7e, files a K1 port touches
+82	0	src/runner/v1/file-workflow-artifacts.ts
+163	63	src/runner/v1/file-workflow-sharedos-evidence.ts
+150	75	src/runner/v1/sharedos-session-store.ts
+== SharedOS 3aa07e3..c74461c in packages/{contracts,core,os,runtime}/src: all, tests, non-tests (+ / -)
+all      47 files +9382 -370
+tests    18 files +5470 -80
+non-test 29 files +3912 -290

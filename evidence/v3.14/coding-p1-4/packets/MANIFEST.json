@@ -1,0 +1,16 @@
+{
+ "files": {
+  "packets/A/INSTRUCTIONS.md": "da95b2a3c3fee191a7fc27d72fe04141dbe0c1ea0ab64a34a89e7c30fdbce3e6",
+  "packets/A/WP.md": "d0025796c7dc71450bcddccac128f604625e9a7b760fab540a9ab8f7ab87addd",
+  "packets/A/answers/WP.csv": "763902e2b664fe9162e00163cf785cb50ed1af9d444c940e48056e8a0b22792f",
+  "packets/B/INSTRUCTIONS.md": "da95b2a3c3fee191a7fc27d72fe04141dbe0c1ea0ab64a34a89e7c30fdbce3e6",
+  "packets/B/WP.md": "6e219f4cc4e7b8302a16782e4d14d89f7499fc45f9cbd6b886551fa89c1d92a3",
+  "packets/B/answers/WP.csv": "f667d858494ad00ef5947b717e47a03016c9aa411df0889f19f0697ab0aa5f87"
+ },
+ "key": {
+  "lines": 212,
+  "path": "key/key-P1-4.json",
+  "planted": 12,
+  "sha256": "94beb38e1d6a48d0a5ecdeddcbda07457ac0d6b98fb8daab88eff03b8550d3da"
+ }
+}

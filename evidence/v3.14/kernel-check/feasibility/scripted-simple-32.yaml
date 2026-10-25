@@ -1,0 +1,37 @@
+apiVersion: sharedeval-run/v2
+kind: RunConfig
+model:
+  provider: openai-compatible
+  baseUrl: https://scripted.invalid/v1
+  apiKeyEnv: SHAREDEVAL_MODEL_API_KEY
+  model: scripted/pair-probe-v1
+  temperature: 0
+  maxOutputTokens: 4096
+workflow:
+  mode: multi
+  protocol: files
+  maxTicks: 8
+  stopWhen: all-terminal
+  pairProfile: simple
+  multiTurn:
+    phase2StartTick: 3
+    finalizeTick: 8
+  world:
+    protocol: actor-context/v1
+    maxContextBytes: 16777216
+benchmark:
+  dataset: pact-pair
+  policy: D2
+  requester: R1
+  gradingMode: category
+  tasks:
+    kind: all
+    ids:
+      - PAIR-Q11
+      - PAIR-Q103
+budget:
+  maxToolCalls: 32
+  maxRuntimeMs: 300000
+output:
+  directory: runs
+  saveTraces: true

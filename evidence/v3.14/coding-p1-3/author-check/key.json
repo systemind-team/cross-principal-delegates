@@ -1,0 +1,42 @@
+{
+ "P13-AC-01": {
+  "code": "QG5WV279",
+  "stratum": "D1-matched"
+ },
+ "P13-AC-02": {
+  "code": "UJ6R3L4K",
+  "stratum": "D1-mismatched"
+ },
+ "P13-AC-03": {
+  "code": "5UHS6MWU",
+  "stratum": "D2-matched"
+ },
+ "P13-AC-04": {
+  "code": "J3DCD6ZW",
+  "stratum": "D2-mismatched"
+ },
+ "P13-AC-05": {
+  "code": "2QM5R5R7",
+  "stratum": "contested"
+ },
+ "P13-AC-06": {
+  "code": "9N52UZLF",
+  "stratum": "D1-matched"
+ },
+ "P13-AC-07": {
+  "code": "SREZXC2V",
+  "stratum": "D1-mismatched"
+ },
+ "P13-AC-08": {
+  "code": "X3KTPBHN",
+  "stratum": "D2-matched"
+ },
+ "P13-AC-09": {
+  "code": "BLX764QC",
+  "stratum": "D2-mismatched"
+ },
+ "P13-AC-10": {
+  "code": "WPTZN9KA",
+  "stratum": "contested"
+ }
+}

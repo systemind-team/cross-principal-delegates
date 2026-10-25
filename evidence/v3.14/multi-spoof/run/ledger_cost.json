@@ -1,0 +1,29 @@
+{
+ "key": "the dedicated P1-6 key (id passed on the command line, withheld here)",
+ "calls": 30127,
+ "cash_usd": 12.5105,
+ "first_call": "2026-10-05T05:05:37.908Z",
+ "last_call": "2026-10-05T07:40:23.253Z",
+ "by_served_model": {
+  "openrouter | deepseek/deepseek-v4-flash-0731": {
+   "calls": 30127,
+   "cash_usd": 12.5105
+  }
+ },
+ "pinned": {
+  "1": 30127
+ },
+ "by_outcome": {
+  "error": 72,
+  "ok": 30055
+ },
+ "http_status_not_200": {
+  "429": 67
+ },
+ "wasted": {
+  "0": {
+   "calls": 30127,
+   "cash_usd": 12.5105
+  }
+ }
+}

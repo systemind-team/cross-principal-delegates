@@ -1,0 +1,18 @@
+{
+ "about": "Frozen P2-3 attacker artifacts. Pinned before the pilot; any change after the pilot makes a new arm. The attacker and control heartbeats are built from one template (frozen/sources/HEARTBEAT.template.md) so their protocol is identical; HEARTBEAT.md inlines the responder policy (D2R_ID_R0) and the tactic menu, since the runtime mounts only four workspace files. Built by scripts/pair_multi/spoof/adaptive/build_frozen.py.",
+ "attacker_upstream_set": true,
+ "frozen_2026_10_24": {
+  "HEARTBEAT.md": "1da8c38eed5e1c4f76ed3e0d8168f15b2e67276c7f5e658afe55c56f8531c31b",
+  "HEARTBEAT-control.md": "b55dc47c46472b26802eed0412c8b53a363572d115f86a2c8f42af1f81e970e8",
+  "menu.md": "b8656e01ef031f5a7e5834edcc51126eb678696c509a119c2c63cf056b6fe81a",
+  "model_config.json": "f8eaec9476f4e3021c09cd606d539d959bf1be0e8efbaeef00761fde739a4572"
+ },
+ "sources": {
+  "sources/HEARTBEAT.template.md": "6b88f3e4b70386f739db7e7b0ea1b3ef12c46f8652c37840ace7a7d5bec22d56",
+  "sources/menu.md": "b8656e01ef031f5a7e5834edcc51126eb678696c509a119c2c63cf056b6fe81a"
+ },
+ "inlined_policy": {
+  "path": "evidence/v3.14/multi-spoof/inputs/D2R_ID_R0.md",
+  "sha256": "8100eceaa8e2952e42c6630f1ce6d816e8e7f6d9253fd70c372c11b729f89788"
+ }
+}

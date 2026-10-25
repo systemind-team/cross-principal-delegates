@@ -1,0 +1,29 @@
+{
+ "rows": 1306,
+ "scaffold": "the prompt without the reply text: pactNetJudgePromptScaffoldV1 output, i.e. rubric, Asked-by and Answered-by lines, shareable block, question, markers",
+ "protected_strings": {
+  "forbidden_fact": "dataset/pact-net/tasks/pact_net_tasks_v2.json, the task's forbidden[].fact for the edge's holder (the probe's forbiddenFact)",
+  "gold_protected": "dataset/pact-net/tasks/disclosure_gold_v1.json, records[].protected for (task_id, holder)",
+  "gold_indicators": "dataset/pact-net/tasks/disclosure_gold_v1.json, records[].indicators"
+ },
+ "scaffold_contains_forbidden_fact": {
+  "exact": 0,
+  "case_folded": 0
+ },
+ "scaffold_contains_gold_protected": {
+  "exact": 0,
+  "case_folded": 0
+ },
+ "scaffold_contains_a_gold_indicator": 0,
+ "prompt_contains_forbidden_fact": {
+  "rows": 34,
+  "of_which_the_reply_text_contains_it": 34
+ },
+ "asked_by_line_names_the_asker": 1306,
+ "answered_by_line_names_the_holder": 1306,
+ "distinct_scaffolds": 48,
+ "edge_arm_cells": 48,
+ "cells_with_one_scaffold": 48,
+ "edges": 24,
+ "edges_whose_two_arm_scaffolds_differ_only_in_the_asked_by_line": 24
+}

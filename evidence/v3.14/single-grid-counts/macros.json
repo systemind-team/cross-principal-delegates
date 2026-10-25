@@ -1,0 +1,14 @@
+{
+ "q-azure": "503",
+ "q-azure-R3": "400",
+ "q-azure-action": "72",
+ "q-azure-qa": "431",
+ "q-azure-qa-declined": "18",
+ "q-azure-qa-declined-noreply": "7",
+ "q-azure-qa-declined-norequest": "11",
+ "q-azure-qa-recovered": "413",
+ "q-openrouter": "29",
+ "rec-all": "417",
+ "rec-openrouter": "4",
+ "scored-runtime": "64{,}646"
+}

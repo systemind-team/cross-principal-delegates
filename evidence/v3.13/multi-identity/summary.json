@@ -1,0 +1,366 @@
+{
+ "provenance": {
+  "first attempt": 387,
+  "retry": 11,
+  "no valid run": 2
+ },
+ "requesters": {
+  "R0": {
+   "tasks_scored": {
+    "PR": 150,
+    "ID": 150
+   },
+   "tasks_attempted": 150,
+   "matched": 150,
+   "metrics": {
+    "AS": {
+     "PR": {
+      "count": 49,
+      "n": 50,
+      "rate": 0.98
+     },
+     "ID": {
+      "count": 50,
+      "n": 50,
+      "rate": 1.0
+     },
+     "only_PR": 0,
+     "only_ID": 1,
+     "mcnemar_p": 1.0
+    },
+    "Leak": {
+     "PR": {
+      "count": 13,
+      "n": 100,
+      "rate": 0.13
+     },
+     "ID": {
+      "count": 6,
+      "n": 100,
+      "rate": 0.06
+     },
+     "only_PR": 8,
+     "only_ID": 1,
+     "mcnemar_p": 0.039062
+    }
+   }
+  },
+  "R1": {
+   "tasks_scored": {
+    "PR": 149,
+    "ID": 149
+   },
+   "tasks_attempted": 150,
+   "matched": 148,
+   "metrics": {
+    "AS": {
+     "PR": {
+      "count": 28,
+      "n": 28,
+      "rate": 1.0
+     },
+     "ID": {
+      "count": 24,
+      "n": 28,
+      "rate": 0.8571
+     },
+     "only_PR": 4,
+     "only_ID": 0,
+     "mcnemar_p": 0.125
+    },
+    "AU": {
+     "PR": {
+      "count": 4,
+      "n": 22,
+      "rate": 0.1818
+     },
+     "ID": {
+      "count": 21,
+      "n": 22,
+      "rate": 0.9545
+     },
+     "only_PR": 0,
+     "only_ID": 17,
+     "mcnemar_p": 1.5e-05
+    },
+    "FR": {
+     "PR": {
+      "count": 37,
+      "n": 72,
+      "rate": 0.5139
+     },
+     "ID": {
+      "count": 1,
+      "n": 72,
+      "rate": 0.0139
+     },
+     "only_PR": 36,
+     "only_ID": 0,
+     "mcnemar_p": 0.0
+    },
+    "Leak": {
+     "PR": {
+      "count": 0,
+      "n": 48,
+      "rate": 0.0
+     },
+     "ID": {
+      "count": 0,
+      "n": 48,
+      "rate": 0.0
+     },
+     "only_PR": 0,
+     "only_ID": 0,
+     "mcnemar_p": 1.0
+    },
+    "U": {
+     "PR": {
+      "count": 29,
+      "n": 50,
+      "rate": 0.58
+     },
+     "ID": {
+      "count": 45,
+      "n": 50,
+      "rate": 0.9
+     },
+     "only_PR": 1,
+     "only_ID": 17,
+     "mcnemar_p": 0.000145
+    }
+   }
+  },
+  "R2": {
+   "tasks_scored": {
+    "PR": 148,
+    "ID": 150
+   },
+   "tasks_attempted": 150,
+   "matched": 148,
+   "metrics": {
+    "AS": {
+     "PR": {
+      "count": 30,
+      "n": 31,
+      "rate": 0.9677
+     },
+     "ID": {
+      "count": 25,
+      "n": 31,
+      "rate": 0.8065
+     },
+     "only_PR": 5,
+     "only_ID": 0,
+     "mcnemar_p": 0.0625
+    },
+    "AU": {
+     "PR": {
+      "count": 1,
+      "n": 18,
+      "rate": 0.0556
+     },
+     "ID": {
+      "count": 18,
+      "n": 18,
+      "rate": 1.0
+     },
+     "only_PR": 0,
+     "only_ID": 17,
+     "mcnemar_p": 1.5e-05
+    },
+    "FR": {
+     "PR": {
+      "count": 41,
+      "n": 81,
+      "rate": 0.5062
+     },
+     "ID": {
+      "count": 11,
+      "n": 81,
+      "rate": 0.1358
+     },
+     "only_PR": 31,
+     "only_ID": 1,
+     "mcnemar_p": 0.0
+    },
+    "Leak": {
+     "PR": {
+      "count": 0,
+      "n": 36,
+      "rate": 0.0
+     },
+     "ID": {
+      "count": 0,
+      "n": 36,
+      "rate": 0.0
+     },
+     "only_PR": 0,
+     "only_ID": 0,
+     "mcnemar_p": 1.0
+    },
+    "U": {
+     "PR": {
+      "count": 37,
+      "n": 63,
+      "rate": 0.5873
+     },
+     "ID": {
+      "count": 48,
+      "n": 63,
+      "rate": 0.7619
+     },
+     "only_PR": 2,
+     "only_ID": 13,
+     "mcnemar_p": 0.007385
+    }
+   }
+  },
+  "R3": {
+   "tasks_scored": {
+    "PR": 144,
+    "ID": 150
+   },
+   "tasks_attempted": 150,
+   "matched": 144,
+   "metrics": {
+    "AS": {
+     "PR": {
+      "count": 47,
+      "n": 48,
+      "rate": 0.9792
+     },
+     "ID": {
+      "count": 48,
+      "n": 48,
+      "rate": 1.0
+     },
+     "only_PR": 0,
+     "only_ID": 1,
+     "mcnemar_p": 1.0
+    },
+    "FR": {
+     "PR": {
+      "count": 10,
+      "n": 10,
+      "rate": 1.0
+     },
+     "ID": {
+      "count": 3,
+      "n": 10,
+      "rate": 0.3
+     },
+     "only_PR": 7,
+     "only_ID": 0,
+     "mcnemar_p": 0.015625
+    },
+    "Leak": {
+     "PR": {
+      "count": 23,
+      "n": 86,
+      "rate": 0.2674
+     },
+     "ID": {
+      "count": 7,
+      "n": 86,
+      "rate": 0.0814
+     },
+     "only_PR": 19,
+     "only_ID": 3,
+     "mcnemar_p": 0.000855
+    },
+    "U": {
+     "PR": {
+      "count": 0,
+      "n": 10,
+      "rate": 0.0
+     },
+     "ID": {
+      "count": 7,
+      "n": 10,
+      "rate": 0.7
+     },
+     "only_PR": 0,
+     "only_ID": 7,
+     "mcnemar_p": 0.015625
+    }
+   }
+  }
+ },
+ "pooled": {
+  "AS": {
+   "PR": {
+    "count": 154,
+    "n": 157,
+    "rate": 0.9809
+   },
+   "ID": {
+    "count": 147,
+    "n": 157,
+    "rate": 0.9363
+   },
+   "only_PR": 9,
+   "only_ID": 2,
+   "mcnemar_p": 0.06543
+  },
+  "AU": {
+   "PR": {
+    "count": 5,
+    "n": 40,
+    "rate": 0.125
+   },
+   "ID": {
+    "count": 39,
+    "n": 40,
+    "rate": 0.975
+   },
+   "only_PR": 0,
+   "only_ID": 34,
+   "mcnemar_p": 0.0
+  },
+  "FR": {
+   "PR": {
+    "count": 88,
+    "n": 163,
+    "rate": 0.5399
+   },
+   "ID": {
+    "count": 15,
+    "n": 163,
+    "rate": 0.092
+   },
+   "only_PR": 74,
+   "only_ID": 1,
+   "mcnemar_p": 0.0
+  },
+  "Leak": {
+   "PR": {
+    "count": 36,
+    "n": 270,
+    "rate": 0.1333
+   },
+   "ID": {
+    "count": 13,
+    "n": 270,
+    "rate": 0.0481
+   },
+   "only_PR": 27,
+   "only_ID": 4,
+   "mcnemar_p": 3.4e-05
+  },
+  "U": {
+   "PR": {
+    "count": 66,
+    "n": 123,
+    "rate": 0.5366
+   },
+   "ID": {
+    "count": 100,
+    "n": 123,
+    "rate": 0.813
+   },
+   "only_PR": 3,
+   "only_ID": 37,
+   "mcnemar_p": 0.0
+  }
+ }
+}

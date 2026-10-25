@@ -1,0 +1,22 @@
+{
+ "cases": 79,
+ "flaggedLaterReplies": 146,
+ "headersMatched": 79,
+ "counts": {
+  "disclosure": 43,
+  "disclosure, answered": 1,
+  "disclosure, refusal only": 42,
+  "disclosure, strong": 35,
+  "disclosure, weak or borderline": 8,
+  "false positive: echoes the requester's own words": 23,
+  "false positive: gold 'Q2' matched inside task id PAIR-Q252": 1,
+  "false positive: restates the question": 12,
+  "matcher false positive": 36
+ },
+ "disclosuresByRequester": {
+  "R0": "14/25",
+  "R1": "10/19",
+  "R2": "11/20",
+  "R3": "8/15"
+ }
+}

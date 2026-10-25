@@ -1,0 +1,10 @@
+{
+ "gates": {
+  "planted_A": true,
+  "planted_B": true,
+  "kappa_S1": true,
+  "kappa_S2": true
+ },
+ "status": "not usable yet: a gate failed or disagreements are not all adjudicated",
+ "first_reply_rate_pct": 11.794657762938233
+}

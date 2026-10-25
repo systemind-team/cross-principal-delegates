@@ -1,0 +1,381 @@
+{
+ "seed": 20261005,
+ "pair1": {
+  "rule": "stratified by (kind, category), largest-remainder allocation, seeded ties",
+  "tasks": [
+   "PAIR-A147",
+   "PAIR-A25",
+   "PAIR-A7",
+   "PAIR-A12",
+   "PAIR-A24",
+   "PAIR-A120",
+   "PAIR-A33",
+   "PAIR-A32",
+   "PAIR-A130",
+   "PAIR-A139",
+   "PAIR-A89",
+   "PAIR-A186",
+   "PAIR-A184",
+   "PAIR-A70",
+   "PAIR-A73",
+   "PAIR-A159",
+   "PAIR-A54",
+   "PAIR-A99",
+   "PAIR-A100",
+   "PAIR-A163",
+   "PAIR-Q150",
+   "PAIR-Q148",
+   "PAIR-Q142",
+   "PAIR-Q266",
+   "PAIR-Q376",
+   "PAIR-Q385",
+   "PAIR-Q156",
+   "PAIR-Q165",
+   "PAIR-Q380",
+   "PAIR-Q388",
+   "PAIR-Q297",
+   "PAIR-Q299",
+   "PAIR-Q197",
+   "PAIR-Q196",
+   "PAIR-Q118",
+   "PAIR-Q255",
+   "PAIR-Q265",
+   "PAIR-Q119",
+   "PAIR-Q354",
+   "PAIR-Q356",
+   "PAIR-Q17",
+   "PAIR-Q86",
+   "PAIR-Q340",
+   "PAIR-Q80",
+   "PAIR-Q51",
+   "PAIR-Q245",
+   "PAIR-Q335",
+   "PAIR-Q225",
+   "PAIR-Q313",
+   "PAIR-Q72",
+   "PAIR-Q344",
+   "PAIR-Q41",
+   "PAIR-Q336",
+   "PAIR-Q220",
+   "PAIR-Q82",
+   "PAIR-Q204",
+   "PAIR-Q125",
+   "PAIR-Q333",
+   "PAIR-Q248",
+   "PAIR-Q240"
+  ],
+  "strata": {
+   "action/authorized_complete": {
+    "size": 8,
+    "drawn": 1,
+    "tasks": [
+     "PAIR-A147"
+    ]
+   },
+   "action/authorized_create": {
+    "size": 47,
+    "drawn": 5,
+    "tasks": [
+     "PAIR-A25",
+     "PAIR-A7",
+     "PAIR-A12",
+     "PAIR-A24",
+     "PAIR-A120"
+    ]
+   },
+   "action/authorized_edit": {
+    "size": 45,
+    "drawn": 4,
+    "tasks": [
+     "PAIR-A33",
+     "PAIR-A32",
+     "PAIR-A130",
+     "PAIR-A139"
+    ]
+   },
+   "action/info_leaking_action": {
+    "size": 16,
+    "drawn": 2,
+    "tasks": [
+     "PAIR-A89",
+     "PAIR-A186"
+    ]
+   },
+   "action/probing_action": {
+    "size": 16,
+    "drawn": 1,
+    "tasks": [
+     "PAIR-A184"
+    ]
+   },
+   "action/unauthorized_create_sensitive": {
+    "size": 16,
+    "drawn": 2,
+    "tasks": [
+     "PAIR-A70",
+     "PAIR-A73"
+    ]
+   },
+   "action/unauthorized_edit_sensitive": {
+    "size": 20,
+    "drawn": 2,
+    "tasks": [
+     "PAIR-A159",
+     "PAIR-A54"
+    ]
+   },
+   "action/unauthorized_strategic": {
+    "size": 16,
+    "drawn": 2,
+    "tasks": [
+     "PAIR-A99",
+     "PAIR-A100"
+    ]
+   },
+   "action/unauthorized_wipe": {
+    "size": 16,
+    "drawn": 1,
+    "tasks": [
+     "PAIR-A163"
+    ]
+   },
+   "qa/personal_finance": {
+    "size": 49,
+    "drawn": 5,
+    "tasks": [
+     "PAIR-Q150",
+     "PAIR-Q148",
+     "PAIR-Q142",
+     "PAIR-Q266",
+     "PAIR-Q376"
+    ]
+   },
+   "qa/personal_health": {
+    "size": 40,
+    "drawn": 4,
+    "tasks": [
+     "PAIR-Q385",
+     "PAIR-Q156",
+     "PAIR-Q165",
+     "PAIR-Q380"
+    ]
+   },
+   "qa/personal_relationships": {
+    "size": 51,
+    "drawn": 5,
+    "tasks": [
+     "PAIR-Q388",
+     "PAIR-Q297",
+     "PAIR-Q299",
+     "PAIR-Q197",
+     "PAIR-Q196"
+    ]
+   },
+   "qa/sensitive_work": {
+    "size": 60,
+    "drawn": 6,
+    "tasks": [
+     "PAIR-Q118",
+     "PAIR-Q255",
+     "PAIR-Q265",
+     "PAIR-Q119",
+     "PAIR-Q354",
+     "PAIR-Q356"
+    ]
+   },
+   "qa/work_public": {
+    "size": 200,
+    "drawn": 20,
+    "tasks": [
+     "PAIR-Q17",
+     "PAIR-Q86",
+     "PAIR-Q340",
+     "PAIR-Q80",
+     "PAIR-Q51",
+     "PAIR-Q245",
+     "PAIR-Q335",
+     "PAIR-Q225",
+     "PAIR-Q313",
+     "PAIR-Q72",
+     "PAIR-Q344",
+     "PAIR-Q41",
+     "PAIR-Q336",
+     "PAIR-Q220",
+     "PAIR-Q82",
+     "PAIR-Q204",
+     "PAIR-Q125",
+     "PAIR-Q333",
+     "PAIR-Q248",
+     "PAIR-Q240"
+    ]
+   }
+  }
+ },
+ "pair2": {
+  "rule": "20 of 50 ladder groups, random.Random(seed).sample(sorted(groups), 20)",
+  "groups": {
+   "g004": [
+    "PAIR-Q72",
+    "PAIR-Q258",
+    "PAIR-A100"
+   ],
+   "g008": [
+    "PAIR-Q351",
+    "PAIR-Q384",
+    "PAIR-A50"
+   ],
+   "g024": [
+    "PAIR-Q12",
+    "PAIR-Q366",
+    "PAIR-A15"
+   ],
+   "g028": [
+    "PAIR-Q43",
+    "PAIR-Q105",
+    "PAIR-A25"
+   ],
+   "g032": [
+    "PAIR-Q76",
+    "PAIR-Q252",
+    "PAIR-A28"
+   ],
+   "g040": [
+    "PAIR-Q209",
+    "PAIR-Q146",
+    "PAIR-A114"
+   ],
+   "g060": [
+    "PAIR-Q82",
+    "PAIR-Q254",
+    "PAIR-A8"
+   ],
+   "g072": [
+    "PAIR-Q332",
+    "PAIR-Q158",
+    "PAIR-A105"
+   ],
+   "g076": [
+    "PAIR-Q219",
+    "PAIR-Q391",
+    "PAIR-A82"
+   ],
+   "g100": [
+    "PAIR-Q7",
+    "PAIR-Q135",
+    "PAIR-A164"
+   ],
+   "g104": [
+    "PAIR-Q28",
+    "PAIR-Q156",
+    "PAIR-A1"
+   ],
+   "g108": [
+    "PAIR-Q237",
+    "PAIR-Q388",
+    "PAIR-A159"
+   ],
+   "g116": [
+    "PAIR-Q248",
+    "PAIR-Q194",
+    "PAIR-A194"
+   ],
+   "g136": [
+    "PAIR-Q348",
+    "PAIR-Q186",
+    "PAIR-A104"
+   ],
+   "g140": [
+    "PAIR-Q37",
+    "PAIR-Q111",
+    "PAIR-A176"
+   ],
+   "g144": [
+    "PAIR-Q84",
+    "PAIR-Q107",
+    "PAIR-A61"
+   ],
+   "g156": [
+    "PAIR-Q57",
+    "PAIR-Q116",
+    "PAIR-A90"
+   ],
+   "g176": [
+    "PAIR-Q26",
+    "PAIR-Q149",
+    "PAIR-A167"
+   ],
+   "g192": [
+    "PAIR-Q24",
+    "PAIR-Q126",
+    "PAIR-A191"
+   ],
+   "g196": [
+    "PAIR-Q213",
+    "PAIR-Q294",
+    "PAIR-A122"
+   ]
+  },
+  "tasks": [
+   "PAIR-Q72",
+   "PAIR-Q258",
+   "PAIR-A100",
+   "PAIR-Q351",
+   "PAIR-Q384",
+   "PAIR-A50",
+   "PAIR-Q12",
+   "PAIR-Q366",
+   "PAIR-A15",
+   "PAIR-Q43",
+   "PAIR-Q105",
+   "PAIR-A25",
+   "PAIR-Q76",
+   "PAIR-Q252",
+   "PAIR-A28",
+   "PAIR-Q209",
+   "PAIR-Q146",
+   "PAIR-A114",
+   "PAIR-Q82",
+   "PAIR-Q254",
+   "PAIR-A8",
+   "PAIR-Q332",
+   "PAIR-Q158",
+   "PAIR-A105",
+   "PAIR-Q219",
+   "PAIR-Q391",
+   "PAIR-A82",
+   "PAIR-Q7",
+   "PAIR-Q135",
+   "PAIR-A164",
+   "PAIR-Q28",
+   "PAIR-Q156",
+   "PAIR-A1",
+   "PAIR-Q237",
+   "PAIR-Q388",
+   "PAIR-A159",
+   "PAIR-Q248",
+   "PAIR-Q194",
+   "PAIR-A194",
+   "PAIR-Q348",
+   "PAIR-Q186",
+   "PAIR-A104",
+   "PAIR-Q37",
+   "PAIR-Q111",
+   "PAIR-A176",
+   "PAIR-Q84",
+   "PAIR-Q107",
+   "PAIR-A61",
+   "PAIR-Q57",
+   "PAIR-Q116",
+   "PAIR-A90",
+   "PAIR-Q26",
+   "PAIR-Q149",
+   "PAIR-A167",
+   "PAIR-Q24",
+   "PAIR-Q126",
+   "PAIR-A191",
+   "PAIR-Q213",
+   "PAIR-Q294",
+   "PAIR-A122"
+  ]
+ }
+}

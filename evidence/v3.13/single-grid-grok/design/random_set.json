@@ -1,0 +1,172 @@
+{
+ "seed": 20261005,
+ "salt": "pair1-grok-random/v1",
+ "quota": {
+  "files_qa": 34,
+  "states_qa": 33,
+  "action": 33
+ },
+ "tasks": [
+  "PAIR-Q3",
+  "PAIR-Q4",
+  "PAIR-Q5",
+  "PAIR-Q12",
+  "PAIR-Q13",
+  "PAIR-Q22",
+  "PAIR-Q28",
+  "PAIR-Q32",
+  "PAIR-Q37",
+  "PAIR-Q48",
+  "PAIR-Q52",
+  "PAIR-Q62",
+  "PAIR-Q64",
+  "PAIR-Q67",
+  "PAIR-Q73",
+  "PAIR-Q78",
+  "PAIR-Q95",
+  "PAIR-Q98",
+  "PAIR-Q100",
+  "PAIR-Q114",
+  "PAIR-Q125",
+  "PAIR-Q130",
+  "PAIR-Q144",
+  "PAIR-Q146",
+  "PAIR-Q153",
+  "PAIR-Q165",
+  "PAIR-Q166",
+  "PAIR-Q173",
+  "PAIR-Q174",
+  "PAIR-Q180",
+  "PAIR-Q183",
+  "PAIR-Q190",
+  "PAIR-Q192",
+  "PAIR-Q198",
+  "PAIR-Q205",
+  "PAIR-Q211",
+  "PAIR-Q214",
+  "PAIR-Q222",
+  "PAIR-Q226",
+  "PAIR-Q232",
+  "PAIR-Q240",
+  "PAIR-Q242",
+  "PAIR-Q245",
+  "PAIR-Q250",
+  "PAIR-Q258",
+  "PAIR-Q260",
+  "PAIR-Q267",
+  "PAIR-Q281",
+  "PAIR-Q296",
+  "PAIR-Q302",
+  "PAIR-Q304",
+  "PAIR-Q305",
+  "PAIR-Q326",
+  "PAIR-Q329",
+  "PAIR-Q333",
+  "PAIR-Q338",
+  "PAIR-Q341",
+  "PAIR-Q348",
+  "PAIR-Q350",
+  "PAIR-Q356",
+  "PAIR-Q358",
+  "PAIR-Q371",
+  "PAIR-Q373",
+  "PAIR-Q377",
+  "PAIR-Q390",
+  "PAIR-Q394",
+  "PAIR-Q396",
+  "PAIR-A3",
+  "PAIR-A22",
+  "PAIR-A26",
+  "PAIR-A33",
+  "PAIR-A40",
+  "PAIR-A42",
+  "PAIR-A44",
+  "PAIR-A49",
+  "PAIR-A51",
+  "PAIR-A56",
+  "PAIR-A61",
+  "PAIR-A69",
+  "PAIR-A87",
+  "PAIR-A102",
+  "PAIR-A103",
+  "PAIR-A110",
+  "PAIR-A121",
+  "PAIR-A122",
+  "PAIR-A123",
+  "PAIR-A124",
+  "PAIR-A134",
+  "PAIR-A136",
+  "PAIR-A139",
+  "PAIR-A145",
+  "PAIR-A146",
+  "PAIR-A147",
+  "PAIR-A149",
+  "PAIR-A155",
+  "PAIR-A156",
+  "PAIR-A168",
+  "PAIR-A183",
+  "PAIR-A194",
+  "PAIR-A198"
+ ],
+ "requesters": [
+  "R0",
+  "R1",
+  "R2",
+  "R3"
+ ],
+ "labelCounts": {
+  "R0": {
+   "relationship": {
+    "qa:refuse": 67,
+    "action:refuse": 33
+   },
+   "category": {
+    "qa:answer": 39,
+    "qa:refuse": 28,
+    "action:execute": 22,
+    "action:refuse": 11
+   }
+  },
+  "R1": {
+   "relationship": {
+    "qa:answer": 42,
+    "qa:refuse": 25,
+    "action:execute": 19,
+    "action:refuse": 14
+   },
+   "category": {
+    "qa:answer": 39,
+    "qa:refuse": 28,
+    "action:execute": 22,
+    "action:refuse": 11
+   }
+  },
+  "R2": {
+   "relationship": {
+    "qa:answer": 47,
+    "qa:refuse": 20,
+    "action:refuse": 20,
+    "action:execute": 13
+   },
+   "category": {
+    "qa:answer": 39,
+    "qa:refuse": 28,
+    "action:execute": 22,
+    "action:refuse": 11
+   }
+  },
+  "R3": {
+   "relationship": {
+    "qa:refuse": 61,
+    "qa:answer": 6,
+    "action:refuse": 33
+   },
+   "category": {
+    "qa:answer": 39,
+    "qa:refuse": 28,
+    "action:execute": 22,
+    "action:refuse": 11
+   }
+  }
+ }
+}

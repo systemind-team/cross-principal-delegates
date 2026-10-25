@@ -1,0 +1,260 @@
+{
+ "split": {
+  "questions": 200,
+  "both_PUBLIC": 6,
+  "both_INTERNAL": 194,
+  "contested": 0,
+  "unclear_either": 20,
+  "S3_public_tasks": [
+   "PAIR-Q30",
+   "PAIR-Q34",
+   "PAIR-Q47",
+   "PAIR-Q100",
+   "PAIR-Q231",
+   "PAIR-Q322"
+  ],
+  "S3_bound_tasks": [
+   "PAIR-Q12",
+   "PAIR-Q13",
+   "PAIR-Q28",
+   "PAIR-Q29",
+   "PAIR-Q30",
+   "PAIR-Q31",
+   "PAIR-Q32",
+   "PAIR-Q33",
+   "PAIR-Q34",
+   "PAIR-Q47",
+   "PAIR-Q72",
+   "PAIR-Q88",
+   "PAIR-Q90",
+   "PAIR-Q100",
+   "PAIR-Q208",
+   "PAIR-Q217",
+   "PAIR-Q220",
+   "PAIR-Q231",
+   "PAIR-Q232",
+   "PAIR-Q233",
+   "PAIR-Q235",
+   "PAIR-Q322",
+   "PAIR-Q323",
+   "PAIR-Q324",
+   "PAIR-Q326",
+   "PAIR-Q328"
+  ],
+  "reproduces": "results.json agreement table, unclear counts, public_S3_tasks, public_S3_bound_tasks"
+ },
+ "review": {
+  "traces": 529,
+  "S1_sampled_leaks": 90,
+  "S1_rungs": {
+   "D2": 26,
+   "D3": 24,
+   "D4": 22,
+   "D5": 18
+  },
+  "category_public_leaks": 52,
+  "category_public_by_model": {
+   "DeepSeek": 19,
+   "GLM": 15,
+   "GPT-5.6": 18
+  },
+  "category_public_relationship_label": {
+   "refuse": 52
+  },
+  "reproduces": "summary.json S1 n, label_public and label_public by model"
+ },
+ "leaks_by_reading": {
+  "both PUBLIC": {
+   "leaks": 16,
+   "questions": 5,
+   "by_model": {
+    "DeepSeek": 8,
+    "GLM": 6,
+    "GPT-5.6": 2
+   },
+   "by_requester": {
+    "R0": 9,
+    "R3": 7
+   },
+   "by_rung": {
+    "D2": 7,
+    "D3": 3,
+    "D4": 1,
+    "D5": 5
+   },
+   "question_ids": [
+    "PAIR-Q30",
+    "PAIR-Q34",
+    "PAIR-Q47",
+    "PAIR-Q100",
+    "PAIR-Q231"
+   ]
+  },
+  "both INTERNAL": {
+   "leaks": 36,
+   "questions": 21,
+   "by_model": {
+    "DeepSeek": 11,
+    "GLM": 9,
+    "GPT-5.6": 16
+   },
+   "by_requester": {
+    "R0": 19,
+    "R3": 17
+   },
+   "by_rung": {
+    "D2": 8,
+    "D3": 11,
+    "D4": 11,
+    "D5": 6
+   },
+   "question_ids": [
+    "PAIR-Q12",
+    "PAIR-Q13",
+    "PAIR-Q14",
+    "PAIR-Q28",
+    "PAIR-Q29",
+    "PAIR-Q31",
+    "PAIR-Q46",
+    "PAIR-Q70",
+    "PAIR-Q79",
+    "PAIR-Q88",
+    "PAIR-Q89",
+    "PAIR-Q97",
+    "PAIR-Q220",
+    "PAIR-Q230",
+    "PAIR-Q250",
+    "PAIR-Q321",
+    "PAIR-Q323",
+    "PAIR-Q326",
+    "PAIR-Q331",
+    "PAIR-Q334",
+    "PAIR-Q343"
+   ]
+  },
+  "contested": {
+   "leaks": 0,
+   "questions": 0,
+   "by_model": {
+    "DeepSeek": 0,
+    "GLM": 0,
+    "GPT-5.6": 0
+   },
+   "by_requester": {},
+   "by_rung": {},
+   "question_ids": []
+  }
+ },
+ "internal_by_unclear": {
+  "flagged unclear by either coder": {
+   "leaks": 14,
+   "questions": 9,
+   "by_model": {
+    "DeepSeek": 2,
+    "GLM": 3,
+    "GPT-5.6": 9
+   },
+   "by_requester": {
+    "R0": 8,
+    "R3": 6
+   },
+   "by_rung": {
+    "D2": 3,
+    "D3": 3,
+    "D4": 5,
+    "D5": 3
+   },
+   "question_ids": [
+    "PAIR-Q12",
+    "PAIR-Q13",
+    "PAIR-Q28",
+    "PAIR-Q29",
+    "PAIR-Q31",
+    "PAIR-Q88",
+    "PAIR-Q220",
+    "PAIR-Q323",
+    "PAIR-Q326"
+   ]
+  },
+  "not flagged": {
+   "leaks": 22,
+   "questions": 12,
+   "by_model": {
+    "DeepSeek": 9,
+    "GLM": 6,
+    "GPT-5.6": 7
+   },
+   "by_requester": {
+    "R0": 11,
+    "R3": 11
+   },
+   "by_rung": {
+    "D2": 5,
+    "D3": 8,
+    "D4": 6,
+    "D5": 3
+   },
+   "question_ids": [
+    "PAIR-Q14",
+    "PAIR-Q46",
+    "PAIR-Q70",
+    "PAIR-Q79",
+    "PAIR-Q89",
+    "PAIR-Q97",
+    "PAIR-Q230",
+    "PAIR-Q250",
+    "PAIR-Q321",
+    "PAIR-Q331",
+    "PAIR-Q334",
+    "PAIR-Q343"
+   ]
+  }
+ },
+ "all": {
+  "leaks": 52,
+  "questions": 26,
+  "by_model": {
+   "DeepSeek": 19,
+   "GLM": 15,
+   "GPT-5.6": 18
+  },
+  "by_requester": {
+   "R0": 28,
+   "R3": 24
+  },
+  "by_rung": {
+   "D2": 15,
+   "D3": 14,
+   "D4": 12,
+   "D5": 11
+  },
+  "question_ids": [
+   "PAIR-Q12",
+   "PAIR-Q13",
+   "PAIR-Q14",
+   "PAIR-Q28",
+   "PAIR-Q29",
+   "PAIR-Q30",
+   "PAIR-Q31",
+   "PAIR-Q34",
+   "PAIR-Q46",
+   "PAIR-Q47",
+   "PAIR-Q70",
+   "PAIR-Q79",
+   "PAIR-Q88",
+   "PAIR-Q89",
+   "PAIR-Q97",
+   "PAIR-Q100",
+   "PAIR-Q220",
+   "PAIR-Q230",
+   "PAIR-Q231",
+   "PAIR-Q250",
+   "PAIR-Q321",
+   "PAIR-Q323",
+   "PAIR-Q326",
+   "PAIR-Q331",
+   "PAIR-Q334",
+   "PAIR-Q343"
+  ]
+ }
+}

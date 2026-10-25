@@ -1,0 +1,655 @@
+{
+  "manifest_version": 1,
+  "prepared_date": "2026-09-09",
+  "preparation": "Read and aggregate existing frozen artifacts; no model, conformance, or cost experiment rerun.",
+  "runtime": {
+    "generation": "current-kernel",
+    "version": "0.1.0-alpha.4",
+    "source_revision": "c74461c1c4b715fd60c18401100cd72362d3afc1",
+    "sources": {
+      "conformance": {
+        "original_path": "<external>/kernel-conformance.json",
+        "sha256": "26b7ec054b85c3d0171cb8066ead0e6222efd06d479993adff4d94a054572c98",
+        "bytes": 102617,
+        "repository_file": "evidence/kernel_conformance.source.json",
+        "source_revision": "c74461c1c4b715fd60c18401100cd72362d3afc1"
+      },
+      "cost": {
+        "original_path": "<external>/systems-cost.md",
+        "sha256": "9a527806c53cfb15812f4171e594f78905e2be0c36b8eac3bd695b4fec5004e4",
+        "bytes": 6308,
+        "repository_file": "evidence/systems_cost.source.md",
+        "source_revision": "c74461c1c4b715fd60c18401100cd72362d3afc1"
+      },
+      "conformance_protocol": {
+        "original_path": "<external>/conformance-README.md",
+        "sha256": "f0f8825cb434ab43df2a70e8923281fdceb3a6eab501984adef05ebf986b70a3",
+        "bytes": 21696,
+        "source_revision": "c74461c1c4b715fd60c18401100cd72362d3afc1"
+      },
+      "authority_adr": {
+        "original_path": "<external>/0010-per-turn-authority.md",
+        "sha256": "b04da08a51b3e0564802e7617fe8df5bc8b6d8f58db73e57fc774a1b3145729e",
+        "bytes": 8305,
+        "source_revision": "c74461c1c4b715fd60c18401100cd72362d3afc1"
+      },
+      "catalogue_adr": {
+        "original_path": "<external>/0026-catalogue-resolved-once-per-turn.md",
+        "sha256": "1b5244b1a27f76110899812b6e9f5684973cd0017bcb9640f17ca87a65b7603b",
+        "bytes": 8984,
+        "source_revision": "c74461c1c4b715fd60c18401100cd72362d3afc1"
+      },
+      "live_conformance": {
+        "note": "One live pass of the conformance suite, run 2026-09-08 for SharedOS development (not for this manuscript) at revision 5392148, the head of the branch merged as c74461c; the two trees are identical. artifacts/ is gitignored in the SharedOS repository, so these copies are the citable ones. Two artifacts are needed: only the native script builds the model-driven Standard column, and only the MCP script serves an installed CLI a catalogue.",
+        "source_revision": "5392148",
+        "tree_identical_to": "c74461c1c4b715fd60c18401100cd72362d3afc1",
+        "sharedos_declared_version": "0.1.0-alpha.4",
+        "model": {
+          "id": "deepseek-v4-flash",
+          "provider": "deepseek",
+          "thinking": "disabled"
+        },
+        "harnesses": {
+          "claude-code": "2.1.263",
+          "codex": "0.149.0 (installed pin; binary reports no version)",
+          "deepseek dsh": "0.1.1-rc.2",
+          "pi": "0.84.2 with pi-mcp-adapter 2.30.0 (operator-pinned)"
+        },
+        "files": [
+          {
+            "repository_file": "evidence/live_conformance/native-conformance-2026-09-08-stack64-r1.json",
+            "sha256": "7d9f73904ed5e0dd049af7aa3713e37b17d6c6be063ec298f214943ad368c629",
+            "bytes": 49009,
+            "columns": [
+              "adversary-embedded",
+              "model-live"
+            ],
+            "elapsed_ms": 128162
+          },
+          {
+            "repository_file": "evidence/live_conformance/native-conformance-2026-09-08-stack64-r1.log",
+            "sha256": "15e575fb10e9acb21363a951709b3f74664bca21f108c6e32c1270403eeffeee",
+            "bytes": 1060
+          },
+          {
+            "repository_file": "evidence/live_conformance/mcp-conformance-2026-09-08-stack64-r1.json",
+            "sha256": "ba6950641d7e473222b8f9b25200b13f93efb844782f11c48bce5dd82ad26bef",
+            "bytes": 229032,
+            "columns": [
+              "adversary-embedded",
+              "claude-code-mcp",
+              "codex-mcp",
+              "deepseek-mcp",
+              "pi-mcp"
+            ],
+            "elapsed_ms": 2010172
+          },
+          {
+            "repository_file": "evidence/live_conformance/mcp-conformance-2026-09-08-stack64-r1.log",
+            "sha256": "8750a5ab6181a560cbc3424f3b06c5b65a85bc7ada16058a2d31c4563eed2a91",
+            "bytes": 3113
+          }
+        ],
+        "identity": {
+          "manifest_version": "1",
+          "judge_version": "4",
+          "case_set_hash": "1515d09cc4e6a4b5c4964a86ef839caa7b790b85b5e9279298b0169b6ead1b8b",
+          "world_set_hash": "7da4ac781f42a2609c83c03a20a6adaa2d9280d2096f37ec37d2cec88fbc07ba",
+          "standard_prompt_set_hash_matches_scripted": true,
+          "adversary_column_identical_in_both_artifacts": true
+        },
+        "columns": [
+          {
+            "id": "adversary-embedded",
+            "label": "Adversary",
+            "statuses": {
+              "pass": 30,
+              "not_implemented": 2
+            },
+            "issued_attempts": 78,
+            "mediated_calls": 80
+          },
+          {
+            "id": "model-live",
+            "label": "Standard (live model)",
+            "statuses": {
+              "pass": 27,
+              "not_applicable": 3,
+              "not_implemented": 2
+            },
+            "issued_attempts": 75,
+            "driver_issued_pass_cells": 1,
+            "mediated_calls": 78
+          },
+          {
+            "id": "codex-mcp",
+            "label": "Codex",
+            "statuses": {
+              "pass": 21,
+              "not_applicable": 8,
+              "out_of_scope": 1,
+              "not_implemented": 2
+            },
+            "issued_attempts": 66,
+            "mediated_calls": 72
+          },
+          {
+            "id": "claude-code-mcp",
+            "label": "Claude Code",
+            "statuses": {
+              "pass": 21,
+              "not_applicable": 8,
+              "out_of_scope": 1,
+              "not_implemented": 2
+            },
+            "issued_attempts": 66,
+            "mediated_calls": 73,
+            "cancelled_turns": 1
+          },
+          {
+            "id": "deepseek-mcp",
+            "label": "DeepSeek",
+            "statuses": {
+              "pass": 21,
+              "not_applicable": 8,
+              "out_of_scope": 1,
+              "not_implemented": 2
+            },
+            "issued_attempts": 66,
+            "mediated_calls": 76
+          },
+          {
+            "id": "pi-mcp",
+            "label": "Pi",
+            "statuses": {
+              "pass": 19,
+              "not_applicable": 8,
+              "out_of_scope": 1,
+              "not_exercised": 2,
+              "not_implemented": 2
+            },
+            "issued_attempts": 62,
+            "mediated_calls": 67
+          }
+        ],
+        "cells": 192,
+        "statuses": {
+          "pass": 139,
+          "not_applicable": 35,
+          "out_of_scope": 4,
+          "not_exercised": 2,
+          "not_implemented": 12
+        },
+        "fail": 0,
+        "issued_attempts": 413,
+        "mediated_calls": 446,
+        "refusal_identity_vs_live_standard": {
+          "codex-mcp": "19 of 21",
+          "claude-code-mcp": "19 of 21",
+          "deepseek-mcp": "19 of 21",
+          "pi-mcp": "18 of 19"
+        },
+        "aggregation": "Flatten manifest.rows[].cells per column; count status; sum attempted; mediated_calls = len(catalogues[].calls) in the MCP artifact and the native log's count for model-live. Rendered by scripts/render_live_conformance.py.",
+        "scope": "Real kernel, real installed CLIs with their own loops, real MCP transport, one live model; one pass, so no claim about run-to-run stability."
+      }
+    },
+    "conformance": {
+      "manifest_version": "1",
+      "judge_version": "4",
+      "case_set_hash": "1515d09cc4e6a4b5c4964a86ef839caa7b790b85b5e9279298b0169b6ead1b8b",
+      "world_set_hash": "7da4ac781f42a2609c83c03a20a6adaa2d9280d2096f37ec37d2cec88fbc07ba",
+      "case_ids": 29,
+      "condition_rows": 32,
+      "columns": [
+        {
+          "id": "adversary-embedded",
+          "label": "Adversary",
+          "rows": 32,
+          "statuses": {
+            "pass": 30,
+            "not_implemented": 2
+          },
+          "issued_attempts": 78,
+          "driver_issued_pass_cells": 0,
+          "record_gaps": 0
+        },
+        {
+          "id": "model-scripted",
+          "label": "Standard",
+          "promptSetHash": "ece3b355772e4c025ce0d1bf3be32ad0897e50c62c74c68ae4c8b5277c62f31c",
+          "rows": 32,
+          "statuses": {
+            "pass": 27,
+            "not_applicable": 3,
+            "not_implemented": 2
+          },
+          "issued_attempts": 75,
+          "driver_issued_pass_cells": 1,
+          "record_gaps": 0
+        },
+        {
+          "id": "codex-scripted",
+          "label": "Codex",
+          "rows": 32,
+          "statuses": {
+            "pass": 27,
+            "not_applicable": 3,
+            "not_implemented": 2
+          },
+          "issued_attempts": 75,
+          "driver_issued_pass_cells": 1,
+          "record_gaps": 0
+        },
+        {
+          "id": "claude-code-scripted",
+          "label": "Claude Code",
+          "rows": 32,
+          "statuses": {
+            "pass": 27,
+            "not_applicable": 3,
+            "not_implemented": 2
+          },
+          "issued_attempts": 75,
+          "driver_issued_pass_cells": 1,
+          "record_gaps": 0
+        },
+        {
+          "id": "deepseek-scripted",
+          "label": "DeepSeek",
+          "rows": 32,
+          "statuses": {
+            "pass": 27,
+            "not_applicable": 3,
+            "not_implemented": 2
+          },
+          "issued_attempts": 75,
+          "driver_issued_pass_cells": 1,
+          "record_gaps": 0
+        },
+        {
+          "id": "pi-scripted",
+          "label": "Pi",
+          "rows": 32,
+          "statuses": {
+            "pass": 27,
+            "not_applicable": 3,
+            "not_implemented": 2
+          },
+          "issued_attempts": 75,
+          "driver_issued_pass_cells": 1,
+          "record_gaps": 0
+        }
+      ],
+      "cells": 192,
+      "statuses": {
+        "pass": 165,
+        "not_applicable": 15,
+        "not_implemented": 12
+      },
+      "fail": 0,
+      "not_exercised": 0,
+      "issued_attempts": 453,
+      "aggregation": "Flatten rows[].cells; count status; sum attempted. Issued attempts include controls and repeated moves; not independent attacks.",
+      "scope": "Real kernel and scripted adapter frame translation; excludes live model generation and external CLI transport.",
+      "unimplemented": [
+        "typed-governed-views",
+        "replay-freshness"
+      ],
+      "timing_semantics": {
+        "grant_store_revocation": "Observed by the next turn, not refreshed during an admitted turn.",
+        "grant_expiry": "Checked on the next call.",
+        "route_lease_revocation": "Separate host transport check before subsequent dispatch, may refuse within an admitted turn."
+      }
+    },
+    "microbenchmark": {
+      "measured_turns": 200,
+      "discarded_warmup_turns": 60,
+      "calls_per_turn": 24,
+      "authorization_loads_per_turn": 1,
+      "in_turn_decisions_per_turn": 20,
+      "measurement_rules_version": "1",
+      "environment": {
+        "node": "v22.14.0",
+        "platform": "linux-x64",
+        "cpu": "AMD EPYC 7571",
+        "cores": 2,
+        "memory_gb": 8
+      },
+      "percentile_method": "nearest-rank",
+      "model_inference": false,
+      "timer_median_us": 0.16,
+      "timer_samples": 4096,
+      "rows": [
+        {
+          "label": "Authorization",
+          "source_label": "Capability authorization",
+          "path": "in-process",
+          "median_ms": 0.278,
+          "p95_ms": 1.11,
+          "tokens": 0,
+          "evidence_bytes": 1141,
+          "wire_bytes": null,
+          "operations_per_second": 2327,
+          "n": 4200
+        },
+        {
+          "label": "Authorization",
+          "source_label": "Capability authorization",
+          "path": "mcp-toolshare",
+          "median_ms": 0.277,
+          "p95_ms": 1.15,
+          "tokens": 0,
+          "evidence_bytes": 1103,
+          "wire_bytes": null,
+          "operations_per_second": 2343,
+          "n": 4200
+        },
+        {
+          "label": "Record assembly",
+          "source_label": "Execution-record write",
+          "path": "in-process",
+          "median_ms": 18.0,
+          "p95_ms": 20.4,
+          "tokens": 0,
+          "evidence_bytes": 52901,
+          "wire_bytes": null,
+          "operations_per_second": 55,
+          "n": 200
+        },
+        {
+          "label": "Tool overhead",
+          "source_label": "End-to-end SharedOS overhead",
+          "path": "in-process",
+          "median_ms": 0.894,
+          "p95_ms": 3.75,
+          "tokens": 0,
+          "evidence_bytes": 1068,
+          "wire_bytes": null,
+          "operations_per_second": 771,
+          "n": 4800
+        },
+        {
+          "label": "Tool overhead",
+          "source_label": "End-to-end SharedOS overhead",
+          "path": "mcp-toolshare",
+          "median_ms": 0.93,
+          "p95_ms": 3.78,
+          "tokens": 0,
+          "evidence_bytes": 918,
+          "wire_bytes": 489,
+          "operations_per_second": 763,
+          "n": 4800
+        }
+      ],
+      "interpretation": {
+        "Record assembly": "Assembly, validation, serialization. No durable disk write measured.",
+        "Tool overhead": "Provider cost subtracted by call id; MCP excludes transport, process boundary, vendor CLI tool-router latency."
+      }
+    }
+  },
+  "historical_behavior": {
+    "generation": "legacy-PAIR-NET; not current kernel validation",
+    "runtime_revision": "Not recovered for these runs; source archive revision is not assumed to identify execution runtime.",
+    "core_policy": {
+      "sources": {
+        "Files": {
+          "original_path": "<external>/ss_eval_llm.json",
+          "sha256": "a1a41ad593f2a97c4d6af9aebb894d965fe1fedd5052639b0cf2d596e76e3efa",
+          "bytes": 721486
+        },
+        "States": {
+          "original_path": "<external>/ss_todo_eval_llm.json",
+          "sha256": "8e6af0fa8ee100374bd7777009a02ad679354a7ee120452ccd9415a3a38cf366",
+          "bytes": 763529
+        }
+      },
+      "model_roles": {
+        "requester": "GPT-5-mini",
+        "responder": "GPT-5-mini",
+        "semantic_judge": "GPT-5-mini"
+      },
+      "evaluation": "Semantic judge OR deterministic fact match; no-response questions retained in totals.",
+      "aggregation": "Pool utility.correct/utility.total and security.leaked/security.total by mLevel.",
+      "conditions": {
+        "m0": "No policy",
+        "m1": "Generic privacy instruction",
+        "m2": "Operational policy package"
+      },
+      "results": {
+        "Files": {
+          "m0": {
+            "run_count": 2,
+            "runs": [
+              "single_m0_g401_q1-200_2026-04-28T18-35-22",
+              "single_m0_g404_q1-200_2026-04-28T18-35-23"
+            ],
+            "utility": {
+              "numerator": 156,
+              "denominator": 200,
+              "percent": 78.0
+            },
+            "disclosure": {
+              "numerator": 166,
+              "denominator": 200,
+              "percent": 83.0
+            },
+            "run_utility_percent": [
+              78.0,
+              78.0
+            ]
+          },
+          "m1": {
+            "run_count": 2,
+            "runs": [
+              "single_m1_g402_q1-200_2026-04-28T18-35-23",
+              "single_m1_g405_q1-200_2026-04-28T18-35-23"
+            ],
+            "utility": {
+              "numerator": 157,
+              "denominator": 200,
+              "percent": 78.5
+            },
+            "disclosure": {
+              "numerator": 163,
+              "denominator": 200,
+              "percent": 81.5
+            },
+            "run_utility_percent": [
+              78.0,
+              79.0
+            ]
+          },
+          "m2": {
+            "run_count": 2,
+            "runs": [
+              "single_m2_g403_q1-200_2026-04-28T18-35-23",
+              "single_m2_g406_q1-200_2026-04-28T18-35-23"
+            ],
+            "utility": {
+              "numerator": 154,
+              "denominator": 200,
+              "percent": 77.0
+            },
+            "disclosure": {
+              "numerator": 28,
+              "denominator": 200,
+              "percent": 14.0
+            },
+            "run_utility_percent": [
+              79.0,
+              75.0
+            ]
+          }
+        },
+        "States": {
+          "m0": {
+            "run_count": 2,
+            "runs": [
+              "single_m0_g401_q201-400_merged",
+              "single_m0_g404_q201-400_merged"
+            ],
+            "utility": {
+              "numerator": 110,
+              "denominator": 200,
+              "percent": 55.0
+            },
+            "disclosure": {
+              "numerator": 117,
+              "denominator": 200,
+              "percent": 58.5
+            },
+            "run_utility_percent": [
+              52.0,
+              58.0
+            ]
+          },
+          "m1": {
+            "run_count": 2,
+            "runs": [
+              "single_m1_g402_q201-400_merged",
+              "single_m1_g405_q201-400_merged"
+            ],
+            "utility": {
+              "numerator": 121,
+              "denominator": 200,
+              "percent": 60.5
+            },
+            "disclosure": {
+              "numerator": 126,
+              "denominator": 200,
+              "percent": 63.0
+            },
+            "run_utility_percent": [
+              57.0,
+              64.0
+            ]
+          },
+          "m2": {
+            "run_count": 2,
+            "runs": [
+              "single_m2_g403_q201-400_merged",
+              "single_m2_g406_q201-400_merged"
+            ],
+            "utility": {
+              "numerator": 36,
+              "denominator": 200,
+              "percent": 18.0
+            },
+            "disclosure": {
+              "numerator": 16,
+              "denominator": 200,
+              "percent": 8.0
+            },
+            "run_utility_percent": [
+              5.0,
+              31.0
+            ]
+          }
+        }
+      },
+      "prompt_mapping_status": "Raw records retain mLevel only; accompanying report supplies descriptions. Exact loaded prompt is unverified for single-turn aggregates."
+    },
+    "notes_scope": {
+      "source": {
+        "original_path": "<external>/summary_q1_200.json",
+        "sha256": "5eb6d6865b6ac82d050d54c856c5dac7d5a034c9310b02cd55a6d7678b5a0826",
+        "bytes": 3472
+      },
+      "model_roles": {
+        "responder": "GPT-5.5",
+        "semantic_judge": "GPT-5-mini"
+      },
+      "aggregation": "Sum utility_correct, utility_total, security_leaked, security_total and errors across R0-R4.",
+      "conditions": {
+        "D3": {
+          "requesters": 5,
+          "questions_per_requester": 200,
+          "runs_per_requester": 1,
+          "utility": {
+            "numerator": 435,
+            "denominator": 551,
+            "percent": 78.94736842105263
+          },
+          "private_boundary_disclosure": {
+            "numerator": 54,
+            "denominator": 418,
+            "percent": 12.91866028708134
+          },
+          "excluded_errors": 31
+        },
+        "MCC_H_D3": {
+          "requesters": 5,
+          "questions_per_requester": 200,
+          "runs_per_requester": 1,
+          "utility": {
+            "numerator": 352,
+            "denominator": 540,
+            "percent": 65.18518518518519
+          },
+          "private_boundary_disclosure": {
+            "numerator": 23,
+            "denominator": 412,
+            "percent": 5.58252427184466
+          },
+          "excluded_errors": 48
+        }
+      },
+      "labels": {
+        "utility": [
+          "answer",
+          "L"
+        ],
+        "disclosure": [
+          "P",
+          "B"
+        ]
+      },
+      "limitations": [
+        "One run per requester-condition",
+        "Post-hoc fixed folder profiles",
+        "Judge errors excluded",
+        "Notes only; no precise Todos mounting or action-safety claim",
+        "Preserved scoped runner adds a scope notice; individual effects of mounting and notice are not isolated.",
+        "Exact assembled run prompts and policy hashes are unavailable."
+      ]
+    },
+    "audit_sources": {
+      "master_matrix": {
+        "original_path": "<external>/file",
+        "sha256": "ebd90f257c41a0adbb3a8870e8376457902e8535c417a902487d50162307749e",
+        "bytes": 26497
+      },
+      "notes_scope_audit": {
+        "original_path": "<external>/AUDIT_REPORT.md",
+        "sha256": "9e81253d32cac693dca7422797c0ef58998744e9630c9f0e3a57f53fc48edc07",
+        "bytes": 12221
+      },
+      "network_audit": {
+        "original_path": "<external>/AUDIT_REPORT.md",
+        "sha256": "4969a044384a1727f4c699bd8676858170ec2acb5376efd1857e0e8460a9722d",
+        "bytes": 12883
+      }
+    },
+    "persistent_qualifier": {
+      "direct_disclosure": {
+        "numerator": 24,
+        "denominator": 191
+      },
+      "scan_candidates": 76,
+      "scan_candidates_overlapping_semantic_disclosure_judgments": 21,
+      "other_or_false_positive_hits": 55,
+      "not_claimed": "21 new or exclusively incidental disclosures; all 76 are confirmed leaks."
+    }
+  },
+  "open_evidence_requirements": [
+    "Current-kernel live useful workload with frozen world/evaluator migration mapping",
+    "Replicated Notes scope runs and error-inclusive sensitivity analysis",
+    "Frozen network graph and explicit edge-count convention",
+    "Mechanical action evidence for any NET mutation-safety claim"
+  ],
+  "generated_files": [
+    "tables/conformance.tex",
+    "tables/cost.tex"
+  ],
+  "revision_note_2026_09_10": "Numerical results unchanged. Prompt provenance refined in prompt_version_manifest.json."
+}

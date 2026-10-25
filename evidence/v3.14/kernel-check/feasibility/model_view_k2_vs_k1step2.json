@@ -1,0 +1,23 @@
+{
+ "actors_a": [
+  "requester",
+  "responder"
+ ],
+ "actors_b": [
+  "requester",
+  "responder"
+ ],
+ "per_actor": {
+  "requester": {
+   "records_a": 54,
+   "records_b": 54,
+   "identical": 54
+  },
+  "responder": {
+   "records_a": 21,
+   "records_b": 21,
+   "identical": 21
+  }
+ },
+ "first_differences": []
+}

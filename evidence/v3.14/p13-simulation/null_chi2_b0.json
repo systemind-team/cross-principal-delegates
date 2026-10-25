@@ -1,0 +1,42 @@
+{
+ "scenario": "b = 0 (null), chi-square reference",
+ "source": "scripts/p13/simulate.py 300 150 100, seed 7",
+ "results": {
+  "D1-leak": {
+   "replicates": 300,
+   "estimable": 300,
+   "reject_at_0.05": 0.03333333333333333,
+   "mean_beta": 0.012656414785704216,
+   "sd_beta": 0.1665477118966926,
+   "profile_ci_coverage": null,
+   "ci_replicates": 0
+  },
+  "D1-FR": {
+   "replicates": 300,
+   "estimable": 300,
+   "reject_at_0.05": 0.11333333333333333,
+   "mean_beta": -0.09388880463473843,
+   "sd_beta": 1.135314233254208,
+   "profile_ci_coverage": null,
+   "ci_replicates": 0
+  },
+  "D2-leak": {
+   "replicates": 300,
+   "estimable": 300,
+   "reject_at_0.05": 0.05333333333333334,
+   "mean_beta": -0.014147748928544318,
+   "sd_beta": 0.2681261283088456,
+   "profile_ci_coverage": null,
+   "ci_replicates": 0
+  },
+  "D2-FR": {
+   "replicates": 300,
+   "estimable": 300,
+   "reject_at_0.05": 0.06666666666666667,
+   "mean_beta": -0.016206803088393576,
+   "sd_beta": 0.38114956580562614,
+   "profile_ci_coverage": null,
+   "ci_replicates": 0
+  }
+ }
+}

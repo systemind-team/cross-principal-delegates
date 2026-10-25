@@ -1,0 +1,7 @@
+
+> sharedos@0.1.0-alpha.3 build <clone>
+> node scripts/clean-generated.mjs && tsc -b --force && node scripts/check-generated.mjs
+
+Conformance manifest is up to date.
+not_applicable: 4  not_implemented: 10  pass: 121
+SharedOS 0.1.0-alpha.3, runtime sharedos.conformance.hostile 1.0.0

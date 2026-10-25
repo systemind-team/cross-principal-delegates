@@ -1,0 +1,820 @@
+{
+ "method": "Estimates for the PAIR II configurations that were not run with the requester named.\n\nMeasured: DeepSeek's told ladder (D0/D1/D2 behind the verified head, R1-R3) and its untold D2 control on\nthe same route (evidence/v3.13/multi-told/pairs.json, 400 task-requester pairs scored in every cell).\nNot run: the told ladder for GLM 5.3 and Grok 4.6, and the told probing grid (DeepSeek, D2, R0-R3).\n\nMethod:\n  1. Head effect. For each rung r and metric k, DeepSeek's told rate against its untold reference on the\n     same paired tasks: the same-route control at D2, the ladder's own Azure runs at D0 and D1 (the route\n     itself was measured only at D2, with no effect). Uncertainty from a paired bootstrap of the 400 pairs,\n     stratified by requester (B = 4000, seed 0).\n  2. Scale. The effect is carried as a log-odds difference, except where any of the four counts behind it\n     (events and non-events, told and untold) is below five; a log-odds effect from a near-empty cell is\n     not identified, so there the risk difference is carried instead (fixed rule, set before estimation).\n  3. Ladder transfer (GLM, Grok, pooled over R1-R3). told = untold_model + effect, on the chosen scale.\n     Assumed: the head moves each model as it moves DeepSeek. Between-model heterogeneity tau^2 is the\n     DerSimonian-Laird variance across the three models of the measured policy-text effects (D0->D1 and\n     D0->D2 on decision leak and action safety, per requester), pooled; on the risk-difference scale it\n     enters as tau * p(1-p).\n  4. Probing transfer (DeepSeek, D2, R0-R3). told = untold_probing + effect at D2. Assumed: the D2 head\n     effect does not depend on the profile (strict vs simple) and holds for R0, which the told runs did not\n     include; between-requester heterogeneity (DerSimonian-Laird over R1-R3, pooled over metrics) enters\n     every interval. The untold rate's error is a task-cluster bootstrap (569 tasks, three repetitions).\n  95% interval: estimate +/- 1.96 * sqrt(var_untold + var_effect + tau^2) on the chosen scale, mapped back\n  to a rate and clipped to [0, 100]. Where told and untold agree on every task, the effect's standard\n  error is floored at the change one more event in the reference cell would make.",
+ "head_effect": {
+  "D0-AS": {
+   "scale": "logit",
+   "effect": 1.0989,
+   "se": 0.3125,
+   "told": [
+    53,
+    67
+   ],
+   "untold": [
+    37,
+    67
+   ]
+  },
+  "D0-AU": {
+   "scale": "logit",
+   "effect": -0.9418,
+   "se": 0.5377,
+   "told": [
+    54,
+    66
+   ],
+   "untold": [
+    61,
+    66
+   ]
+  },
+  "D0-DL": {
+   "scale": "logit",
+   "effect": -0.8294,
+   "se": 0.2308,
+   "told": [
+    80,
+    129
+   ],
+   "untold": [
+    102,
+    129
+   ]
+  },
+  "D0-FR": {
+   "scale": "rd",
+   "effect": 0.0343,
+   "se": 0.0156,
+   "told": [
+    9,
+    204
+   ],
+   "untold": [
+    2,
+    204
+   ]
+  },
+  "D0-TL": {
+   "scale": "logit",
+   "effect": -1.31,
+   "se": 0.26,
+   "told": [
+    80,
+    129
+   ],
+   "untold": [
+    111,
+    129
+   ]
+  },
+  "D0-U": {
+   "scale": "logit",
+   "effect": -0.2556,
+   "se": 0.3954,
+   "told": [
+    124,
+    138
+   ],
+   "untold": [
+    127,
+    138
+   ]
+  },
+  "D1-AS": {
+   "scale": "logit",
+   "effect": 1.3163,
+   "se": 0.3878,
+   "told": [
+    60,
+    67
+   ],
+   "untold": [
+    46,
+    67
+   ]
+  },
+  "D1-AU": {
+   "scale": "logit",
+   "effect": -0.7314,
+   "se": 0.5442,
+   "told": [
+    56,
+    66
+   ],
+   "untold": [
+    61,
+    66
+   ]
+  },
+  "D1-DL": {
+   "scale": "logit",
+   "effect": -1.5183,
+   "se": 0.2316,
+   "told": [
+    25,
+    129
+   ],
+   "untold": [
+    68,
+    129
+   ]
+  },
+  "D1-FR": {
+   "scale": "rd",
+   "effect": 0.0245,
+   "se": 0.0105,
+   "told": [
+    5,
+    204
+   ],
+   "untold": [
+    0,
+    204
+   ]
+  },
+  "D1-TL": {
+   "scale": "logit",
+   "effect": -1.9815,
+   "se": 0.2394,
+   "told": [
+    26,
+    129
+   ],
+   "untold": [
+    84,
+    129
+   ]
+  },
+  "D1-U": {
+   "scale": "logit",
+   "effect": 0.2391,
+   "se": 0.3045,
+   "told": [
+    126,
+    138
+   ],
+   "untold": [
+    123,
+    138
+   ]
+  },
+  "D2-AS": {
+   "scale": "rd",
+   "effect": -0.0149,
+   "se": 0.026,
+   "told": [
+    63,
+    67
+   ],
+   "untold": [
+    64,
+    67
+   ]
+  },
+  "D2-AU": {
+   "scale": "rd",
+   "effect": 0.0152,
+   "se": 0.0267,
+   "told": [
+    62,
+    66
+   ],
+   "untold": [
+    61,
+    66
+   ]
+  },
+  "D2-DL": {
+   "scale": "rd",
+   "effect": -0.0078,
+   "se": 0.0078,
+   "told": [
+    3,
+    129
+   ],
+   "untold": [
+    4,
+    129
+   ]
+  },
+  "D2-FR": {
+   "scale": "rd",
+   "effect": 0.0,
+   "se": 0.0049,
+   "told": [
+    3,
+    204
+   ],
+   "untold": [
+    3,
+    204
+   ]
+  },
+  "D2-TL": {
+   "scale": "rd",
+   "effect": -0.0155,
+   "se": 0.0109,
+   "told": [
+    3,
+    129
+   ],
+   "untold": [
+    5,
+    129
+   ]
+  },
+  "D2-U": {
+   "scale": "logit",
+   "effect": -0.4292,
+   "se": 0.3085,
+   "told": [
+    123,
+    138
+   ],
+   "untold": [
+    128,
+    138
+   ]
+  }
+ },
+ "tau2_between_models_logit": 0.267,
+ "tau2_between_requesters_D2": {
+  "logit": 0.0,
+  "rd": 0.00015
+ },
+ "ladder_told_estimates": {
+  "GLM-D0-DL": {
+   "untold_measured": {
+    "count": 107,
+    "n": 145,
+    "pct": 73.8
+   },
+   "scale": "logit",
+   "told_estimate_pct": 54.9,
+   "ci95_pct": [
+    27.4,
+    79.7
+   ]
+  },
+  "GLM-D0-FR": {
+   "untold_measured": {
+    "count": 2,
+    "n": 211,
+    "pct": 0.9
+   },
+   "scale": "rd",
+   "told_estimate_pct": 4.4,
+   "ci95_pct": [
+    0.0,
+    9.8
+   ]
+  },
+  "GLM-D0-AS": {
+   "untold_measured": {
+    "count": 51,
+    "n": 73,
+    "pct": 69.9
+   },
+   "scale": "logit",
+   "told_estimate_pct": 87.3,
+   "ci95_pct": [
+    65.6,
+    96.1
+   ]
+  },
+  "GLM-D0-U": {
+   "untold_measured": {
+    "count": 129,
+    "n": 141,
+    "pct": 91.5
+   },
+   "scale": "logit",
+   "told_estimate_pct": 88.9,
+   "ci95_pct": [
+    66.4,
+    97.0
+   ]
+  },
+  "GLM-D1-DL": {
+   "untold_measured": {
+    "count": 12,
+    "n": 145,
+    "pct": 8.3
+   },
+   "scale": "logit",
+   "told_estimate_pct": 2.0,
+   "ci95_pct": [
+    0.6,
+    6.7
+   ]
+  },
+  "GLM-D1-FR": {
+   "untold_measured": {
+    "count": 9,
+    "n": 211,
+    "pct": 4.3
+   },
+   "scale": "rd",
+   "told_estimate_pct": 6.7,
+   "ci95_pct": [
+    0.0,
+    13.9
+   ]
+  },
+  "GLM-D1-AS": {
+   "untold_measured": {
+    "count": 64,
+    "n": 73,
+    "pct": 87.7
+   },
+   "scale": "logit",
+   "told_estimate_pct": 96.2,
+   "ci95_pct": [
+    85.7,
+    99.1
+   ]
+  },
+  "GLM-D1-U": {
+   "untold_measured": {
+    "count": 117,
+    "n": 141,
+    "pct": 83.0
+   },
+   "scale": "logit",
+   "told_estimate_pct": 85.9,
+   "ci95_pct": [
+    63.5,
+    95.5
+   ]
+  },
+  "GLM-D2-DL": {
+   "untold_measured": {
+    "count": 3,
+    "n": 145,
+    "pct": 2.1
+   },
+   "scale": "rd",
+   "told_estimate_pct": 1.3,
+   "ci95_pct": [
+    0.0,
+    4.4
+   ]
+  },
+  "GLM-D2-FR": {
+   "untold_measured": {
+    "count": 3,
+    "n": 211,
+    "pct": 1.4
+   },
+   "scale": "rd",
+   "told_estimate_pct": 1.4,
+   "ci95_pct": [
+    0.0,
+    3.8
+   ]
+  },
+  "GLM-D2-AS": {
+   "untold_measured": {
+    "count": 72,
+    "n": 73,
+    "pct": 98.6
+   },
+   "scale": "rd",
+   "told_estimate_pct": 97.1,
+   "ci95_pct": [
+    90.7,
+    100.0
+   ]
+  },
+  "GLM-D2-U": {
+   "untold_measured": {
+    "count": 129,
+    "n": 141,
+    "pct": 91.5
+   },
+   "scale": "logit",
+   "told_estimate_pct": 87.1,
+   "ci95_pct": [
+    64.4,
+    96.2
+   ]
+  },
+  "GROK-D0-DL": {
+   "untold_measured": {
+    "count": 71,
+    "n": 110,
+    "pct": 64.5
+   },
+   "scale": "logit",
+   "told_estimate_pct": 44.1,
+   "ci95_pct": [
+    19.6,
+    71.9
+   ]
+  },
+  "GROK-D0-FR": {
+   "untold_measured": {
+    "count": 10,
+    "n": 162,
+    "pct": 6.2
+   },
+   "scale": "rd",
+   "told_estimate_pct": 9.6,
+   "ci95_pct": [
+    0.0,
+    19.6
+   ]
+  },
+  "GROK-D0-AS": {
+   "untold_measured": {
+    "count": 32,
+    "n": 56,
+    "pct": 57.1
+   },
+   "scale": "logit",
+   "told_estimate_pct": 79.9,
+   "ci95_pct": [
+    52.2,
+    93.6
+   ]
+  },
+  "GROK-D0-U": {
+   "untold_measured": {
+    "count": 92,
+    "n": 102,
+    "pct": 90.2
+   },
+   "scale": "logit",
+   "told_estimate_pct": 87.2,
+   "ci95_pct": [
+    62.1,
+    96.6
+   ]
+  },
+  "GROK-D1-DL": {
+   "untold_measured": {
+    "count": 29,
+    "n": 110,
+    "pct": 26.4
+   },
+   "scale": "logit",
+   "told_estimate_pct": 7.3,
+   "ci95_pct": [
+    2.4,
+    20.6
+   ]
+  },
+  "GROK-D1-FR": {
+   "untold_measured": {
+    "count": 1,
+    "n": 162,
+    "pct": 0.6
+   },
+   "scale": "rd",
+   "told_estimate_pct": 3.1,
+   "ci95_pct": [
+    0.0,
+    6.9
+   ]
+  },
+  "GROK-D1-AS": {
+   "untold_measured": {
+    "count": 36,
+    "n": 56,
+    "pct": 64.3
+   },
+   "scale": "logit",
+   "told_estimate_pct": 86.9,
+   "ci95_pct": [
+    62.6,
+    96.3
+   ]
+  },
+  "GROK-D1-U": {
+   "untold_measured": {
+    "count": 95,
+    "n": 102,
+    "pct": 93.1
+   },
+   "scale": "logit",
+   "told_estimate_pct": 94.2,
+   "ci95_pct": [
+    80.1,
+    98.5
+   ]
+  },
+  "GROK-D2-DL": {
+   "untold_measured": {
+    "count": 6,
+    "n": 110,
+    "pct": 5.5
+   },
+   "scale": "rd",
+   "told_estimate_pct": 4.7,
+   "ci95_pct": [
+    0.0,
+    11.1
+   ]
+  },
+  "GROK-D2-FR": {
+   "untold_measured": {
+    "count": 2,
+    "n": 162,
+    "pct": 1.2
+   },
+   "scale": "rd",
+   "told_estimate_pct": 1.2,
+   "ci95_pct": [
+    0.0,
+    3.5
+   ]
+  },
+  "GROK-D2-AS": {
+   "untold_measured": {
+    "count": 53,
+    "n": 56,
+    "pct": 94.6
+   },
+   "scale": "rd",
+   "told_estimate_pct": 93.2,
+   "ci95_pct": [
+    83.0,
+    100.0
+   ]
+  },
+  "GROK-D2-U": {
+   "untold_measured": {
+    "count": 95,
+    "n": 102,
+    "pct": 93.1
+   },
+   "scale": "logit",
+   "told_estimate_pct": 89.2,
+   "ci95_pct": [
+    67.3,
+    97.1
+   ]
+  }
+ },
+ "probing_told_estimates": {
+  "R0-U": {
+   "untold_measured": {
+    "count": 452,
+    "n": 496,
+    "pct": 91.1
+   },
+   "scale": "logit",
+   "told_estimate_pct": 86.9,
+   "ci95_pct": [
+    75.8,
+    93.3
+   ]
+  },
+  "R0-S": {
+   "untold_measured": {
+    "count": 425,
+    "n": 528,
+    "pct": 80.5
+   },
+   "scale": "rd",
+   "told_estimate_pct": 82.0,
+   "ci95_pct": [
+    76.3,
+    87.7
+   ]
+  },
+  "R0-FR": {
+   "untold_measured": {
+    "count": 49,
+    "n": 767,
+    "pct": 6.4
+   },
+   "scale": "rd",
+   "told_estimate_pct": 6.4,
+   "ci95_pct": [
+    3.1,
+    9.7
+   ]
+  },
+  "R0-AU": {
+   "untold_measured": {
+    "count": 232,
+    "n": 271,
+    "pct": 85.6
+   },
+   "scale": "rd",
+   "told_estimate_pct": 87.1,
+   "ci95_pct": [
+    79.3,
+    95.0
+   ]
+  },
+  "R0-AS": {
+   "untold_measured": {
+    "count": 267,
+    "n": 281,
+    "pct": 95.0
+   },
+   "scale": "rd",
+   "told_estimate_pct": 93.5,
+   "ci95_pct": [
+    87.0,
+    100.0
+   ]
+  },
+  "R1-U": {
+   "untold_measured": {
+    "count": 456,
+    "n": 492,
+    "pct": 92.7
+   },
+   "scale": "logit",
+   "told_estimate_pct": 89.1,
+   "ci95_pct": [
+    78.2,
+    94.9
+   ]
+  },
+  "R1-S": {
+   "untold_measured": {
+    "count": 410,
+    "n": 532,
+    "pct": 77.1
+   },
+   "scale": "rd",
+   "told_estimate_pct": 78.6,
+   "ci95_pct": [
+    72.6,
+    84.6
+   ]
+  },
+  "R1-FR": {
+   "untold_measured": {
+    "count": 16,
+    "n": 759,
+    "pct": 2.1
+   },
+   "scale": "rd",
+   "told_estimate_pct": 2.1,
+   "ci95_pct": [
+    0.0,
+    5.0
+   ]
+  },
+  "R1-AU": {
+   "untold_measured": {
+    "count": 256,
+    "n": 267,
+    "pct": 95.9
+   },
+   "scale": "rd",
+   "told_estimate_pct": 97.4,
+   "ci95_pct": [
+    90.9,
+    100.0
+   ]
+  },
+  "R1-AS": {
+   "untold_measured": {
+    "count": 256,
+    "n": 277,
+    "pct": 92.4
+   },
+   "scale": "rd",
+   "told_estimate_pct": 90.9,
+   "ci95_pct": [
+    83.5,
+    98.4
+   ]
+  },
+  "R2-U": {
+   "untold_measured": {
+    "count": 458,
+    "n": 490,
+    "pct": 93.5
+   },
+   "scale": "logit",
+   "told_estimate_pct": 90.2,
+   "ci95_pct": [
+    80.0,
+    95.5
+   ]
+  },
+  "R2-S": {
+   "untold_measured": {
+    "count": 399,
+    "n": 514,
+    "pct": 77.6
+   },
+   "scale": "rd",
+   "told_estimate_pct": 79.2,
+   "ci95_pct": [
+    73.5,
+    84.9
+   ]
+  },
+  "R2-FR": {
+   "untold_measured": {
+    "count": 16,
+    "n": 751,
+    "pct": 2.1
+   },
+   "scale": "rd",
+   "told_estimate_pct": 2.1,
+   "ci95_pct": [
+    0.0,
+    5.1
+   ]
+  },
+  "R2-AU": {
+   "untold_measured": {
+    "count": 247,
+    "n": 261,
+    "pct": 94.6
+   },
+   "scale": "rd",
+   "told_estimate_pct": 96.2,
+   "ci95_pct": [
+    89.3,
+    100.0
+   ]
+  },
+  "R2-AS": {
+   "untold_measured": {
+    "count": 248,
+    "n": 266,
+    "pct": 93.2
+   },
+   "scale": "rd",
+   "told_estimate_pct": 91.7,
+   "ci95_pct": [
+    84.4,
+    99.1
+   ]
+  },
+  "R3-U": {
+   "untold_measured": {
+    "count": 419,
+    "n": 451,
+    "pct": 92.9
+   },
+   "scale": "logit",
+   "told_estimate_pct": 89.4,
+   "ci95_pct": [
+    78.7,
+    95.0
+   ]
+  },
+  "R3-S": {
+   "untold_measured": {
+    "count": 378,
+    "n": 458,
+    "pct": 82.5
+   },
+   "scale": "rd",
+   "told_estimate_pct": 84.1,
+   "ci95_pct": [
+    78.5,
+    89.7
+   ]
+  },
+  "R3-FR": {
+   "untold_measured": {
+    "count": 11,
+    "n": 682,
+    "pct": 1.6
+   },
+   "scale": "rd",
+   "told_estimate_pct": 1.6,
+   "ci95_pct": [
+    0.0,
+    4.6
+   ]
+  },
+  "R3-AU": {
+   "untold_measured": {
+    "count": 220,
+    "n": 231,
+    "pct": 95.2
+   },
+   "scale": "rd",
+   "told_estimate_pct": 96.8,
+   "ci95_pct": [
+    89.8,
+    100.0
+   ]
+  },
+  "R3-AS": {
+   "untold_measured": {
+    "count": 229,
+    "n": 244,
+    "pct": 93.9
+   },
+   "scale": "rd",
+   "told_estimate_pct": 92.4,
+   "ci95_pct": [
+    85.3,
+    99.4
+   ]
+  }
+ }
+}

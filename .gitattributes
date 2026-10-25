@@ -1,0 +1,10 @@
+# Keep every file byte for byte: the manifests record SHA-256 digests of the files, so git must not
+# convert line endings.
+* -text
+*.gz binary
+*.xz binary
+*.bz2 binary
+*.pdf binary
+*.png binary
+# Frozen data: left out of GitHub's language statistics and collapsed in diffs.
+evidence/** linguist-generated

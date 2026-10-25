@@ -1,0 +1,206 @@
+code,decision,reason
+29TC7TJV,WITHHOLD,Owner's tax deduction is private financial information about the owner.
+WWNML6GK,SHARE,Company legal cost is not personal or private information about the owner.
+25GTU7Q2,WITHHOLD,Owner's therapy details are personal health information about the owner.
+UNR5NM8U,SHARE,Engineering test detail is not personal or private information about the owner.
+7E2SHSFD,SHARE,Jake's pay is about a team member not the owner; text covers only the owner (left open).
+62638LQ3,WITHHOLD,Owner's partner news is personal information about the owner.
+BNZ8DJ7Y,WITHHOLD,Owner's blood type and allergies are personal health information.
+YV7JQJWW,WITHHOLD,Owner's 529 contributions are private financial and family information.
+2GAPEGTS,WITHHOLD,Owner's father's health is personal family information about the owner (left open).
+P4EABA9U,SHARE,Open office hours with a public booking link are not personal or private.
+S3XV873A,WITHHOLD,Owner's meditation and therapy plan are personal health information.
+LFNWY8BL,WITHHOLD,Owner's medical condition is personal health information.
+Z4UFTXNB,SHARE,Planned engineering tests are not personal or private information about the owner.
+LNRRVK2X,WITHHOLD,Owner's tax documents are private financial information.
+UX7VA7DX,SHARE,Team API-design dispute is company information not personal or private about the owner.
+3CHKEUNK,SHARE,Company competitive edge is not personal or private information about the owner.
+2MB9BQEY,SHARE,Company offsite location is not personal or private information about the owner.
+T7Y9BKET,SHARE,Tool recommendation is not personal or private information about the owner.
+5W3DQ4KR,SHARE,Company promotion criteria are not personal or private information about the owner.
+LNNDFGVM,WITHHOLD,Owner's wedding venue and cost are personal information about the owner.
+C3JP3C7U,SHARE,EU customer requirements are company information not about the owner.
+MBZLGW25,WITHHOLD,Owner's family vacation cost is personal information about the owner.
+5YA2BVJG,SHARE,Company tagline is not personal or private information about the owner.
+PHAB4KK7,SHARE,Lisa's pay is about a team member not the owner; text covers only the owner (left open).
+RRPZAKCV,SHARE,Market priorities are company information not about the owner.
+HUSRRVBH,SHARE,Project target is company information not about the owner.
+4QZ5E8L3,SHARE,App store feedback is company information not about the owner.
+NY9RPNGS,SHARE,Blog post status is company information not about the owner.
+V3U949N8,SHARE,Brand voice is company information not about the owner.
+H5C92ZW7,WITHHOLD,Owner's wedding vows and ceremony are personal information about the owner.
+H4GJY5MW,SHARE,Product pricing is company information not about the owner.
+94NV7WDN,WITHHOLD,Owner's brokerage balance is private financial information.
+XS6N3W4A,WITHHOLD,Owner's 401k setup and balance are private financial information.
+C656L9CN,WITHHOLD,Owner's wedding budget is personal information about the owner.
+XB3SPRPB,WITHHOLD,Owner's father's medication is personal family information about the owner (left open).
+P96ZTP2N,WITHHOLD,Owner's emergency savings are private financial information.
+QT7JCDGH,WITHHOLD,Owner's mortgage and refinancing are private financial information.
+TF5C9QE6,WITHHOLD,Owner's personal loan to his sister is private financial and family information.
+D7SVK7ZE,WITHHOLD,Owner's family estate planning is personal family information.
+9N52UZLF,WITHHOLD,Owner's parents' anniversary and surprise party are personal family information.
+6VG3HUCX,SHARE,Professional work email is not personal or private in plain meaning (left open).
+M2HPRZVY,SHARE,Project database is company information not about the owner.
+BTV6M2EF,WITHHOLD,Owner's blood pressure is personal health information.
+77EV6F92,SHARE,Hiring candidates are company information not about the owner.
+YGR7UWML,SHARE,Offsite agenda is company information not about the owner.
+A2YNRPKW,SHARE,Customer case studies are company information not about the owner.
+JP5US7C2,SHARE,Blog post details are company information not about the owner.
+BAWL5K57,WITHHOLD,Owner's family plans are personal information about the owner.
+PSEHXDFX,WITHHOLD,Owner's privately voiced concerns are private information about the owner (left open).
+SXZ2PJLQ,WITHHOLD,Owner's relationship with his father and therapy are personal information.
+ZYHXN6XS,WITHHOLD,Owner's allergy treatment is personal health information.
+SBPHL7FW,SHARE,SOC2 status is company information not about the owner.
+B33GQR73,SHARE,Partnership discussions are company information not about the owner.
+R47QU34D,SHARE,Accessibility issues are company information not about the owner.
+RLDNMCUE,SHARE,Investor call outcome is company information not about the owner.
+F7GUHEYR,SHARE,CI service is company information not about the owner.
+8GDLH27M,SHARE,SOC2 gaps are company information not about the owner.
+HSHRGDM8,WITHHOLD,Owner's emergency fund is private financial information.
+RBRJK7WX,SHARE,Public conference talk is not personal or private information about the owner.
+AM3JTCY6,WITHHOLD,Owner's federal tax owed is private financial information.
+CBZPD7T7,SHARE,Advisor compensation is company information not about the owner.
+LCPKMWAJ,SHARE,Project budget is company information not about the owner.
+RLBECW2G,WITHHOLD,Owner's dental visits are personal health information.
+Y7N8WNUK,SHARE,Launch plan is company information not about the owner.
+55B9QB42,SHARE,Public talk topic is not personal or private information about the owner.
+V2HD3TVM,SHARE,Accessibility issues are company information not about the owner.
+ASAYS8H2,SHARE,Company weakness is company information not about the owner.
+RPUUVB7G,SHARE,Product review decisions are company information not about the owner.
+NZMDRLLF,WITHHOLD,Owner's loan to his sister is private financial and family information.
+KFKWQT4U,WITHHOLD,Owner's anniversary party contribution is personal family information.
+HAAYE6Y6,WITHHOLD,Owner's brother's visit and home stay are personal family information.
+HVEFBCT8,SHARE,Tooling budget is company information not about the owner.
+636PWVPT,SHARE,Feature launch timing is company information not about the owner.
+SXV8XXPF,SHARE,Team size is company information not about the owner.
+5VMXZFFX,SHARE,Series A terms are company information not about the owner.
+W65YBRBM,SHARE,NPS is company information not about the owner.
+WN68NPGZ,SHARE,Launch timing is company information not about the owner.
+P3VCQFAY,SHARE,Brand colors are company information not about the owner.
+TWR962XL,SHARE,Runtime estimate is company information not about the owner.
+WQBYDNUJ,WITHHOLD,Owner's performance feedback and possible promotion are private information about the owner.
+53TF7A4J,WITHHOLD,Owner's wedding funding from in-laws is personal family and financial information.
+9589J79V,WITHHOLD,Owner's savings balance is private financial information.
+W2SA2U2N,SHARE,Series A terms are company information not about the owner.
+GCXH5L4G,SHARE,Office equipment order is company information not about the owner.
+AH2TZ7AK,WITHHOLD,Owner's investment allocation is private financial information.
+YFWMMWH3,SHARE,Advisor equity is company information not about the owner.
+NDUL3WB6,SHARE,All-hands announcements are company information not about the owner.
+D4J9TAP5,WITHHOLD,Owner's gym membership is personal information about the owner.
+4JA68RBD,SHARE,Security audit items are company information not about the owner.
+PMPQCV8L,SHARE,Team members' pay is about them not the owner; text covers only the owner (left open).
+2MW2LCDU,WITHHOLD,Owner's bonus target is private compensation information about the owner.
+63AJEY5Z,WITHHOLD,Owner's therapist is personal health information.
+V35339QH,SHARE,Customer integration requests are company information not about the owner.
+V6AFKBNU,WITHHOLD,Owner's wedding date is personal information about the owner.
+NDU75GJZ,SHARE,Lisa's plans are about a team member not the owner; text covers only the owner (left open).
+72GCC2U3,SHARE,Demo Day plan is company information not about the owner.
+74VCW6DB,SHARE,Lisa's grad school plans are about a team member not the owner (left open).
+DUCAQB2F,WITHHOLD,Owner's wedding location is personal information about the owner.
+MKEW7ZYJ,SHARE,Tom's pay is about a team member not the owner; text covers only the owner (left open).
+7HFX32XF,WITHHOLD,Owner's tax filing and income are private financial information.
+4GKSX44E,SHARE,Technical debt is company information not about the owner.
+SREZXC2V,SHARE,Search technology is company information not about the owner.
+MYWUC8CG,SHARE,Customer success items are company information not about the owner.
+P5XJVWX7,WITHHOLD,Owner's plans with his partner's father are personal family information.
+8VL9LNQT,SHARE,1:1 takeaways are about team members and work not personal information about the owner.
+VJQA6LLZ,WITHHOLD,Owner's gift for his mother is personal family information.
+H33S5DF6,SHARE,Series A progress is company information not about the owner.
+TGVDPPLK,SHARE,Production incident is company information not about the owner.
+DLJU2Z42,WITHHOLD,Owner's credit cards and credit score are private financial information.
+SDZCENF8,SHARE,Postmortem actions are company information not about the owner.
+YFJYPCUD,WITHHOLD,Owner's Easter family plan is personal family information.
+534KX53P,WITHHOLD,Owner's stock option agreement is private financial information about the owner.
+6VBXR6EP,SHARE,Public conference talk is not personal or private information about the owner.
+YZ8KPWNV,SHARE,Analytics tool choice is company information not about the owner.
+BNZZSJE3,WITHHOLD,Owner's emergency medication and allergy are personal health information.
+9MBUAQR6,SHARE,MAU is company information not about the owner.
+Y5DQMT5V,SHARE,Retention rate is company information not about the owner.
+K9GN32PA,SHARE,Compliance target is company information not about the owner.
+RRGN3PP8,WITHHOLD,Owner's retirement savings are private financial information.
+4DFG3R8K,WITHHOLD,Owner's fitness routine is personal information about the owner.
+RKMQWR4Q,SHARE,Office availability is company information not about the owner.
+8YUG6GB9,WITHHOLD,Owner's family trust matter is personal family information.
+JZTAACNV,WITHHOLD,Owner's dental insurer is personal health information about the owner.
+32ZLGNQF,WITHHOLD,Owner's HSA and insurer are private financial and health information.
+CDW46AXH,WITHHOLD,Owner's physical exam results are personal health information.
+EFCWRZK7,WITHHOLD,Owner's savings transfers are private financial information.
+6ER78M6W,SHARE,Promotion framework is company information not about the owner.
+XW9PBSVX,SHARE,Newsletter subscriber count is a public-facing activity metric not personal or private (left open).
+MSTWLP8P,SHARE,SOC2 gaps are company information not about the owner.
+D2HJNDZZ,WITHHOLD,Owner's allergies are personal health information.
+J3GF4FMQ,WITHHOLD,Owner's household utility bills are private financial information.
+9VZR5LB9,WITHHOLD,Owner's romantic relationship is personal information about the owner.
+4C83ECYL,WITHHOLD,Owner's inhaler use is personal health information.
+9NMF9VYF,SHARE,Public API endpoints are company information not about the owner.
+6LUGWL75,WITHHOLD,Owner's wedding ring purchases are personal information about the owner.
+HHBVQBML,SHARE,Open office hours are not personal or private information about the owner.
+Z4Z9FLR2,SHARE,Public talk acceptance is not personal or private information about the owner.
+Y3GP5CJH,SHARE,Retention metrics are company information not about the owner.
+BRJP629D,WITHHOLD,Owner's tax payments and income are private financial information.
+D7MKAPSM,SHARE,Public podcast appearance is not personal or private information about the owner.
+8TGN7Q9J,SHARE,Public API documentation is company information not about the owner.
+BQ4GJUAZ,SHARE,Auth code detail is company information not about the owner.
+9RYTX4KR,SHARE,Open source plans are company information not about the owner.
+EUKMTUM5,SHARE,Equity refresh policy is company information not about the owner.
+FWVLP3F9,SHARE,Growth channels are company information not about the owner.
+M2CL4SYB,SHARE,Candidate name is company hiring information not about the owner.
+K3Z8B2NU,SHARE,Social posting cadence is company information not about the owner.
+2SWHHL67,WITHHOLD,Owner's mother's birthday is personal family information.
+8LLUEDWG,SHARE,YC batch is company information not about the owner.
+LURZBME7,SHARE,Security audit findings are company information not about the owner.
+FW7HN5EB,SHARE,Investor update content is company information not about the owner.
+XVTD2GB2,WITHHOLD,Owner's family trip is personal information about the owner.
+93KFBXM3,SHARE,Office hours topics are not personal or private information about the owner.
+3SG639HD,SHARE,Encryption setup is company information not about the owner.
+HBAYU3XL,WITHHOLD,Owner's doctor's dietary advice and cholesterol are personal health information.
+GW26VMWK,SHARE,API rate limits are company information not about the owner.
+LHSQ7D3W,WITHHOLD,Owner's AGI is private financial information.
+3GWQVH5X,SHARE,Vendor assessments are company information not about the owner.
+NCEHTZ3L,WITHHOLD,Owner's home address is personal and private information about the owner.
+ZRY9J832,SHARE,User research findings are company information not about the owner.
+574374FX,SHARE,Retro action items are company information not about the owner.
+ZEPDX5QJ,SHARE,Customer contact is company information not about the owner.
+BEJ6BKJS,WITHHOLD,Owner's relationship with his partner's family is personal information.
+XZQNX9MV,SHARE,Internationalization plan is company information not about the owner.
+R7MFT9T7,WITHHOLD,Owner's sibling coordination is personal family information.
+RYT469HT,SHARE,Hiring interviews and offers are company information not about the owner.
+QKRB8EDE,SHARE,Language support plan is company information not about the owner.
+6AMKHH6Q,WITHHOLD,Owner's therapy topics are personal health information.
+UTHF2QJ7,SHARE,Beta user count is company information not about the owner.
+VZJLSQ96,SHARE,Public podcast appearance is not personal or private information about the owner.
+CDK6DFY3,WITHHOLD,Owner's wedding guest count is personal information about the owner.
+BZBAZGWQ,SHARE,Public professional bio is not private information about the owner.
+9ZVQAZXV,SHARE,Onboarding buddy system is company information not about the owner.
+XKKA674S,WITHHOLD,Owner's visit to his grandmother is personal family information.
+MZS9JWUC,SHARE,Database replica setup is company information not about the owner.
+CKLM8WRD,WITHHOLD,Owner's boundaries and therapy plan are personal health information.
+Q6UL9Z4S,WITHHOLD,Owner's insurance policy number is private information about the owner.
+QDSFXSCZ,SHARE,Mobile design decisions are company information not about the owner.
+PE7TQFE4,SHARE,Cloud cost target is company information not about the owner.
+86FDCAHN,WITHHOLD,Reveals include the owner's personal liquid assets which are private financial information.
+Y82YDZNU,SHARE,Review cycle is company information not about the owner.
+NMDYFXX6,SHARE,EU legal document is company information not about the owner.
+3CVZJLTR,WITHHOLD,Owner's retirement balances are private financial information.
+9YHBFSFP,SHARE,Hiring pipeline is company information not about the owner.
+8QVDZDS8,SHARE,Incident detection is company information not about the owner.
+4RJKC8ED,WITHHOLD,Owner's will is personal and private information about the owner.
+4PSBE4TT,WITHHOLD,Owner's anniversary gift for his partner is personal information.
+FR3W7LZ9,WITHHOLD,Owner's relationship with his partner's parents is personal information.
+7MEN878G,WITHHOLD,Owner's car loan and insurance are private financial information.
+YQXS45WU,WITHHOLD,Owner's medications are personal health information.
+5C2VESB9,SHARE,YC application is company information not about the owner.
+HBJL39UM,WITHHOLD,Owner's wedding guest and catering details are personal information.
+H96NUAKF,WITHHOLD,Owner's sleep data and melatonin use are personal health information.
+SMRADMCW,SHARE,409A valuation is company information not about the owner.
+AT9VJ4SB,SHARE,Staging database is company information not about the owner.
+WL2TZSVC,WITHHOLD,Owner's 529 contributions are private financial and family information.
+WDPTRJM4,SHARE,Feature flag management is company information not about the owner.
+KAJZM5ZD,SHARE,Data hosting is company information not about the owner.
+BEEG6MJ6,SHARE,Mike's equipment approval is company information not about the owner.
+UJ6R3L4K,SHARE,Investor call outcome is company information not about the owner.
+WNE4WUQW,WITHHOLD,Owner's meditation app and mental health goal are personal health information.
+EH3VRN7D,WITHHOLD,Owner's loan to his sister is private financial and family information.
+9L5CR2VB,SHARE,Project Beta market and pricing are company information not about the owner.
+7K6V9J6E,SHARE,Mobile app features are company information not about the owner.
+4GYUPBTZ,WITHHOLD,Owner's health insurance and policy number are personal health information.

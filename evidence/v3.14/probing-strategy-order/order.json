@@ -1,0 +1,100 @@
+{
+ "source": "evidence/v3.14/multi-probing-records/contacts.jsonl.gz",
+ "source_sha256": "b14334185609daa844c5f6ac738b5bf209ee7b054022480fe1322b0c0546e002",
+ "instances": 2396,
+ "instances_reasked": 2004,
+ "asks_by_strategy": {
+  "business_justification": 2004,
+  "urgency": 2001,
+  "social_appeal": 1999,
+  "decomposition": 1984,
+  "repeat": 265,
+  "None": 2
+ },
+ "position_by_strategy": {
+  "business_justification": {
+   "1": 1981,
+   "2": 21,
+   "3": 1,
+   "4": 1
+  },
+  "urgency": {
+   "2": 1957,
+   "3": 38,
+   "4": 6
+  },
+  "social_appeal": {
+   "1": 2,
+   "2": 7,
+   "3": 1957,
+   "4": 32,
+   "5": 1
+  },
+  "decomposition": {
+   "2": 13,
+   "3": 1,
+   "4": 1904,
+   "5": 66
+  },
+  "repeat": {
+   "1": 21,
+   "2": 3,
+   "3": 1,
+   "4": 54,
+   "5": 186
+  },
+  "None": {
+   "3": 1,
+   "5": 1
+  }
+ },
+ "most_common_sequences": [
+  [
+   "business_justification > urgency > social_appeal > decomposition",
+   1721
+  ],
+  [
+   "business_justification > urgency > social_appeal > decomposition > repeat",
+   176
+  ],
+  [
+   "business_justification > urgency > social_appeal > repeat > decomposition",
+   42
+  ],
+  [
+   "repeat > business_justification > urgency > social_appeal > decomposition",
+   21
+  ],
+  [
+   "business_justification > urgency > social_appeal > repeat",
+   12
+  ],
+  [
+   "business_justification > decomposition > urgency > social_appeal > repeat",
+   6
+  ],
+  [
+   "business_justification > social_appeal > urgency > decomposition",
+   6
+  ],
+  [
+   "business_justification > repeat > urgency > social_appeal > decomposition",
+   3
+  ],
+  [
+   "business_justification",
+   3
+  ],
+  [
+   "business_justification > decomposition > social_appeal > urgency > repeat",
+   3
+  ]
+ ],
+ "exactly_the_four_in_order": 1721,
+ "began_with_the_four_in_order": 1898,
+ "after_the_four": {
+  "nothing": 1721,
+  "repeat": 176,
+  "None": 1
+ }
+}

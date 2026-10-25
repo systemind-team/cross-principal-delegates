@@ -1,0 +1,152 @@
+{
+ "PAIR I (single-request grid)": {
+  "evaluator": {
+   "label": "E1",
+   "commits": [
+    "58829feb17289e4e3092dae44089831a51336c4a",
+    "0735564b0c318b83fd2b611f73b25f2c74f4e5b5",
+    "79b52cf8b76b",
+    "40f4f01"
+   ]
+  },
+  "routes": [
+   {
+    "cells": "codex",
+    "transport": "OpenRouter",
+    "model": "deepseek/deepseek-v4.1-flash",
+    "temperature": 0
+   },
+   {
+    "cells": "ds41",
+    "transport": "OpenRouter",
+    "model": "deepseek/deepseek-v4.1-flash",
+    "temperature": 0
+   },
+   {
+    "cells": "glm",
+    "transport": "OpenRouter",
+    "model": "z-ai/glm-5.3-flash",
+    "temperature": 0
+   },
+   {
+    "cells": "luna",
+    "transport": "Azure OpenAI",
+    "model": "gpt-5.6-luna",
+    "temperature": 1
+   },
+   {
+    "cells": "xC",
+    "transport": "OpenRouter",
+    "model": "deepseek/deepseek-v4.1-flash",
+    "temperature": 0
+   },
+   {
+    "cells": "xD",
+    "transport": "OpenRouter",
+    "model": "z-ai/glm-5.3-flash",
+    "temperature": 0
+   }
+  ],
+  "dates": {
+   "openrouter_cells": "restored from a backup taken 2026-09-19; run dates not recorded in frozen files",
+   "azure_cells": "the voided first attempts are marked 2026-09-22; run dates not recorded in frozen files",
+   "manifest_generated": "2026-09-24"
+  },
+  "offline_rescore": {
+   "tool": "SharedEval scripts/experiments/rescore-relationship-grid.ts --include-text --recover-quarantined-qa, commit 5aaa7f1 (feat/azure-reasoning-max-completion-tokens; parent 40f4f01)",
+   "relationship_labels": {
+    "file": "dataset/pact-pair/relationship_labels/relationship_label_matrix_v2.json",
+    "version": "2.0.0-rc1",
+    "sha256": "be59b5ad7acccb764ac435809d3fb523c86ae1b0354907699cd3df8752641d16"
+   },
+   "policy_assets_commit": "SharedEval 9c29358 (feat(pact-pair): register the policy-v3 ladder D0-D6 x R0-R3 as static identified assets)"
+  },
+  "source": "evidence/v3.13/single-grid/manifest.json (derived_from), cells.json"
+ },
+ "PAIR II probing grid": {
+  "evaluator": {
+   "label": "E2",
+   "commits": [
+    "e20062ef31adb01113a64a0acc80d226ccf1f305",
+    "5db4182c8c3b1082e4585b6473d70fa8296cbe67",
+    "26dd392fc83df022f29bc0852f4bedfdf69ba0ae"
+   ]
+  },
+  "route": "DeepSeek-V4-Flash-0731, requester and responder; an Azure OpenAI deployment of that name (provider `azure-openai`).",
+  "dates": {
+   "R1_sessions_finished_utc": "2026-09-23 18:09:20 – 2026-09-24 10:01:45",
+   "whole_grid": "2026-09-23/24 (evidence/v3.14/multi-probing-records/README.md)"
+  },
+  "source": "evidence/v3.14/packing-delivery/README.md; evidence/v3.14/multi-probing-records/README.md"
+ },
+ "PAIR II packing study": {
+  "evaluator": {
+   "label": "E2",
+   "commits": [
+    "e20062ef31adb01113a64a0acc80d226ccf1f305",
+    "5db4182c8c3b1082e4585b6473d70fa8296cbe67",
+    "26dd392fc83df022f29bc0852f4bedfdf69ba0ae"
+   ]
+  },
+  "route": "DeepSeek-V4-Flash-0731, requester and responder; an Azure OpenAI deployment of that name (provider `azure-openai`).",
+  "dates": {
+   "one_per_session": "2026-09-24 10:45:20 – 12:02:51",
+   "ten_per_session": "2026-09-24 11:01:58 – 11:58:29"
+  },
+  "source": "evidence/v3.14/packing-delivery/README.md"
+ },
+ "PAIR II ladder grid": {
+  "evaluator": {
+   "label": "E3",
+   "commits": "8081e7e78e0e5acfe79830c606619faae53c3b0a"
+  },
+  "routes": [
+   "`DeepSeek-V4-Flash-0731` on Azure.",
+   "`z-ai/glm-5.3` on OpenRouter, pinned to `baidu/fp8`, no fallback. Cash cost $73.06.",
+   "`grok-4.6` on Azure, with `model.toolRootCombinators: drop`. DeepSeek and GLM requests are byte-identical to `26dd392`."
+  ],
+  "dates": "2026-09-28",
+  "lane": "t3simple (the v3.13 manifest's source field names t3full, a different strict-profile grid)",
+  "source": "evidence/v3.13/multi-table3/README.md; evidence/v3.14/ladder-per-task/README.md"
+ },
+ "PAIR II header comparison": {
+  "evaluator": {
+   "label": "E3",
+   "commit": "8081e7e78e0e"
+  },
+  "route": "gateway to OpenRouter, pinned to the `Relace` upstream with no fallback",
+  "model": "deepseek/deepseek-v4-flash-0731",
+  "temperature": 0,
+  "dates": "2026-10-02 19:48–20:59 UTC",
+  "source": "evidence/v3.13/multi-identity/{manifest.json, README.md}"
+ },
+ "PAIR II header ladder": {
+  "evaluator": {
+   "label": "E3-header",
+   "commit": "4565add (8081e7e + told-policy patch, scripts/pair_multi/told_ladder/sharedeval-told-4565add.patch)"
+  },
+  "route": "`deepseek/deepseek-v4-flash-0731` through the budget-capped gateway to OpenRouter, pinned   to the `Relace` upstream; temperature 0, 4,096 output tokens, `simple` profile, 22 ticks.",
+  "model": "deepseek/deepseek-v4-flash-0731",
+  "temperature": 0,
+  "dates": "2026-10-03 17:25–18:07 UTC",
+  "untold_reference": "DeepSeek's own ladder runs (`t3simple`, Azure `DeepSeek-V4-Flash-0731`).",
+  "source": "evidence/v3.13/multi-told/{manifest.json, README.md}"
+ },
+ "NET run": {
+  "evaluator": {
+   "label": "E4",
+   "commit": "d44e4788562c438a97180443ee8cc5170094ad07"
+  },
+  "routes": {
+   "deepseek-v4-flash": "OpenRouter deepseek/deepseek-v4-flash",
+   "glm-5.3": "OpenRouter z-ai/glm-5.3"
+  },
+  "upstream_provider_pinned": false,
+  "dates": {
+   "deepseek-v4-flash": "2026-10-01 12:09 -> 13:38",
+   "glm-5.3": "2026-10-01 12:08 -> 13:27"
+  },
+  "judge": "DeepSeek-V4-Flash-0731 (Azure)",
+  "source": "evidence/v3.13/net-rerun/manifest.json"
+ }
+}

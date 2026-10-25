@@ -1,0 +1,17 @@
+{
+ "note": "post hoc (added after the results were read); decides nothing",
+ "folder": {
+  "path only | both NO": 67,
+  "path only | both YES": 7,
+  "word folder or preposition | both NO": 1,
+  "word folder or preposition | both YES": 23,
+  "word folder or preposition | contested": 2
+ },
+ "title": {
+  "other case only | both NO": 41,
+  "other case only | both YES": 8,
+  "other case only | contested": 4,
+  "own capitalization | both YES": 46,
+  "own capitalization | contested": 1
+ }
+}

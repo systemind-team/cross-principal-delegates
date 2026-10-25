@@ -1,0 +1,57 @@
+{
+ "provenance": {
+  "runs/fix356.py": {
+   "bytes": 3982,
+   "mtime": "2026-09-24T15:21:17Z",
+   "sha256": "fb58cf02b5fac9c6420fb7b062956234a6fc1aac131eabf3f2773d0b8acdc746"
+  },
+  "runs/grid600/MANIFEST.json": {
+   "bytes": 351315,
+   "mtime": "2026-09-23T18:01:32Z",
+   "sha256": "cfb2bc819ed4505addf2c8f497beed61f13f51196d195a1710d1510e1ed45b8c"
+  },
+  "runs/grid600/agg_rel.py": {
+   "bytes": 1840,
+   "mtime": "2026-09-24T09:07:27Z",
+   "sha256": "85d84f68800eb2c60d1594cc617e8c1fcd0d16b8e8f8883b57c3301094d01f03"
+  },
+  "runs/grid600/probing_outcomes.py": {
+   "bytes": 2841,
+   "mtime": "2026-10-03T18:33:04Z",
+   "sha256": "b726912d68fd05b72ddf20b58d75c65da02d5fb13393699d19addf6b5096a539"
+  },
+  "runs/grid600/sched2.sh": {
+   "bytes": 1961,
+   "mtime": "2026-09-23T19:11:04Z",
+   "sha256": "cee4e3ac62a3182ce4c7880d523771442e4832e7a7d220ccdc154b4b99925e68"
+  },
+  "runs/grid600/self_intro.py": {
+   "bytes": 4586,
+   "mtime": "2026-10-02T19:06:21Z",
+   "sha256": "145f3ba69cee38b827ec7da9e86c8929c412af6f3753cc3e60b1f5f460356d17"
+  },
+  "runs/pack1/sched.sh": {
+   "bytes": 907,
+   "mtime": "2026-09-24T10:45:00Z",
+   "sha256": "a17c77591ef97bf2ada99ec8e30d60e33d34f135b806b73a9974e33cd98d6828"
+  },
+  "runs/pack10/sched.sh": {
+   "bytes": 908,
+   "mtime": "2026-09-24T10:45:00Z",
+   "sha256": "e306c2474f3644e960dcfd70aa03331a89b9b63c44a60f826557597ed33c56af"
+  },
+  "runs/recompute.py": {
+   "bytes": 4250,
+   "mtime": "2026-09-24T10:46:22Z",
+   "sha256": "639a3719d3c3fa149d83005f6b7460ca3abbb4e3e98179f210251ffa04cdb6be"
+  }
+ },
+ "questions_path": "<vm>/repos/SharedEval-a1/dataset/pact-pair/tasks/questions.json",
+ "questions_sha256": "9032f46a79b2c9d6f6664b8aabea4006561b287de66bb59b0304cf619fdb265a",
+ "sharedeval_checkout": "<vm>/repos/SharedEval-a1",
+ "sharedeval_head": "8081e7e78e0e5acfe79830c606619faae53c3b0a",
+ "sharedeval_tracked_dirty": false,
+ "uncompressed_sha256": {
+  "sessions.jsonl": "18e7e4cee52bf84bd335aff9d1bdfe78fef2ea68be8742243610aa350d4fb59f"
+ }
+}

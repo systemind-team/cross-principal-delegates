@@ -1,0 +1,6 @@
+t3simple 1389 folders, 1389 results
+pair2id2 413 folders, 413 results
+pair2told 619 folders, 619 results
+pack1 180 folders, 180 results
+pack10 18 folders, 18 results
+grid600 2400 folders, 2400 results

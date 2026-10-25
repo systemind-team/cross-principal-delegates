@@ -1,0 +1,5 @@
+revision 3aa07e33999b656a10ace294fd4e41df8cbc318e
+tree 1745fa36f8157c8a52a3dd12266ea046ceccda4c
+node v25.8.1
+pnpm 9.15.0
+os Darwin 25.5.0 arm64

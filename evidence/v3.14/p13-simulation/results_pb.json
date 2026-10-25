@@ -1,0 +1,20 @@
+{
+ "scenario": "b = 0 (null)",
+ "seed": 11,
+ "results": {
+  "D1-FR": {
+   "replicates": 100,
+   "estimable": 100,
+   "B": 99,
+   "reject_pb": 0.03,
+   "reject_chi2": 0.06
+  },
+  "D2-FR": {
+   "replicates": 100,
+   "estimable": 100,
+   "B": 99,
+   "reject_pb": 0.05,
+   "reject_chi2": 0.08
+  }
+ }
+}

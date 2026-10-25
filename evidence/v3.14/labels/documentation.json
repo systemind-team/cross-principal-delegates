@@ -1,0 +1,282 @@
+{
+ "agreement_with_majority": {
+  "A1": 0.8842892768079801,
+  "A2": 0.9132169576059851,
+  "A3": 0.8703241895261845,
+  "A4": 0.9336658354114713,
+  "E": 0.888279301745636
+ },
+ "annotated_cells": 2005,
+ "annotated_rows": 401,
+ "by_category": {
+  "action/authorized_complete": {
+   "cells": 32,
+   "kappa_R0_R3": 0.6777982883034066
+  },
+  "action/authorized_create": {
+   "cells": 188,
+   "kappa_R0_R3": 0.7771551724137931
+  },
+  "action/authorized_edit": {
+   "cells": 180,
+   "kappa_R0_R3": 0.7092962184873951
+  },
+  "qa/personal_finance": {
+   "cells": 96,
+   "kappa_R0_R3": 0.11175979983319442
+  },
+  "qa/personal_health": {
+   "cells": 80,
+   "kappa_R0_R3": 0.4512648809523814
+  },
+  "qa/personal_relationships": {
+   "cells": 104,
+   "kappa_R0_R3": 0.5729815688625879
+  },
+  "qa/sensitive_work": {
+   "cells": 124,
+   "kappa_R0_R3": 0.3218048046374226
+  },
+  "qa/work_public": {
+   "cells": 800,
+   "kappa_R0_R3": 0.7569961119377909
+  }
+ },
+ "by_requester": {
+  "action/R0": {
+   "cells": 100,
+   "kappa": NaN
+  },
+  "action/R1": {
+   "cells": 100,
+   "kappa": 0.18235658092460003
+  },
+  "action/R2": {
+   "cells": 100,
+   "kappa": 0.379595588235294
+  },
+  "action/R3": {
+   "cells": 100,
+   "kappa": NaN
+  },
+  "action/R4": {
+   "cells": 100,
+   "kappa": -0.004016064257032142
+  },
+  "qa/R0": {
+   "cells": 301,
+   "kappa": 0.11796422627001445
+  },
+  "qa/R1": {
+   "cells": 301,
+   "kappa": 0.6407212323881547
+  },
+  "qa/R2": {
+   "cells": 301,
+   "kappa": 0.6960888172779676
+  },
+  "qa/R3": {
+   "cells": 301,
+   "kappa": 0.3160477298827636
+  },
+  "qa/R4": {
+   "cells": 301,
+   "kappa": 0.04466688270136361
+  }
+ },
+ "fleiss_kappa": {
+  "actions": 0.7638620531231038,
+  "questions": 0.5871044563360523
+ },
+ "fleiss_kappa_without_E": {
+  "action": 0.7216804978844171,
+  "qa": 0.5679624145059923
+ },
+ "tie_resolved_B_cells": {
+  "by_requester": {
+   "R1": 9,
+   "R3": 23,
+   "R4": 7
+  },
+  "total": 39
+ },
+ "variant_counts": {
+  "S1_removed": 32,
+  "S2_removed_3_2_cells": {
+   "R0": 16,
+   "R1": 32,
+   "R2": 34,
+   "R3": 62
+  },
+  "S5_cells_changed": {
+   "R0": 1,
+   "R1": 9,
+   "R2": 21,
+   "R3": 15
+  },
+  "S5_ties_to_protect": {
+   "R0": 1,
+   "R1": 23,
+   "R2": 29,
+   "R3": 38
+  },
+  "S6_removed_rows": 99
+ },
+ "vote_splits": {
+  "R0/authorized_complete": {
+   "5-0": 8
+  },
+  "R0/authorized_create": {
+   "5-0": 47
+  },
+  "R0/authorized_edit": {
+   "5-0": 45
+  },
+  "R0/personal_finance": {
+   "5-0": 24
+  },
+  "R0/personal_health": {
+   "4-1": 1,
+   "5-0": 19
+  },
+  "R0/personal_relationships": {
+   "5-0": 26
+  },
+  "R0/sensitive_work": {
+   "5-0": 31
+  },
+  "R0/work_public": {
+   "3-2": 16,
+   "4-1": 25,
+   "5-0": 159
+  },
+  "R1/authorized_complete": {
+   "3-2": 1,
+   "4-1": 4,
+   "5-0": 3
+  },
+  "R1/authorized_create": {
+   "3-2": 3,
+   "4-1": 15,
+   "5-0": 29
+  },
+  "R1/authorized_edit": {
+   "3-2": 5,
+   "4-1": 23,
+   "5-0": 17
+  },
+  "R1/personal_finance": {
+   "4-1": 1,
+   "5-0": 23
+  },
+  "R1/personal_health": {
+   "4-1": 1,
+   "5-0": 19
+  },
+  "R1/personal_relationships": {
+   "5-0": 26
+  },
+  "R1/sensitive_work": {
+   "3-2": 15,
+   "4-1": 16
+  },
+  "R1/work_public": {
+   "3-2": 8,
+   "4-1": 72,
+   "5-0": 120
+  },
+  "R2/authorized_complete": {
+   "3-2": 3,
+   "4-1": 2,
+   "5-0": 3
+  },
+  "R2/authorized_create": {
+   "3-2": 4,
+   "4-1": 24,
+   "5-0": 19
+  },
+  "R2/authorized_edit": {
+   "3-2": 8,
+   "4-1": 19,
+   "5-0": 18
+  },
+  "R2/personal_finance": {
+   "3-2": 1,
+   "4-1": 2,
+   "5-0": 21
+  },
+  "R2/personal_health": {
+   "4-1": 1,
+   "5-0": 19
+  },
+  "R2/personal_relationships": {
+   "5-0": 26
+  },
+  "R2/sensitive_work": {
+   "3-2": 18,
+   "4-1": 13
+  },
+  "R2/work_public": {
+   "4-1": 51,
+   "5-0": 149
+  },
+  "R3/authorized_complete": {
+   "5-0": 8
+  },
+  "R3/authorized_create": {
+   "5-0": 47
+  },
+  "R3/authorized_edit": {
+   "5-0": 45
+  },
+  "R3/personal_finance": {
+   "3-2": 14,
+   "4-1": 10
+  },
+  "R3/personal_health": {
+   "3-2": 13,
+   "4-1": 7
+  },
+  "R3/personal_relationships": {
+   "3-2": 11,
+   "4-1": 15
+  },
+  "R3/sensitive_work": {
+   "5-0": 31
+  },
+  "R3/work_public": {
+   "3-2": 24,
+   "4-1": 23,
+   "5-0": 153
+  },
+  "R4/authorized_complete": {
+   "5-0": 8
+  },
+  "R4/authorized_create": {
+   "4-1": 2,
+   "5-0": 45
+  },
+  "R4/authorized_edit": {
+   "5-0": 45
+  },
+  "R4/personal_finance": {
+   "5-0": 24
+  },
+  "R4/personal_health": {
+   "4-1": 1,
+   "5-0": 19
+  },
+  "R4/personal_relationships": {
+   "5-0": 26
+  },
+  "R4/sensitive_work": {
+   "3-2": 4,
+   "4-1": 6,
+   "5-0": 21
+  },
+  "R4/work_public": {
+   "3-2": 193,
+   "4-1": 7
+  }
+ }
+}

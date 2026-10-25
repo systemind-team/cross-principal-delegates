@@ -1,0 +1,92 @@
+{
+ "P14-AC-01": {
+  "A": "INTERNAL",
+  "A_unclear": false,
+  "B": "INTERNAL",
+  "B_unclear": false,
+  "code": "QXZPQFLT",
+  "stratum": "internal",
+  "task": "PAIR-Q330"
+ },
+ "P14-AC-02": {
+  "A": "PUBLIC",
+  "A_unclear": false,
+  "B": "PUBLIC",
+  "B_unclear": false,
+  "code": "A3WQD78D",
+  "stratum": "public",
+  "task": "PAIR-Q100"
+ },
+ "P14-AC-03": {
+  "A": "INTERNAL",
+  "A_unclear": true,
+  "B": "INTERNAL",
+  "B_unclear": true,
+  "code": "9NB3GLUU",
+  "stratum": "unclear",
+  "task": "PAIR-Q90"
+ },
+ "P14-AC-04": {
+  "A": "PUBLIC",
+  "A_unclear": false,
+  "B": "PUBLIC",
+  "B_unclear": false,
+  "code": "D7USQXD6",
+  "stratum": "public",
+  "task": "PAIR-Q231"
+ },
+ "P14-AC-05": {
+  "A": "INTERNAL",
+  "A_unclear": false,
+  "B": "INTERNAL",
+  "B_unclear": false,
+  "code": "ARJYGRX6",
+  "stratum": "internal",
+  "task": "PAIR-Q320"
+ },
+ "P14-AC-06": {
+  "A": "PUBLIC",
+  "A_unclear": false,
+  "B": "PUBLIC",
+  "B_unclear": false,
+  "code": "9WVHNNGE",
+  "stratum": "public",
+  "task": "PAIR-Q47"
+ },
+ "P14-AC-07": {
+  "A": "PUBLIC",
+  "A_unclear": false,
+  "B": "PUBLIC",
+  "B_unclear": false,
+  "code": "3PMY86C8",
+  "stratum": "public",
+  "task": "PAIR-Q30"
+ },
+ "P14-AC-08": {
+  "A": "PUBLIC",
+  "A_unclear": false,
+  "B": "PUBLIC",
+  "B_unclear": false,
+  "code": "WQJXLKTL",
+  "stratum": "public",
+  "task": "PAIR-Q322"
+ },
+ "P14-AC-09": {
+  "A": "INTERNAL",
+  "A_unclear": true,
+  "B": "INTERNAL",
+  "B_unclear": true,
+  "code": "RCKK9NAF",
+  "stratum": "unclear",
+  "task": "PAIR-Q208"
+ },
+ "P14-AC-10": {
+  "A": "INTERNAL",
+  "A_unclear": true,
+  "B": "INTERNAL",
+  "B_unclear": true,
+  "code": "EU38QMHR",
+  "stratum": "unclear",
+  "task": "PAIR-Q220"
+ }
+}

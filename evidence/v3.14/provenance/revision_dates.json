@@ -1,0 +1,100 @@
+{
+ "source": "git log -1 in the local SharedEval (E*) and SharedOS (K*) clones, read only; no subject or author is recorded",
+ "labels": {
+  "K1": {
+   "commits": [
+    {
+     "commit": "c74461c1c4b715fd60c18401100cd72362d3afc1",
+     "author_date": "2026-09-09T02:05:26+08:00",
+     "committer_date": "2026-09-09T02:05:26+08:00"
+    }
+   ]
+  },
+  "K1-live": {
+   "commits": [
+    {
+     "commit": "5392148fbcb229927643df5009ef2e0e2508af27",
+     "author_date": "2026-09-08T13:14:57Z",
+     "committer_date": "2026-09-08T15:18:47Z"
+    }
+   ]
+  },
+  "K2": {
+   "commits": [
+    {
+     "commit": "3aa07e33999b656a10ace294fd4e41df8cbc318e",
+     "author_date": "2026-08-28T20:47:46Z",
+     "committer_date": "2026-08-28T20:47:46Z"
+    }
+   ]
+  },
+  "E1": {
+   "commits": [
+    {
+     "commit": "58829feb17289e4e3092dae44089831a51336c4a",
+     "author_date": "2026-09-12T13:27:45-07:00",
+     "committer_date": "2026-09-12T13:29:44-07:00"
+    },
+    {
+     "commit": "0735564b0c318b83fd2b611f73b25f2c74f4e5b5",
+     "author_date": "2026-09-13T21:48:38-07:00",
+     "committer_date": "2026-09-13T21:48:38-07:00"
+    },
+    {
+     "commit": "79b52cf8b76b",
+     "missing_from_clone": true
+    },
+    {
+     "commit": "40f4f01",
+     "missing_from_clone": true
+    }
+   ]
+  },
+  "E2": {
+   "commits": [
+    {
+     "commit": "e20062ef31adb01113a64a0acc80d226ccf1f305",
+     "author_date": "2026-09-24T01:08:56+08:00",
+     "committer_date": "2026-09-24T01:08:56+08:00"
+    },
+    {
+     "commit": "5db4182c8c3b1082e4585b6473d70fa8296cbe67",
+     "author_date": "2026-09-24T02:54:14+08:00",
+     "committer_date": "2026-09-24T02:54:14+08:00"
+    },
+    {
+     "commit": "26dd392fc83df022f29bc0852f4bedfdf69ba0ae",
+     "author_date": "2026-09-24T11:12:05+08:00",
+     "committer_date": "2026-09-24T11:12:05+08:00"
+    }
+   ],
+   "span_first_to_last_committer_date": "10:03:09",
+   "span_hours": 10.05
+  },
+  "E3": {
+   "commits": [
+    {
+     "commit": "8081e7e78e0e5acfe79830c606619faae53c3b0a",
+     "author_date": "2026-09-28T22:14:53+08:00",
+     "committer_date": "2026-09-28T22:14:53+08:00"
+    }
+   ]
+  },
+  "E3-header": {
+   "commits": [
+    {
+     "commit": "4565add03628d967938f8a6cebf2d33b27f80249",
+     "missing_from_clone": true
+    }
+   ]
+  },
+  "E4": {
+   "commits": [
+    {
+     "commit": "d44e4788562c438a97180443ee8cc5170094ad07",
+     "missing_from_clone": true
+    }
+   ]
+  }
+ }
+}

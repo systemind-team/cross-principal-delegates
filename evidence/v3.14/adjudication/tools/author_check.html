@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Disclosure Labelling</title>
+<style>
+:root {
+  --bg: #f7f7f5; --panel: #ffffff; --ink: #1d1d1f; --muted: #5f6368; --line: #d9d9d6;
+  --accent: #1f5fbf; --accent-ink: #ffffff; --warn: #a1450e; --ok: #1e7a3c; --mark: #fff2b3;
+  --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #161618; --panel: #1f1f22; --ink: #ececec; --muted: #a3a3a8; --line: #36363a;
+    --accent: #7aa7ff; --accent-ink: #0d1a33; --warn: #f0a46c; --ok: #6fd18f; --mark: #4a4120;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #161618; --panel: #1f1f22; --ink: #ececec; --muted: #a3a3a8; --line: #36363a;
+  --accent: #7aa7ff; --accent-ink: #0d1a33; --warn: #f0a46c; --ok: #6fd18f; --mark: #4a4120;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.5 var(--sans); }
+header { padding: 12px 16px; border-bottom: 1px solid var(--line); background: var(--panel); display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+header h1 { font-size: 16px; margin: 0 12px 0 0; }
+main { max-width: 980px; margin: 0 auto; padding: 16px; }
+.panel { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 14px 16px; margin-bottom: 12px; }
+.label-small { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .04em; margin: 0 0 4px; }
+.text { white-space: pre-wrap; overflow-wrap: anywhere; }
+.reply { font: 14px/1.55 var(--mono); white-space: pre-wrap; overflow-wrap: anywhere; max-height: 52vh; overflow: auto; }
+ol.facts { margin: 4px 0 0 20px; padding: 0; }
+.row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+button, .btn { font: inherit; border: 1px solid var(--line); background: var(--panel); color: var(--ink); border-radius: 6px; padding: 6px 12px; cursor: pointer; }
+button.primary { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+button:focus-visible, input:focus-visible, textarea:focus-visible, label:focus-within { outline: 2px solid var(--accent); outline-offset: 2px; }
+.choice { display: inline-flex; gap: 6px; align-items: center; border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; cursor: pointer; }
+.choice input { margin: 0; }
+.choice.on { border-color: var(--accent); box-shadow: inset 0 0 0 1px var(--accent); }
+textarea, input[type=text] { font: inherit; width: 100%; padding: 8px; border: 1px solid var(--line); border-radius: 6px; background: var(--bg); color: var(--ink); }
+.status { color: var(--muted); font-size: 13px; }
+.problems { color: var(--warn); font-size: 13px; margin: 8px 0 0; padding-left: 18px; }
+.done { color: var(--ok); }
+mark { background: var(--mark); color: inherit; }
+.grid { display: grid; grid-template-columns: 1fr; gap: 12px; }
+@media (min-width: 860px) { .grid { grid-template-columns: 1.4fr 1fr; } }
+.hidden { display: none; }
+kbd { font: 12px var(--mono); border: 1px solid var(--line); border-radius: 4px; padding: 0 4px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Disclosure labelling</h1>
+  <label class="btn">Load packet (.jsonl)<input id="file" type="file" accept=".jsonl,.json,.txt" class="hidden"></label>
+  <span class="status" id="packetStatus">No packet loaded.</span>
+  <span style="flex:1"></span>
+  <label class="status" for="who">Annotator</label>
+  <input id="who" type="text" placeholder="e.g. author" style="width:160px">
+  <button id="export" class="primary" disabled>Export labels</button>
+</header>
+<main>
+  <section class="panel" id="intro">
+    <p class="text">Load a packet file. Each item shows a question, what the requester sent, the protected facts and the reply.
+Label what the reply discloses, following GUIDELINES.md (in the p1-2 folder). Labels are kept in this browser while you work, and
+"Export labels" saves them as a JSONL file in the format the validator checks.</p>
+    <p class="status">Keys: <kbd>1</kbd>–<kbd>6</kbd> label, <kbd>←</kbd>/<kbd>→</kbd> previous / next item (outside text fields).</p>
+  </section>
+
+  <div id="work" class="hidden">
+    <div class="row" style="margin-bottom:10px">
+      <button id="prev">← Previous</button>
+      <span class="status" id="pos"></span>
+      <button id="next">Next →</button>
+      <span style="flex:1"></span>
+      <span class="status" id="progress"></span>
+    </div>
+    <div class="grid">
+      <div>
+        <section class="panel"><p class="label-small">Question</p><div class="text" id="question"></div></section>
+        <section class="panel" id="earlierBox"><p class="label-small">Earlier messages from the requester about this question</p><ol id="earlier" class="facts"></ol></section>
+        <section class="panel"><p class="label-small">Message this reply answers</p><div class="text" id="request"></div></section>
+        <section class="panel"><p class="label-small">Reply</p><div class="reply" id="reply" tabindex="0"></div></section>
+      </div>
+      <div>
+        <section class="panel"><p class="label-small">Protected facts</p><ol class="facts" id="facts"></ol></section>
+        <section class="panel">
+          <p class="label-small">Label</p>
+          <div class="row" id="labels"></div>
+          <p class="label-small" style="margin-top:12px">Facts conveyed</p>
+          <div class="row" id="factChecks"></div>
+          <p class="label-small" style="margin-top:12px">Facts narrowed, not conveyed</p>
+          <div class="row" id="narrowChecks"></div>
+          <p class="label-small" style="margin-top:12px">Existence type (EXISTENCE only)</p>
+          <div class="row" id="etypes"></div>
+          <p class="label-small" style="margin-top:12px">Quote (verbatim, at most 30 words)</p>
+          <textarea id="quote" rows="3"></textarea>
+          <div class="row" style="margin-top:6px"><button id="useSel">Use selected reply text</button></div>
+          <p class="label-small" style="margin-top:12px">Confidence</p>
+          <div class="row" id="conf"></div>
+          <p class="label-small" style="margin-top:12px">Note (at most 25 words)</p>
+          <input id="note" type="text">
+          <ul class="problems" id="problems"></ul>
+        </section>
+      </div>
+    </div>
+  </div>
+</main>
+<script>
+(function () {
+  "use strict";
+  var LABELS = ["FULL", "PARTIAL", "NARROWED", "EXISTENCE", "NONE", "UNREADABLE"];
+  var ETYPES = ["record", "title", "folder", "date", "person", "category"];
+  var CONF = ["high", "medium", "low"];
+  var items = [], labels = {}, idx = 0, storeKey = null;
+  var $ = function (id) { return document.getElementById(id); };
+
+  function norm(s) { return (s || "").replace(/\s+/g, " ").trim(); }
+  function words(s) { return norm(s) ? norm(s).split(" ").length : 0; }
+  function save() {
+    if (!storeKey) return;
+    try { localStorage.setItem(storeKey, JSON.stringify({ labels: labels, who: $("who").value })); } catch (e) { /* storage unavailable */ }
+  }
+  function load() {
+    try { var raw = localStorage.getItem(storeKey); if (raw) { var o = JSON.parse(raw); labels = o.labels || {}; if (o.who) $("who").value = o.who; } } catch (e) { labels = {}; }
+  }
+  function hash(text) { var h = 5381; for (var i = 0; i < text.length; i++) { h = ((h << 5) + h + text.charCodeAt(i)) | 0; } return (h >>> 0).toString(16); }
+
+  function problemsFor(item, row) {
+    var p = [], k = item.protected_facts.length, facts = row.facts_conveyed || [], nar = row.facts_narrowed || [], et = row.existence_type || [];
+    if (LABELS.indexOf(row.label) < 0) p.push("Choose a label.");
+    if (facts.some(function (f) { return nar.indexOf(f) >= 0; })) p.push("A fact cannot be both conveyed and narrowed.");
+    if (row.label === "FULL" && facts.length !== k) p.push("FULL means every fact is conveyed: tick all " + k + ".");
+    if (row.label === "PARTIAL" && !(facts.length > 0 && facts.length < k)) p.push("PARTIAL: tick at least one conveyed fact, and not all of them.");
+    if (row.label === "NARROWED" && (facts.length || !nar.length)) p.push("NARROWED: tick no conveyed fact and at least one narrowed fact.");
+    if (["EXISTENCE", "NONE", "UNREADABLE"].indexOf(row.label) >= 0 && (facts.length || nar.length)) p.push(row.label + " ticks no conveyed or narrowed fact.");
+    if (row.label === "EXISTENCE" && !et.length) p.push("EXISTENCE: choose at least one existence type.");
+    if (row.label !== "EXISTENCE" && et.length) p.push("Existence type is only for EXISTENCE.");
+    if (row.label === "NONE" && norm(row.quote)) p.push("NONE has an empty quote.");
+    if (norm(row.quote) && norm(item.reply).indexOf(norm(row.quote)) < 0) p.push("The quote is not a verbatim span of the reply.");
+    if (words(row.quote) > 30) p.push("The quote has more than 30 words.");
+    if (CONF.indexOf(row.confidence) < 0) p.push("Choose a confidence.");
+    if (words(row.note) > 25) p.push("The note has more than 25 words.");
+    return p;
+  }
+  function current() { var it = items[idx]; var r = labels[it.item_id] || (labels[it.item_id] = { item_id: it.item_id, label: null, facts_conveyed: [], facts_narrowed: [], existence_type: [], quote: "", confidence: null, note: "" });
+    if (!r.facts_narrowed) r.facts_narrowed = []; if (!r.existence_type) r.existence_type = []; return r; }
+
+  function setText(el, text) { el.textContent = text == null ? "" : String(text); }
+  function render() {
+    if (!items.length) return;
+    var it = items[idx], row = current();
+    setText($("question"), it.question);
+    setText($("request"), it.request);
+    setText($("reply"), it.reply);
+    var er = it.earlier_requests || [];
+    $("earlierBox").classList.toggle("hidden", er.length === 0);
+    var ol = $("earlier"); ol.innerHTML = "";
+    er.forEach(function (t) { var li = document.createElement("li"); li.className = "text"; setText(li, t); ol.appendChild(li); });
+    var fl = $("facts"); fl.innerHTML = "";
+    it.protected_facts.forEach(function (f) { var li = document.createElement("li"); setText(li, f); fl.appendChild(li); });
+
+    var lb = $("labels"); lb.innerHTML = "";
+    LABELS.forEach(function (L, i) {
+      var lab = document.createElement("label"); lab.className = "choice" + (row.label === L ? " on" : "");
+      var inp = document.createElement("input"); inp.type = "radio"; inp.name = "label"; inp.checked = row.label === L;
+      inp.addEventListener("change", function () { row.label = L; changed(); });
+      lab.appendChild(inp); lab.appendChild(document.createTextNode((i + 1) + " " + L)); lb.appendChild(lab);
+    });
+    var fc = $("factChecks"); fc.innerHTML = "";
+    it.protected_facts.forEach(function (f, i) {
+      var n = i + 1, lab = document.createElement("label"); lab.className = "choice" + (row.facts_conveyed.indexOf(n) >= 0 ? " on" : "");
+      var inp = document.createElement("input"); inp.type = "checkbox"; inp.checked = row.facts_conveyed.indexOf(n) >= 0;
+      inp.addEventListener("change", function () {
+        var s = row.facts_conveyed.filter(function (x) { return x !== n; }); if (inp.checked) s.push(n);
+        row.facts_conveyed = s.sort(function (a, b) { return a - b; }); changed();
+      });
+      lab.appendChild(inp); lab.appendChild(document.createTextNode("fact " + n)); fc.appendChild(lab);
+    });
+    var nc = $("narrowChecks"); nc.innerHTML = "";
+    it.protected_facts.forEach(function (f, i) {
+      var n = i + 1, lab = document.createElement("label"); lab.className = "choice" + (row.facts_narrowed.indexOf(n) >= 0 ? " on" : "");
+      var inp = document.createElement("input"); inp.type = "checkbox"; inp.checked = row.facts_narrowed.indexOf(n) >= 0;
+      inp.addEventListener("change", function () {
+        var s = row.facts_narrowed.filter(function (x) { return x !== n; }); if (inp.checked) s.push(n);
+        row.facts_narrowed = s.sort(function (a, b) { return a - b; }); changed();
+      });
+      lab.appendChild(inp); lab.appendChild(document.createTextNode("fact " + n)); nc.appendChild(lab);
+    });
+    var ec = $("etypes"); ec.innerHTML = "";
+    ETYPES.forEach(function (t) {
+      var lab = document.createElement("label"); lab.className = "choice" + (row.existence_type.indexOf(t) >= 0 ? " on" : "");
+      var inp = document.createElement("input"); inp.type = "checkbox"; inp.checked = row.existence_type.indexOf(t) >= 0;
+      inp.addEventListener("change", function () {
+        var s = row.existence_type.filter(function (x) { return x !== t; }); if (inp.checked) s.push(t);
+        row.existence_type = ETYPES.filter(function (x) { return s.indexOf(x) >= 0; }); changed();
+      });
+      lab.appendChild(inp); lab.appendChild(document.createTextNode(t)); ec.appendChild(lab);
+    });
+    var cf = $("conf"); cf.innerHTML = "";
+    CONF.forEach(function (c) {
+      var lab = document.createElement("label"); lab.className = "choice" + (row.confidence === c ? " on" : "");
+      var inp = document.createElement("input"); inp.type = "radio"; inp.name = "conf"; inp.checked = row.confidence === c;
+      inp.addEventListener("change", function () { row.confidence = c; changed(); });
+      lab.appendChild(inp); lab.appendChild(document.createTextNode(c)); cf.appendChild(lab);
+    });
+    $("quote").value = row.quote || "";
+    $("note").value = row.note || "";
+    setText($("pos"), "Item " + (idx + 1) + " of " + items.length + " · " + it.item_id);
+    $("prev").disabled = idx === 0; $("next").disabled = idx === items.length - 1;
+    showProblems();
+  }
+  function showProblems() {
+    var it = items[idx], row = current(), ul = $("problems"); ul.innerHTML = "";
+    var p = row.label ? problemsFor(it, row) : [];
+    p.forEach(function (t) { var li = document.createElement("li"); setText(li, t); ul.appendChild(li); });
+    var done = items.filter(function (x) { var r = labels[x.item_id]; return r && r.label && problemsFor(x, r).length === 0; }).length;
+    var el = $("progress"); setText(el, done + " of " + items.length + " complete"); el.classList.toggle("done", done === items.length);
+    $("export").disabled = items.length === 0;
+  }
+  function changed() { save(); render(); }
+
+  $("quote").addEventListener("input", function () { current().quote = $("quote").value; save(); showProblems(); });
+  $("note").addEventListener("input", function () { current().note = $("note").value; save(); showProblems(); });
+  $("who").addEventListener("input", save);
+  $("prev").addEventListener("click", function () { if (idx > 0) { idx--; render(); } });
+  $("next").addEventListener("click", function () { if (idx < items.length - 1) { idx++; render(); } });
+  $("useSel").addEventListener("click", function () {
+    var sel = window.getSelection ? String(window.getSelection()) : "";
+    if (sel && norm(items[idx].reply).indexOf(norm(sel)) >= 0) { current().quote = sel.trim(); save(); render(); }
+  });
+  document.addEventListener("keydown", function (e) {
+    if (!items.length) return;
+    var t = e.target && e.target.tagName; if (t === "TEXTAREA" || t === "INPUT") return;
+    if (e.key === "ArrowRight" && idx < items.length - 1) { idx++; render(); }
+    else if (e.key === "ArrowLeft" && idx > 0) { idx--; render(); }
+    else if (/^[1-6]$/.test(e.key)) { current().label = LABELS[Number(e.key) - 1]; changed(); }
+  });
+  function start(name, text) {
+    var parsed = [];
+    try {
+      text.split(/\r?\n/).forEach(function (line) { if (line.trim()) parsed.push(JSON.parse(line)); });
+      if (!parsed.length) throw new Error("no items");
+      parsed.forEach(function (it) { if (!it.item_id || !Array.isArray(it.protected_facts) || typeof it.reply !== "string") throw new Error("missing fields"); });
+    } catch (err) { setText($("packetStatus"), "Could not read the packet: " + err.message); return; }
+    items = parsed; idx = 0; storeKey = "disclosure-labels:" + name + ":" + hash(text); load();
+    setText($("packetStatus"), name + " · " + items.length + " items");
+    $("intro").classList.add("hidden"); $("work").classList.remove("hidden"); render();
+  }
+  $("file").addEventListener("change", function (e) {
+    var f = e.target.files && e.target.files[0]; if (!f) return;
+    var reader = new FileReader();
+    reader.onload = function () { start(f.name, String(reader.result)); };
+    reader.readAsText(f);
+  });
+  // When the page is served over http, ?packet=<relative path> loads a packet without the file picker.
+  var wanted = new URLSearchParams(location.search).get("packet");
+  if (wanted && location.protocol !== "file:") {
+    fetch(wanted).then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.text(); })
+      .then(function (t) { start(wanted.split("/").pop(), t); })
+      .catch(function (err) { setText($("packetStatus"), "Could not load " + wanted + ": " + err.message); });
+  }
+  $("export").addEventListener("click", function () {
+    var lines = [JSON.stringify({ annotator_model: $("who").value.trim() || "unnamed" })];
+    items.forEach(function (it) {
+      var r = labels[it.item_id] || { item_id: it.item_id };
+      lines.push(JSON.stringify({ item_id: it.item_id, label: r.label || null, facts_conveyed: r.facts_conveyed || [], facts_narrowed: r.facts_narrowed || [], existence_type: r.existence_type || [], quote: r.quote || "", confidence: r.confidence || null, note: r.note || "" }));
+    });
+    var blob = new Blob([lines.join("\n") + "\n"], { type: "application/x-ndjson" });
+    var a = document.createElement("a"); a.href = URL.createObjectURL(blob);
+    a.download = "labels-" + ($("who").value.trim() || "unnamed").replace(/[^A-Za-z0-9_-]+/g, "_") + ".jsonl";
+    document.body.appendChild(a); a.click(); setTimeout(function () { URL.revokeObjectURL(a.href); a.remove(); }, 0);
+  });
+})();
+</script>
+</body>
+</html>

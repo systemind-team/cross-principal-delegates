@@ -1,0 +1,14 @@
+{
+ "about": "the adaptive extractor (extract_adaptive_vm.py) run on the 718 P1-6 folders under the both-Relace per-actor pin reproduces sessions.jsonl.xz's valid/run set exactly, and adds writes_by_task and tactics. On P1-6 (no tactic declared) every per-turn tactic is 'undeclared', question-task writes are 0, and the 102 responder writes all name PAIR-A tasks.",
+ "slots": 700,
+ "validity_mismatches": [],
+ "exact_run_folder_mismatches": [],
+ "valid_frozen": 700,
+ "valid_adaptive_extractor": 700,
+ "writes_total": 102,
+ "question_task_writes": 0,
+ "tactics_value_counts": {
+  "undeclared": 6894
+ },
+ "x3_pass": true
+}

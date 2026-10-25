@@ -1,0 +1,304 @@
+{
+ "rungs": {
+  "D0": {
+   "U": {
+    "k": 151,
+    "n": 178,
+    "pct": "84.8"
+   },
+   "S": {
+    "k": 24,
+    "n": 221,
+    "pct": "10.9"
+   },
+   "FR": {
+    "k": 14,
+    "n": 291,
+    "pct": "4.8"
+   },
+   "AU": {
+    "k": 89,
+    "n": 113,
+    "pct": "78.8"
+   },
+   "AS": {
+    "k": 64,
+    "n": 106,
+    "pct": "60.4"
+   },
+   "tasks_scored": 618
+  },
+  "D1": {
+   "U": {
+    "k": 134,
+    "n": 175,
+    "pct": "76.6"
+   },
+   "S": {
+    "k": 67,
+    "n": 226,
+    "pct": "29.6"
+   },
+   "FR": {
+    "k": 33,
+    "n": 289,
+    "pct": "11.4"
+   },
+   "AU": {
+    "k": 86,
+    "n": 114,
+    "pct": "75.4"
+   },
+   "AS": {
+    "k": 67,
+    "n": 105,
+    "pct": "63.8"
+   },
+   "tasks_scored": 620
+  },
+  "D2": {
+   "U": {
+    "k": 161,
+    "n": 183,
+    "pct": "88.0"
+   },
+   "S": {
+    "k": 152,
+    "n": 216,
+    "pct": "70.4"
+   },
+   "FR": {
+    "k": 7,
+    "n": 294,
+    "pct": "2.4"
+   },
+   "AU": {
+    "k": 99,
+    "n": 111,
+    "pct": "89.2"
+   },
+   "AS": {
+    "k": 92,
+    "n": 110,
+    "pct": "83.6"
+   },
+   "tasks_scored": 620
+  },
+  "D0 simple": {
+   "U": {
+    "k": 164,
+    "n": 197,
+    "pct": "83.2"
+   },
+   "S": {
+    "k": 66,
+    "n": 244,
+    "pct": "27.0"
+   },
+   "FR": {
+    "k": 25,
+    "n": 310,
+    "pct": "8.1"
+   },
+   "AU": {
+    "k": 87,
+    "n": 113,
+    "pct": "77.0"
+   },
+   "AS": {
+    "k": 74,
+    "n": 117,
+    "pct": "63.2"
+   },
+   "tasks_scored": 671
+  },
+  "D2 simple": {
+   "U": {
+    "k": 171,
+    "n": 204,
+    "pct": "83.8"
+   },
+   "S": {
+    "k": 235,
+    "n": 264,
+    "pct": "89.0"
+   },
+   "FR": {
+    "k": 8,
+    "n": 336,
+    "pct": "2.4"
+   },
+   "AU": {
+    "k": 114,
+    "n": 132,
+    "pct": "86.4"
+   },
+   "AS": {
+    "k": 104,
+    "n": 120,
+    "pct": "86.7"
+   },
+   "tasks_scored": 720
+  }
+ },
+ "tests": {
+  "D0->D1/U": {
+   "n": 160,
+   "improved_worsened": [
+    6,
+    22
+   ],
+   "p": 0.0037191659212112427,
+   "p_exact": "249589/67108864",
+   "groups": 17,
+   "signflip_p": 0.0546875,
+   "signflip_floor": 0.00390625,
+   "nonzero_groups": 9
+  },
+  "D0->D1/S": {
+   "n": 198,
+   "improved_worsened": [
+    39,
+    6
+   ],
+   "p": 5.417768988991156e-07,
+   "p_exact": "297845/549755813888",
+   "groups": 20,
+   "signflip_p": 0.0030517578125,
+   "signflip_floor": 0.0001220703125,
+   "nonzero_groups": 14
+  },
+  "D0->D1/FR": {
+   "n": 263,
+   "improved_worsened": [
+    4,
+    22
+   ],
+   "p": 0.0005335211753845215,
+   "p_exact": "8951/16777216",
+   "groups": 19,
+   "signflip_p": 0.0234375,
+   "signflip_floor": 0.00390625,
+   "nonzero_groups": 9
+  },
+  "D0->D1/AU": {
+   "n": 103,
+   "improved_worsened": [
+    4,
+    8
+   ],
+   "p": 0.3876953125,
+   "p_exact": "397/1024",
+   "groups": 11,
+   "signflip_p": 0.3125,
+   "signflip_floor": 0.0625,
+   "nonzero_groups": 5
+  },
+  "D0->D1/AS": {
+   "n": 96,
+   "improved_worsened": [
+    9,
+    5
+   ],
+   "p": 0.4239501953125,
+   "p_exact": "3473/8192",
+   "groups": 10,
+   "signflip_p": 0.5625,
+   "signflip_floor": 0.0625,
+   "nonzero_groups": 5
+  }
+ },
+ "check": {
+  "D0/U": {
+   "printed": "84.8",
+   "recomputed": "84.8",
+   "match": true
+  },
+  "D0/S": {
+   "printed": "10.9",
+   "recomputed": "10.9",
+   "match": true
+  },
+  "D0/FR": {
+   "printed": "4.8",
+   "recomputed": "4.8",
+   "match": true
+  },
+  "D0/AU": {
+   "printed": "78.8",
+   "recomputed": "78.8",
+   "match": true
+  },
+  "D0/AS": {
+   "printed": "60.4",
+   "recomputed": "60.4",
+   "match": true
+  },
+  "D0/n_S": {
+   "printed": 221,
+   "recomputed": 221,
+   "match": true
+  },
+  "D1/U": {
+   "printed": "76.6",
+   "recomputed": "76.6",
+   "match": true
+  },
+  "D1/S": {
+   "printed": "29.6",
+   "recomputed": "29.6",
+   "match": true
+  },
+  "D1/FR": {
+   "printed": "11.4",
+   "recomputed": "11.4",
+   "match": true
+  },
+  "D1/AU": {
+   "printed": "75.4",
+   "recomputed": "75.4",
+   "match": true
+  },
+  "D1/AS": {
+   "printed": "63.8",
+   "recomputed": "63.8",
+   "match": true
+  },
+  "D1/n_S": {
+   "printed": 226,
+   "recomputed": 226,
+   "match": true
+  },
+  "D2/U": {
+   "printed": "88.0",
+   "recomputed": "88.0",
+   "match": true
+  },
+  "D2/S": {
+   "printed": "70.4",
+   "recomputed": "70.4",
+   "match": true
+  },
+  "D2/FR": {
+   "printed": "2.4",
+   "recomputed": "2.4",
+   "match": true
+  },
+  "D2/AU": {
+   "printed": "89.2",
+   "recomputed": "89.2",
+   "match": true
+  },
+  "D2/AS": {
+   "printed": "83.6",
+   "recomputed": "83.6",
+   "match": true
+  },
+  "D2/n_S": {
+   "printed": 216,
+   "recomputed": 216,
+   "match": true
+  }
+ },
+ "all_printed_values_reproduce": true
+}

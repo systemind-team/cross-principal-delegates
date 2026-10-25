@@ -1,0 +1,437 @@
+{
+ "touched_tasks": 251,
+ "tests": {
+  "DS/R1/D0->D2/FR": {
+   "n": 51,
+   "improved_worsened": [
+    0,
+    1
+   ],
+   "nonzero_groups": 1,
+   "signflip_p": 1.0,
+   "holm": 1.0,
+   "holm_all_tasks": 1.0,
+   "verdict_changes": false
+  },
+  "DS/R1/D0->D2/leak_TD": {
+   "n": 39,
+   "improved_worsened": [
+    29,
+    0
+   ],
+   "nonzero_groups": 29,
+   "signflip_p": 3.725290298461914e-09,
+   "holm": 1.1920928955078125e-07,
+   "holm_all_tasks": 3.958120942115784e-09,
+   "verdict_changes": false
+  },
+  "DS/R1/D1->D2/FR": {
+   "n": 51,
+   "improved_worsened": [
+    0,
+    1
+   ],
+   "nonzero_groups": 1,
+   "signflip_p": 1.0,
+   "holm": 1.0,
+   "holm_all_tasks": 1.0,
+   "verdict_changes": false
+  },
+  "DS/R1/D1->D2/leak_TD": {
+   "n": 39,
+   "improved_worsened": [
+    26,
+    0
+   ],
+   "nonzero_groups": 26,
+   "signflip_p": 2.9802322387695312e-08,
+   "holm": 8.940696716308594e-07,
+   "holm_all_tasks": 5.774199962615967e-08,
+   "verdict_changes": false
+  },
+  "DS/R2/D0->D2/FR": {
+   "n": 50,
+   "improved_worsened": [
+    1,
+    0
+   ],
+   "nonzero_groups": 1,
+   "signflip_p": 1.0,
+   "holm": 1.0,
+   "holm_all_tasks": 1.0,
+   "verdict_changes": false
+  },
+  "DS/R2/D0->D2/leak_TD": {
+   "n": 39,
+   "improved_worsened": [
+    31,
+    1
+   ],
+   "nonzero_groups": 32,
+   "signflip_p": 1.5366822481155396e-08,
+   "holm": 4.7637149691581726e-07,
+   "holm_all_tasks": 6.28642737865448e-08,
+   "verdict_changes": false
+  },
+  "DS/R2/D1->D2/FR": {
+   "n": 50,
+   "improved_worsened": [
+    0,
+    0
+   ],
+   "nonzero_groups": 0,
+   "signflip_p": 1.0,
+   "holm": 1.0,
+   "holm_all_tasks": 1.0,
+   "verdict_changes": false
+  },
+  "DS/R2/D1->D2/leak_TD": {
+   "n": 39,
+   "improved_worsened": [
+    25,
+    0
+   ],
+   "nonzero_groups": 25,
+   "signflip_p": 5.960464477539063e-08,
+   "holm": 1.7285346984863281e-06,
+   "holm_all_tasks": 4.3213367462158203e-07,
+   "verdict_changes": false
+  },
+  "DS/R3/D0->D2/FR": {
+   "n": 47,
+   "improved_worsened": [
+    1,
+    1
+   ],
+   "nonzero_groups": 2,
+   "signflip_p": 1.0,
+   "holm": 1.0,
+   "holm_all_tasks": 1.0,
+   "verdict_changes": false
+  },
+  "DS/R3/D0->D2/leak_TD": {
+   "n": 38,
+   "improved_worsened": [
+    35,
+    0
+   ],
+   "nonzero_groups": 35,
+   "signflip_p": 5.820766091346741e-11,
+   "holm": 2.0372681319713593e-09,
+   "holm_all_tasks": 1.3096723705530167e-10,
+   "verdict_changes": false
+  },
+  "DS/R3/D1->D2/FR": {
+   "n": 47,
+   "improved_worsened": [
+    0,
+    1
+   ],
+   "nonzero_groups": 1,
+   "signflip_p": 1.0,
+   "holm": 1.0,
+   "holm_all_tasks": 1.0,
+   "verdict_changes": false
+  },
+  "DS/R3/D1->D2/leak_TD": {
+   "n": 38,
+   "improved_worsened": [
+    20,
+    0
+   ],
+   "nonzero_groups": 20,
+   "signflip_p": 1.9073486328125e-06,
+   "holm": 4.9591064453125e-05,
+   "holm_all_tasks": 2.574920654296875e-05,
+   "verdict_changes": false
+  },
+  "GLM/R1/D0->D2/FR": {
+   "n": 69,
+   "improved_worsened": [
+    1,
+    0
+   ],
+   "nonzero_groups": 1,
+   "signflip_p": 1.0,
+   "holm": 1.0,
+   "holm_all_tasks": 1.0,
+   "verdict_changes": false
+  },
+  "GLM/R1/D0->D2/leak_TD": {
+   "n": 48,
+   "improved_worsened": [
+    31,
+    0
+   ],
+   "nonzero_groups": 31,
+   "signflip_p": 9.313225746154785e-10,
+   "holm": 3.073364496231079e-08,
+   "holm_all_tasks": 2.9802322387695312e-08,
+   "verdict_changes": false
+  },
+  "GLM/R1/D1->D2/FR": {
+   "n": 69,
+   "improved_worsened": [
+    2,
+    0
+   ],
+   "nonzero_groups": 2,
+   "signflip_p": 0.5,
+   "holm": 1.0,
+   "holm_all_tasks": 1.0,
+   "verdict_changes": false
+  },
+  "GLM/R1/D1->D2/leak_TD": {
+   "n": 48,
+   "improved_worsened": [
+    3,
+    0
+   ],
+   "nonzero_groups": 3,
+   "signflip_p": 0.25,
+   "holm": 1.0,
+   "holm_all_tasks": 1.0,
+   "verdict_changes": false
+  },
+  "GLM/R2/D0->D2/FR": {
+   "n": 72,
+   "improved_worsened": [
+    0,
+    0
+   ],
+   "nonzero_groups": 0,
+   "signflip_p": 1.0,
+   "holm": 1.0,
+   "holm_all_tasks": 1.0,
+   "verdict_changes": false
+  },
+  "GLM/R2/D0->D2/leak_TD": {
+   "n": 48,
+   "improved_worsened": [
+    39,
+    0
+   ],
+   "nonzero_groups": 39,
+   "signflip_p": 3.637978807091713e-12,
+   "holm": 1.3096723705530167e-10,
+   "holm_all_tasks": 1.3096723705530167e-10,
+   "verdict_changes": false
+  },
+  "GLM/R2/D1->D2/FR": {
+   "n": 72,
+   "improved_worsened": [
+    2,
+    1
+   ],
+   "nonzero_groups": 3,
+   "signflip_p": 1.0,
+   "holm": 1.0,
+   "holm_all_tasks": 1.0,
+   "verdict_changes": false
+  },
+  "GLM/R2/D1->D2/leak_TD": {
+   "n": 48,
+   "improved_worsened": [
+    5,
+    0
+   ],
+   "nonzero_groups": 5,
+   "signflip_p": 0.0625,
+   "holm": 1.0,
+   "holm_all_tasks": 1.0,
+   "verdict_changes": false
+  },
+  "GLM/R3/D0->D2/FR": {
+   "n": 70,
+   "improved_worsened": [
+    0,
+    2
+   ],
+   "nonzero_groups": 2,
+   "signflip_p": 0.5,
+   "holm": 1.0,
+   "holm_all_tasks": 1.0,
+   "verdict_changes": false
+  },
+  "GLM/R3/D0->D2/leak_TD": {
+   "n": 49,
+   "improved_worsened": [
+    34,
+    0
+   ],
+   "nonzero_groups": 34,
+   "signflip_p": 1.1641532182693481e-10,
+   "holm": 3.958120942115784e-09,
+   "holm_all_tasks": 3.958120942115784e-09,
+   "verdict_changes": false
+  },
+  "GLM/R3/D1->D2/FR": {
+   "n": 70,
+   "improved_worsened": [
+    5,
+    2
+   ],
+   "nonzero_groups": 7,
+   "signflip_p": 0.453125,
+   "holm": 1.0,
+   "holm_all_tasks": 1.0,
+   "verdict_changes": false
+  },
+  "GLM/R3/D1->D2/leak_TD": {
+   "n": 49,
+   "improved_worsened": [
+    2,
+    0
+   ],
+   "nonzero_groups": 2,
+   "signflip_p": 0.5,
+   "holm": 1.0,
+   "holm_all_tasks": 1.0,
+   "verdict_changes": false
+  },
+  "GROK/R1/D0->D2/FR": {
+   "n": 45,
+   "improved_worsened": [
+    3,
+    1
+   ],
+   "nonzero_groups": 3,
+   "signflip_p": 0.75,
+   "holm": 1.0,
+   "holm_all_tasks": 1.0,
+   "verdict_changes": false
+  },
+  "GROK/R1/D0->D2/leak_TD": {
+   "n": 39,
+   "improved_worsened": [
+    21,
+    0
+   ],
+   "nonzero_groups": 21,
+   "signflip_p": 9.5367431640625e-07,
+   "holm": 2.574920654296875e-05,
+   "holm_all_tasks": 2.574920654296875e-05,
+   "verdict_changes": false
+  },
+  "GROK/R1/D1->D2/FR": {
+   "n": 45,
+   "improved_worsened": [
+    1,
+    1
+   ],
+   "nonzero_groups": 2,
+   "signflip_p": 1.0,
+   "holm": 1.0,
+   "holm_all_tasks": 1.0,
+   "verdict_changes": false
+  },
+  "GROK/R1/D1->D2/leak_TD": {
+   "n": 39,
+   "improved_worsened": [
+    8,
+    0
+   ],
+   "nonzero_groups": 8,
+   "signflip_p": 0.0078125,
+   "holm": 0.1875,
+   "holm_all_tasks": 0.1875,
+   "verdict_changes": false
+  },
+  "GROK/R2/D0->D2/FR": {
+   "n": 47,
+   "improved_worsened": [
+    0,
+    0
+   ],
+   "nonzero_groups": 0,
+   "signflip_p": 1.0,
+   "holm": 1.0,
+   "holm_all_tasks": 1.0,
+   "verdict_changes": false
+  },
+  "GROK/R2/D0->D2/leak_TD": {
+   "n": 34,
+   "improved_worsened": [
+    25,
+    0
+   ],
+   "nonzero_groups": 25,
+   "signflip_p": 5.960464477539063e-08,
+   "holm": 1.7285346984863281e-06,
+   "holm_all_tasks": 1.6689300537109375e-06,
+   "verdict_changes": false
+  },
+  "GROK/R2/D1->D2/FR": {
+   "n": 47,
+   "improved_worsened": [
+    0,
+    0
+   ],
+   "nonzero_groups": 0,
+   "signflip_p": 1.0,
+   "holm": 1.0,
+   "holm_all_tasks": 1.0,
+   "verdict_changes": false
+  },
+  "GROK/R2/D1->D2/leak_TD": {
+   "n": 34,
+   "improved_worsened": [
+    8,
+    0
+   ],
+   "nonzero_groups": 8,
+   "signflip_p": 0.0078125,
+   "holm": 0.1875,
+   "holm_all_tasks": 0.1875,
+   "verdict_changes": false
+  },
+  "GROK/R3/D0->D2/FR": {
+   "n": 48,
+   "improved_worsened": [
+    5,
+    0
+   ],
+   "nonzero_groups": 3,
+   "signflip_p": 0.25,
+   "holm": 1.0,
+   "holm_all_tasks": 1.0,
+   "verdict_changes": false
+  },
+  "GROK/R3/D0->D2/leak_TD": {
+   "n": 34,
+   "improved_worsened": [
+    19,
+    0
+   ],
+   "nonzero_groups": 19,
+   "signflip_p": 3.814697265625e-06,
+   "holm": 9.5367431640625e-05,
+   "holm_all_tasks": 9.5367431640625e-05,
+   "verdict_changes": false
+  },
+  "GROK/R3/D1->D2/FR": {
+   "n": 48,
+   "improved_worsened": [
+    0,
+    1
+   ],
+   "nonzero_groups": 1,
+   "signflip_p": 1.0,
+   "holm": 1.0,
+   "holm_all_tasks": 1.0,
+   "verdict_changes": false
+  },
+  "GROK/R3/D1->D2/leak_TD": {
+   "n": 34,
+   "improved_worsened": [
+    7,
+    0
+   ],
+   "nonzero_groups": 7,
+   "signflip_p": 0.015625,
+   "holm": 0.34375,
+   "holm_all_tasks": 0.34375,
+   "verdict_changes": false
+  }
+ }
+}

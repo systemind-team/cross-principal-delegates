@@ -1,0 +1,5 @@
+Wrote <clone>/docs/conformance/kernel-conformance.md
+Wrote <clone>/docs/conformance/kernel-conformance.json
+Wrote <clone>/artifacts/conformance/evidence.json
+not_applicable: 4  not_implemented: 10  pass: 121
+SharedOS 0.1.0-alpha.3, runtime sharedos.conformance.hostile 1.0.0

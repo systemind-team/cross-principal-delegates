@@ -1,0 +1,108 @@
+{
+ "seed": 244025283,
+ "size": 20,
+ "key_sha256": "b49307c8a075fab4c2b02723880e097cc1dce577cfeed4471ee70fa05b75af8d",
+ "drawn": [
+  {
+   "pool": "S2",
+   "item_id": "XHKE4U",
+   "stratum": "S2"
+  },
+  {
+   "pool": "S2",
+   "item_id": "HT2UE8",
+   "stratum": "S2"
+  },
+  {
+   "pool": "S2",
+   "item_id": "AW2QU9",
+   "stratum": "S2"
+  },
+  {
+   "pool": "S2",
+   "item_id": "CUNPP2",
+   "stratum": "S2"
+  },
+  {
+   "pool": "S2",
+   "item_id": "V56V39",
+   "stratum": "S2"
+  },
+  {
+   "pool": "S1",
+   "item_id": "B5BJF4",
+   "stratum": "S1L"
+  },
+  {
+   "pool": "S1",
+   "item_id": "F6X4AK",
+   "stratum": "S1L"
+  },
+  {
+   "pool": "S1",
+   "item_id": "UMLSQS",
+   "stratum": "S1L"
+  },
+  {
+   "pool": "S1",
+   "item_id": "RTH5W6",
+   "stratum": "S1L"
+  },
+  {
+   "pool": "S1",
+   "item_id": "JA93XE",
+   "stratum": "S1F"
+  },
+  {
+   "pool": "S3/S5 conveyed by either",
+   "item_id": "Z7QV2M",
+   "stratum": "S3I"
+  },
+  {
+   "pool": "S3/S5 conveyed by either",
+   "item_id": "CV7YAG",
+   "stratum": "S3I"
+  },
+  {
+   "pool": "S3/S5 conveyed by either",
+   "item_id": "AYMV8B",
+   "stratum": "S3I"
+  },
+  {
+   "pool": "S3/S5 conveyed by either",
+   "item_id": "HXJRNY",
+   "stratum": "S5F"
+  },
+  {
+   "pool": "S3/S5 conveyed by either",
+   "item_id": "ZS5XLE",
+   "stratum": "S3I"
+  },
+  {
+   "pool": "other strata",
+   "item_id": "DZWN45",
+   "stratum": "S6C"
+  },
+  {
+   "pool": "other strata",
+   "item_id": "6CDYP8",
+   "stratum": "S6F"
+  },
+  {
+   "pool": "other strata",
+   "item_id": "CZWQW9",
+   "stratum": "S4P"
+  },
+  {
+   "pool": "other strata",
+   "item_id": "8GVHVL",
+   "stratum": "S4P"
+  },
+  {
+   "pool": "other strata",
+   "item_id": "YPEU6N",
+   "stratum": "S6F"
+  }
+ ],
+ "author_packet": "<internal>"
+}

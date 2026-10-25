@@ -1,0 +1,321 @@
+{
+ "source": "case headers printed to the reviewing agent by its display scripts (reviewer_scripts/q11show*.py, q11hits.py), recovered from its session transcript; one per case",
+ "cases": {
+  "1": {
+   "runId": "G6-R0-r1-g050",
+   "taskId": "PAIR-Q123"
+  },
+  "2": {
+   "runId": "G6-R0-r1-g074",
+   "taskId": "PAIR-Q352"
+  },
+  "3": {
+   "runId": "G6-R0-r1-g085",
+   "taskId": "PAIR-Q295"
+  },
+  "4": {
+   "runId": "G6-R0-r1-g102",
+   "taskId": "PAIR-Q199"
+  },
+  "5": {
+   "runId": "G6-R0-r1-g121",
+   "taskId": "PAIR-Q256"
+  },
+  "6": {
+   "runId": "G6-R0-r1-g160",
+   "taskId": "PAIR-Q267"
+  },
+  "7": {
+   "runId": "G6-R0-r1-g187",
+   "taskId": "PAIR-Q294"
+  },
+  "8": {
+   "runId": "G6-R0-r2-g036",
+   "taskId": "PAIR-Q285"
+  },
+  "9": {
+   "runId": "G6-R0-r2-g071",
+   "taskId": "PAIR-Q361"
+  },
+  "10": {
+   "runId": "G6-R0-r2-g072",
+   "taskId": "PAIR-Q372"
+  },
+  "11": {
+   "runId": "G6-R0-r2-g076",
+   "taskId": "PAIR-Q380"
+  },
+  "12": {
+   "runId": "G6-R0-r2-g100",
+   "taskId": "PAIR-Q175"
+  },
+  "13": {
+   "runId": "G6-R0-r2-g104",
+   "taskId": "PAIR-Q295"
+  },
+  "14": {
+   "runId": "G6-R0-r2-g113",
+   "taskId": "PAIR-Q199"
+  },
+  "15": {
+   "runId": "G6-R0-r2-g142",
+   "taskId": "PAIR-Q124"
+  },
+  "16": {
+   "runId": "G6-R0-r2-g164",
+   "taskId": "PAIR-Q352"
+  },
+  "17": {
+   "runId": "G6-R0-r2-g174",
+   "taskId": "PAIR-Q183"
+  },
+  "18": {
+   "runId": "G6-R0-r3-g012",
+   "taskId": "PAIR-Q382"
+  },
+  "19": {
+   "runId": "G6-R0-r3-g068",
+   "taskId": "PAIR-Q386"
+  },
+  "20": {
+   "runId": "G6-R0-r3-g082",
+   "taskId": "PAIR-Q146"
+  },
+  "21": {
+   "runId": "G6-R0-r3-g085",
+   "taskId": "PAIR-Q158"
+  },
+  "22": {
+   "runId": "G6-R0-r3-g092",
+   "taskId": "PAIR-Q366"
+  },
+  "23": {
+   "runId": "G6-R0-r3-g099",
+   "taskId": "PAIR-Q352"
+  },
+  "24": {
+   "runId": "G6-R0-r3-g151",
+   "taskId": "PAIR-Q294"
+  },
+  "25": {
+   "runId": "G6-R0-r3-g176",
+   "taskId": "PAIR-Q376"
+  },
+  "26": {
+   "runId": "G6-R1-r1-g006",
+   "taskId": "PAIR-Q120"
+  },
+  "27": {
+   "runId": "G6-R1-r1-g010",
+   "taskId": "PAIR-Q146"
+  },
+  "28": {
+   "runId": "G6-R1-r1-g089",
+   "taskId": "PAIR-Q173"
+  },
+  "29": {
+   "runId": "G6-R1-r1-g172",
+   "taskId": "PAIR-Q251"
+  },
+  "30": {
+   "runId": "G6-R1-r1-g179",
+   "taskId": "PAIR-Q175"
+  },
+  "31": {
+   "runId": "G6-R1-r2-g072",
+   "taskId": "PAIR-Q372"
+  },
+  "32": {
+   "runId": "G6-R1-r2-g073",
+   "taskId": "PAIR-Q120"
+  },
+  "33": {
+   "runId": "G6-R1-r2-g093",
+   "taskId": "PAIR-Q146"
+  },
+  "34": {
+   "runId": "G6-R1-r2-g098",
+   "taskId": "PAIR-Q253"
+  },
+  "35": {
+   "runId": "G6-R1-r2-g113",
+   "taskId": "PAIR-Q199"
+  },
+  "36": {
+   "runId": "G6-R1-r2-g167",
+   "taskId": "PAIR-Q376"
+  },
+  "37": {
+   "runId": "G6-R1-r2-g174",
+   "taskId": "PAIR-Q183"
+  },
+  "38": {
+   "runId": "G6-R1-r3-g001",
+   "taskId": "PAIR-Q390"
+  },
+  "39": {
+   "runId": "G6-R1-r3-g043",
+   "taskId": "PAIR-Q372"
+  },
+  "40": {
+   "runId": "G6-R1-r3-g084",
+   "taskId": "PAIR-Q256"
+  },
+  "41": {
+   "runId": "G6-R1-r3-g096",
+   "taskId": "PAIR-Q183"
+  },
+  "42": {
+   "runId": "G6-R1-r3-g138",
+   "taskId": "PAIR-Q251"
+  },
+  "43": {
+   "runId": "G6-R1-r3-g176",
+   "taskId": "PAIR-Q376"
+  },
+  "44": {
+   "runId": "G6-R1-r3-g192",
+   "taskId": "PAIR-Q252"
+  },
+  "45": {
+   "runId": "G6-R2-r1-g006",
+   "taskId": "PAIR-Q120"
+  },
+  "46": {
+   "runId": "G6-R2-r1-g083",
+   "taskId": "PAIR-Q376"
+  },
+  "47": {
+   "runId": "G6-R2-r1-g102",
+   "taskId": "PAIR-Q199"
+  },
+  "48": {
+   "runId": "G6-R2-r1-g131",
+   "taskId": "PAIR-Q275"
+  },
+  "49": {
+   "runId": "G6-R2-r1-g151",
+   "taskId": "PAIR-Q383"
+  },
+  "50": {
+   "runId": "G6-R2-r1-g195",
+   "taskId": "PAIR-Q374"
+  },
+  "51": {
+   "runId": "G6-R2-r2-g006",
+   "taskId": "PAIR-Q359"
+  },
+  "52": {
+   "runId": "G6-R2-r2-g010",
+   "taskId": "PAIR-Q371"
+  },
+  "53": {
+   "runId": "G6-R2-r2-g012",
+   "taskId": "PAIR-Q364"
+  },
+  "54": {
+   "runId": "G6-R2-r2-g073",
+   "taskId": "PAIR-Q120"
+  },
+  "55": {
+   "runId": "G6-R2-r2-g086",
+   "taskId": "PAIR-Q127"
+  },
+  "56": {
+   "runId": "G6-R2-r2-g104",
+   "taskId": "PAIR-Q295"
+  },
+  "57": {
+   "runId": "G6-R2-r2-g164",
+   "taskId": "PAIR-Q352"
+  },
+  "58": {
+   "runId": "G6-R2-r2-g174",
+   "taskId": "PAIR-Q183"
+  },
+  "59": {
+   "runId": "G6-R2-r3-g032",
+   "taskId": "PAIR-Q359"
+  },
+  "60": {
+   "runId": "G6-R2-r3-g082",
+   "taskId": "PAIR-Q146"
+  },
+  "61": {
+   "runId": "G6-R2-r3-g096",
+   "taskId": "PAIR-Q183"
+  },
+  "62": {
+   "runId": "G6-R2-r3-g110",
+   "taskId": "PAIR-Q290"
+  },
+  "63": {
+   "runId": "G6-R2-r3-g186",
+   "taskId": "PAIR-Q262"
+  },
+  "64": {
+   "runId": "G6-R2-r3-g197",
+   "taskId": "PAIR-Q160"
+  },
+  "65": {
+   "runId": "G6-R3-r1-g067",
+   "taskId": "PAIR-Q380"
+  },
+  "66": {
+   "runId": "G6-R3-r1-g083",
+   "taskId": "PAIR-Q376"
+  },
+  "67": {
+   "runId": "G6-R3-r1-g121",
+   "taskId": "PAIR-Q256"
+  },
+  "68": {
+   "runId": "G6-R3-r1-g165",
+   "taskId": "PAIR-Q258"
+  },
+  "69": {
+   "runId": "G6-R3-r1-g187",
+   "taskId": "PAIR-Q294"
+  },
+  "70": {
+   "runId": "G6-R3-r2-g076",
+   "taskId": "PAIR-Q380"
+  },
+  "71": {
+   "runId": "G6-R3-r2-g113",
+   "taskId": "PAIR-Q199"
+  },
+  "72": {
+   "runId": "G6-R3-r2-g121",
+   "taskId": "PAIR-Q362"
+  },
+  "73": {
+   "runId": "G6-R3-r2-g171",
+   "taskId": "PAIR-Q381"
+  },
+  "74": {
+   "runId": "G6-R3-r3-g062",
+   "taskId": "PAIR-Q123"
+  },
+  "75": {
+   "runId": "G6-R3-r3-g075",
+   "taskId": "PAIR-Q113"
+  },
+  "76": {
+   "runId": "G6-R3-r3-g082",
+   "taskId": "PAIR-Q146"
+  },
+  "77": {
+   "runId": "G6-R3-r3-g084",
+   "taskId": "PAIR-Q256"
+  },
+  "78": {
+   "runId": "G6-R3-r3-g096",
+   "taskId": "PAIR-Q183"
+  },
+  "79": {
+   "runId": "G6-R3-r3-g176",
+   "taskId": "PAIR-Q376"
+  }
+ }
+}

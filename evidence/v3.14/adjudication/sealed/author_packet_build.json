@@ -1,0 +1,12 @@
+{
+ "packet": "<internal>/annotation/author-check/p1-2.jsonl",
+ "packet_sha256": "1966978453e1cb2b873daaa6c230fea8e81e0a687b5c6ee65375afbc40a7cf47",
+ "key": "<internal>",
+ "key_sha256": "0961d2d36c8a16ccf50ffbb12ad8ea990431b9d6c952ed5d2f7de78b8232eca6",
+ "by_pool": {
+  "S1": 5,
+  "S2": 5,
+  "S3/S5 conveyed by either": 5,
+  "other strata": 5
+ }
+}

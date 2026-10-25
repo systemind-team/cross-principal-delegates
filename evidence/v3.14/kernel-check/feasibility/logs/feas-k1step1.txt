@@ -1,0 +1,14 @@
+[heartbeat evidence_projection_failed] Error: SharedOS tool catalog visibleTools metadata is invalid
+    at parseVisibleTools (<vm>/kernel-check/se/e3-k1-step1/src/runner/v1/file-workflow-sharedos-evidence.ts:638:11)
+    at assertAdmittedToolCatalogs (<vm>/kernel-check/se/e3-k1-step1/src/runner/v1/file-workflow-sharedos-evidence.ts:565:26)
+    at projectFileWorkflowSharedOsEvidenceCore (<vm>/kernel-check/se/e3-k1-step1/src/runner/v1/file-workflow-sharedos-evidence.ts:254:20)
+    at projectFileWorkflowSharedOsEvidenceV1 (<vm>/kernel-check/se/e3-k1-step1/src/runner/v1/file-workflow-sharedos-evidence.ts:157:10)
+    at Object.execute (<vm>/kernel-check/se/e3-k1-step1/src/suites/pact-pair/file-workflow.ts:585:26)
+    at async runFileWorkflowHeartbeatV1 (<vm>/kernel-check/se/e3-k1-step1/src/runner/v1/file-workflow-recovery.ts:112:23)
+    at async runOneFileDrivenPairSessionV1 (<vm>/kernel-check/se/e3-k1-step1/src/suites/pact-pair/file-workflow.ts:558:25)
+    at async runSharedevalProductionV1 (<vm>/kernel-check/se/e3-k1-step1/src/runner/v1/sharedeval-production.ts:164:15)
+    at async runProduction (<vm>/kernel-check/se/e3-k1-step1/scripts/experiments/run-pair-scripted.ts:348:24)
+    at async mainSharedevalV1 (<vm>/kernel-check/se/e3-k1-step1/src/runner/v1/sharedeval-cli.ts:148:22)
+{"event":"scripted_summary","requests":4,"contacts":1,"flips":0,"finalized":0,"injectedLengthFailures":0,"byStrategy":{"first_ask":1},"elapsedMs":2388}
+File-driven SharedOS heartbeat has indeterminate external effects (cause: evidence_projection_failed)
+exit=1

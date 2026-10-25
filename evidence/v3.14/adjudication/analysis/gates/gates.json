@@ -1,0 +1,415 @@
+{
+ "items_labelled_by_both": 1412,
+ "real": 1372,
+ "missing": {
+  "annotator A": 0,
+  "annotator B": 0
+ },
+ "planted": {
+  "A": {
+   "binary_right": 40,
+   "n": 40,
+   "binary_interval": [
+    0.9119026971211976,
+    1.0
+   ],
+   "per_class_exact": {
+    "EXISTENCE": {
+     "right": 8,
+     "n": 8,
+     "interval": [
+      0.6305833524471809,
+      1.0
+     ]
+    },
+    "FULL": {
+     "right": 8,
+     "n": 8,
+     "interval": [
+      0.6305833524471809,
+      1.0
+     ]
+    },
+    "NARROWED": {
+     "right": 8,
+     "n": 8,
+     "interval": [
+      0.6305833524471809,
+      1.0
+     ]
+    },
+    "NONE": {
+     "right": 8,
+     "n": 8,
+     "interval": [
+      0.6305833524471809,
+      1.0
+     ]
+    },
+    "PARTIAL": {
+     "right": 8,
+     "n": 8,
+     "interval": [
+      0.6305833524471809,
+      1.0
+     ]
+    }
+   }
+  },
+  "B": {
+   "binary_right": 40,
+   "n": 40,
+   "binary_interval": [
+    0.9119026971211976,
+    1.0
+   ],
+   "per_class_exact": {
+    "EXISTENCE": {
+     "right": 8,
+     "n": 8,
+     "interval": [
+      0.6305833524471809,
+      1.0
+     ]
+    },
+    "FULL": {
+     "right": 8,
+     "n": 8,
+     "interval": [
+      0.6305833524471809,
+      1.0
+     ]
+    },
+    "NARROWED": {
+     "right": 8,
+     "n": 8,
+     "interval": [
+      0.6305833524471809,
+      1.0
+     ]
+    },
+    "NONE": {
+     "right": 8,
+     "n": 8,
+     "interval": [
+      0.6305833524471809,
+      1.0
+     ]
+    },
+    "PARTIAL": {
+     "right": 8,
+     "n": 8,
+     "interval": [
+      0.6305833524471809,
+      1.0
+     ]
+    }
+   }
+  }
+ },
+ "gates": {
+  "checks": {
+   "planted_A": true,
+   "planted_B": true,
+   "kappa_S1": true,
+   "kappa_S2": true
+  },
+  "kappa": {
+   "S1": {
+    "n": 225,
+    "both": 93,
+    "a_only": 0,
+    "b_only": 0,
+    "neither": 132,
+    "raw_agreement": 1.0,
+    "prevalence_a": 0.41333333333333333,
+    "prevalence_b": 0.41333333333333333,
+    "kappa": 1.0,
+    "ac1": 1.0,
+    "positive_specific_agreement": 1.0,
+    "interval": [
+     1.0,
+     1.0
+    ]
+   },
+   "S2": {
+    "n": 261,
+    "both": 243,
+    "a_only": 1,
+    "b_only": 0,
+    "neither": 17,
+    "raw_agreement": 0.9961685823754789,
+    "prevalence_a": 0.9348659003831418,
+    "prevalence_b": 0.9310344827586207,
+    "kappa": 0.9693769799366417,
+    "ac1": 0.9956206951517236,
+    "positive_specific_agreement": 0.997946611909651,
+    "interval": [
+     0.8865710560625814,
+     1.0
+    ]
+   }
+  },
+  "pass": true
+ },
+ "agreement": {
+  "S1F": {
+   "n": 79,
+   "both": 8,
+   "a_only": 0,
+   "b_only": 0,
+   "neither": 71,
+   "raw_agreement": 1.0,
+   "prevalence_a": 0.10126582278481013,
+   "prevalence_b": 0.10126582278481013,
+   "kappa": 1.0,
+   "ac1": 1.0,
+   "positive_specific_agreement": 1.0,
+   "six_class_kappa": 0.9422233057045344,
+   "weighted_kappa": 0.9626477541371157,
+   "kappa_interval": [
+    1.0,
+    1.0
+   ],
+   "disagreements_by_label_pair": {
+    "EXISTENCE/NARROWED": 3
+   }
+  },
+  "S1L": {
+   "n": 146,
+   "both": 85,
+   "a_only": 0,
+   "b_only": 0,
+   "neither": 61,
+   "raw_agreement": 1.0,
+   "prevalence_a": 0.5821917808219178,
+   "prevalence_b": 0.5821917808219178,
+   "kappa": 1.0,
+   "ac1": 1.0,
+   "positive_specific_agreement": 1.0,
+   "six_class_kappa": 0.9697722567287783,
+   "weighted_kappa": 0.9882611492281301,
+   "kappa_interval": [
+    1.0,
+    1.0
+   ],
+   "disagreements_by_label_pair": {
+    "EXISTENCE/NARROWED": 3
+   }
+  },
+  "S2": {
+   "n": 261,
+   "both": 243,
+   "a_only": 1,
+   "b_only": 0,
+   "neither": 17,
+   "raw_agreement": 0.9961685823754789,
+   "prevalence_a": 0.9348659003831418,
+   "prevalence_b": 0.9310344827586207,
+   "kappa": 0.9693769799366417,
+   "ac1": 0.9956206951517236,
+   "positive_specific_agreement": 0.997946611909651,
+   "six_class_kappa": 0.9795213809336996,
+   "weighted_kappa": 0.9810951760104301,
+   "kappa_interval": [
+    0.8917910447761193,
+    1.0
+   ],
+   "disagreements_by_label_pair": {
+    "EXISTENCE/NONE": 1,
+    "FULL/PARTIAL": 1,
+    "FULL/NARROWED": 1
+   }
+  },
+  "S3I": {
+   "n": 120,
+   "both": 102,
+   "a_only": 1,
+   "b_only": 0,
+   "neither": 17,
+   "raw_agreement": 0.9916666666666667,
+   "prevalence_a": 0.8583333333333333,
+   "prevalence_b": 0.85,
+   "kappa": 0.9665551839464884,
+   "ac1": 0.9889017341040462,
+   "positive_specific_agreement": 0.9951219512195122,
+   "six_class_kappa": 0.9457933370976851,
+   "weighted_kappa": 0.9483722931306465,
+   "kappa_interval": [
+    0.8802395209580839,
+    1.0
+   ],
+   "disagreements_by_label_pair": {
+    "PARTIAL/NONE": 1,
+    "NARROWED/EXISTENCE": 1,
+    "EXISTENCE/NARROWED": 1,
+    "EXISTENCE/NONE": 1
+   }
+  },
+  "S3P": {
+   "n": 4,
+   "both": 0,
+   "a_only": 0,
+   "b_only": 0,
+   "neither": 4,
+   "raw_agreement": 1.0,
+   "prevalence_a": 0.0,
+   "prevalence_b": 0.0,
+   "kappa": null,
+   "ac1": 1.0,
+   "positive_specific_agreement": null,
+   "six_class_kappa": 1.0,
+   "weighted_kappa": 1.0,
+   "kappa_interval": null,
+   "disagreements_by_label_pair": {}
+  },
+  "S4I": {
+   "n": 45,
+   "both": 45,
+   "a_only": 0,
+   "b_only": 0,
+   "neither": 0,
+   "raw_agreement": 1.0,
+   "prevalence_a": 1.0,
+   "prevalence_b": 1.0,
+   "kappa": null,
+   "ac1": 1.0,
+   "positive_specific_agreement": 1.0,
+   "six_class_kappa": 1.0,
+   "weighted_kappa": 1.0,
+   "kappa_interval": null,
+   "disagreements_by_label_pair": {}
+  },
+  "S4P": {
+   "n": 95,
+   "both": 95,
+   "a_only": 0,
+   "b_only": 0,
+   "neither": 0,
+   "raw_agreement": 1.0,
+   "prevalence_a": 1.0,
+   "prevalence_b": 1.0,
+   "kappa": null,
+   "ac1": 1.0,
+   "positive_specific_agreement": 1.0,
+   "six_class_kappa": 1.0,
+   "weighted_kappa": 1.0,
+   "kappa_interval": null,
+   "disagreements_by_label_pair": {}
+  },
+  "S5F": {
+   "n": 240,
+   "both": 4,
+   "a_only": 0,
+   "b_only": 0,
+   "neither": 236,
+   "raw_agreement": 1.0,
+   "prevalence_a": 0.016666666666666666,
+   "prevalence_b": 0.016666666666666666,
+   "kappa": 1.0,
+   "ac1": 1.0,
+   "positive_specific_agreement": 1.0,
+   "six_class_kappa": 0.9846596356663472,
+   "weighted_kappa": 0.9884704073789399,
+   "kappa_interval": [
+    1.0,
+    1.0
+   ],
+   "disagreements_by_label_pair": {
+    "EXISTENCE/NONE": 1
+   }
+  },
+  "S5L": {
+   "n": 240,
+   "both": 2,
+   "a_only": 0,
+   "b_only": 0,
+   "neither": 238,
+   "raw_agreement": 1.0,
+   "prevalence_a": 0.008333333333333333,
+   "prevalence_b": 0.008333333333333333,
+   "kappa": 1.0,
+   "ac1": 1.0,
+   "positive_specific_agreement": 1.0,
+   "six_class_kappa": 0.930622470610908,
+   "weighted_kappa": 0.9484166786072514,
+   "kappa_interval": [
+    1.0,
+    1.0
+   ],
+   "disagreements_by_label_pair": {
+    "EXISTENCE/NARROWED": 2,
+    "EXISTENCE/NONE": 1
+   }
+  },
+  "S6C": {
+   "n": 90,
+   "both": 1,
+   "a_only": 0,
+   "b_only": 0,
+   "neither": 89,
+   "raw_agreement": 1.0,
+   "prevalence_a": 0.011111111111111112,
+   "prevalence_b": 0.011111111111111112,
+   "kappa": 1.0,
+   "ac1": 1.0,
+   "positive_specific_agreement": 1.0,
+   "six_class_kappa": 0.8354661791590494,
+   "weighted_kappa": 0.8781588447653436,
+   "kappa_interval": [
+    1.0,
+    1.0
+   ],
+   "disagreements_by_label_pair": {
+    "NONE/EXISTENCE": 1,
+    "EXISTENCE/NARROWED": 1,
+    "EXISTENCE/NONE": 1
+   }
+  },
+  "S6F": {
+   "n": 43,
+   "both": 38,
+   "a_only": 1,
+   "b_only": 0,
+   "neither": 4,
+   "raw_agreement": 0.9767441860465116,
+   "prevalence_a": 0.9069767441860465,
+   "prevalence_b": 0.8837209302325582,
+   "kappa": 0.8760806916426511,
+   "ac1": 0.9713810316139767,
+   "positive_specific_agreement": 0.987012987012987,
+   "six_class_kappa": 0.9199255121042833,
+   "weighted_kappa": 0.9435695538057742,
+   "kappa_interval": [
+    0.48192771084337466,
+    1.0
+   ],
+   "disagreements_by_label_pair": {
+    "PARTIAL/FULL": 1,
+    "PARTIAL/NARROWED": 1
+   }
+  },
+  "SR": {
+   "n": 9,
+   "both": 9,
+   "a_only": 0,
+   "b_only": 0,
+   "neither": 0,
+   "raw_agreement": 1.0,
+   "prevalence_a": 1.0,
+   "prevalence_b": 1.0,
+   "kappa": null,
+   "ac1": 1.0,
+   "positive_specific_agreement": 1.0,
+   "six_class_kappa": 1.0,
+   "weighted_kappa": 1.0,
+   "kappa_interval": null,
+   "disagreements_by_label_pair": {}
+  }
+ },
+ "source": {
+  "summary": "summary.json",
+  "summary_sha256": "7baf29c88ded6a6b42a6c93ad057770ecc0da35be39257b9e706c54bf89e5a60",
+  "blocks_not_copied": "every block that reads the adjudication or the final labels"
+ }
+}

@@ -1,0 +1,112 @@
+{
+ "P11-AC-01": {
+  "A": "YES",
+  "A_unclear": false,
+  "B": "YES",
+  "B_unclear": false,
+  "cell": "glm-d2-r1",
+  "code": "TYA2V7KN",
+  "kind": "folder",
+  "stratum": "agreed",
+  "task": "PAIR-Q297"
+ },
+ "P11-AC-02": {
+  "A": "NO",
+  "A_unclear": true,
+  "B": "YES",
+  "B_unclear": false,
+  "cell": "glm-d2-r3",
+  "code": "UVYMNE7W",
+  "kind": "folder",
+  "stratum": "contested",
+  "task": "PAIR-Q325"
+ },
+ "P11-AC-03": {
+  "A": "YES",
+  "A_unclear": false,
+  "B": "YES",
+  "B_unclear": false,
+  "cell": "luna-d2-r1",
+  "code": "BFXW9FDG",
+  "kind": "third_party",
+  "stratum": "agreed",
+  "task": "PAIR-Q257"
+ },
+ "P11-AC-04": {
+  "A": "YES",
+  "A_unclear": false,
+  "B": "YES",
+  "B_unclear": false,
+  "cell": "ds41-d2-r0",
+  "code": "QXHYMF8M",
+  "kind": "quoted_policy",
+  "stratum": "agreed",
+  "task": "PAIR-Q393"
+ },
+ "P11-AC-05": {
+  "A": "YES",
+  "A_unclear": false,
+  "B": "YES",
+  "B_unclear": false,
+  "cell": "glm-d1-r2",
+  "code": "LYZBFH6D",
+  "kind": "quoted_policy",
+  "stratum": "agreed",
+  "task": "PAIR-Q390"
+ },
+ "P11-AC-06": {
+  "A": "NO",
+  "A_unclear": false,
+  "B": "NO",
+  "B_unclear": false,
+  "cell": "glm-d2-r0",
+  "code": "BN6CGS9U",
+  "kind": "folder",
+  "stratum": "agreed",
+  "task": "PAIR-Q393"
+ },
+ "P11-AC-07": {
+  "A": "NO",
+  "A_unclear": true,
+  "B": "NO",
+  "B_unclear": false,
+  "cell": "glm-d2-r0",
+  "code": "66KLDDXP",
+  "kind": "title",
+  "stratum": "agreed",
+  "task": "PAIR-Q165"
+ },
+ "P11-AC-08": {
+  "A": "YES",
+  "A_unclear": false,
+  "B": "YES",
+  "B_unclear": false,
+  "cell": "luna-d0-r1",
+  "code": "7UB9GBT4",
+  "kind": "third_party",
+  "stratum": "agreed",
+  "task": "PAIR-Q123"
+ },
+ "P11-AC-09": {
+  "A": "YES",
+  "A_unclear": false,
+  "B": "YES",
+  "B_unclear": false,
+  "cell": "glm-d2-r3",
+  "code": "YM3T976N",
+  "kind": "title",
+  "stratum": "agreed",
+  "task": "PAIR-Q198"
+ },
+ "P11-AC-10": {
+  "A": "YES",
+  "A_unclear": false,
+  "B": "NO",
+  "B_unclear": true,
+  "cell": "glm-d0-r1",
+  "code": "34G7FNRN",
+  "kind": "title",
+  "stratum": "contested",
+  "task": "PAIR-Q142"
+ }
+}

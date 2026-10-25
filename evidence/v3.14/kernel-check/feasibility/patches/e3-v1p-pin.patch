@@ -1,0 +1,62 @@
+From 199b48498055e354064018a2e32fddfe95f18c43 Mon Sep 17 00:00:00 2001
+From: kernel-check <kernel-check@invalid>
+Date: Mon, 5 Oct 2026 07:12:26 +0000
+Subject: [PATCH] kernel check: pin SharedOS V1P
+ (526e77154216068a51d5ce96da0e595eac6e0678)
+
+Runtime pin and digest switched from K2 (3aa07e3, 4afb23d7...) to V1P; nothing else changes.
+---
+ scripts/experiments/build-image.sh         | 2 +-
+ src/execution/sharedos/v1/load-sharedos.ts | 4 ++--
+ tests/execution/sharedos-loader.test.ts    | 4 ++--
+ 3 files changed, 5 insertions(+), 5 deletions(-)
+
+diff --git a/scripts/experiments/build-image.sh b/scripts/experiments/build-image.sh
+index 7c85f3b..a8916c6 100755
+--- a/scripts/experiments/build-image.sh
++++ b/scripts/experiments/build-image.sh
+@@ -17,7 +17,7 @@
+ # Prints a single-line JSON summary (including the image digest) on success.
+ set -euo pipefail
+ 
+-SHAREDOS_PINNED_REVISION="3aa07e33999b656a10ace294fd4e41df8cbc318e"
++SHAREDOS_PINNED_REVISION="526e77154216068a51d5ce96da0e595eac6e0678"
+ 
+ script_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+ repo_root="$(cd "$script_dir/../.." && pwd)"
+diff --git a/src/execution/sharedos/v1/load-sharedos.ts b/src/execution/sharedos/v1/load-sharedos.ts
+index 36144c3..1d13d49 100644
+--- a/src/execution/sharedos/v1/load-sharedos.ts
++++ b/src/execution/sharedos/v1/load-sharedos.ts
+@@ -32,9 +32,9 @@ export const SHAREDOS_RUNTIME_PACKAGES_V1 = [
+ const IMPORTED_PACKAGES = SHAREDOS_RUNTIME_PACKAGES_V1;
+ 
+ export const SHAREDOS_VERIFIED_REVISION_V1 =
+-  '3aa07e33999b656a10ace294fd4e41df8cbc318e' as const;
++  '526e77154216068a51d5ce96da0e595eac6e0678' as const;
+ export const SHAREDOS_VERIFIED_RUNTIME_DIGEST_V1 =
+-  '4afb23d79851a83a48e25e968f04e45cefc81847b4a9963c62277b5c05862d5d' as const;
++  '005a22669b0cdac764cea7e8c17e8b9906b56bfa2f4623ff6d86fc0b0058f122' as const;
+ export const SHAREDOS_PROVENANCE_FILE_V1 = 'sharedos-provenance.json' as const;
+ export const SHAREDEVAL_SHAREDOS_DIR_ENV_V1 = 'SHAREDEVAL_SHAREDOS_DIR' as const;
+ export const SHAREDEVAL_REQUIRE_SHAREDOS_ENV_V1 = 'SHAREDEVAL_REQUIRE_SHAREDOS' as const;
+diff --git a/tests/execution/sharedos-loader.test.ts b/tests/execution/sharedos-loader.test.ts
+index 5c570a5..00a9fa0 100644
+--- a/tests/execution/sharedos-loader.test.ts
++++ b/tests/execution/sharedos-loader.test.ts
+@@ -62,10 +62,10 @@ test('loader pins exactly the four production SharedOS packages', () => {
+     'os',
+     'runtime',
+   ]);
+-  assert.equal(SHAREDOS_VERIFIED_REVISION_V1, '3aa07e33999b656a10ace294fd4e41df8cbc318e');
++  assert.equal(SHAREDOS_VERIFIED_REVISION_V1, '526e77154216068a51d5ce96da0e595eac6e0678');
+   assert.equal(
+     SHAREDOS_VERIFIED_RUNTIME_DIGEST_V1,
+-    '4afb23d79851a83a48e25e968f04e45cefc81847b4a9963c62277b5c05862d5d',
++    '005a22669b0cdac764cea7e8c17e8b9906b56bfa2f4623ff6d86fc0b0058f122',
+   );
+ });
+ 
+-- 
+2.43.0
+

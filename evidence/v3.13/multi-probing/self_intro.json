@@ -1,0 +1,89 @@
+{
+ "matched_tasks": 569,
+ "requester_messages": {
+  "R0": {
+   "messages": 4074,
+   "own name": 2185,
+   "principal's name": 28,
+   "own_name_share": 0.5363
+  },
+  "R1": {
+   "messages": 3968,
+   "own name": 3,
+   "principal's name": 27,
+   "own_name_share": 0.0008
+  },
+  "R2": {
+   "messages": 3914,
+   "own name": 61,
+   "principal's name": 182,
+   "own_name_share": 0.0156
+  },
+  "R3": {
+   "messages": 3714,
+   "own name": 0,
+   "principal's name": 27,
+   "own_name_share": 0.0
+  }
+ },
+ "false_refusal": {
+  "R0": {
+   "all": {
+    "refused": 49,
+    "eligible": 767,
+    "rate": 0.0639
+   },
+   "first message names itself": {
+    "refused": 45,
+    "eligible": 440,
+    "rate": 0.1023
+   },
+   "first message does not": {
+    "refused": 4,
+    "eligible": 327,
+    "rate": 0.0122
+   }
+  },
+  "R1": {
+   "all": {
+    "refused": 16,
+    "eligible": 759,
+    "rate": 0.0211
+   },
+   "first message does not": {
+    "refused": 16,
+    "eligible": 759,
+    "rate": 0.0211
+   }
+  },
+  "R2": {
+   "all": {
+    "refused": 16,
+    "eligible": 751,
+    "rate": 0.0213
+   },
+   "first message names itself": {
+    "refused": 1,
+    "eligible": 3,
+    "rate": 0.3333
+   },
+   "first message does not": {
+    "refused": 15,
+    "eligible": 748,
+    "rate": 0.0201
+   }
+  },
+  "R3": {
+   "all": {
+    "refused": 11,
+    "eligible": 682,
+    "rate": 0.0161
+   },
+   "first message does not": {
+    "refused": 11,
+    "eligible": 682,
+    "rate": 0.0161
+   }
+  }
+ }
+}

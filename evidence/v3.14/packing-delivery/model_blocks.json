@@ -1,0 +1,533 @@
+{
+ "1": {
+  "config_fields": {
+   "benchmark.dataset": {
+    "\"pact-pair\"": 180
+   },
+   "benchmark.gradingMode": {
+    "\"category\"": 180
+   },
+   "benchmark.policy": {
+    "\"D2\"": 180
+   },
+   "benchmark.requester": {
+    "\"R1\"": 180
+   },
+   "benchmark.tasks.kind": {
+    "\"all\"": 180
+   },
+   "budget.maxRuntimeMs": {
+    "600000": 180
+   },
+   "model.deployment": {
+    "\"DeepSeek-V4-Flash-0731\"": 180
+   },
+   "model.maxOutputTokens": {
+    "4096": 180
+   },
+   "model.provider": {
+    "\"azure-openai\"": 180
+   },
+   "model.temperature": {
+    "0": 180
+   },
+   "workflow.elideUnchangedReads": {
+    "true": 180
+   },
+   "workflow.maxTicks": {
+    "13": 180
+   },
+   "workflow.mode": {
+    "\"multi\"": 180
+   },
+   "workflow.multiTurn.finalizeTick": {
+    "7": 180
+   },
+   "workflow.multiTurn.phase2StartTick": {
+    "2": 180
+   },
+   "workflow.pairProfile": {
+    "\"strict\"": 180
+   },
+   "workflow.protocol": {
+    "\"files\"": 180
+   },
+   "workflow.stopWhen": {
+    "\"all-terminal\"": 180
+   },
+   "workflow.world.maxContextBytes": {
+    "16777216": 180
+   },
+   "workflow.world.protocol": {
+    "\"actor-context/v1\"": 180
+   }
+  },
+  "run_json": {
+   "dataset": {
+    "{\"id\": \"pact-pair\", \"manifestSha256\": \"4968bfd442a327b78a819d8d74e4a9f65bffa27624cc7659ae77f6c276cc22fa\", \"tasksSha256\": \"9032f46a79b2c9d6f6664b8aabea4006561b287de66bb59b0304cf619fdb265a\", \"version\": \"7.0.0\"}": 180
+   },
+   "goldSet": {
+    "{\"id\": \"pact-pair-category-gold-v1\", \"sha256\": \"b6e419486ad4cbbcf1d591e63ca5b210c16cbb2d4067bafb09b6449d50378cee\"}": 180
+   },
+   "kernelRevision": {
+    "\"3aa07e33999b656a10ace294fd4e41df8cbc318e\"": 180
+   },
+   "requester_model": {
+    "{\"provider\": \"azure-openai\", \"requestedModel\": \"DeepSeek-V4-Flash-0731\", \"resolvedModel\": \"DeepSeek-V4-Flash-0731\"}": 180
+   },
+   "requester_policy_id": {
+    "\"sharedeval/scheduler/ordered-public-task-queue\"": 180
+   },
+   "responder_model": {
+    "{\"provider\": \"azure-openai\", \"requestedModel\": \"DeepSeek-V4-Flash-0731\", \"resolvedModel\": \"DeepSeek-V4-Flash-0731\"}": 180
+   },
+   "responder_policy": {
+    "{\"id\": \"policies/pact-pair-defense/d2\", \"sha256\": \"a213e556fc4262c72ed3a1a12a9bd68c1ef006acbad0e5337122dbb897665f30\", \"version\": \"1.0.0\"}": 180
+   }
+  },
+  "served_models": [
+   {
+    "arm": "1",
+    "outcome": "invalid_response",
+    "requestedModel": "DeepSeek-V4-Flash-0731",
+    "requests": 118,
+    "resolvedModel": "DeepSeek-V4-Flash-0731",
+    "servedModel": "DeepSeek-V4-Flash-0731",
+    "servedModelVerified": true,
+    "side": "requester"
+   },
+   {
+    "arm": "1",
+    "outcome": "success",
+    "requestedModel": "DeepSeek-V4-Flash-0731",
+    "requests": 2985,
+    "resolvedModel": "DeepSeek-V4-Flash-0731",
+    "servedModel": "DeepSeek-V4-Flash-0731",
+    "servedModelVerified": true,
+    "side": "requester"
+   },
+   {
+    "arm": "1",
+    "outcome": "provider_error",
+    "requestedModel": "DeepSeek-V4-Flash-0731",
+    "requests": 1,
+    "resolvedModel": "DeepSeek-V4-Flash-0731",
+    "servedModel": null,
+    "servedModelVerified": null,
+    "side": "requester"
+   },
+   {
+    "arm": "1",
+    "outcome": "invalid_response",
+    "requestedModel": "DeepSeek-V4-Flash-0731",
+    "requests": 194,
+    "resolvedModel": "DeepSeek-V4-Flash-0731",
+    "servedModel": "DeepSeek-V4-Flash-0731",
+    "servedModelVerified": true,
+    "side": "responder"
+   },
+   {
+    "arm": "1",
+    "outcome": "success",
+    "requestedModel": "DeepSeek-V4-Flash-0731",
+    "requests": 2262,
+    "resolvedModel": "DeepSeek-V4-Flash-0731",
+    "servedModel": "DeepSeek-V4-Flash-0731",
+    "servedModelVerified": true,
+    "side": "responder"
+   }
+  ],
+  "sessions": 180,
+  "sharedeval_source_revision_of_last_launch": {
+   "26dd392fc83df022f29bc0852f4bedfdf69ba0ae": 180
+  }
+ },
+ "10": {
+  "config_fields": {
+   "benchmark.dataset": {
+    "\"pact-pair\"": 18
+   },
+   "benchmark.gradingMode": {
+    "\"category\"": 18
+   },
+   "benchmark.policy": {
+    "\"D2\"": 18
+   },
+   "benchmark.requester": {
+    "\"R1\"": 18
+   },
+   "benchmark.tasks.kind": {
+    "\"all\"": 18
+   },
+   "budget.maxRuntimeMs": {
+    "600000": 18
+   },
+   "model.deployment": {
+    "\"DeepSeek-V4-Flash-0731\"": 18
+   },
+   "model.maxOutputTokens": {
+    "4096": 18
+   },
+   "model.provider": {
+    "\"azure-openai\"": 18
+   },
+   "model.temperature": {
+    "0": 18
+   },
+   "workflow.elideUnchangedReads": {
+    "true": 18
+   },
+   "workflow.maxTicks": {
+    "121": 18
+   },
+   "workflow.mode": {
+    "\"multi\"": 18
+   },
+   "workflow.multiTurn.finalizeTick": {
+    "61": 18
+   },
+   "workflow.multiTurn.phase2StartTick": {
+    "11": 18
+   },
+   "workflow.pairProfile": {
+    "\"strict\"": 18
+   },
+   "workflow.protocol": {
+    "\"files\"": 18
+   },
+   "workflow.stopWhen": {
+    "\"all-terminal\"": 18
+   },
+   "workflow.world.maxContextBytes": {
+    "16777216": 18
+   },
+   "workflow.world.protocol": {
+    "\"actor-context/v1\"": 18
+   }
+  },
+  "run_json": {
+   "dataset": {
+    "{\"id\": \"pact-pair\", \"manifestSha256\": \"4968bfd442a327b78a819d8d74e4a9f65bffa27624cc7659ae77f6c276cc22fa\", \"tasksSha256\": \"9032f46a79b2c9d6f6664b8aabea4006561b287de66bb59b0304cf619fdb265a\", \"version\": \"7.0.0\"}": 18
+   },
+   "goldSet": {
+    "{\"id\": \"pact-pair-category-gold-v1\", \"sha256\": \"b6e419486ad4cbbcf1d591e63ca5b210c16cbb2d4067bafb09b6449d50378cee\"}": 18
+   },
+   "kernelRevision": {
+    "\"3aa07e33999b656a10ace294fd4e41df8cbc318e\"": 18
+   },
+   "requester_model": {
+    "{\"provider\": \"azure-openai\", \"requestedModel\": \"DeepSeek-V4-Flash-0731\", \"resolvedModel\": \"DeepSeek-V4-Flash-0731\"}": 18
+   },
+   "requester_policy_id": {
+    "\"sharedeval/scheduler/ordered-public-task-queue\"": 18
+   },
+   "responder_model": {
+    "{\"provider\": \"azure-openai\", \"requestedModel\": \"DeepSeek-V4-Flash-0731\", \"resolvedModel\": \"DeepSeek-V4-Flash-0731\"}": 18
+   },
+   "responder_policy": {
+    "{\"id\": \"policies/pact-pair-defense/d2\", \"sha256\": \"a213e556fc4262c72ed3a1a12a9bd68c1ef006acbad0e5337122dbb897665f30\", \"version\": \"1.0.0\"}": 18
+   }
+  },
+  "served_models": [
+   {
+    "arm": "10",
+    "outcome": "invalid_response",
+    "requestedModel": "DeepSeek-V4-Flash-0731",
+    "requests": 18,
+    "resolvedModel": "DeepSeek-V4-Flash-0731",
+    "servedModel": "DeepSeek-V4-Flash-0731",
+    "servedModelVerified": true,
+    "side": "requester"
+   },
+   {
+    "arm": "10",
+    "outcome": "success",
+    "requestedModel": "DeepSeek-V4-Flash-0731",
+    "requests": 2883,
+    "resolvedModel": "DeepSeek-V4-Flash-0731",
+    "servedModel": "DeepSeek-V4-Flash-0731",
+    "servedModelVerified": true,
+    "side": "requester"
+   },
+   {
+    "arm": "10",
+    "outcome": "invalid_response",
+    "requestedModel": "DeepSeek-V4-Flash-0731",
+    "requests": 21,
+    "resolvedModel": "DeepSeek-V4-Flash-0731",
+    "servedModel": "DeepSeek-V4-Flash-0731",
+    "servedModelVerified": true,
+    "side": "responder"
+   },
+   {
+    "arm": "10",
+    "outcome": "success",
+    "requestedModel": "DeepSeek-V4-Flash-0731",
+    "requests": 2121,
+    "resolvedModel": "DeepSeek-V4-Flash-0731",
+    "servedModel": "DeepSeek-V4-Flash-0731",
+    "servedModelVerified": true,
+    "side": "responder"
+   }
+  ],
+  "sessions": 18,
+  "sharedeval_source_revision_of_last_launch": {
+   "26dd392fc83df022f29bc0852f4bedfdf69ba0ae": 18
+  }
+ },
+ "3": {
+  "config_fields": {
+   "benchmark.dataset": {
+    "\"pact-pair\"": 600
+   },
+   "benchmark.gradingMode": {
+    "\"category\"": 600
+   },
+   "benchmark.policy": {
+    "\"D2\"": 600
+   },
+   "benchmark.requester": {
+    "\"R1\"": 600
+   },
+   "benchmark.tasks.kind": {
+    "\"all\"": 600
+   },
+   "budget.maxRuntimeMs": {
+    "600000": 600
+   },
+   "model.deployment": {
+    "\"DeepSeek-V4-Flash-0731\"": 600
+   },
+   "model.maxOutputTokens": {
+    "4096": 600
+   },
+   "model.provider": {
+    "\"azure-openai\"": 600
+   },
+   "model.temperature": {
+    "0": 600
+   },
+   "workflow.elideUnchangedReads": {
+    "true": 600
+   },
+   "workflow.maxTicks": {
+    "22": 600
+   },
+   "workflow.mode": {
+    "\"multi\"": 600
+   },
+   "workflow.multiTurn.finalizeTick": {
+    "19": 600
+   },
+   "workflow.multiTurn.phase2StartTick": {
+    "4": 600
+   },
+   "workflow.pairProfile": {
+    "\"strict\"": 600
+   },
+   "workflow.protocol": {
+    "\"files\"": 600
+   },
+   "workflow.stopWhen": {
+    "\"all-terminal\"": 600
+   },
+   "workflow.world.maxContextBytes": {
+    "16777216": 600
+   },
+   "workflow.world.protocol": {
+    "\"actor-context/v1\"": 600
+   }
+  },
+  "run_json": {
+   "dataset": {
+    "{\"id\": \"pact-pair\", \"manifestSha256\": \"4968bfd442a327b78a819d8d74e4a9f65bffa27624cc7659ae77f6c276cc22fa\", \"tasksSha256\": \"9032f46a79b2c9d6f6664b8aabea4006561b287de66bb59b0304cf619fdb265a\", \"version\": \"7.0.0\"}": 600
+   },
+   "goldSet": {
+    "{\"id\": \"pact-pair-category-gold-v1\", \"sha256\": \"b6e419486ad4cbbcf1d591e63ca5b210c16cbb2d4067bafb09b6449d50378cee\"}": 600
+   },
+   "kernelRevision": {
+    "\"3aa07e33999b656a10ace294fd4e41df8cbc318e\"": 8,
+    "null": 592
+   },
+   "requester_model": {
+    "{\"provider\": \"azure-openai\", \"requestedModel\": \"DeepSeek-V4-Flash-0731\", \"resolvedModel\": \"DeepSeek-V4-Flash-0731\"}": 600
+   },
+   "requester_policy_id": {
+    "\"sharedeval/scheduler/ordered-public-task-queue\"": 600
+   },
+   "responder_model": {
+    "{\"provider\": \"azure-openai\", \"requestedModel\": \"DeepSeek-V4-Flash-0731\", \"resolvedModel\": \"DeepSeek-V4-Flash-0731\"}": 600
+   },
+   "responder_policy": {
+    "{\"id\": \"policies/pact-pair-defense/d2\", \"sha256\": \"a213e556fc4262c72ed3a1a12a9bd68c1ef006acbad0e5337122dbb897665f30\", \"version\": \"1.0.0\"}": 600
+   }
+  },
+  "served_models": [
+   {
+    "arm": "3",
+    "outcome": "invalid_response",
+    "requestedModel": "DeepSeek-V4-Flash-0731",
+    "requests": 562,
+    "resolvedModel": "DeepSeek-V4-Flash-0731",
+    "servedModel": "DeepSeek-V4-Flash-0731",
+    "servedModelVerified": true,
+    "side": "requester"
+   },
+   {
+    "arm": "3",
+    "outcome": "success",
+    "requestedModel": "DeepSeek-V4-Flash-0731",
+    "requests": 28914,
+    "resolvedModel": "DeepSeek-V4-Flash-0731",
+    "servedModel": "DeepSeek-V4-Flash-0731",
+    "servedModelVerified": true,
+    "side": "requester"
+   },
+   {
+    "arm": "3",
+    "outcome": "provider_error",
+    "requestedModel": "DeepSeek-V4-Flash-0731",
+    "requests": 5,
+    "resolvedModel": "DeepSeek-V4-Flash-0731",
+    "servedModel": null,
+    "servedModelVerified": null,
+    "side": "requester"
+   },
+   {
+    "arm": "3",
+    "outcome": "invalid_response",
+    "requestedModel": "DeepSeek-V4-Flash-0731",
+    "requests": 756,
+    "resolvedModel": "DeepSeek-V4-Flash-0731",
+    "servedModel": "DeepSeek-V4-Flash-0731",
+    "servedModelVerified": true,
+    "side": "responder"
+   },
+   {
+    "arm": "3",
+    "outcome": "success",
+    "requestedModel": "DeepSeek-V4-Flash-0731",
+    "requests": 21716,
+    "resolvedModel": "DeepSeek-V4-Flash-0731",
+    "servedModel": "DeepSeek-V4-Flash-0731",
+    "servedModelVerified": true,
+    "side": "responder"
+   },
+   {
+    "arm": "3",
+    "outcome": "provider_error",
+    "requestedModel": "DeepSeek-V4-Flash-0731",
+    "requests": 1,
+    "resolvedModel": "DeepSeek-V4-Flash-0731",
+    "servedModel": null,
+    "servedModelVerified": null,
+    "side": "responder"
+   }
+  ],
+  "sessions": 600,
+  "sharedeval_source_revision_of_last_launch": {
+   "26dd392fc83df022f29bc0852f4bedfdf69ba0ae": 8,
+   "5db4182c8c3b1082e4585b6473d70fa8296cbe67": 589,
+   "e20062ef31adb01113a64a0acc80d226ccf1f305": 3
+  }
+ },
+ "grid600 (R0-R3)": {
+  "config_fields": {
+   "benchmark.dataset": {
+    "\"pact-pair\"": 2400
+   },
+   "benchmark.gradingMode": {
+    "\"category\"": 2400
+   },
+   "benchmark.policy": {
+    "\"D2\"": 2400
+   },
+   "benchmark.requester": {
+    "\"R0\"": 600,
+    "\"R1\"": 600,
+    "\"R2\"": 600,
+    "\"R3\"": 600
+   },
+   "benchmark.tasks.kind": {
+    "\"all\"": 2400
+   },
+   "budget.maxRuntimeMs": {
+    "600000": 2400
+   },
+   "model.deployment": {
+    "\"DeepSeek-V4-Flash-0731\"": 2400
+   },
+   "model.maxOutputTokens": {
+    "4096": 2400
+   },
+   "model.provider": {
+    "\"azure-openai\"": 2400
+   },
+   "model.temperature": {
+    "0": 2400
+   },
+   "workflow.elideUnchangedReads": {
+    "true": 2400
+   },
+   "workflow.maxTicks": {
+    "22": 2400
+   },
+   "workflow.mode": {
+    "\"multi\"": 2400
+   },
+   "workflow.multiTurn.finalizeTick": {
+    "19": 2400
+   },
+   "workflow.multiTurn.phase2StartTick": {
+    "4": 2400
+   },
+   "workflow.pairProfile": {
+    "\"strict\"": 2400
+   },
+   "workflow.protocol": {
+    "\"files\"": 2400
+   },
+   "workflow.stopWhen": {
+    "\"all-terminal\"": 2400
+   },
+   "workflow.world.maxContextBytes": {
+    "16777216": 2400
+   },
+   "workflow.world.protocol": {
+    "\"actor-context/v1\"": 2400
+   }
+  },
+  "run_json": {
+   "dataset": {
+    "{\"id\": \"pact-pair\", \"manifestSha256\": \"4968bfd442a327b78a819d8d74e4a9f65bffa27624cc7659ae77f6c276cc22fa\", \"tasksSha256\": \"9032f46a79b2c9d6f6664b8aabea4006561b287de66bb59b0304cf619fdb265a\", \"version\": \"7.0.0\"}": 2400
+   },
+   "goldSet": {
+    "{\"id\": \"pact-pair-category-gold-v1\", \"sha256\": \"b6e419486ad4cbbcf1d591e63ca5b210c16cbb2d4067bafb09b6449d50378cee\"}": 2400
+   },
+   "kernelRevision": {
+    "\"3aa07e33999b656a10ace294fd4e41df8cbc318e\"": 31,
+    "null": 2369
+   },
+   "requester_model": {
+    "{\"provider\": \"azure-openai\", \"requestedModel\": \"DeepSeek-V4-Flash-0731\", \"resolvedModel\": \"DeepSeek-V4-Flash-0731\"}": 2400
+   },
+   "requester_policy_id": {
+    "\"sharedeval/scheduler/ordered-public-task-queue\"": 2400
+   },
+   "responder_model": {
+    "{\"provider\": \"azure-openai\", \"requestedModel\": \"DeepSeek-V4-Flash-0731\", \"resolvedModel\": \"DeepSeek-V4-Flash-0731\"}": 2400
+   },
+   "responder_policy": {
+    "{\"id\": \"policies/pact-pair-defense/d2\", \"sha256\": \"a213e556fc4262c72ed3a1a12a9bd68c1ef006acbad0e5337122dbb897665f30\", \"version\": \"1.0.0\"}": 2400
+   }
+  },
+  "served_models": null,
+  "sessions": 2400,
+  "sharedeval_source_revision_of_last_launch": {
+   "26dd392fc83df022f29bc0852f4bedfdf69ba0ae": 30,
+   "5db4182c8c3b1082e4585b6473d70fa8296cbe67": 2353,
+   "None": 1,
+   "e20062ef31adb01113a64a0acc80d226ccf1f305": 16
+  }
+ }
+}

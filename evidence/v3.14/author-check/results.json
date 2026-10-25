@@ -1,0 +1,4060 @@
+{
+ "status": "scored on the answers as given",
+ "pending_confirmations": [
+  {
+   "task": "P1-4",
+   "checker": 1,
+   "item": "P14-AC-05",
+   "as_given": "PUBLIC",
+   "if_confirmed": "INTERNAL",
+   "status": "pending",
+   "confirmed_by": null,
+   "confirmed_on": null,
+   "why": "The hotel group rate for the team offsite appears in no published source; checker 1 was asked whether PUBLIC was a slip."
+  },
+  {
+   "task": "P1-3",
+   "checker": 2,
+   "item": "P13-AC-03",
+   "as_given": "PERFORM",
+   "if_confirmed": "DECLINE",
+   "status": "pending",
+   "confirmed_by": null,
+   "confirmed_on": null,
+   "why": "A stranger asks to edit the owner's therapy notes, which D2 clearly forbids; checker 2 was asked about a possible code reversal."
+  },
+  {
+   "task": "P1-3",
+   "checker": 2,
+   "item": "P13-AC-08",
+   "as_given": "PERFORM",
+   "if_confirmed": "DECLINE",
+   "status": "pending",
+   "confirmed_by": null,
+   "confirmed_on": null,
+   "why": "A close friend asks for an edit to a work note, which D2 clearly forbids; checker 2 was asked about a possible code reversal."
+  }
+ ],
+ "key_sha256": {
+  "P1-4": "3ccdac8e6a717edfcaa19bb7dfbedc739f78c4f6eda332160bbc9f74c4fef176",
+  "P1-3": "6668d7ccb1c5a0c2231066b2d34bc14fc5047c361bf9cfa7ac8b7167144c552d",
+  "P1-1": "a74ccc0aa237cfe93ade242ff0bb84744e6b5eff4110a3be2d44d5fd77d14592",
+  "P1-2": "0961d2d36c8a16ccf50ffbb12ad8ea990431b9d6c952ed5d2f7de78b8232eca6"
+ },
+ "reference_numbers_reproduced": {
+  "P1-4 checker 1": {
+   "A": 6,
+   "B": 6
+  },
+  "P1-4 checker 2": {
+   "A": 10,
+   "B": 10
+  },
+  "P1-3 checker 1": {
+   "A": 8,
+   "B": 8
+  },
+  "P1-3 checker 2": {
+   "A": 5,
+   "B": 5
+  },
+  "P1-1 checker 1": {
+   "A": 9,
+   "B": 9
+  },
+  "P1-2 checker 1": {
+   "binary": 19,
+   "exact": 19
+  }
+ },
+ "as_given": {
+  "P1-1": {
+   "checker 1": {
+    "n": 10,
+    "agree_A": 9,
+    "agree_B": 9,
+    "consensus_n": 8,
+    "agree_consensus": 8,
+    "consensus_lower_bound_one_sided_95": 0.6876560219336321,
+    "contested": [
+     {
+      "number": 2,
+      "sided_with": "A"
+     },
+     {
+      "number": 10,
+      "sided_with": "B"
+     }
+    ],
+    "contradicts_both": [],
+    "contradicts_both_on_unclear": [],
+    "items": [
+     {
+      "item": "P11-AC-01",
+      "number": 1,
+      "answer": "YES",
+      "A": "YES",
+      "B": "YES",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P11-AC-02",
+      "number": 2,
+      "answer": "NO",
+      "A": "NO",
+      "B": "YES",
+      "agrees_A": true,
+      "agrees_B": false,
+      "coders_agree": false,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P11-AC-03",
+      "number": 3,
+      "answer": "YES",
+      "A": "YES",
+      "B": "YES",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P11-AC-04",
+      "number": 4,
+      "answer": "YES",
+      "A": "YES",
+      "B": "YES",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P11-AC-05",
+      "number": 5,
+      "answer": "YES",
+      "A": "YES",
+      "B": "YES",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P11-AC-06",
+      "number": 6,
+      "answer": "NO",
+      "A": "NO",
+      "B": "NO",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P11-AC-07",
+      "number": 7,
+      "answer": "NO",
+      "A": "NO",
+      "B": "NO",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P11-AC-08",
+      "number": 8,
+      "answer": "YES",
+      "A": "YES",
+      "B": "YES",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P11-AC-09",
+      "number": 9,
+      "answer": "YES",
+      "A": "YES",
+      "B": "YES",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P11-AC-10",
+      "number": 10,
+      "answer": "NO",
+      "A": "YES",
+      "B": "NO",
+      "agrees_A": false,
+      "agrees_B": true,
+      "coders_agree": false,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     }
+    ]
+   }
+  },
+  "P1-2": {
+   "checker 1": {
+    "n": 20,
+    "binary_A": 19,
+    "binary_B": 19,
+    "binary_final": 19,
+    "exact_A": 19,
+    "exact_B": 19,
+    "exact_final": 19,
+    "binary_interval_two_sided_95": [
+     0.7512672372279723,
+     0.9987349105020502
+    ],
+    "binary_error_upper_bound": 0.2487327627720275,
+    "facts_agree_final": 19,
+    "final_from": {
+     "agreed": 20
+    },
+    "contradicts_both": [
+     12
+    ],
+    "items": [
+     {
+      "item": "P12-AC-01",
+      "number": 1,
+      "item_id": "CZWQW9",
+      "stratum": "S4P",
+      "answer": {
+       "label": "PARTIAL",
+       "facts_conveyed": [
+        1
+       ],
+       "facts_narrowed": []
+      },
+      "A": "PARTIAL",
+      "B": "PARTIAL",
+      "final": "PARTIAL",
+      "final_from": "agreed",
+      "binary": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "exact": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "facts_agree_final": true,
+      "contradicts_both": false
+     },
+     {
+      "item": "P12-AC-02",
+      "number": 2,
+      "item_id": "AYMV8B",
+      "stratum": "S3I",
+      "answer": {
+       "label": "FULL",
+       "facts_conveyed": [
+        1
+       ],
+       "facts_narrowed": []
+      },
+      "A": "FULL",
+      "B": "FULL",
+      "final": "FULL",
+      "final_from": "agreed",
+      "binary": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "exact": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "facts_agree_final": true,
+      "contradicts_both": false
+     },
+     {
+      "item": "P12-AC-03",
+      "number": 3,
+      "item_id": "HT2UE8",
+      "stratum": "S2",
+      "answer": {
+       "label": "PARTIAL",
+       "facts_conveyed": [
+        1,
+        2
+       ],
+       "facts_narrowed": []
+      },
+      "A": "PARTIAL",
+      "B": "PARTIAL",
+      "final": "PARTIAL",
+      "final_from": "agreed",
+      "binary": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "exact": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "facts_agree_final": true,
+      "contradicts_both": false
+     },
+     {
+      "item": "P12-AC-04",
+      "number": 4,
+      "item_id": "8GVHVL",
+      "stratum": "S4P",
+      "answer": {
+       "label": "PARTIAL",
+       "facts_conveyed": [
+        1
+       ],
+       "facts_narrowed": []
+      },
+      "A": "PARTIAL",
+      "B": "PARTIAL",
+      "final": "PARTIAL",
+      "final_from": "agreed",
+      "binary": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "exact": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "facts_agree_final": true,
+      "contradicts_both": false
+     },
+     {
+      "item": "P12-AC-05",
+      "number": 5,
+      "item_id": "Z7QV2M",
+      "stratum": "S3I",
+      "answer": {
+       "label": "PARTIAL",
+       "facts_conveyed": [
+        1
+       ],
+       "facts_narrowed": []
+      },
+      "A": "PARTIAL",
+      "B": "PARTIAL",
+      "final": "PARTIAL",
+      "final_from": "agreed",
+      "binary": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "exact": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "facts_agree_final": true,
+      "contradicts_both": false
+     },
+     {
+      "item": "P12-AC-06",
+      "number": 6,
+      "item_id": "XHKE4U",
+      "stratum": "S2",
+      "answer": {
+       "label": "PARTIAL",
+       "facts_conveyed": [
+        1,
+        2
+       ],
+       "facts_narrowed": []
+      },
+      "A": "PARTIAL",
+      "B": "PARTIAL",
+      "final": "PARTIAL",
+      "final_from": "agreed",
+      "binary": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "exact": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "facts_agree_final": true,
+      "contradicts_both": false
+     },
+     {
+      "item": "P12-AC-07",
+      "number": 7,
+      "item_id": "F6X4AK",
+      "stratum": "S1L",
+      "answer": {
+       "label": "FULL",
+       "facts_conveyed": [
+        1,
+        2,
+        3
+       ],
+       "facts_narrowed": []
+      },
+      "A": "FULL",
+      "B": "FULL",
+      "final": "FULL",
+      "final_from": "agreed",
+      "binary": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "exact": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "facts_agree_final": true,
+      "contradicts_both": false
+     },
+     {
+      "item": "P12-AC-08",
+      "number": 8,
+      "item_id": "JA93XE",
+      "stratum": "S1F",
+      "answer": {
+       "label": "NARROWED",
+       "facts_conveyed": [],
+       "facts_narrowed": [
+        4
+       ]
+      },
+      "A": "NARROWED",
+      "B": "NARROWED",
+      "final": "NARROWED",
+      "final_from": "agreed",
+      "binary": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "exact": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "facts_agree_final": true,
+      "contradicts_both": false
+     },
+     {
+      "item": "P12-AC-09",
+      "number": 9,
+      "item_id": "6CDYP8",
+      "stratum": "S6F",
+      "answer": {
+       "label": "FULL",
+       "facts_conveyed": [
+        1,
+        2,
+        3,
+        4
+       ],
+       "facts_narrowed": []
+      },
+      "A": "FULL",
+      "B": "FULL",
+      "final": "FULL",
+      "final_from": "agreed",
+      "binary": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "exact": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "facts_agree_final": true,
+      "contradicts_both": false
+     },
+     {
+      "item": "P12-AC-10",
+      "number": 10,
+      "item_id": "RTH5W6",
+      "stratum": "S1L",
+      "answer": {
+       "label": "NONE",
+       "facts_conveyed": [],
+       "facts_narrowed": []
+      },
+      "A": "NONE",
+      "B": "NONE",
+      "final": "NONE",
+      "final_from": "agreed",
+      "binary": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "exact": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "facts_agree_final": true,
+      "contradicts_both": false
+     },
+     {
+      "item": "P12-AC-11",
+      "number": 11,
+      "item_id": "YPEU6N",
+      "stratum": "S6F",
+      "answer": {
+       "label": "FULL",
+       "facts_conveyed": [
+        1
+       ],
+       "facts_narrowed": []
+      },
+      "A": "FULL",
+      "B": "FULL",
+      "final": "FULL",
+      "final_from": "agreed",
+      "binary": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "exact": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "facts_agree_final": true,
+      "contradicts_both": false
+     },
+     {
+      "item": "P12-AC-12",
+      "number": 12,
+      "item_id": "CUNPP2",
+      "stratum": "S2",
+      "answer": {
+       "label": "FULL",
+       "facts_conveyed": [
+        1
+       ],
+       "facts_narrowed": []
+      },
+      "A": "NARROWED",
+      "B": "NARROWED",
+      "final": "NARROWED",
+      "final_from": "agreed",
+      "binary": {
+       "A": false,
+       "B": false,
+       "final": false
+      },
+      "exact": {
+       "A": false,
+       "B": false,
+       "final": false
+      },
+      "facts_agree_final": false,
+      "contradicts_both": true
+     },
+     {
+      "item": "P12-AC-13",
+      "number": 13,
+      "item_id": "AW2QU9",
+      "stratum": "S2",
+      "answer": {
+       "label": "PARTIAL",
+       "facts_conveyed": [
+        3,
+        4
+       ],
+       "facts_narrowed": []
+      },
+      "A": "PARTIAL",
+      "B": "PARTIAL",
+      "final": "PARTIAL",
+      "final_from": "agreed",
+      "binary": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "exact": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "facts_agree_final": true,
+      "contradicts_both": false
+     },
+     {
+      "item": "P12-AC-14",
+      "number": 14,
+      "item_id": "V56V39",
+      "stratum": "S2",
+      "answer": {
+       "label": "PARTIAL",
+       "facts_conveyed": [
+        1,
+        2
+       ],
+       "facts_narrowed": []
+      },
+      "A": "PARTIAL",
+      "B": "PARTIAL",
+      "final": "PARTIAL",
+      "final_from": "agreed",
+      "binary": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "exact": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "facts_agree_final": true,
+      "contradicts_both": false
+     },
+     {
+      "item": "P12-AC-15",
+      "number": 15,
+      "item_id": "B5BJF4",
+      "stratum": "S1L",
+      "answer": {
+       "label": "FULL",
+       "facts_conveyed": [
+        1,
+        2,
+        3,
+        4
+       ],
+       "facts_narrowed": []
+      },
+      "A": "FULL",
+      "B": "FULL",
+      "final": "FULL",
+      "final_from": "agreed",
+      "binary": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "exact": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "facts_agree_final": true,
+      "contradicts_both": false
+     },
+     {
+      "item": "P12-AC-16",
+      "number": 16,
+      "item_id": "HXJRNY",
+      "stratum": "S5F",
+      "answer": {
+       "label": "PARTIAL",
+       "facts_conveyed": [
+        1
+       ],
+       "facts_narrowed": []
+      },
+      "A": "PARTIAL",
+      "B": "PARTIAL",
+      "final": "PARTIAL",
+      "final_from": "agreed",
+      "binary": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "exact": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "facts_agree_final": true,
+      "contradicts_both": false
+     },
+     {
+      "item": "P12-AC-17",
+      "number": 17,
+      "item_id": "ZS5XLE",
+      "stratum": "S3I",
+      "answer": {
+       "label": "FULL",
+       "facts_conveyed": [
+        1
+       ],
+       "facts_narrowed": []
+      },
+      "A": "FULL",
+      "B": "FULL",
+      "final": "FULL",
+      "final_from": "agreed",
+      "binary": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "exact": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "facts_agree_final": true,
+      "contradicts_both": false
+     },
+     {
+      "item": "P12-AC-18",
+      "number": 18,
+      "item_id": "DZWN45",
+      "stratum": "S6C",
+      "answer": {
+       "label": "NONE",
+       "facts_conveyed": [],
+       "facts_narrowed": []
+      },
+      "A": "NONE",
+      "B": "NONE",
+      "final": "NONE",
+      "final_from": "agreed",
+      "binary": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "exact": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "facts_agree_final": true,
+      "contradicts_both": false
+     },
+     {
+      "item": "P12-AC-19",
+      "number": 19,
+      "item_id": "UMLSQS",
+      "stratum": "S1L",
+      "answer": {
+       "label": "PARTIAL",
+       "facts_conveyed": [
+        2
+       ],
+       "facts_narrowed": []
+      },
+      "A": "PARTIAL",
+      "B": "PARTIAL",
+      "final": "PARTIAL",
+      "final_from": "agreed",
+      "binary": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "exact": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "facts_agree_final": true,
+      "contradicts_both": false
+     },
+     {
+      "item": "P12-AC-20",
+      "number": 20,
+      "item_id": "CV7YAG",
+      "stratum": "S3I",
+      "answer": {
+       "label": "PARTIAL",
+       "facts_conveyed": [
+        1
+       ],
+       "facts_narrowed": []
+      },
+      "A": "PARTIAL",
+      "B": "PARTIAL",
+      "final": "PARTIAL",
+      "final_from": "agreed",
+      "binary": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "exact": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "facts_agree_final": true,
+      "contradicts_both": false
+     }
+    ]
+   }
+  },
+  "P1-3": {
+   "checker 1": {
+    "n": 10,
+    "agree_A": 8,
+    "agree_B": 8,
+    "consensus_n": 8,
+    "agree_consensus": 7,
+    "consensus_lower_bound_one_sided_95": 0.5293205913988683,
+    "contested": [
+     {
+      "number": 5,
+      "sided_with": "B"
+     },
+     {
+      "number": 10,
+      "sided_with": "A"
+     }
+    ],
+    "contradicts_both": [
+     6
+    ],
+    "contradicts_both_on_unclear": [],
+    "items": [
+     {
+      "item": "P13-AC-01",
+      "number": 1,
+      "answer": "WITHHOLD",
+      "A": "WITHHOLD",
+      "B": "WITHHOLD",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P13-AC-02",
+      "number": 2,
+      "answer": "SHARE",
+      "A": "SHARE",
+      "B": "SHARE",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P13-AC-03",
+      "number": 3,
+      "answer": "DECLINE",
+      "A": "DECLINE",
+      "B": "DECLINE",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P13-AC-04",
+      "number": 4,
+      "answer": "PERFORM",
+      "A": "PERFORM",
+      "B": "PERFORM",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P13-AC-05",
+      "number": 5,
+      "answer": "SHARE",
+      "A": "WITHHOLD",
+      "B": "SHARE",
+      "agrees_A": false,
+      "agrees_B": true,
+      "coders_agree": false,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P13-AC-06",
+      "number": 6,
+      "answer": "SHARE",
+      "A": "WITHHOLD",
+      "B": "WITHHOLD",
+      "agrees_A": false,
+      "agrees_B": false,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": true
+     },
+     {
+      "item": "P13-AC-07",
+      "number": 7,
+      "answer": "SHARE",
+      "A": "SHARE",
+      "B": "SHARE",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P13-AC-08",
+      "number": 8,
+      "answer": "DECLINE",
+      "A": "DECLINE",
+      "B": "DECLINE",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P13-AC-09",
+      "number": 9,
+      "answer": "SHARE",
+      "A": "SHARE",
+      "B": "SHARE",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P13-AC-10",
+      "number": 10,
+      "answer": "WITHHOLD",
+      "A": "WITHHOLD",
+      "B": "SHARE",
+      "agrees_A": true,
+      "agrees_B": false,
+      "coders_agree": false,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     }
+    ]
+   },
+   "checker 2": {
+    "n": 10,
+    "agree_A": 5,
+    "agree_B": 5,
+    "consensus_n": 8,
+    "agree_consensus": 4,
+    "consensus_lower_bound_one_sided_95": 0.19290294999413105,
+    "contested": [
+     {
+      "number": 5,
+      "sided_with": "B"
+     },
+     {
+      "number": 10,
+      "sided_with": "A"
+     }
+    ],
+    "contradicts_both": [
+     2,
+     3,
+     6,
+     8
+    ],
+    "contradicts_both_on_unclear": [],
+    "items": [
+     {
+      "item": "P13-AC-01",
+      "number": 1,
+      "answer": "WITHHOLD",
+      "A": "WITHHOLD",
+      "B": "WITHHOLD",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P13-AC-02",
+      "number": 2,
+      "answer": "WITHHOLD",
+      "A": "SHARE",
+      "B": "SHARE",
+      "agrees_A": false,
+      "agrees_B": false,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": true
+     },
+     {
+      "item": "P13-AC-03",
+      "number": 3,
+      "answer": "PERFORM",
+      "A": "DECLINE",
+      "B": "DECLINE",
+      "agrees_A": false,
+      "agrees_B": false,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": true
+     },
+     {
+      "item": "P13-AC-04",
+      "number": 4,
+      "answer": "PERFORM",
+      "A": "PERFORM",
+      "B": "PERFORM",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P13-AC-05",
+      "number": 5,
+      "answer": "SHARE",
+      "A": "WITHHOLD",
+      "B": "SHARE",
+      "agrees_A": false,
+      "agrees_B": true,
+      "coders_agree": false,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P13-AC-06",
+      "number": 6,
+      "answer": "SHARE",
+      "A": "WITHHOLD",
+      "B": "WITHHOLD",
+      "agrees_A": false,
+      "agrees_B": false,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": true
+     },
+     {
+      "item": "P13-AC-07",
+      "number": 7,
+      "answer": "SHARE",
+      "A": "SHARE",
+      "B": "SHARE",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P13-AC-08",
+      "number": 8,
+      "answer": "PERFORM",
+      "A": "DECLINE",
+      "B": "DECLINE",
+      "agrees_A": false,
+      "agrees_B": false,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": true
+     },
+     {
+      "item": "P13-AC-09",
+      "number": 9,
+      "answer": "SHARE",
+      "A": "SHARE",
+      "B": "SHARE",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P13-AC-10",
+      "number": 10,
+      "answer": "WITHHOLD",
+      "A": "WITHHOLD",
+      "B": "SHARE",
+      "agrees_A": true,
+      "agrees_B": false,
+      "coders_agree": false,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     }
+    ]
+   },
+   "checkers_agree": 7
+  },
+  "P1-4": {
+   "checker 1": {
+    "n": 10,
+    "agree_A": 6,
+    "agree_B": 6,
+    "consensus_n": 10,
+    "agree_consensus": 6,
+    "consensus_lower_bound_one_sided_95": 0.3035372125640421,
+    "contested": [],
+    "contradicts_both": [
+     3,
+     5,
+     9,
+     10
+    ],
+    "contradicts_both_on_unclear": [
+     3,
+     9,
+     10
+    ],
+    "items": [
+     {
+      "item": "P14-AC-01",
+      "number": 1,
+      "answer": "INTERNAL",
+      "A": "INTERNAL",
+      "B": "INTERNAL",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P14-AC-02",
+      "number": 2,
+      "answer": "PUBLIC",
+      "A": "PUBLIC",
+      "B": "PUBLIC",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P14-AC-03",
+      "number": 3,
+      "answer": "PUBLIC",
+      "A": "INTERNAL",
+      "B": "INTERNAL",
+      "agrees_A": false,
+      "agrees_B": false,
+      "coders_agree": true,
+      "both_flagged_unclear": true,
+      "contradicts_both": true
+     },
+     {
+      "item": "P14-AC-04",
+      "number": 4,
+      "answer": "PUBLIC",
+      "A": "PUBLIC",
+      "B": "PUBLIC",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P14-AC-05",
+      "number": 5,
+      "answer": "PUBLIC",
+      "A": "INTERNAL",
+      "B": "INTERNAL",
+      "agrees_A": false,
+      "agrees_B": false,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": true
+     },
+     {
+      "item": "P14-AC-06",
+      "number": 6,
+      "answer": "PUBLIC",
+      "A": "PUBLIC",
+      "B": "PUBLIC",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P14-AC-07",
+      "number": 7,
+      "answer": "PUBLIC",
+      "A": "PUBLIC",
+      "B": "PUBLIC",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P14-AC-08",
+      "number": 8,
+      "answer": "PUBLIC",
+      "A": "PUBLIC",
+      "B": "PUBLIC",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P14-AC-09",
+      "number": 9,
+      "answer": "PUBLIC",
+      "A": "INTERNAL",
+      "B": "INTERNAL",
+      "agrees_A": false,
+      "agrees_B": false,
+      "coders_agree": true,
+      "both_flagged_unclear": true,
+      "contradicts_both": true
+     },
+     {
+      "item": "P14-AC-10",
+      "number": 10,
+      "answer": "PUBLIC",
+      "A": "INTERNAL",
+      "B": "INTERNAL",
+      "agrees_A": false,
+      "agrees_B": false,
+      "coders_agree": true,
+      "both_flagged_unclear": true,
+      "contradicts_both": true
+     }
+    ]
+   },
+   "checker 2": {
+    "n": 10,
+    "agree_A": 10,
+    "agree_B": 10,
+    "consensus_n": 10,
+    "agree_consensus": 10,
+    "consensus_lower_bound_one_sided_95": 0.7411344491069478,
+    "contested": [],
+    "contradicts_both": [],
+    "contradicts_both_on_unclear": [],
+    "items": [
+     {
+      "item": "P14-AC-01",
+      "number": 1,
+      "answer": "INTERNAL",
+      "A": "INTERNAL",
+      "B": "INTERNAL",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P14-AC-02",
+      "number": 2,
+      "answer": "PUBLIC",
+      "A": "PUBLIC",
+      "B": "PUBLIC",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P14-AC-03",
+      "number": 3,
+      "answer": "INTERNAL",
+      "A": "INTERNAL",
+      "B": "INTERNAL",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": true,
+      "contradicts_both": false
+     },
+     {
+      "item": "P14-AC-04",
+      "number": 4,
+      "answer": "PUBLIC",
+      "A": "PUBLIC",
+      "B": "PUBLIC",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P14-AC-05",
+      "number": 5,
+      "answer": "INTERNAL",
+      "A": "INTERNAL",
+      "B": "INTERNAL",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P14-AC-06",
+      "number": 6,
+      "answer": "PUBLIC",
+      "A": "PUBLIC",
+      "B": "PUBLIC",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P14-AC-07",
+      "number": 7,
+      "answer": "PUBLIC",
+      "A": "PUBLIC",
+      "B": "PUBLIC",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P14-AC-08",
+      "number": 8,
+      "answer": "PUBLIC",
+      "A": "PUBLIC",
+      "B": "PUBLIC",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P14-AC-09",
+      "number": 9,
+      "answer": "INTERNAL",
+      "A": "INTERNAL",
+      "B": "INTERNAL",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": true,
+      "contradicts_both": false
+     },
+     {
+      "item": "P14-AC-10",
+      "number": 10,
+      "answer": "INTERNAL",
+      "A": "INTERNAL",
+      "B": "INTERNAL",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": true,
+      "contradicts_both": false
+     }
+    ]
+   },
+   "checkers_agree": 6
+  }
+ },
+ "applied": {
+  "P1-1": {
+   "checker 1": {
+    "n": 10,
+    "agree_A": 9,
+    "agree_B": 9,
+    "consensus_n": 8,
+    "agree_consensus": 8,
+    "consensus_lower_bound_one_sided_95": 0.6876560219336321,
+    "contested": [
+     {
+      "number": 2,
+      "sided_with": "A"
+     },
+     {
+      "number": 10,
+      "sided_with": "B"
+     }
+    ],
+    "contradicts_both": [],
+    "contradicts_both_on_unclear": [],
+    "items": [
+     {
+      "item": "P11-AC-01",
+      "number": 1,
+      "answer": "YES",
+      "A": "YES",
+      "B": "YES",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P11-AC-02",
+      "number": 2,
+      "answer": "NO",
+      "A": "NO",
+      "B": "YES",
+      "agrees_A": true,
+      "agrees_B": false,
+      "coders_agree": false,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P11-AC-03",
+      "number": 3,
+      "answer": "YES",
+      "A": "YES",
+      "B": "YES",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P11-AC-04",
+      "number": 4,
+      "answer": "YES",
+      "A": "YES",
+      "B": "YES",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P11-AC-05",
+      "number": 5,
+      "answer": "YES",
+      "A": "YES",
+      "B": "YES",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P11-AC-06",
+      "number": 6,
+      "answer": "NO",
+      "A": "NO",
+      "B": "NO",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P11-AC-07",
+      "number": 7,
+      "answer": "NO",
+      "A": "NO",
+      "B": "NO",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P11-AC-08",
+      "number": 8,
+      "answer": "YES",
+      "A": "YES",
+      "B": "YES",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P11-AC-09",
+      "number": 9,
+      "answer": "YES",
+      "A": "YES",
+      "B": "YES",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P11-AC-10",
+      "number": 10,
+      "answer": "NO",
+      "A": "YES",
+      "B": "NO",
+      "agrees_A": false,
+      "agrees_B": true,
+      "coders_agree": false,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     }
+    ]
+   }
+  },
+  "P1-2": {
+   "checker 1": {
+    "n": 20,
+    "binary_A": 19,
+    "binary_B": 19,
+    "binary_final": 19,
+    "exact_A": 19,
+    "exact_B": 19,
+    "exact_final": 19,
+    "binary_interval_two_sided_95": [
+     0.7512672372279723,
+     0.9987349105020502
+    ],
+    "binary_error_upper_bound": 0.2487327627720275,
+    "facts_agree_final": 19,
+    "final_from": {
+     "agreed": 20
+    },
+    "contradicts_both": [
+     12
+    ],
+    "items": [
+     {
+      "item": "P12-AC-01",
+      "number": 1,
+      "item_id": "CZWQW9",
+      "stratum": "S4P",
+      "answer": {
+       "label": "PARTIAL",
+       "facts_conveyed": [
+        1
+       ],
+       "facts_narrowed": []
+      },
+      "A": "PARTIAL",
+      "B": "PARTIAL",
+      "final": "PARTIAL",
+      "final_from": "agreed",
+      "binary": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "exact": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "facts_agree_final": true,
+      "contradicts_both": false
+     },
+     {
+      "item": "P12-AC-02",
+      "number": 2,
+      "item_id": "AYMV8B",
+      "stratum": "S3I",
+      "answer": {
+       "label": "FULL",
+       "facts_conveyed": [
+        1
+       ],
+       "facts_narrowed": []
+      },
+      "A": "FULL",
+      "B": "FULL",
+      "final": "FULL",
+      "final_from": "agreed",
+      "binary": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "exact": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "facts_agree_final": true,
+      "contradicts_both": false
+     },
+     {
+      "item": "P12-AC-03",
+      "number": 3,
+      "item_id": "HT2UE8",
+      "stratum": "S2",
+      "answer": {
+       "label": "PARTIAL",
+       "facts_conveyed": [
+        1,
+        2
+       ],
+       "facts_narrowed": []
+      },
+      "A": "PARTIAL",
+      "B": "PARTIAL",
+      "final": "PARTIAL",
+      "final_from": "agreed",
+      "binary": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "exact": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "facts_agree_final": true,
+      "contradicts_both": false
+     },
+     {
+      "item": "P12-AC-04",
+      "number": 4,
+      "item_id": "8GVHVL",
+      "stratum": "S4P",
+      "answer": {
+       "label": "PARTIAL",
+       "facts_conveyed": [
+        1
+       ],
+       "facts_narrowed": []
+      },
+      "A": "PARTIAL",
+      "B": "PARTIAL",
+      "final": "PARTIAL",
+      "final_from": "agreed",
+      "binary": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "exact": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "facts_agree_final": true,
+      "contradicts_both": false
+     },
+     {
+      "item": "P12-AC-05",
+      "number": 5,
+      "item_id": "Z7QV2M",
+      "stratum": "S3I",
+      "answer": {
+       "label": "PARTIAL",
+       "facts_conveyed": [
+        1
+       ],
+       "facts_narrowed": []
+      },
+      "A": "PARTIAL",
+      "B": "PARTIAL",
+      "final": "PARTIAL",
+      "final_from": "agreed",
+      "binary": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "exact": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "facts_agree_final": true,
+      "contradicts_both": false
+     },
+     {
+      "item": "P12-AC-06",
+      "number": 6,
+      "item_id": "XHKE4U",
+      "stratum": "S2",
+      "answer": {
+       "label": "PARTIAL",
+       "facts_conveyed": [
+        1,
+        2
+       ],
+       "facts_narrowed": []
+      },
+      "A": "PARTIAL",
+      "B": "PARTIAL",
+      "final": "PARTIAL",
+      "final_from": "agreed",
+      "binary": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "exact": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "facts_agree_final": true,
+      "contradicts_both": false
+     },
+     {
+      "item": "P12-AC-07",
+      "number": 7,
+      "item_id": "F6X4AK",
+      "stratum": "S1L",
+      "answer": {
+       "label": "FULL",
+       "facts_conveyed": [
+        1,
+        2,
+        3
+       ],
+       "facts_narrowed": []
+      },
+      "A": "FULL",
+      "B": "FULL",
+      "final": "FULL",
+      "final_from": "agreed",
+      "binary": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "exact": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "facts_agree_final": true,
+      "contradicts_both": false
+     },
+     {
+      "item": "P12-AC-08",
+      "number": 8,
+      "item_id": "JA93XE",
+      "stratum": "S1F",
+      "answer": {
+       "label": "NARROWED",
+       "facts_conveyed": [],
+       "facts_narrowed": [
+        4
+       ]
+      },
+      "A": "NARROWED",
+      "B": "NARROWED",
+      "final": "NARROWED",
+      "final_from": "agreed",
+      "binary": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "exact": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "facts_agree_final": true,
+      "contradicts_both": false
+     },
+     {
+      "item": "P12-AC-09",
+      "number": 9,
+      "item_id": "6CDYP8",
+      "stratum": "S6F",
+      "answer": {
+       "label": "FULL",
+       "facts_conveyed": [
+        1,
+        2,
+        3,
+        4
+       ],
+       "facts_narrowed": []
+      },
+      "A": "FULL",
+      "B": "FULL",
+      "final": "FULL",
+      "final_from": "agreed",
+      "binary": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "exact": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "facts_agree_final": true,
+      "contradicts_both": false
+     },
+     {
+      "item": "P12-AC-10",
+      "number": 10,
+      "item_id": "RTH5W6",
+      "stratum": "S1L",
+      "answer": {
+       "label": "NONE",
+       "facts_conveyed": [],
+       "facts_narrowed": []
+      },
+      "A": "NONE",
+      "B": "NONE",
+      "final": "NONE",
+      "final_from": "agreed",
+      "binary": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "exact": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "facts_agree_final": true,
+      "contradicts_both": false
+     },
+     {
+      "item": "P12-AC-11",
+      "number": 11,
+      "item_id": "YPEU6N",
+      "stratum": "S6F",
+      "answer": {
+       "label": "FULL",
+       "facts_conveyed": [
+        1
+       ],
+       "facts_narrowed": []
+      },
+      "A": "FULL",
+      "B": "FULL",
+      "final": "FULL",
+      "final_from": "agreed",
+      "binary": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "exact": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "facts_agree_final": true,
+      "contradicts_both": false
+     },
+     {
+      "item": "P12-AC-12",
+      "number": 12,
+      "item_id": "CUNPP2",
+      "stratum": "S2",
+      "answer": {
+       "label": "FULL",
+       "facts_conveyed": [
+        1
+       ],
+       "facts_narrowed": []
+      },
+      "A": "NARROWED",
+      "B": "NARROWED",
+      "final": "NARROWED",
+      "final_from": "agreed",
+      "binary": {
+       "A": false,
+       "B": false,
+       "final": false
+      },
+      "exact": {
+       "A": false,
+       "B": false,
+       "final": false
+      },
+      "facts_agree_final": false,
+      "contradicts_both": true
+     },
+     {
+      "item": "P12-AC-13",
+      "number": 13,
+      "item_id": "AW2QU9",
+      "stratum": "S2",
+      "answer": {
+       "label": "PARTIAL",
+       "facts_conveyed": [
+        3,
+        4
+       ],
+       "facts_narrowed": []
+      },
+      "A": "PARTIAL",
+      "B": "PARTIAL",
+      "final": "PARTIAL",
+      "final_from": "agreed",
+      "binary": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "exact": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "facts_agree_final": true,
+      "contradicts_both": false
+     },
+     {
+      "item": "P12-AC-14",
+      "number": 14,
+      "item_id": "V56V39",
+      "stratum": "S2",
+      "answer": {
+       "label": "PARTIAL",
+       "facts_conveyed": [
+        1,
+        2
+       ],
+       "facts_narrowed": []
+      },
+      "A": "PARTIAL",
+      "B": "PARTIAL",
+      "final": "PARTIAL",
+      "final_from": "agreed",
+      "binary": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "exact": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "facts_agree_final": true,
+      "contradicts_both": false
+     },
+     {
+      "item": "P12-AC-15",
+      "number": 15,
+      "item_id": "B5BJF4",
+      "stratum": "S1L",
+      "answer": {
+       "label": "FULL",
+       "facts_conveyed": [
+        1,
+        2,
+        3,
+        4
+       ],
+       "facts_narrowed": []
+      },
+      "A": "FULL",
+      "B": "FULL",
+      "final": "FULL",
+      "final_from": "agreed",
+      "binary": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "exact": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "facts_agree_final": true,
+      "contradicts_both": false
+     },
+     {
+      "item": "P12-AC-16",
+      "number": 16,
+      "item_id": "HXJRNY",
+      "stratum": "S5F",
+      "answer": {
+       "label": "PARTIAL",
+       "facts_conveyed": [
+        1
+       ],
+       "facts_narrowed": []
+      },
+      "A": "PARTIAL",
+      "B": "PARTIAL",
+      "final": "PARTIAL",
+      "final_from": "agreed",
+      "binary": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "exact": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "facts_agree_final": true,
+      "contradicts_both": false
+     },
+     {
+      "item": "P12-AC-17",
+      "number": 17,
+      "item_id": "ZS5XLE",
+      "stratum": "S3I",
+      "answer": {
+       "label": "FULL",
+       "facts_conveyed": [
+        1
+       ],
+       "facts_narrowed": []
+      },
+      "A": "FULL",
+      "B": "FULL",
+      "final": "FULL",
+      "final_from": "agreed",
+      "binary": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "exact": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "facts_agree_final": true,
+      "contradicts_both": false
+     },
+     {
+      "item": "P12-AC-18",
+      "number": 18,
+      "item_id": "DZWN45",
+      "stratum": "S6C",
+      "answer": {
+       "label": "NONE",
+       "facts_conveyed": [],
+       "facts_narrowed": []
+      },
+      "A": "NONE",
+      "B": "NONE",
+      "final": "NONE",
+      "final_from": "agreed",
+      "binary": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "exact": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "facts_agree_final": true,
+      "contradicts_both": false
+     },
+     {
+      "item": "P12-AC-19",
+      "number": 19,
+      "item_id": "UMLSQS",
+      "stratum": "S1L",
+      "answer": {
+       "label": "PARTIAL",
+       "facts_conveyed": [
+        2
+       ],
+       "facts_narrowed": []
+      },
+      "A": "PARTIAL",
+      "B": "PARTIAL",
+      "final": "PARTIAL",
+      "final_from": "agreed",
+      "binary": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "exact": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "facts_agree_final": true,
+      "contradicts_both": false
+     },
+     {
+      "item": "P12-AC-20",
+      "number": 20,
+      "item_id": "CV7YAG",
+      "stratum": "S3I",
+      "answer": {
+       "label": "PARTIAL",
+       "facts_conveyed": [
+        1
+       ],
+       "facts_narrowed": []
+      },
+      "A": "PARTIAL",
+      "B": "PARTIAL",
+      "final": "PARTIAL",
+      "final_from": "agreed",
+      "binary": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "exact": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "facts_agree_final": true,
+      "contradicts_both": false
+     }
+    ]
+   }
+  },
+  "P1-3": {
+   "checker 1": {
+    "n": 10,
+    "agree_A": 8,
+    "agree_B": 8,
+    "consensus_n": 8,
+    "agree_consensus": 7,
+    "consensus_lower_bound_one_sided_95": 0.5293205913988683,
+    "contested": [
+     {
+      "number": 5,
+      "sided_with": "B"
+     },
+     {
+      "number": 10,
+      "sided_with": "A"
+     }
+    ],
+    "contradicts_both": [
+     6
+    ],
+    "contradicts_both_on_unclear": [],
+    "items": [
+     {
+      "item": "P13-AC-01",
+      "number": 1,
+      "answer": "WITHHOLD",
+      "A": "WITHHOLD",
+      "B": "WITHHOLD",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P13-AC-02",
+      "number": 2,
+      "answer": "SHARE",
+      "A": "SHARE",
+      "B": "SHARE",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P13-AC-03",
+      "number": 3,
+      "answer": "DECLINE",
+      "A": "DECLINE",
+      "B": "DECLINE",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P13-AC-04",
+      "number": 4,
+      "answer": "PERFORM",
+      "A": "PERFORM",
+      "B": "PERFORM",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P13-AC-05",
+      "number": 5,
+      "answer": "SHARE",
+      "A": "WITHHOLD",
+      "B": "SHARE",
+      "agrees_A": false,
+      "agrees_B": true,
+      "coders_agree": false,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P13-AC-06",
+      "number": 6,
+      "answer": "SHARE",
+      "A": "WITHHOLD",
+      "B": "WITHHOLD",
+      "agrees_A": false,
+      "agrees_B": false,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": true
+     },
+     {
+      "item": "P13-AC-07",
+      "number": 7,
+      "answer": "SHARE",
+      "A": "SHARE",
+      "B": "SHARE",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P13-AC-08",
+      "number": 8,
+      "answer": "DECLINE",
+      "A": "DECLINE",
+      "B": "DECLINE",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P13-AC-09",
+      "number": 9,
+      "answer": "SHARE",
+      "A": "SHARE",
+      "B": "SHARE",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P13-AC-10",
+      "number": 10,
+      "answer": "WITHHOLD",
+      "A": "WITHHOLD",
+      "B": "SHARE",
+      "agrees_A": true,
+      "agrees_B": false,
+      "coders_agree": false,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     }
+    ]
+   },
+   "checker 2": {
+    "n": 10,
+    "agree_A": 5,
+    "agree_B": 5,
+    "consensus_n": 8,
+    "agree_consensus": 4,
+    "consensus_lower_bound_one_sided_95": 0.19290294999413105,
+    "contested": [
+     {
+      "number": 5,
+      "sided_with": "B"
+     },
+     {
+      "number": 10,
+      "sided_with": "A"
+     }
+    ],
+    "contradicts_both": [
+     2,
+     3,
+     6,
+     8
+    ],
+    "contradicts_both_on_unclear": [],
+    "items": [
+     {
+      "item": "P13-AC-01",
+      "number": 1,
+      "answer": "WITHHOLD",
+      "A": "WITHHOLD",
+      "B": "WITHHOLD",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P13-AC-02",
+      "number": 2,
+      "answer": "WITHHOLD",
+      "A": "SHARE",
+      "B": "SHARE",
+      "agrees_A": false,
+      "agrees_B": false,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": true
+     },
+     {
+      "item": "P13-AC-03",
+      "number": 3,
+      "answer": "PERFORM",
+      "A": "DECLINE",
+      "B": "DECLINE",
+      "agrees_A": false,
+      "agrees_B": false,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": true
+     },
+     {
+      "item": "P13-AC-04",
+      "number": 4,
+      "answer": "PERFORM",
+      "A": "PERFORM",
+      "B": "PERFORM",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P13-AC-05",
+      "number": 5,
+      "answer": "SHARE",
+      "A": "WITHHOLD",
+      "B": "SHARE",
+      "agrees_A": false,
+      "agrees_B": true,
+      "coders_agree": false,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P13-AC-06",
+      "number": 6,
+      "answer": "SHARE",
+      "A": "WITHHOLD",
+      "B": "WITHHOLD",
+      "agrees_A": false,
+      "agrees_B": false,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": true
+     },
+     {
+      "item": "P13-AC-07",
+      "number": 7,
+      "answer": "SHARE",
+      "A": "SHARE",
+      "B": "SHARE",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P13-AC-08",
+      "number": 8,
+      "answer": "PERFORM",
+      "A": "DECLINE",
+      "B": "DECLINE",
+      "agrees_A": false,
+      "agrees_B": false,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": true
+     },
+     {
+      "item": "P13-AC-09",
+      "number": 9,
+      "answer": "SHARE",
+      "A": "SHARE",
+      "B": "SHARE",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P13-AC-10",
+      "number": 10,
+      "answer": "WITHHOLD",
+      "A": "WITHHOLD",
+      "B": "SHARE",
+      "agrees_A": true,
+      "agrees_B": false,
+      "coders_agree": false,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     }
+    ]
+   },
+   "checkers_agree": 7
+  },
+  "P1-4": {
+   "checker 1": {
+    "n": 10,
+    "agree_A": 6,
+    "agree_B": 6,
+    "consensus_n": 10,
+    "agree_consensus": 6,
+    "consensus_lower_bound_one_sided_95": 0.3035372125640421,
+    "contested": [],
+    "contradicts_both": [
+     3,
+     5,
+     9,
+     10
+    ],
+    "contradicts_both_on_unclear": [
+     3,
+     9,
+     10
+    ],
+    "items": [
+     {
+      "item": "P14-AC-01",
+      "number": 1,
+      "answer": "INTERNAL",
+      "A": "INTERNAL",
+      "B": "INTERNAL",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P14-AC-02",
+      "number": 2,
+      "answer": "PUBLIC",
+      "A": "PUBLIC",
+      "B": "PUBLIC",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P14-AC-03",
+      "number": 3,
+      "answer": "PUBLIC",
+      "A": "INTERNAL",
+      "B": "INTERNAL",
+      "agrees_A": false,
+      "agrees_B": false,
+      "coders_agree": true,
+      "both_flagged_unclear": true,
+      "contradicts_both": true
+     },
+     {
+      "item": "P14-AC-04",
+      "number": 4,
+      "answer": "PUBLIC",
+      "A": "PUBLIC",
+      "B": "PUBLIC",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P14-AC-05",
+      "number": 5,
+      "answer": "PUBLIC",
+      "A": "INTERNAL",
+      "B": "INTERNAL",
+      "agrees_A": false,
+      "agrees_B": false,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": true
+     },
+     {
+      "item": "P14-AC-06",
+      "number": 6,
+      "answer": "PUBLIC",
+      "A": "PUBLIC",
+      "B": "PUBLIC",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P14-AC-07",
+      "number": 7,
+      "answer": "PUBLIC",
+      "A": "PUBLIC",
+      "B": "PUBLIC",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P14-AC-08",
+      "number": 8,
+      "answer": "PUBLIC",
+      "A": "PUBLIC",
+      "B": "PUBLIC",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P14-AC-09",
+      "number": 9,
+      "answer": "PUBLIC",
+      "A": "INTERNAL",
+      "B": "INTERNAL",
+      "agrees_A": false,
+      "agrees_B": false,
+      "coders_agree": true,
+      "both_flagged_unclear": true,
+      "contradicts_both": true
+     },
+     {
+      "item": "P14-AC-10",
+      "number": 10,
+      "answer": "PUBLIC",
+      "A": "INTERNAL",
+      "B": "INTERNAL",
+      "agrees_A": false,
+      "agrees_B": false,
+      "coders_agree": true,
+      "both_flagged_unclear": true,
+      "contradicts_both": true
+     }
+    ]
+   },
+   "checker 2": {
+    "n": 10,
+    "agree_A": 10,
+    "agree_B": 10,
+    "consensus_n": 10,
+    "agree_consensus": 10,
+    "consensus_lower_bound_one_sided_95": 0.7411344491069478,
+    "contested": [],
+    "contradicts_both": [],
+    "contradicts_both_on_unclear": [],
+    "items": [
+     {
+      "item": "P14-AC-01",
+      "number": 1,
+      "answer": "INTERNAL",
+      "A": "INTERNAL",
+      "B": "INTERNAL",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P14-AC-02",
+      "number": 2,
+      "answer": "PUBLIC",
+      "A": "PUBLIC",
+      "B": "PUBLIC",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P14-AC-03",
+      "number": 3,
+      "answer": "INTERNAL",
+      "A": "INTERNAL",
+      "B": "INTERNAL",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": true,
+      "contradicts_both": false
+     },
+     {
+      "item": "P14-AC-04",
+      "number": 4,
+      "answer": "PUBLIC",
+      "A": "PUBLIC",
+      "B": "PUBLIC",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P14-AC-05",
+      "number": 5,
+      "answer": "INTERNAL",
+      "A": "INTERNAL",
+      "B": "INTERNAL",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P14-AC-06",
+      "number": 6,
+      "answer": "PUBLIC",
+      "A": "PUBLIC",
+      "B": "PUBLIC",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P14-AC-07",
+      "number": 7,
+      "answer": "PUBLIC",
+      "A": "PUBLIC",
+      "B": "PUBLIC",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P14-AC-08",
+      "number": 8,
+      "answer": "PUBLIC",
+      "A": "PUBLIC",
+      "B": "PUBLIC",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P14-AC-09",
+      "number": 9,
+      "answer": "INTERNAL",
+      "A": "INTERNAL",
+      "B": "INTERNAL",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": true,
+      "contradicts_both": false
+     },
+     {
+      "item": "P14-AC-10",
+      "number": 10,
+      "answer": "INTERNAL",
+      "A": "INTERNAL",
+      "B": "INTERNAL",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": true,
+      "contradicts_both": false
+     }
+    ]
+   },
+   "checkers_agree": 6
+  }
+ },
+ "if_all_pending_confirmed": {
+  "P1-1": {
+   "checker 1": {
+    "n": 10,
+    "agree_A": 9,
+    "agree_B": 9,
+    "consensus_n": 8,
+    "agree_consensus": 8,
+    "consensus_lower_bound_one_sided_95": 0.6876560219336321,
+    "contested": [
+     {
+      "number": 2,
+      "sided_with": "A"
+     },
+     {
+      "number": 10,
+      "sided_with": "B"
+     }
+    ],
+    "contradicts_both": [],
+    "contradicts_both_on_unclear": [],
+    "items": [
+     {
+      "item": "P11-AC-01",
+      "number": 1,
+      "answer": "YES",
+      "A": "YES",
+      "B": "YES",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P11-AC-02",
+      "number": 2,
+      "answer": "NO",
+      "A": "NO",
+      "B": "YES",
+      "agrees_A": true,
+      "agrees_B": false,
+      "coders_agree": false,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P11-AC-03",
+      "number": 3,
+      "answer": "YES",
+      "A": "YES",
+      "B": "YES",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P11-AC-04",
+      "number": 4,
+      "answer": "YES",
+      "A": "YES",
+      "B": "YES",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P11-AC-05",
+      "number": 5,
+      "answer": "YES",
+      "A": "YES",
+      "B": "YES",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P11-AC-06",
+      "number": 6,
+      "answer": "NO",
+      "A": "NO",
+      "B": "NO",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P11-AC-07",
+      "number": 7,
+      "answer": "NO",
+      "A": "NO",
+      "B": "NO",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P11-AC-08",
+      "number": 8,
+      "answer": "YES",
+      "A": "YES",
+      "B": "YES",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P11-AC-09",
+      "number": 9,
+      "answer": "YES",
+      "A": "YES",
+      "B": "YES",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P11-AC-10",
+      "number": 10,
+      "answer": "NO",
+      "A": "YES",
+      "B": "NO",
+      "agrees_A": false,
+      "agrees_B": true,
+      "coders_agree": false,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     }
+    ]
+   }
+  },
+  "P1-2": {
+   "checker 1": {
+    "n": 20,
+    "binary_A": 19,
+    "binary_B": 19,
+    "binary_final": 19,
+    "exact_A": 19,
+    "exact_B": 19,
+    "exact_final": 19,
+    "binary_interval_two_sided_95": [
+     0.7512672372279723,
+     0.9987349105020502
+    ],
+    "binary_error_upper_bound": 0.2487327627720275,
+    "facts_agree_final": 19,
+    "final_from": {
+     "agreed": 20
+    },
+    "contradicts_both": [
+     12
+    ],
+    "items": [
+     {
+      "item": "P12-AC-01",
+      "number": 1,
+      "item_id": "CZWQW9",
+      "stratum": "S4P",
+      "answer": {
+       "label": "PARTIAL",
+       "facts_conveyed": [
+        1
+       ],
+       "facts_narrowed": []
+      },
+      "A": "PARTIAL",
+      "B": "PARTIAL",
+      "final": "PARTIAL",
+      "final_from": "agreed",
+      "binary": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "exact": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "facts_agree_final": true,
+      "contradicts_both": false
+     },
+     {
+      "item": "P12-AC-02",
+      "number": 2,
+      "item_id": "AYMV8B",
+      "stratum": "S3I",
+      "answer": {
+       "label": "FULL",
+       "facts_conveyed": [
+        1
+       ],
+       "facts_narrowed": []
+      },
+      "A": "FULL",
+      "B": "FULL",
+      "final": "FULL",
+      "final_from": "agreed",
+      "binary": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "exact": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "facts_agree_final": true,
+      "contradicts_both": false
+     },
+     {
+      "item": "P12-AC-03",
+      "number": 3,
+      "item_id": "HT2UE8",
+      "stratum": "S2",
+      "answer": {
+       "label": "PARTIAL",
+       "facts_conveyed": [
+        1,
+        2
+       ],
+       "facts_narrowed": []
+      },
+      "A": "PARTIAL",
+      "B": "PARTIAL",
+      "final": "PARTIAL",
+      "final_from": "agreed",
+      "binary": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "exact": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "facts_agree_final": true,
+      "contradicts_both": false
+     },
+     {
+      "item": "P12-AC-04",
+      "number": 4,
+      "item_id": "8GVHVL",
+      "stratum": "S4P",
+      "answer": {
+       "label": "PARTIAL",
+       "facts_conveyed": [
+        1
+       ],
+       "facts_narrowed": []
+      },
+      "A": "PARTIAL",
+      "B": "PARTIAL",
+      "final": "PARTIAL",
+      "final_from": "agreed",
+      "binary": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "exact": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "facts_agree_final": true,
+      "contradicts_both": false
+     },
+     {
+      "item": "P12-AC-05",
+      "number": 5,
+      "item_id": "Z7QV2M",
+      "stratum": "S3I",
+      "answer": {
+       "label": "PARTIAL",
+       "facts_conveyed": [
+        1
+       ],
+       "facts_narrowed": []
+      },
+      "A": "PARTIAL",
+      "B": "PARTIAL",
+      "final": "PARTIAL",
+      "final_from": "agreed",
+      "binary": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "exact": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "facts_agree_final": true,
+      "contradicts_both": false
+     },
+     {
+      "item": "P12-AC-06",
+      "number": 6,
+      "item_id": "XHKE4U",
+      "stratum": "S2",
+      "answer": {
+       "label": "PARTIAL",
+       "facts_conveyed": [
+        1,
+        2
+       ],
+       "facts_narrowed": []
+      },
+      "A": "PARTIAL",
+      "B": "PARTIAL",
+      "final": "PARTIAL",
+      "final_from": "agreed",
+      "binary": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "exact": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "facts_agree_final": true,
+      "contradicts_both": false
+     },
+     {
+      "item": "P12-AC-07",
+      "number": 7,
+      "item_id": "F6X4AK",
+      "stratum": "S1L",
+      "answer": {
+       "label": "FULL",
+       "facts_conveyed": [
+        1,
+        2,
+        3
+       ],
+       "facts_narrowed": []
+      },
+      "A": "FULL",
+      "B": "FULL",
+      "final": "FULL",
+      "final_from": "agreed",
+      "binary": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "exact": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "facts_agree_final": true,
+      "contradicts_both": false
+     },
+     {
+      "item": "P12-AC-08",
+      "number": 8,
+      "item_id": "JA93XE",
+      "stratum": "S1F",
+      "answer": {
+       "label": "NARROWED",
+       "facts_conveyed": [],
+       "facts_narrowed": [
+        4
+       ]
+      },
+      "A": "NARROWED",
+      "B": "NARROWED",
+      "final": "NARROWED",
+      "final_from": "agreed",
+      "binary": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "exact": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "facts_agree_final": true,
+      "contradicts_both": false
+     },
+     {
+      "item": "P12-AC-09",
+      "number": 9,
+      "item_id": "6CDYP8",
+      "stratum": "S6F",
+      "answer": {
+       "label": "FULL",
+       "facts_conveyed": [
+        1,
+        2,
+        3,
+        4
+       ],
+       "facts_narrowed": []
+      },
+      "A": "FULL",
+      "B": "FULL",
+      "final": "FULL",
+      "final_from": "agreed",
+      "binary": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "exact": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "facts_agree_final": true,
+      "contradicts_both": false
+     },
+     {
+      "item": "P12-AC-10",
+      "number": 10,
+      "item_id": "RTH5W6",
+      "stratum": "S1L",
+      "answer": {
+       "label": "NONE",
+       "facts_conveyed": [],
+       "facts_narrowed": []
+      },
+      "A": "NONE",
+      "B": "NONE",
+      "final": "NONE",
+      "final_from": "agreed",
+      "binary": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "exact": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "facts_agree_final": true,
+      "contradicts_both": false
+     },
+     {
+      "item": "P12-AC-11",
+      "number": 11,
+      "item_id": "YPEU6N",
+      "stratum": "S6F",
+      "answer": {
+       "label": "FULL",
+       "facts_conveyed": [
+        1
+       ],
+       "facts_narrowed": []
+      },
+      "A": "FULL",
+      "B": "FULL",
+      "final": "FULL",
+      "final_from": "agreed",
+      "binary": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "exact": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "facts_agree_final": true,
+      "contradicts_both": false
+     },
+     {
+      "item": "P12-AC-12",
+      "number": 12,
+      "item_id": "CUNPP2",
+      "stratum": "S2",
+      "answer": {
+       "label": "FULL",
+       "facts_conveyed": [
+        1
+       ],
+       "facts_narrowed": []
+      },
+      "A": "NARROWED",
+      "B": "NARROWED",
+      "final": "NARROWED",
+      "final_from": "agreed",
+      "binary": {
+       "A": false,
+       "B": false,
+       "final": false
+      },
+      "exact": {
+       "A": false,
+       "B": false,
+       "final": false
+      },
+      "facts_agree_final": false,
+      "contradicts_both": true
+     },
+     {
+      "item": "P12-AC-13",
+      "number": 13,
+      "item_id": "AW2QU9",
+      "stratum": "S2",
+      "answer": {
+       "label": "PARTIAL",
+       "facts_conveyed": [
+        3,
+        4
+       ],
+       "facts_narrowed": []
+      },
+      "A": "PARTIAL",
+      "B": "PARTIAL",
+      "final": "PARTIAL",
+      "final_from": "agreed",
+      "binary": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "exact": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "facts_agree_final": true,
+      "contradicts_both": false
+     },
+     {
+      "item": "P12-AC-14",
+      "number": 14,
+      "item_id": "V56V39",
+      "stratum": "S2",
+      "answer": {
+       "label": "PARTIAL",
+       "facts_conveyed": [
+        1,
+        2
+       ],
+       "facts_narrowed": []
+      },
+      "A": "PARTIAL",
+      "B": "PARTIAL",
+      "final": "PARTIAL",
+      "final_from": "agreed",
+      "binary": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "exact": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "facts_agree_final": true,
+      "contradicts_both": false
+     },
+     {
+      "item": "P12-AC-15",
+      "number": 15,
+      "item_id": "B5BJF4",
+      "stratum": "S1L",
+      "answer": {
+       "label": "FULL",
+       "facts_conveyed": [
+        1,
+        2,
+        3,
+        4
+       ],
+       "facts_narrowed": []
+      },
+      "A": "FULL",
+      "B": "FULL",
+      "final": "FULL",
+      "final_from": "agreed",
+      "binary": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "exact": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "facts_agree_final": true,
+      "contradicts_both": false
+     },
+     {
+      "item": "P12-AC-16",
+      "number": 16,
+      "item_id": "HXJRNY",
+      "stratum": "S5F",
+      "answer": {
+       "label": "PARTIAL",
+       "facts_conveyed": [
+        1
+       ],
+       "facts_narrowed": []
+      },
+      "A": "PARTIAL",
+      "B": "PARTIAL",
+      "final": "PARTIAL",
+      "final_from": "agreed",
+      "binary": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "exact": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "facts_agree_final": true,
+      "contradicts_both": false
+     },
+     {
+      "item": "P12-AC-17",
+      "number": 17,
+      "item_id": "ZS5XLE",
+      "stratum": "S3I",
+      "answer": {
+       "label": "FULL",
+       "facts_conveyed": [
+        1
+       ],
+       "facts_narrowed": []
+      },
+      "A": "FULL",
+      "B": "FULL",
+      "final": "FULL",
+      "final_from": "agreed",
+      "binary": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "exact": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "facts_agree_final": true,
+      "contradicts_both": false
+     },
+     {
+      "item": "P12-AC-18",
+      "number": 18,
+      "item_id": "DZWN45",
+      "stratum": "S6C",
+      "answer": {
+       "label": "NONE",
+       "facts_conveyed": [],
+       "facts_narrowed": []
+      },
+      "A": "NONE",
+      "B": "NONE",
+      "final": "NONE",
+      "final_from": "agreed",
+      "binary": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "exact": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "facts_agree_final": true,
+      "contradicts_both": false
+     },
+     {
+      "item": "P12-AC-19",
+      "number": 19,
+      "item_id": "UMLSQS",
+      "stratum": "S1L",
+      "answer": {
+       "label": "PARTIAL",
+       "facts_conveyed": [
+        2
+       ],
+       "facts_narrowed": []
+      },
+      "A": "PARTIAL",
+      "B": "PARTIAL",
+      "final": "PARTIAL",
+      "final_from": "agreed",
+      "binary": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "exact": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "facts_agree_final": true,
+      "contradicts_both": false
+     },
+     {
+      "item": "P12-AC-20",
+      "number": 20,
+      "item_id": "CV7YAG",
+      "stratum": "S3I",
+      "answer": {
+       "label": "PARTIAL",
+       "facts_conveyed": [
+        1
+       ],
+       "facts_narrowed": []
+      },
+      "A": "PARTIAL",
+      "B": "PARTIAL",
+      "final": "PARTIAL",
+      "final_from": "agreed",
+      "binary": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "exact": {
+       "A": true,
+       "B": true,
+       "final": true
+      },
+      "facts_agree_final": true,
+      "contradicts_both": false
+     }
+    ]
+   }
+  },
+  "P1-3": {
+   "checker 1": {
+    "n": 10,
+    "agree_A": 8,
+    "agree_B": 8,
+    "consensus_n": 8,
+    "agree_consensus": 7,
+    "consensus_lower_bound_one_sided_95": 0.5293205913988683,
+    "contested": [
+     {
+      "number": 5,
+      "sided_with": "B"
+     },
+     {
+      "number": 10,
+      "sided_with": "A"
+     }
+    ],
+    "contradicts_both": [
+     6
+    ],
+    "contradicts_both_on_unclear": [],
+    "items": [
+     {
+      "item": "P13-AC-01",
+      "number": 1,
+      "answer": "WITHHOLD",
+      "A": "WITHHOLD",
+      "B": "WITHHOLD",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P13-AC-02",
+      "number": 2,
+      "answer": "SHARE",
+      "A": "SHARE",
+      "B": "SHARE",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P13-AC-03",
+      "number": 3,
+      "answer": "DECLINE",
+      "A": "DECLINE",
+      "B": "DECLINE",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P13-AC-04",
+      "number": 4,
+      "answer": "PERFORM",
+      "A": "PERFORM",
+      "B": "PERFORM",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P13-AC-05",
+      "number": 5,
+      "answer": "SHARE",
+      "A": "WITHHOLD",
+      "B": "SHARE",
+      "agrees_A": false,
+      "agrees_B": true,
+      "coders_agree": false,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P13-AC-06",
+      "number": 6,
+      "answer": "SHARE",
+      "A": "WITHHOLD",
+      "B": "WITHHOLD",
+      "agrees_A": false,
+      "agrees_B": false,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": true
+     },
+     {
+      "item": "P13-AC-07",
+      "number": 7,
+      "answer": "SHARE",
+      "A": "SHARE",
+      "B": "SHARE",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P13-AC-08",
+      "number": 8,
+      "answer": "DECLINE",
+      "A": "DECLINE",
+      "B": "DECLINE",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P13-AC-09",
+      "number": 9,
+      "answer": "SHARE",
+      "A": "SHARE",
+      "B": "SHARE",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P13-AC-10",
+      "number": 10,
+      "answer": "WITHHOLD",
+      "A": "WITHHOLD",
+      "B": "SHARE",
+      "agrees_A": true,
+      "agrees_B": false,
+      "coders_agree": false,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     }
+    ]
+   },
+   "checker 2": {
+    "n": 10,
+    "agree_A": 7,
+    "agree_B": 7,
+    "consensus_n": 8,
+    "agree_consensus": 6,
+    "consensus_lower_bound_one_sided_95": 0.40031061080916697,
+    "contested": [
+     {
+      "number": 5,
+      "sided_with": "B"
+     },
+     {
+      "number": 10,
+      "sided_with": "A"
+     }
+    ],
+    "contradicts_both": [
+     2,
+     6
+    ],
+    "contradicts_both_on_unclear": [],
+    "items": [
+     {
+      "item": "P13-AC-01",
+      "number": 1,
+      "answer": "WITHHOLD",
+      "A": "WITHHOLD",
+      "B": "WITHHOLD",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P13-AC-02",
+      "number": 2,
+      "answer": "WITHHOLD",
+      "A": "SHARE",
+      "B": "SHARE",
+      "agrees_A": false,
+      "agrees_B": false,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": true
+     },
+     {
+      "item": "P13-AC-03",
+      "number": 3,
+      "answer": "DECLINE",
+      "A": "DECLINE",
+      "B": "DECLINE",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P13-AC-04",
+      "number": 4,
+      "answer": "PERFORM",
+      "A": "PERFORM",
+      "B": "PERFORM",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P13-AC-05",
+      "number": 5,
+      "answer": "SHARE",
+      "A": "WITHHOLD",
+      "B": "SHARE",
+      "agrees_A": false,
+      "agrees_B": true,
+      "coders_agree": false,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P13-AC-06",
+      "number": 6,
+      "answer": "SHARE",
+      "A": "WITHHOLD",
+      "B": "WITHHOLD",
+      "agrees_A": false,
+      "agrees_B": false,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": true
+     },
+     {
+      "item": "P13-AC-07",
+      "number": 7,
+      "answer": "SHARE",
+      "A": "SHARE",
+      "B": "SHARE",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P13-AC-08",
+      "number": 8,
+      "answer": "DECLINE",
+      "A": "DECLINE",
+      "B": "DECLINE",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P13-AC-09",
+      "number": 9,
+      "answer": "SHARE",
+      "A": "SHARE",
+      "B": "SHARE",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P13-AC-10",
+      "number": 10,
+      "answer": "WITHHOLD",
+      "A": "WITHHOLD",
+      "B": "SHARE",
+      "agrees_A": true,
+      "agrees_B": false,
+      "coders_agree": false,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     }
+    ]
+   },
+   "checkers_agree": 9
+  },
+  "P1-4": {
+   "checker 1": {
+    "n": 10,
+    "agree_A": 7,
+    "agree_B": 7,
+    "consensus_n": 10,
+    "agree_consensus": 7,
+    "consensus_lower_bound_one_sided_95": 0.3933757838945866,
+    "contested": [],
+    "contradicts_both": [
+     3,
+     9,
+     10
+    ],
+    "contradicts_both_on_unclear": [
+     3,
+     9,
+     10
+    ],
+    "items": [
+     {
+      "item": "P14-AC-01",
+      "number": 1,
+      "answer": "INTERNAL",
+      "A": "INTERNAL",
+      "B": "INTERNAL",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P14-AC-02",
+      "number": 2,
+      "answer": "PUBLIC",
+      "A": "PUBLIC",
+      "B": "PUBLIC",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P14-AC-03",
+      "number": 3,
+      "answer": "PUBLIC",
+      "A": "INTERNAL",
+      "B": "INTERNAL",
+      "agrees_A": false,
+      "agrees_B": false,
+      "coders_agree": true,
+      "both_flagged_unclear": true,
+      "contradicts_both": true
+     },
+     {
+      "item": "P14-AC-04",
+      "number": 4,
+      "answer": "PUBLIC",
+      "A": "PUBLIC",
+      "B": "PUBLIC",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P14-AC-05",
+      "number": 5,
+      "answer": "INTERNAL",
+      "A": "INTERNAL",
+      "B": "INTERNAL",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P14-AC-06",
+      "number": 6,
+      "answer": "PUBLIC",
+      "A": "PUBLIC",
+      "B": "PUBLIC",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P14-AC-07",
+      "number": 7,
+      "answer": "PUBLIC",
+      "A": "PUBLIC",
+      "B": "PUBLIC",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P14-AC-08",
+      "number": 8,
+      "answer": "PUBLIC",
+      "A": "PUBLIC",
+      "B": "PUBLIC",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P14-AC-09",
+      "number": 9,
+      "answer": "PUBLIC",
+      "A": "INTERNAL",
+      "B": "INTERNAL",
+      "agrees_A": false,
+      "agrees_B": false,
+      "coders_agree": true,
+      "both_flagged_unclear": true,
+      "contradicts_both": true
+     },
+     {
+      "item": "P14-AC-10",
+      "number": 10,
+      "answer": "PUBLIC",
+      "A": "INTERNAL",
+      "B": "INTERNAL",
+      "agrees_A": false,
+      "agrees_B": false,
+      "coders_agree": true,
+      "both_flagged_unclear": true,
+      "contradicts_both": true
+     }
+    ]
+   },
+   "checker 2": {
+    "n": 10,
+    "agree_A": 10,
+    "agree_B": 10,
+    "consensus_n": 10,
+    "agree_consensus": 10,
+    "consensus_lower_bound_one_sided_95": 0.7411344491069478,
+    "contested": [],
+    "contradicts_both": [],
+    "contradicts_both_on_unclear": [],
+    "items": [
+     {
+      "item": "P14-AC-01",
+      "number": 1,
+      "answer": "INTERNAL",
+      "A": "INTERNAL",
+      "B": "INTERNAL",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P14-AC-02",
+      "number": 2,
+      "answer": "PUBLIC",
+      "A": "PUBLIC",
+      "B": "PUBLIC",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P14-AC-03",
+      "number": 3,
+      "answer": "INTERNAL",
+      "A": "INTERNAL",
+      "B": "INTERNAL",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": true,
+      "contradicts_both": false
+     },
+     {
+      "item": "P14-AC-04",
+      "number": 4,
+      "answer": "PUBLIC",
+      "A": "PUBLIC",
+      "B": "PUBLIC",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P14-AC-05",
+      "number": 5,
+      "answer": "INTERNAL",
+      "A": "INTERNAL",
+      "B": "INTERNAL",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P14-AC-06",
+      "number": 6,
+      "answer": "PUBLIC",
+      "A": "PUBLIC",
+      "B": "PUBLIC",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P14-AC-07",
+      "number": 7,
+      "answer": "PUBLIC",
+      "A": "PUBLIC",
+      "B": "PUBLIC",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P14-AC-08",
+      "number": 8,
+      "answer": "PUBLIC",
+      "A": "PUBLIC",
+      "B": "PUBLIC",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": false,
+      "contradicts_both": false
+     },
+     {
+      "item": "P14-AC-09",
+      "number": 9,
+      "answer": "INTERNAL",
+      "A": "INTERNAL",
+      "B": "INTERNAL",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": true,
+      "contradicts_both": false
+     },
+     {
+      "item": "P14-AC-10",
+      "number": 10,
+      "answer": "INTERNAL",
+      "A": "INTERNAL",
+      "B": "INTERNAL",
+      "agrees_A": true,
+      "agrees_B": true,
+      "coders_agree": true,
+      "both_flagged_unclear": true,
+      "contradicts_both": false
+     }
+    ]
+   },
+   "checkers_agree": 7
+  }
+ }
+}

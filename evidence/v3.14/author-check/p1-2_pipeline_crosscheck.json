@@ -1,0 +1,38 @@
+{
+ "what": "checker 1's P1-2 labels scored by scripts/adjudication/score.py --author and rendered by render_p12.py, in a temporary folder, with the arguments of evidence/v3.14/adjudication/analysis/final/README.md; the adjudication's files are not changed",
+ "pipeline_author_block": {
+  "items": 20,
+  "binary_agreement": 19,
+  "binary_interval": [
+   0.7512672372279723,
+   0.9987349105020502
+  ],
+  "label_agreement": 19,
+  "error_upper_bound": 0.24873276277202777,
+  "stop_rule_author_contradicts_both": [
+   "CUNPP2"
+  ],
+  "stop_rule_two_or_more_binary_disagreements": false,
+  "strata": {
+   "S4P": 2,
+   "S3I": 4,
+   "S2": 5,
+   "S1L": 4,
+   "S1F": 1,
+   "S6F": 2,
+   "S5F": 1,
+   "S6C": 1
+  }
+ },
+ "pipeline_ptwonum_author_slots": {
+  "author-binary": "19",
+  "author-binary-hi": "99.9",
+  "author-binary-lo": "75.1",
+  "author-contradict-both": "1",
+  "author-err-hi": "24.9",
+  "author-label": "19",
+  "author-n": "20"
+ },
+ "every_other_block_equals_the_frozen_summary": true,
+ "slots_equal_score_py_here": true
+}

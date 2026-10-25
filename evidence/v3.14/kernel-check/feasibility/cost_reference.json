@@ -1,0 +1,18 @@
+{
+ "identity_comparison_2026_10_02": {
+  "calls": 21398,
+  "cash_usd": 7.0295,
+  "sessions": 559,
+  "usd_per_session": 0.01258
+ },
+ "header_ladder_2026_10_03": {
+  "calls": 17861,
+  "cash_usd": 6.546,
+  "sessions": 619,
+  "usd_per_session": 0.01058
+ },
+ "kernel_check_key_so_far": {
+  "calls": 0,
+  "cash_usd": 0
+ }
+}

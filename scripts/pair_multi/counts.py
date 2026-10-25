@@ -1,0 +1,98 @@
+#!/usr/bin/env python3
+"""PAIR II counts that Appendix D's hand-written tables state, as \\multinum{key} (tables/pair_multi_numbers.tex).
+
+Inputs (frozen):
+  evidence/v3.14/probing-strategy-order/order.json   (scripts/pair_multi/probing_order/strategy_order.py)
+  evidence/v3.14/packing-delivery/                   (the packing study and the probing grid's per-task rows; the
+                                                      rules of scripts/freeze/packing_delivery/recompute.py)
+Keys:
+  order-*      the prober's follow-up order (Table 37's note): instances followed up, those whose
+               follow-ups are exactly the four non-repeat strategies in order (exact4) and those that began with
+               them (began4), what came fifth, and repeat's uses by position
+  pack-*       the packing study (Table 43): the 60-task set, the tasks every arm scored at least once and
+               the one left out, and the protected questions in each
+  rel-*        the probing grid's delivery (Table 36), per requester, over the tasks in completed sessions
+               (the base Table 36 prints) and over all attempted tasks (-att), and the unscored tasks on each base
+Writes tables/pair_multi_numbers.tex and evidence/v3.14/pair-multi-counts/macros.json.
+Usage: python3 scripts/pair_multi/counts.py
+"""
+import gzip
+import json
+import pathlib
+import sys
+from fractions import Fraction
+
+ROOT = pathlib.Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(ROOT / "scripts" / "common"))
+from halfup import pct  # noqa: E402
+
+EV = ROOT / "evidence/v3.14"
+PD = EV / "packing-delivery"
+
+
+def n_(x):
+    return f"{x:,}".replace(",", "{,}")
+
+
+def jsonl(name):
+    path = PD / name if (PD / name).exists() else PD / (name + ".gz")
+    with (gzip.open if path.suffix == ".gz" else open)(path, "rt", encoding="utf-8") as f:
+        return [json.loads(line) for line in f if line.strip()]
+
+
+def main():
+    m = {}
+    # ---- the prober's order (order.json)
+    o = json.loads((EV / "probing-strategy-order/order.json").read_text())
+    rep = o["position_by_strategy"]["repeat"]
+    assert o["began_with_the_four_in_order"] == sum(o["after_the_four"].values())
+    m.update({"order-instances": n_(o["instances"]), "order-reasked": n_(o["instances_reasked"]),
+              "order-exact4": n_(o["exactly_the_four_in_order"]), "order-began4": n_(o["began_with_the_four_in_order"]),
+              "order-after4-repeat": n_(o["after_the_four"].get("repeat", 0)),
+              "order-after4-unlabelled": n_(o["after_the_four"].get("None", 0)),
+              "repeat-uses": n_(o["asks_by_strategy"]["repeat"])})
+    for pos in ("1", "2", "3", "4", "5"):
+        m[f"repeat-pos{pos}"] = n_(rep.get(pos, 0))
+    assert sum(rep.values()) == o["asks_by_strategy"]["repeat"]
+
+    # ---- the packing study and the probing grid (packing-delivery, recompute.py's rules)
+    sessions = {s["run_id"]: s for s in jsonl("sessions.jsonl")}
+    kind = {t: v[0] for t, v in json.loads((PD / "task_kinds.json").read_text())["tasks"].items()}
+    t60 = set(json.loads((PD / "task_set_60.json").read_text())["tasks"])
+    packing = jsonl("packing_tasks.jsonl")
+    rows = {a: [r for r in packing if r["arm"] == a and sessions[r["run_id"]]["valid"]] for a in ("1", "3", "10")}
+    keep = set.intersection(*({r["task"] for r in rows[a] if r["scored"]} for a in rows))
+    dropped = sorted(t60 - keep)
+    assert keep <= t60 and len(dropped) == 1
+    m.update({"pack-tasks-all": str(len(t60)), "pack-tasks": str(len(keep)), "pack-dropped": dropped[0].replace("PAIR-", ""),
+              "pack-dropped-kind": {"qa_refuse": "protected question", "qa_answer": "entitled question"}.get(
+                  kind[dropped[0]], "action"),
+              "pack-protected": str(sum(kind[t] == "qa_refuse" for t in keep)),
+              "pack-protected-all": str(sum(kind[t] == "qa_refuse" for t in t60))})
+    grid = jsonl("grid_tasks.jsonl")
+    unscored_done = unscored_att = 0
+    for q in ("R0", "R1", "R2", "R3"):
+        att = [r for r in grid if r["requester"] == q]
+        done = [r for r in att if sessions[r["run_id"]]["valid"]]
+        k = sum(r["scored"] for r in done)
+        m.update({f"rel-scored-{q}": n_(k), f"rel-tasks-{q}": n_(len(done)), f"rel-tasks-att-{q}": n_(len(att)),
+                  f"rel-deliv-{q}": pct(k, len(done)), f"rel-deliv-att-{q}": pct(k, len(att)),
+                  f"rel-unscored-{q}": pct(len(done) - k, len(done)), f"rel-unscored-att-{q}": pct(len(att) - k, len(att))})
+        unscored_done += len(done) - k
+        unscored_att += len(att) - k
+    m.update({"rel-unscored": n_(unscored_done), "rel-unscored-att": n_(unscored_att),
+              "rel-unscored-failed-session": str(unscored_att - unscored_done)})
+    out = EV / "pair-multi-counts"
+    out.mkdir(parents=True, exist_ok=True)
+    (out / "macros.json").write_text(json.dumps(m, indent=1, sort_keys=True) + "\n")
+    (ROOT / "tables/pair_multi_numbers.tex").write_text(
+        "% Generated by scripts/pair_multi/counts.py from evidence/v3.14/{probing-strategy-order,packing-delivery}. "
+        "Do not edit.\n% Use \\multinum{key}; keys and values in evidence/v3.14/pair-multi-counts/macros.json.\n"
+        + "".join(f"\\expandafter\\def\\csname multi@{k}\\endcsname{{{v}}}\n" for k, v in sorted(m.items()))
+        + "\\providecommand{\\multinum}[1]{\\ifcsname multi@#1\\endcsname\\csname multi@#1\\endcsname"
+          "\\else\\textbf{??}\\fi}\n")
+    print(json.dumps(m, indent=1))
+
+
+if __name__ == "__main__":
+    main()

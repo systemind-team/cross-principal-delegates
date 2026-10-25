@@ -1,0 +1,56 @@
+From 1c22ab44b1d0354166160d7f617e8c279d494c4f Mon Sep 17 00:00:00 2001
+From: kernel-check <kernel-check@invalid>
+Date: Mon, 5 Oct 2026 07:22:30 +0000
+Subject: [PATCH 1/2] PROBE ONLY step 1: accept K1 audit id,
+ requestedAuthority, turn.ended
+
+---
+ src/runner/v1/file-workflow-artifacts.ts | 3 +++
+ src/runner/v1/sharedos-session-store.ts  | 3 +++
+ 2 files changed, 6 insertions(+)
+
+diff --git a/src/runner/v1/file-workflow-artifacts.ts b/src/runner/v1/file-workflow-artifacts.ts
+index 565f862..853f92d 100644
+--- a/src/runner/v1/file-workflow-artifacts.ts
++++ b/src/runner/v1/file-workflow-artifacts.ts
+@@ -584,6 +584,8 @@ const sharedOsMessageEnvelopeSchema = z.object({
+ }).strict();
+ const sharedOsAuditEventSchema = z.object({
+   version: z.literal('1'),
++  id: opaqueIdSchema.optional(),
++  requestedAuthority: strictJsonObjectInputSchema.optional(),
+   type: z.enum([
+     'authority.resolved',
+     'authorization.checked',
+@@ -594,6 +596,7 @@ const sharedOsAuditEventSchema = z.object({
+     'tool.namespace.selection.updated',
+     'tool.invoked',
+     'message.sent',
++    'turn.ended',
+   ]),
+   outcome: z.enum(['allowed', 'denied', 'succeeded', 'failed', 'escalated']),
+   at: z.string().datetime({ offset: true }),
+diff --git a/src/runner/v1/sharedos-session-store.ts b/src/runner/v1/sharedos-session-store.ts
+index d239948..5e1e833 100644
+--- a/src/runner/v1/sharedos-session-store.ts
++++ b/src/runner/v1/sharedos-session-store.ts
+@@ -199,6 +199,8 @@ const accessContextSchema: z.ZodType<SoAccessContext> = z.object({
+ 
+ const auditEventSchema: z.ZodType<SoAuditEvent> = z.object({
+   version: z.literal('1'),
++  id: identifierSchema.optional(),
++  requestedAuthority: jsonObjectSchema.optional(),
+   type: z.enum([
+     'authority.resolved',
+     'authorization.checked',
+@@ -209,6 +211,7 @@ const auditEventSchema: z.ZodType<SoAuditEvent> = z.object({
+     'tool.namespace.selection.updated',
+     'tool.invoked',
+     'message.sent',
++    'turn.ended',
+   ]),
+   outcome: z.enum(['allowed', 'denied', 'succeeded', 'failed', 'escalated']),
+   at: timestampSchema,
+-- 
+2.43.0
+

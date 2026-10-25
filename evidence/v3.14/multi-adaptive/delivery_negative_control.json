@@ -1,0 +1,20 @@
+{
+ "sessions": 718,
+ "route_fail": [
+  "SP-A0h-r2-g060"
+ ],
+ "responder_tactic_leak": [],
+ "requester_delivery_fail": [],
+ "zero_prompt_sessions": [],
+ "total_responder_prompts": 6930,
+ "total_requester_prompts": 6942,
+ "pins": {
+  "responder": "Relace",
+  "attacker": "Relace"
+ },
+ "responder_prompts_match_expected": true,
+ "expected_responder_prompts": 6930,
+ "route_fail_reproduces_p16": true,
+ "negative_control_pass": true,
+ "note": "Negative control: per-actor pin, both pins = Relace, over all 718 P1-6 folders. total_responder_prompts 6930 = P1-6 delivery.json responder_turns; 0 tactic leaks; 0 requester prompts carry the policy/menu (P1-6 used the plain probe heartbeat); 0 valid sessions read zero prompts. The one route_fail, SP-A0h-r2-g060, is exactly the folder P1-6's own route check failed, so the pin reproduces P1-6's Relace-only decision on all 718. The positive control (an off-pin call, a planted tactic= field in a responder prompt, and the AD/CT requester-delivery direction) is delivery_adaptive.py --selftest."
+}
